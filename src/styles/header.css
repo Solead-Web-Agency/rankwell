@@ -1,0 +1,47 @@
+/* =========================
+Navbar Styles
+=========================== */
+
+/* =========================
+Sidebar and header animations
+=========================== */
+
+/* Sidebar states */
+/* .show-sidebar {
+  @apply translate-x-0;
+} */
+
+/* .hide-sidebar {
+  @apply translate-x-full;
+} */
+
+/* Menu states */
+/* .active-menu {
+  @apply text-secondary dark:text-accent font-medium;
+} */
+
+/* Submenu arrow animation */
+/* .sub-menu-arrow {
+  @apply transition-transform duration-300 ease-in-out;
+} */
+
+/* Hamburger and close button animations */
+/* .nav-hamburger:hover,
+.nav-hamburger-close:hover {
+  @apply scale-105;
+} */
+
+.nav-hamburger span,
+.nav-hamburger-close span {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+/* Smooth transitions for mobile menu */
+/* .sidebar {
+  @apply transition-transform duration-300 ease-in-out;
+} */
+
+/* Mobile menu backdrop overlay */
+/* .mobile-menu-overlay {
+  @apply fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out;
+} */

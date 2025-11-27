@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Simplified",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": 19,
+    "priceYear": 230,
+    "variant": "basic",
+    "features": [
+      { "label": "Single Payment", "enabled": true },
+      { "label": "Selling your own items", "enabled": false },
+      { "label": "Powerful integration", "enabled": false }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Basic",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": 49,
+    "priceYear": 490,
+    "variant": "premium",
+    "highlight": "Save 40%",
+    "features": [
+      { "label": "Unlimited Bandwidth", "enabled": true },
+      { "label": "Promotional Tools", "enabled": true },
+      { "label": "Advanced Analytics", "enabled": true },
+      { "label": "Priority Support", "enabled": true },
+      { "label": "Custom Integrations", "enabled": false },
+      { "label": "White Label Solution", "enabled": false }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Enhanced",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": 99,
+    "priceYear": 990,
+    "variant": "enterprise",
+    "features": [
+      { "label": "Everything in Basic", "enabled": true },
+      { "label": "Custom Integrations", "enabled": true },
+      { "label": "White Label Solution", "enabled": true },
+      { "label": "Dedicated Account Manager", "enabled": true },
+      { "label": "Custom Development", "enabled": true }
+    ]
+  }
+]

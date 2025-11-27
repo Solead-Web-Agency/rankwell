@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Simplified",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": "19.00",
+    "priceYear": "230.00",
+    "planType": "basic",
+    "features": [
+      { "label": "Single Payment", "enabled": true },
+      { "label": "Selling your own items", "enabled": false },
+      { "label": "Powerful integration", "enabled": false }
+    ]
+  },
+  {
+    "title": "Basic",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": "3342.00",
+    "priceYear": "4420.00",
+    "planType": "featured",
+    "highlight": "Save 40%",
+    "bgImage": true,
+    "features": [
+      { "label": "Unlimited Bandwidth", "enabled": true },
+      { "label": "Promotional Tools", "enabled": true },
+      { "label": "Single Payment", "enabled": true },
+      { "label": "Single Payment", "enabled": false },
+      { "label": "Selling your own items", "enabled": false },
+      { "label": "Powerful integration", "enabled": false }
+    ]
+  },
+  {
+    "title": "Enhanced",
+    "description": "For individuals and small teams with unlimited trial access.",
+    "priceMonth": "4800.00",
+    "priceYear": "5800.00",
+    "planType": "premium",
+    "features": [
+      { "label": "Selling on your own conditions", "enabled": true },
+      { "label": "Seamless integrations", "enabled": true },
+      { "label": "Single Payment", "enabled": true }
+    ]
+  }
+]

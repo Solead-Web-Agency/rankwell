@@ -1,0 +1,46 @@
+[
+  {
+    "name": "Essential",
+    "price": "Free",
+    "description": "Free plan for all users",
+    "ctaHref": "/pricing-01",
+    "ctaText": "Get started",
+    "cells": [
+      { "type": "text", "value": "Up to 5" },
+      { "type": "icon" },
+      { "type": "icon" },
+      { "type": "text", "value": "" },
+      { "type": "text", "value": "" }
+    ]
+  },
+  {
+    "name": "Advanced",
+    "price": "$99",
+    "description": "Plans for advanced users",
+    "ctaHref": "/pricing-01",
+    "ctaText": "Get started",
+    "isSecondary": true,
+    "withGradientImg": true,
+    "cells": [
+      { "type": "text", "value": "Up to 10" },
+      { "type": "icon" },
+      { "type": "icon" },
+      { "type": "icon" },
+      { "type": "text", "value": "" }
+    ]
+  },
+  {
+    "name": "Enterprise",
+    "price": "Enterprise",
+    "description": "Contact us for enterprise users",
+    "ctaHref": "/pricing-01",
+    "ctaText": "Get started",
+    "cells": [
+      { "type": "text", "value": "Unlimited" },
+      { "type": "icon" },
+      { "type": "icon" },
+      { "type": "icon" },
+      { "type": "icon" }
+    ]
+  }
+]
