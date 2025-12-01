@@ -191,7 +191,12 @@ const ShowcasePage = () => {
           </ComponentWrapper>
 
           <ComponentWrapper title="Reviews V3" description="Avis clients version 3">
-            <ReviewsV3 />
+            <ReviewsV3 
+              title="What Our Customers Say"
+              description="Discover why thousands of businesses trust our platform"
+              badgeText="Testimonials"
+              badgeColor="badge-blue"
+            />
           </ComponentWrapper>
         </div>
 
