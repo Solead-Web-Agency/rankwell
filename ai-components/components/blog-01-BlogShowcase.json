@@ -1,0 +1,11 @@
+{
+  "name": "BlogShowcase",
+  "path": "@/components/blog-01/BlogShowcase.tsx",
+  "description": "Component BlogShowcase from blog-01",
+  "category": "blog",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

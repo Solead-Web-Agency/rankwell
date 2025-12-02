@@ -1,0 +1,11 @@
+{
+  "name": "Faq",
+  "path": "@/components/pricing-02/Faq.tsx",
+  "description": "Component Faq from pricing-02",
+  "category": "pricing",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

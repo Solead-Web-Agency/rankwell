@@ -1,0 +1,11 @@
+{
+  "name": "SignupHeroV3",
+  "path": "@/components/authentication/SignupHeroV3.tsx",
+  "description": "Component SignupHeroV3 from authentication",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

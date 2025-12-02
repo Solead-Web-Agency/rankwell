@@ -1,0 +1,42 @@
+{
+  "name": "StepCard",
+  "path": "@/components/homepage-38/StepCard.tsx",
+  "description": "Component StepCard from homepage-38",
+  "category": "other",
+  "props": [
+    {
+      "name": "id",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "stepNumber",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LineExpand",
+  "path": "@/components/homepage-15/LineExpand.tsx",
+  "description": "Component LineExpand from homepage-15",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

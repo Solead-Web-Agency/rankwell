@@ -1,0 +1,36 @@
+{
+  "name": "Tab",
+  "path": "@/components/ui/tab/Tab.tsx",
+  "description": "Component Tab from tab",
+  "category": "other",
+  "props": [
+    {
+      "name": "index",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "'desktop' | 'mobile'",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

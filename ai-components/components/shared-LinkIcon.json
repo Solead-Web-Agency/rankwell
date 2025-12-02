@@ -1,0 +1,11 @@
+{
+  "name": "LinkIcon",
+  "path": "@/components/shared/LinkIcon.tsx",
+  "description": "Component LinkIcon from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

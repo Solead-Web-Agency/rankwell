@@ -1,0 +1,77 @@
+{
+  "id": "homepage-37-template",
+  "name": "Homepage-37 Template",
+  "description": "Template pour pages de type homepage-37",
+  "category": "homepage-37",
+  "components": [
+    {
+      "component": "About",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Clients",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "FAQ",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Gadgets",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "HeaderWrapper",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "HowItWork",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Pricing",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "Testimonials",
+      "required": false,
+      "order": 11
+    },
+    {
+      "component": "WhatWeDo",
+      "required": false,
+      "order": 12
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 13
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

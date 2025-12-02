@@ -1,0 +1,11 @@
+{
+  "name": "HeroBackgroundVideo",
+  "path": "@/components/homepage-02/HeroBackgroundVideo.tsx",
+  "description": "Component HeroBackgroundVideo from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

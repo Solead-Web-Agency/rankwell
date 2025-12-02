@@ -1,0 +1,11 @@
+{
+  "name": "About",
+  "path": "@/components/homepage-21/About.tsx",
+  "description": "Component About from homepage-21",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

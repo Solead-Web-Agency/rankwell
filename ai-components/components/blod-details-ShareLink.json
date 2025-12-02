@@ -1,0 +1,11 @@
+{
+  "name": "ShareLink",
+  "path": "@/components/blod-details/ShareLink.tsx",
+  "description": "Component ShareLink from blod-details",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

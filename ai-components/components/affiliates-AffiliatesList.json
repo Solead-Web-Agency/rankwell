@@ -1,0 +1,11 @@
+{
+  "name": "AffiliatesList",
+  "path": "@/components/affiliates/AffiliatesList.tsx",
+  "description": "Component AffiliatesList from affiliates",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

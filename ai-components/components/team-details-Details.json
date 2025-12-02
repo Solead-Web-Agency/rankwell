@@ -1,0 +1,11 @@
+{
+  "name": "Details",
+  "path": "@/components/team-details/Details.tsx",
+  "description": "Component Details from team-details",
+  "category": "team",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

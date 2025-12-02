@@ -1,0 +1,11 @@
+{
+  "name": "Faq",
+  "path": "@/components/homepage-01/Faq.tsx",
+  "description": "Component Faq from homepage-01",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

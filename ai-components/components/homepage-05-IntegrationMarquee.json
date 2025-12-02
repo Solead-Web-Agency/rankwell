@@ -1,0 +1,11 @@
+{
+  "name": "IntegrationMarquee",
+  "path": "@/components/homepage-05/IntegrationMarquee.tsx",
+  "description": "Component IntegrationMarquee from homepage-05",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

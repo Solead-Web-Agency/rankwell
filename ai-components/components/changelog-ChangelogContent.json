@@ -1,0 +1,11 @@
+{
+  "name": "ChangelogContent",
+  "path": "@/components/changelog/ChangelogContent.tsx",
+  "description": "Component ChangelogContent from changelog",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "TimelineSVG",
+  "path": "@/components/homepage-01/TimelineSVG.tsx",
+  "description": "Component TimelineSVG from homepage-01",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

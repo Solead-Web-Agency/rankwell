@@ -1,0 +1,11 @@
+{
+  "name": "Experience",
+  "path": "@/components/testimonial-02/Experience.tsx",
+  "description": "Component Experience from testimonial-02",
+  "category": "testimonial",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

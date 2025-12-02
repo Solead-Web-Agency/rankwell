@@ -1,0 +1,11 @@
+{
+  "name": "CTA",
+  "path": "@/components/homepage-20/CTA.tsx",
+  "description": "Component CTA from homepage-20",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Work",
+  "path": "@/components/homepage-02/Work.tsx",
+  "description": "Component Work from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

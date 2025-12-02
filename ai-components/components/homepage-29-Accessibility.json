@@ -1,0 +1,11 @@
+{
+  "name": "Accessibility",
+  "path": "@/components/homepage-29/Accessibility.tsx",
+  "description": "Component Accessibility from homepage-29",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

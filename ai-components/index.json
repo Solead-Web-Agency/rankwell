@@ -1,0 +1,4634 @@
+{
+  "pages": [
+    {
+      "route": "/about-01",
+      "title": "AboutPage-01 - NextSaaS",
+      "components": [
+        {
+          "name": "OurMission",
+          "path": "@/components/aboutpage-01/OurMission",
+          "props": {}
+        },
+        {
+          "name": "VisionStatement",
+          "path": "@/components/aboutpage-01/VisionStatement",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/aboutpage-01/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "RevealAnimation",
+          "path": "@/components/animation/RevealAnimation",
+          "props": {}
+        },
+        {
+          "name": "Team",
+          "path": "@/components/homepage-05/Team",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-08/CTA",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "OurAchievements",
+          "path": "@/components/shared/OurAchievements",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV3",
+          "path": "@/components/shared/reviews/ReviewsV3",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AboutPage-01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/about-02",
+      "title": "About Us 02 - NextSaaS",
+      "components": [
+        {
+          "name": "FinanceIntro",
+          "path": "@/components/aboutpage-02/FinanceIntro",
+          "props": {}
+        },
+        {
+          "name": "OurMission",
+          "path": "@/components/aboutpage-02/OurMission",
+          "props": {}
+        },
+        {
+          "name": "Reviews",
+          "path": "@/components/aboutpage-02/Reviews",
+          "props": {}
+        },
+        {
+          "name": "VisionStatement",
+          "path": "@/components/aboutpage-02/VisionStatement",
+          "props": {}
+        },
+        {
+          "name": "TrustedByUsers",
+          "path": "@/components/homepage-07/TrustedByUsers",
+          "props": {}
+        },
+        {
+          "name": "CTAV2",
+          "path": "@/components/shared/cta/CTAV2",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "About Us 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/about-03",
+      "title": "About Us 03 - NextSaaS",
+      "components": [
+        {
+          "name": "AboutMap",
+          "path": "@/components/aboutpage-03/AboutMap",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/aboutpage-03/Feature",
+          "props": {}
+        },
+        {
+          "name": "Innovation",
+          "path": "@/components/aboutpage-03/Innovation",
+          "props": {}
+        },
+        {
+          "name": "OurMission",
+          "path": "@/components/aboutpage-03/OurMission",
+          "props": {}
+        },
+        {
+          "name": "OurVision",
+          "path": "@/components/aboutpage-03/OurVision",
+          "props": {}
+        },
+        {
+          "name": "Teams",
+          "path": "@/components/homepage-08/Teams",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-10/CTA",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "About Us 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/admin/page-generator",
+      "title": "page-generator",
+      "components": [],
+      "metadata": {}
+    },
+    {
+      "route": "/affiliate-policy",
+      "title": "Affiliate Policy - NextSaaS",
+      "components": [
+        {
+          "name": "AffiliateContent",
+          "path": "@/components/affiliate-policy/AffiliateContent",
+          "props": {}
+        },
+        {
+          "name": "Guideline",
+          "path": "@/components/affiliate-policy/Guideline",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Affiliate Policy - NextSaaS"
+      }
+    },
+    {
+      "route": "/affiliates",
+      "title": "Affiliates - NextSaaS",
+      "components": [
+        {
+          "name": "AffiliateProcess",
+          "path": "@/components/affiliates/AffiliateProcess",
+          "props": {}
+        },
+        {
+          "name": "AffiliateProgram",
+          "path": "@/components/affiliates/AffiliateProgram",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Affiliates - NextSaaS"
+      }
+    },
+    {
+      "route": "/analytics",
+      "title": "Analytics - NextSaaS",
+      "components": [
+        {
+          "name": "AnalyticsDetails",
+          "path": "@/components/analytics/AnalyticsDetails",
+          "props": {}
+        },
+        {
+          "name": "AnalyticsHero",
+          "path": "@/components/analytics/AnalyticsHero",
+          "props": {}
+        },
+        {
+          "name": "AnalyticsTestimonial",
+          "path": "@/components/analytics/AnalyticsTestimonial",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Analytics - NextSaaS"
+      }
+    },
+    {
+      "route": "/blog-01",
+      "title": "Blog Page 01 - NextSaaS",
+      "components": [
+        {
+          "name": "BlogShowcase",
+          "path": "@/components/blog-01/BlogShowcase",
+          "props": {}
+        },
+        {
+          "name": "FeaturedBlog",
+          "path": "@/components/blog-01/FeaturedBlog",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Blog Page 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/blog-02",
+      "title": "Blog Page 02 - NextSaaS",
+      "components": [
+        {
+          "name": "BlogShowcase",
+          "path": "@/components/blog-02/BlogShowcase",
+          "props": {}
+        },
+        {
+          "name": "FeaturedBlog",
+          "path": "@/components/blog-02/FeaturedBlog",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Blog Page 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/blog-03",
+      "title": "Blog Page 03 - NextSaaS",
+      "components": [
+        {
+          "name": "BlogListWrapper",
+          "path": "@/components/blog-03/BlogListWrapper",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Blog Page 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/career",
+      "title": "Career - NextSaaS",
+      "components": [
+        {
+          "name": "CareerContent",
+          "path": "@/components/career/CareerContent",
+          "props": {}
+        },
+        {
+          "name": "Positions",
+          "path": "@/components/career/Positions",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-07/Features",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Career - NextSaaS"
+      }
+    },
+    {
+      "route": "/case-study",
+      "title": "Case Study - NextSaaS",
+      "components": [
+        {
+          "name": "CaseStudy",
+          "path": "@/components/case-study/CaseStudy",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/case-study/Feature",
+          "props": {}
+        },
+        {
+          "name": "Success",
+          "path": "@/components/case-study/Success",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Case Study - NextSaaS"
+      }
+    },
+    {
+      "route": "/changelog",
+      "title": "Changelog - NextSaaS",
+      "components": [
+        {
+          "name": "ChangelogContent",
+          "path": "@/components/changelog/ChangelogContent",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Changelog - NextSaaS"
+      }
+    },
+    {
+      "route": "/contact-us",
+      "title": "Contact Us - NextSaaS",
+      "components": [
+        {
+          "name": "ContactInfo",
+          "path": "@/components/contact-page/ContactInfo",
+          "props": {}
+        },
+        {
+          "name": "ContactMap",
+          "path": "@/components/contact-page/ContactMap",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Contact Us - NextSaaS"
+      }
+    },
+    {
+      "route": "/documentation",
+      "title": "Documentation - NextSaaS",
+      "components": [
+        {
+          "name": "DocsContent",
+          "path": "@/components/documentation/DocsContent",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Documentation - NextSaaS"
+      }
+    },
+    {
+      "route": "/faq",
+      "title": "FAQ - NextSaaS",
+      "components": [
+        {
+          "name": "Contact",
+          "path": "@/components/faq/Contact",
+          "props": {}
+        },
+        {
+          "name": "FaqTab",
+          "path": "@/components/faq/FaqTab",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "FAQ - NextSaaS"
+      }
+    },
+    {
+      "route": "/features-01",
+      "title": "Features 01 - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/features-01/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2",
+          "path": "@/components/features-01/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "Team",
+          "path": "@/components/features-01/Team",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/our-services-03/Feature",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV2",
+          "path": "@/components/shared/reviews/ReviewsV2",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Features 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/features-02",
+      "title": "Features 02 - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/features-02/Features",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/homepage-07/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/our-services-03/Feature",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV2",
+          "path": "@/components/shared/reviews/ReviewsV2",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Features 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/gdpr",
+      "title": "GDPR - NextSaaS",
+      "components": [
+        {
+          "name": "GdprContent",
+          "path": "@/components/gdpr/GdprContent",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "GDPR - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-02",
+      "title": "AI Software - NextSaaS",
+      "components": [
+        {
+          "name": "About",
+          "path": "@/components/homepage-02/About",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-02/Feature",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-02/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-02/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-02/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Work",
+          "path": "@/components/homepage-02/Work",
+          "props": {}
+        },
+        {
+          "name": "FooterTwo",
+          "path": "@/components/shared/footer/FooterTwo",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        },
+        {
+          "name": "VideoModal",
+          "path": "@/components/shared/VideoModal",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-03",
+      "title": "AI Chatbot - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/homepage-03/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2",
+          "path": "@/components/homepage-03/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-03/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-03/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-03/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "Understanding",
+          "path": "@/components/homepage-03/Understanding",
+          "props": {}
+        },
+        {
+          "name": "CTAV2",
+          "path": "@/components/shared/cta/CTAV2",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Chatbot - NextSaaS",
+        "description": "Homepage Three of NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-04",
+      "title": "Web Hosting - NextSaaS",
+      "components": [
+        {
+          "name": "Blogs",
+          "path": "@/components/homepage-04/Blogs",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-04/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-04/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-04/Process",
+          "props": {}
+        },
+        {
+          "name": "SearchCta",
+          "path": "@/components/homepage-04/SearchCta",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-04/Services",
+          "props": {}
+        },
+        {
+          "name": "Solutions",
+          "path": "@/components/homepage-04/Solutions",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarThree",
+          "path": "@/components/shared/header/NavbarThree",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV2",
+          "path": "@/components/shared/reviews/ReviewsV2",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Web Hosting - NextSaaS",
+        "description": "Web Hosting of NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-05",
+      "title": "Analytics - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-05/Blog",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-05/Faq",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-05/Feature",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-05/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-05/Integration",
+          "props": {}
+        },
+        {
+          "name": "Number",
+          "path": "@/components/homepage-05/Number",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-05/Process",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-05/Services",
+          "props": {}
+        },
+        {
+          "name": "Team",
+          "path": "@/components/homepage-05/Team",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Analytics - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-06",
+      "title": "Financial Application - NextSaaS",
+      "components": [
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-05/Blog",
+          "props": {}
+        },
+        {
+          "name": "About",
+          "path": "@/components/homepage-06/About",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-06/Faq",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-06/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-06/Integration",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-06/Services",
+          "props": {}
+        },
+        {
+          "name": "CTAV2",
+          "path": "@/components/shared/cta/CTAV2",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Financial Application - NextSaaS",
+        "description": "Discover NextSaaS, a comprehensive financial application designed to streamline your business finances, enhance productivity, and drive growth."
+      }
+    },
+    {
+      "route": "/homepage-07",
+      "title": "Payment Solution - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-07/Blog",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-07/Features",
+          "props": {}
+        },
+        {
+          "name": "FinanceIntro",
+          "path": "@/components/homepage-07/FinanceIntro",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-07/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-07/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-07/Pricing",
+          "props": {}
+        },
+        {
+          "name": "TrustedByUsers",
+          "path": "@/components/homepage-07/TrustedByUsers",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/homepage-07/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "CTAV2",
+          "path": "@/components/shared/cta/CTAV2",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Payment Solution - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-08",
+      "title": "Online Banking - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-08/CTA",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-08/Clients",
+          "props": {}
+        },
+        {
+          "name": "Counter",
+          "path": "@/components/homepage-08/Counter",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-08/Faq",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-08/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2",
+          "path": "@/components/homepage-08/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV3",
+          "path": "@/components/homepage-08/FeaturesV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-08/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-08/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Teams",
+          "path": "@/components/homepage-08/Teams",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Online Banking - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-09",
+      "title": "Cloud Based Software - NextSaaS",
+      "components": [
+        {
+          "name": "ClientsMarquee",
+          "path": "@/components/homepage-09/ClientsMarquee",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-09/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-09/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-09/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Reviews",
+          "path": "@/components/homepage-09/Reviews",
+          "props": {}
+        },
+        {
+          "name": "SelectUs",
+          "path": "@/components/homepage-09/SelectUs",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-09/Steps",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "OurAchievements",
+          "path": "@/components/shared/OurAchievements",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Cloud Based Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-10",
+      "title": "New Cyber Security - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-10/CTA",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-10/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-10/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-10/Integration",
+          "props": {}
+        },
+        {
+          "name": "SelectUs",
+          "path": "@/components/homepage-10/SelectUs",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-10/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-10/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "New Cyber Security - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-11",
+      "title": "Email Marketing - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-11/CTA",
+          "props": {}
+        },
+        {
+          "name": "CustomerFeedback",
+          "path": "@/components/homepage-11/CustomerFeedback",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-11/Faq",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-11/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesHighlight",
+          "path": "@/components/homepage-11/FeaturesHighlight",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-11/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-11/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-11/Process",
+          "props": {}
+        },
+        {
+          "name": "Reviews",
+          "path": "@/components/homepage-11/Reviews",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "OurAchievements",
+          "path": "@/components/shared/OurAchievements",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Email Marketing - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-12",
+      "title": "Lead Capture - NextSaaS",
+      "components": [
+        {
+          "name": "Benefits",
+          "path": "@/components/homepage-12/Benefits",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-12/FAQ",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-12/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-12/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "FeatureV3",
+          "path": "@/components/homepage-12/FeatureV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-12/Hero",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-12/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "WhyUs",
+          "path": "@/components/homepage-12/WhyUs",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Lead Capture - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-13",
+      "title": "Messaging Platform - NextSaaS",
+      "components": [
+        {
+          "name": "Benefits",
+          "path": "@/components/homepage-13/Benefits",
+          "props": {}
+        },
+        {
+          "name": "CaseStudy",
+          "path": "@/components/homepage-13/CaseStudy",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-13/FAQ",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-13/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-13/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-13/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-13/Integration",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-13/Services",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Messaging Platform - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-14",
+      "title": "Mortgage Services - NextSaaS",
+      "components": [
+        {
+          "name": "ContactUs",
+          "path": "@/components/homepage-14/ContactUs",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-14/CTA",
+          "props": {}
+        },
+        {
+          "name": "Eligibility",
+          "path": "@/components/homepage-14/Eligibility",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-14/Feature",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-14/Hero",
+          "props": {}
+        },
+        {
+          "name": "Solutions",
+          "path": "@/components/homepage-14/Solutions",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-14/Steps",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseNextSaas",
+          "path": "@/components/homepage-14/WhyChooseNextSaas",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV3",
+          "path": "@/components/shared/reviews/ReviewsV3",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Mortgage Services - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-15",
+      "title": "Creative Portfolio - NextSaaS",
+      "components": [
+        {
+          "name": "About",
+          "path": "@/components/homepage-15/About",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-15/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-15/CTA",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-15/Hero",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-15/Process",
+          "props": {}
+        },
+        {
+          "name": "Projects",
+          "path": "@/components/homepage-15/Projects",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-15/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-15/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Creative Portfolio - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-16",
+      "title": "App Builder - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-16/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-16/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-16/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-16/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-16/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-16/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Publish",
+          "path": "@/components/homepage-16/Publish",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-16/Steps",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV3",
+          "path": "@/components/shared/reviews/ReviewsV3",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "App Builder - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-17",
+      "title": "App Development - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-17/CTA",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-17/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-17/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-17/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-17/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-17/Process",
+          "props": {}
+        },
+        {
+          "name": "WhatWeOffer",
+          "path": "@/components/homepage-17/WhatWeOffer",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/homepage-17/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "App Development - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-18",
+      "title": "AI Agency - NextSaaS",
+      "components": [
+        {
+          "name": "Counter",
+          "path": "@/components/homepage-18/Counter",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-18/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-18/Feature",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-18/Hero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-18/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-18/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Projects",
+          "path": "@/components/homepage-18/Projects",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-18/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-18/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterFour",
+          "path": "@/components/shared/footer/FooterFour",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Agency - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-19",
+      "title": "Smart Solutions - NextSaaS",
+      "components": [
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-16/Steps",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-19/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-19/CTA",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-19/Clients",
+          "props": {}
+        },
+        {
+          "name": "DownloadApp",
+          "path": "@/components/homepage-19/DownloadApp",
+          "props": {}
+        },
+        {
+          "name": "GetStarted",
+          "path": "@/components/homepage-19/GetStarted",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-19/Hero",
+          "props": {}
+        },
+        {
+          "name": "MeetOurTeam",
+          "path": "@/components/homepage-19/MeetOurTeam",
+          "props": {}
+        },
+        {
+          "name": "Solutions",
+          "path": "@/components/homepage-19/Solutions",
+          "props": {}
+        },
+        {
+          "name": "Tools",
+          "path": "@/components/homepage-19/Tools",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Smart Solutions - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-20",
+      "title": "Risk Management Software - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-20/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-20/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-20/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "FeatureV3",
+          "path": "@/components/homepage-20/FeatureV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-20/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-20/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-20/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-20/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Risk Management Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-21",
+      "title": "Personal Finance - NextSaaS",
+      "components": [
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-07/Pricing",
+          "props": {}
+        },
+        {
+          "name": "ContactUs",
+          "path": "@/components/homepage-14/ContactUs",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-15/CTA",
+          "props": {}
+        },
+        {
+          "name": "About",
+          "path": "@/components/homepage-21/About",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-21/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-21/Hero",
+          "props": {}
+        },
+        {
+          "name": "Team",
+          "path": "@/components/homepage-21/Team",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/homepage-21/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "FooterFour",
+          "path": "@/components/shared/footer/FooterFour",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Personal Finance - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-22",
+      "title": "Mobile Management Software - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-22/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-22/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-22/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-22/Hero",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-22/Services",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-22/Steps",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-22/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Mobile Management Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-23",
+      "title": "Investment Management - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-23/Blog",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-23/Clients",
+          "props": {}
+        },
+        {
+          "name": "Contact",
+          "path": "@/components/homepage-23/Contact",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-23/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-23/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-23/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "FeatureV3",
+          "path": "@/components/homepage-23/FeatureV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-23/Hero",
+          "props": {}
+        },
+        {
+          "name": "Investment",
+          "path": "@/components/homepage-23/Investment",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-23/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-23/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Investment Management - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-24",
+      "title": "Insurance - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-22/CTA",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-24/Clients",
+          "props": {}
+        },
+        {
+          "name": "Contact",
+          "path": "@/components/homepage-24/Contact",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-24/FAQ",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-24/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-24/Hero",
+          "props": {}
+        },
+        {
+          "name": "Invitation",
+          "path": "@/components/homepage-24/Invitation",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-24/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-24/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "WhyUs",
+          "path": "@/components/homepage-24/WhyUs",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Insurance - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-25",
+      "title": "Property Management software - NextSaaS",
+      "components": [
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-01/Faq",
+          "props": {}
+        },
+        {
+          "name": "AchievementWrapper",
+          "path": "@/components/homepage-25/AchievementWrapper",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-25/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureHighlights",
+          "path": "@/components/homepage-25/FeatureHighlights",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-25/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-25/Hero",
+          "props": {}
+        },
+        {
+          "name": "IndustryCategories",
+          "path": "@/components/homepage-25/IndustryCategories",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-25/Integration",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-25/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "CTAV3",
+          "path": "@/components/shared/cta/CTAV3",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Property Management software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-26",
+      "title": "Pos System - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/homepage-26/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-26/Hero",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-26/Services",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUs",
+          "path": "@/components/homepage-26/WhyChooseUs",
+          "props": {}
+        },
+        {
+          "name": "WhyChooseUsV2",
+          "path": "@/components/homepage-26/WhyChooseUsV2",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarFive",
+          "path": "@/components/shared/header/NavbarFive",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Pos System - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-27",
+      "title": "Social Media Marketing - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-27/Blog",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-27/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2",
+          "path": "@/components/homepage-27/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV3",
+          "path": "@/components/homepage-27/FeaturesV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-27/Hero",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-27/Services",
+          "props": {}
+        },
+        {
+          "name": "SocialActivity",
+          "path": "@/components/homepage-27/SocialActivity",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-27/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Social Media Marketing - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-28",
+      "title": "Nuvexa CRM - NextSaaS",
+      "components": [
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "CRMFeatures",
+          "path": "@/components/homepage-28/CRMFeatures",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-28/Faq",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-28/Hero",
+          "props": {}
+        },
+        {
+          "name": "HowItWork",
+          "path": "@/components/homepage-28/HowItWork",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/homepage-28/Integration",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-28/Pricing",
+          "props": {}
+        },
+        {
+          "name": "SelectUs",
+          "path": "@/components/homepage-28/SelectUs",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Nuvexa CRM - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-29",
+      "title": "Wealth Management - NextSaaS",
+      "components": [
+        {
+          "name": "Accessibility",
+          "path": "@/components/homepage-29/Accessibility",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-29/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-29/CTA",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-29/FAQ",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-29/Hero",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-29/Services",
+          "props": {}
+        },
+        {
+          "name": "Statistics",
+          "path": "@/components/homepage-29/Statistics",
+          "props": {}
+        },
+        {
+          "name": "Testimonials",
+          "path": "@/components/homepage-29/Testimonials",
+          "props": {}
+        },
+        {
+          "name": "WhyUs",
+          "path": "@/components/homepage-29/WhyUs",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Wealth Management - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-30",
+      "title": "Security software - NextSaaS",
+      "components": [
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-30/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-30/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-30/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "FeatureV3",
+          "path": "@/components/homepage-30/FeatureV3",
+          "props": {}
+        },
+        {
+          "name": "FeatureV4",
+          "path": "@/components/homepage-30/FeatureV4",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-30/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-30/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Review",
+          "path": "@/components/homepage-30/Review",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-30/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-30/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarTwo",
+          "path": "@/components/shared/header/NavbarTwo",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Security software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-31",
+      "title": "Time Tracking Software - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/homepage-31/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2",
+          "path": "@/components/homepage-31/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-31/Hero",
+          "props": {}
+        },
+        {
+          "name": "SuccessStats",
+          "path": "@/components/homepage-31/SuccessStats",
+          "props": {}
+        },
+        {
+          "name": "WhyUs",
+          "path": "@/components/homepage-31/WhyUs",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarTwo",
+          "path": "@/components/shared/header/NavbarTwo",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Time Tracking Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-32",
+      "title": "Data Visualization Software - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-32/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-32/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-32/Feature",
+          "props": {}
+        },
+        {
+          "name": "FeatureV2",
+          "path": "@/components/homepage-32/FeatureV2",
+          "props": {}
+        },
+        {
+          "name": "FeatureV3",
+          "path": "@/components/homepage-32/FeatureV3",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-32/Hero",
+          "props": {}
+        },
+        {
+          "name": "Highlights",
+          "path": "@/components/homepage-32/Highlights",
+          "props": {}
+        },
+        {
+          "name": "NewsLetter",
+          "path": "@/components/homepage-32/NewsLetter",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/homepage-32/Process",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-32/Services",
+          "props": {}
+        },
+        {
+          "name": "FooterFour",
+          "path": "@/components/shared/footer/FooterFour",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Data Visualization Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-33",
+      "title": "Digital Marketing - NextSaaS",
+      "components": [
+        {
+          "name": "Audit",
+          "path": "@/components/homepage-33/Audit",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-33/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-33/CTA",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-33/Hero",
+          "props": {}
+        },
+        {
+          "name": "Results",
+          "path": "@/components/homepage-33/Results",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-33/Services",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-33/Steps",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-33/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "WhyUs",
+          "path": "@/components/homepage-33/WhyUs",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Digital Marketing - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-34",
+      "title": "Forex Trading - NextSaaS",
+      "components": [
+        {
+          "name": "About",
+          "path": "@/components/homepage-01/About",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-34/Blog",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-34/Clients",
+          "props": {}
+        },
+        {
+          "name": "Contact",
+          "path": "@/components/homepage-34/Contact",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-34/CTA",
+          "props": {}
+        },
+        {
+          "name": "Feature",
+          "path": "@/components/homepage-34/Feature",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-34/Hero",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-34/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-34/Services",
+          "props": {}
+        },
+        {
+          "name": "Steps",
+          "path": "@/components/homepage-34/Steps",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarFour",
+          "path": "@/components/shared/header/NavbarFour",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Forex Trading - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-35",
+      "title": "Data Visualization Software - NextSaaS",
+      "components": [
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-35/Blog",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-35/CTA",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-35/Features",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-35/Hero",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-35/Services",
+          "props": {}
+        },
+        {
+          "name": "ServicesV2",
+          "path": "@/components/homepage-35/ServicesV2",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-35/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Data Visualization Software - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-36",
+      "title": "AI Application - NextSaaS",
+      "components": [
+        {
+          "name": "CaseStudy",
+          "path": "@/components/homepage-36/CaseStudy",
+          "props": {}
+        },
+        {
+          "name": "ClientsMarquee",
+          "path": "@/components/homepage-36/ClientsMarquee",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-36/CTA",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-36/Faq",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/homepage-36/Features",
+          "props": {}
+        },
+        {
+          "name": "HeaderWrapper",
+          "path": "@/components/homepage-36/HeaderWrapper",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-36/Hero",
+          "props": {}
+        },
+        {
+          "name": "HowItsWork",
+          "path": "@/components/homepage-36/HowItsWork",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-36/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-36/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "WhatWeDo",
+          "path": "@/components/homepage-36/WhatWeDo",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Application - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-37",
+      "title": "AI Gadgets - NextSaaS",
+      "components": [
+        {
+          "name": "About",
+          "path": "@/components/homepage-37/About",
+          "props": {}
+        },
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-37/Clients",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-37/CTA",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-37/FAQ",
+          "props": {}
+        },
+        {
+          "name": "Gadgets",
+          "path": "@/components/homepage-37/Gadgets",
+          "props": {}
+        },
+        {
+          "name": "HeaderWrapper",
+          "path": "@/components/homepage-37/HeaderWrapper",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-37/Hero",
+          "props": {}
+        },
+        {
+          "name": "HowItWork",
+          "path": "@/components/homepage-37/HowItWork",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/homepage-37/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-37/Services",
+          "props": {}
+        },
+        {
+          "name": "Testimonials",
+          "path": "@/components/homepage-37/Testimonials",
+          "props": {}
+        },
+        {
+          "name": "WhatWeDo",
+          "path": "@/components/homepage-37/WhatWeDo",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Gadgets - NextSaaS"
+      }
+    },
+    {
+      "route": "/homepage-38",
+      "title": "AI Resume Builder - NextSaaS",
+      "components": [
+        {
+          "name": "Clients",
+          "path": "@/components/homepage-38/Clients",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/homepage-38/CTA",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-38/Faq",
+          "props": {}
+        },
+        {
+          "name": "HeaderWrapper",
+          "path": "@/components/homepage-38/HeaderWrapper",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-38/Hero",
+          "props": {}
+        },
+        {
+          "name": "HowItWorks",
+          "path": "@/components/homepage-38/HowItWorks",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/homepage-38/Services",
+          "props": {}
+        },
+        {
+          "name": "Templates",
+          "path": "@/components/homepage-38/Templates",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-38/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "VideoModal",
+          "path": "@/components/shared/VideoModal",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "AI Resume Builder - NextSaaS"
+      }
+    },
+    {
+      "route": "/integration-01",
+      "title": "Integration 01 - NextSaaS",
+      "components": [
+        {
+          "name": "Integration",
+          "path": "@/components/integration-01/Integration",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Integration 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/integration-02",
+      "title": "Integration 02 - NextSaaS",
+      "components": [
+        {
+          "name": "Integration",
+          "path": "@/components/integration-02/Integration",
+          "props": {}
+        },
+        {
+          "name": "Process",
+          "path": "@/components/integration-02/Process",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Integration 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/integration-03",
+      "title": "Integration 03 - NextSaaS",
+      "components": [
+        {
+          "name": "Integration",
+          "path": "@/components/integration-03/Integration",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Integration 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/login-01",
+      "title": "Login Page - NextSaaS",
+      "components": [
+        {
+          "name": "LoginHero",
+          "path": "@/components/authentication/LoginHero",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Login Page - NextSaaS"
+      }
+    },
+    {
+      "route": "/login-02",
+      "title": "Login Page 02 - NextSaaS",
+      "components": [
+        {
+          "name": "LoginHeroV2",
+          "path": "@/components/authentication/LoginHeroV2",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Login Page 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/login-03",
+      "title": "Login Page 02 - NextSaaS",
+      "components": [
+        {
+          "name": "LoginHeroV3",
+          "path": "@/components/authentication/LoginHeroV3",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Login Page 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/login-04",
+      "title": "Login Page 04 - NextSaaS",
+      "components": [
+        {
+          "name": "LoginHeroV4",
+          "path": "@/components/authentication/LoginHeroV4",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Login Page 04 - NextSaaS"
+      }
+    },
+    {
+      "route": "/our-services-01",
+      "title": "Our Services 01 - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/our-services-01/Features",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/our-services-01/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/our-services-01/Services",
+          "props": {}
+        },
+        {
+          "name": "Solutions",
+          "path": "@/components/our-services-01/Solutions",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Our Services 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/our-services-02",
+      "title": "Our Services 02 - NextSaaS",
+      "components": [
+        {
+          "name": "Features",
+          "path": "@/components/our-services-01/Features",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/our-services-02/Services",
+          "props": {}
+        },
+        {
+          "name": "ServicesV2",
+          "path": "@/components/our-services-02/ServicesV2",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Our Services 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/our-services-03",
+      "title": "Our Services 03 - NextSaaS",
+      "components": [
+        {
+          "name": "Feature",
+          "path": "@/components/our-services-03/Feature",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/our-services-03/Integration",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/our-services-03/Services",
+          "props": {}
+        },
+        {
+          "name": "UseCases",
+          "path": "@/components/our-services-03/UseCases",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Our Services 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/our-team-01",
+      "title": "Our Team 01 - NextSaaS",
+      "components": [
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "FAQ",
+          "path": "@/components/homepage-12/FAQ",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/our-team-01/CTA",
+          "props": {}
+        },
+        {
+          "name": "Experience",
+          "path": "@/components/our-team-01/Experience",
+          "props": {}
+        },
+        {
+          "name": "Teams",
+          "path": "@/components/our-team-01/Teams",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Our Team 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/our-team-02",
+      "title": "Our Team 02 - NextSaaS",
+      "components": [
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "CTA",
+          "path": "@/components/our-team-01/CTA",
+          "props": {}
+        },
+        {
+          "name": "Experience",
+          "path": "@/components/our-team-02/Experience",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/our-team-02/Features",
+          "props": {}
+        },
+        {
+          "name": "Teams",
+          "path": "@/components/our-team-02/Teams",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Our Team 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/",
+      "title": "Crypto - NextSaaS",
+      "components": [
+        {
+          "name": "About",
+          "path": "@/components/homepage-01/About",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/homepage-01/Blog",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/homepage-01/Faq",
+          "props": {}
+        },
+        {
+          "name": "Hero",
+          "path": "@/components/homepage-01/Hero",
+          "props": {}
+        },
+        {
+          "name": "HowItWorks",
+          "path": "@/components/homepage-01/HowItWorks",
+          "props": {}
+        },
+        {
+          "name": "OurServices",
+          "path": "@/components/homepage-01/OurServices",
+          "props": {}
+        },
+        {
+          "name": "Testimonial",
+          "path": "@/components/homepage-01/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "TimelineIntegration",
+          "path": "@/components/homepage-01/TimelineIntegration",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Crypto - NextSaaS"
+      }
+    },
+    {
+      "route": "/pricing-01",
+      "title": "Pricing 01 - NextSaaS",
+      "components": [
+        {
+          "name": "Benefits",
+          "path": "@/components/pricing-01/Benefits",
+          "props": {}
+        },
+        {
+          "name": "Contact",
+          "path": "@/components/pricing-01/Contact",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/pricing-01/Features",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/pricing-01/Pricing",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Pricing 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/pricing-02",
+      "title": "Pricing 02 - NextSaaS",
+      "components": [
+        {
+          "name": "Client",
+          "path": "@/components/pricing-02/Client",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/pricing-02/Faq",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/pricing-02/Pricing",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Pricing 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/pricing-03",
+      "title": "Pricing 03 - NextSaaS",
+      "components": [
+        {
+          "name": "Client",
+          "path": "@/components/pricing-02/Client",
+          "props": {}
+        },
+        {
+          "name": "Faq",
+          "path": "@/components/pricing-02/Faq",
+          "props": {}
+        },
+        {
+          "name": "Pricing",
+          "path": "@/components/pricing-03/Pricing",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Pricing 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/privacy",
+      "title": "Privacy - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "TermsConditionContent",
+          "path": "@/components/terms-conditions/TermsConditionContent",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Privacy - NextSaaS"
+      }
+    },
+    {
+      "route": "/process-01",
+      "title": "Process 01 - NextSaaS",
+      "components": [
+        {
+          "name": "ProcessFaq",
+          "path": "@/components/process-01/ProcessFaq",
+          "props": {}
+        },
+        {
+          "name": "ProcessStep",
+          "path": "@/components/process-01/ProcessStep",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Process 01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/process-02",
+      "title": "Process 02 - NextSaaS",
+      "components": [
+        {
+          "name": "ProcessOperation",
+          "path": "@/components/process-02/ProcessOperation",
+          "props": {}
+        },
+        {
+          "name": "ProcessStep",
+          "path": "@/components/process-02/ProcessStep",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Process 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/refund-policy",
+      "title": "Refund Policy - NextSaaS",
+      "components": [
+        {
+          "name": "RefundPolicyContent",
+          "path": "@/components/refund-policy/RefundPolicyContent",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Refund Policy - NextSaaS"
+      }
+    },
+    {
+      "route": "/showcase",
+      "title": "Showcase - Tous les Blocs Disponibles | NextSaaS",
+      "components": [
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "Hero01",
+          "path": "@/components/homepage-01/Hero",
+          "props": {}
+        },
+        {
+          "name": "About01",
+          "path": "@/components/homepage-01/About",
+          "props": {}
+        },
+        {
+          "name": "HowItWorks01",
+          "path": "@/components/homepage-01/HowItWorks",
+          "props": {}
+        },
+        {
+          "name": "OurServices01",
+          "path": "@/components/homepage-01/OurServices",
+          "props": {}
+        },
+        {
+          "name": "Faq01",
+          "path": "@/components/homepage-01/Faq",
+          "props": {}
+        },
+        {
+          "name": "TimelineIntegration01",
+          "path": "@/components/homepage-01/TimelineIntegration",
+          "props": {}
+        },
+        {
+          "name": "Testimonial01",
+          "path": "@/components/homepage-01/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "Blog01",
+          "path": "@/components/homepage-01/Blog",
+          "props": {}
+        },
+        {
+          "name": "Hero02",
+          "path": "@/components/homepage-02/Hero",
+          "props": {}
+        },
+        {
+          "name": "About02",
+          "path": "@/components/homepage-02/About",
+          "props": {}
+        },
+        {
+          "name": "Work02",
+          "path": "@/components/homepage-02/Work",
+          "props": {}
+        },
+        {
+          "name": "Feature02",
+          "path": "@/components/homepage-02/Feature",
+          "props": {}
+        },
+        {
+          "name": "Pricing02",
+          "path": "@/components/homepage-02/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Integration02",
+          "path": "@/components/homepage-02/Integration",
+          "props": {}
+        },
+        {
+          "name": "Hero03",
+          "path": "@/components/homepage-03/Hero",
+          "props": {}
+        },
+        {
+          "name": "Features03",
+          "path": "@/components/homepage-03/Features",
+          "props": {}
+        },
+        {
+          "name": "FeaturesV2_03",
+          "path": "@/components/homepage-03/FeaturesV2",
+          "props": {}
+        },
+        {
+          "name": "Pricing03",
+          "path": "@/components/homepage-03/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Integration03",
+          "path": "@/components/homepage-03/Integration",
+          "props": {}
+        },
+        {
+          "name": "Understanding03",
+          "path": "@/components/homepage-03/Understanding",
+          "props": {}
+        },
+        {
+          "name": "Testimonial03",
+          "path": "@/components/homepage-03/Testimonial",
+          "props": {}
+        },
+        {
+          "name": "Hero04",
+          "path": "@/components/homepage-04/Hero",
+          "props": {}
+        },
+        {
+          "name": "SearchCta04",
+          "path": "@/components/homepage-04/SearchCta",
+          "props": {}
+        },
+        {
+          "name": "Solutions04",
+          "path": "@/components/homepage-04/Solutions",
+          "props": {}
+        },
+        {
+          "name": "Services04",
+          "path": "@/components/homepage-04/Services",
+          "props": {}
+        },
+        {
+          "name": "Pricing04",
+          "path": "@/components/homepage-04/Pricing",
+          "props": {}
+        },
+        {
+          "name": "Process04",
+          "path": "@/components/homepage-04/Process",
+          "props": {}
+        },
+        {
+          "name": "Blogs04",
+          "path": "@/components/homepage-04/Blogs",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "CTAV2",
+          "path": "@/components/shared/cta/CTAV2",
+          "props": {}
+        },
+        {
+          "name": "CTAV3",
+          "path": "@/components/shared/cta/CTAV3",
+          "props": {}
+        },
+        {
+          "name": "CTAV4",
+          "path": "@/components/shared/cta/CTAV4",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV1",
+          "path": "@/components/shared/reviews/ReviewsV1",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV2",
+          "path": "@/components/shared/reviews/ReviewsV2",
+          "props": {}
+        },
+        {
+          "name": "ReviewsV3",
+          "path": "@/components/shared/reviews/ReviewsV3",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Showcase - Tous les Blocs Disponibles | NextSaaS",
+        "description": "Catalogue complet de tous les composants et blocs disponibles dans le template NextSaaS"
+      }
+    },
+    {
+      "route": "/signup-01",
+      "title": "Signup Page - NextSaaS",
+      "components": [
+        {
+          "name": "SignupHero",
+          "path": "@/components/authentication/SignupHero",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Signup Page - NextSaaS"
+      }
+    },
+    {
+      "route": "/signup-02",
+      "title": "Signup Page 02 - NextSaaS",
+      "components": [
+        {
+          "name": "SignupHeroV2",
+          "path": "@/components/authentication/SignupHeroV2",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Signup Page 02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/signup-03",
+      "title": "Signup Page 03 - NextSaaS",
+      "components": [
+        {
+          "name": "SignupHeroV3",
+          "path": "@/components/authentication/SignupHeroV3",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Signup Page 03 - NextSaaS"
+      }
+    },
+    {
+      "route": "/signup-04",
+      "title": "Signup Page 04 - NextSaaS",
+      "components": [
+        {
+          "name": "SignupHeroV4",
+          "path": "@/components/authentication/SignupHeroV4",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Signup Page 04 - NextSaaS"
+      }
+    },
+    {
+      "route": "/support",
+      "title": "Support - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "Contact",
+          "path": "@/components/support/Contact",
+          "props": {}
+        },
+        {
+          "name": "NeedHelp",
+          "path": "@/components/support/NeedHelp",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/support/Services",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Support - NextSaaS"
+      }
+    },
+    {
+      "route": "/terms-conditions",
+      "title": "Terms & Conditions - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "TermsConditionContent",
+          "path": "@/components/terms-conditions/TermsConditionContent",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Terms & Conditions - NextSaaS"
+      }
+    },
+    {
+      "route": "/testimonial-01",
+      "title": "Testimonial Page-01 - NextSaaS",
+      "components": [
+        {
+          "name": "Reviews",
+          "path": "@/components/homepage-09/Reviews",
+          "props": {}
+        },
+        {
+          "name": "Client",
+          "path": "@/components/pricing-02/Client",
+          "props": {}
+        },
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/testimonial-01/Integration",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Testimonial Page-01 - NextSaaS"
+      }
+    },
+    {
+      "route": "/testimonial-02",
+      "title": "Testimonial Page-02 - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "Experience",
+          "path": "@/components/testimonial-02/Experience",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/testimonial-02/Integration",
+          "props": {}
+        },
+        {
+          "name": "TestimonialMarquee",
+          "path": "@/components/testimonial-02/TestimonialMarquee",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Testimonial Page-02 - NextSaaS"
+      }
+    },
+    {
+      "route": "/tutorial",
+      "title": "Tutorial - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterOne",
+          "path": "@/components/shared/footer/FooterOne",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "Banner",
+          "path": "@/components/tutorial/Banner",
+          "props": {}
+        },
+        {
+          "name": "Blog",
+          "path": "@/components/tutorial/Blog",
+          "props": {}
+        },
+        {
+          "name": "Community",
+          "path": "@/components/tutorial/Community",
+          "props": {}
+        },
+        {
+          "name": "Features",
+          "path": "@/components/tutorial/Features",
+          "props": {}
+        },
+        {
+          "name": "Integration",
+          "path": "@/components/tutorial/Integration",
+          "props": {}
+        },
+        {
+          "name": "Services",
+          "path": "@/components/tutorial/Services",
+          "props": {}
+        },
+        {
+          "name": "Tutorials",
+          "path": "@/components/tutorial/Tutorials",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Tutorial - NextSaaS"
+      }
+    },
+    {
+      "route": "/use-case",
+      "title": "Use Case - NextSaaS",
+      "components": [
+        {
+          "name": "CTAV1",
+          "path": "@/components/shared/cta/CTAV1",
+          "props": {}
+        },
+        {
+          "name": "FooterThree",
+          "path": "@/components/shared/footer/FooterThree",
+          "props": {}
+        },
+        {
+          "name": "NavbarOne",
+          "path": "@/components/shared/header/NavbarOne",
+          "props": {}
+        },
+        {
+          "name": "PageHero",
+          "path": "@/components/shared/PageHero",
+          "props": {}
+        },
+        {
+          "name": "FeatureIntro",
+          "path": "@/components/use-case/FeatureIntro",
+          "props": {}
+        }
+      ],
+      "metadata": {
+        "title": "Use Case - NextSaaS"
+      }
+    }
+  ],
+  "statistics": {
+    "totalPages": 87,
+    "totalComponents": 597,
+    "mostUsedComponents": [
+      {
+        "name": "NavbarOne",
+        "count": 78
+      },
+      {
+        "name": "FooterThree",
+        "count": 54
+      },
+      {
+        "name": "CTAV1",
+        "count": 52
+      },
+      {
+        "name": "PageHero",
+        "count": 39
+      },
+      {
+        "name": "Hero",
+        "count": 38
+      },
+      {
+        "name": "FooterOne",
+        "count": 28
+      },
+      {
+        "name": "CTA",
+        "count": 27
+      },
+      {
+        "name": "Services",
+        "count": 27
+      },
+      {
+        "name": "Features",
+        "count": 22
+      },
+      {
+        "name": "Testimonial",
+        "count": 22
+      },
+      {
+        "name": "Pricing",
+        "count": 20
+      },
+      {
+        "name": "Feature",
+        "count": 19
+      },
+      {
+        "name": "Integration",
+        "count": 19
+      },
+      {
+        "name": "Blog",
+        "count": 14
+      },
+      {
+        "name": "Faq",
+        "count": 11
+      },
+      {
+        "name": "FeatureV2",
+        "count": 9
+      },
+      {
+        "name": "About",
+        "count": 7
+      },
+      {
+        "name": "ReviewsV1",
+        "count": 7
+      },
+      {
+        "name": "Process",
+        "count": 7
+      },
+      {
+        "name": "Clients",
+        "count": 7
+      }
+    ]
+  }
+}

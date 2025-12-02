@@ -1,0 +1,16 @@
+{
+  "name": "Services",
+  "path": "@/components/homepage-38/Services.tsx",
+  "description": "Component Services from homepage-38",
+  "category": "other",
+  "props": [],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

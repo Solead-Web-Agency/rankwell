@@ -1,0 +1,32 @@
+{
+  "id": "login-03-template",
+  "name": "Login-03 Template",
+  "description": "Template pour pages de type login-03",
+  "category": "login-03",
+  "components": [
+    {
+      "component": "LoginHeroV3",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 4
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "name": "CTAV2",
+  "path": "@/components/shared/cta/CTAV2.tsx",
+  "description": "Component CTAV2 from cta",
+  "category": "cta",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaHeading",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaDescription",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaBtnText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "spanText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaCheckListData",
+      "type": "{\n    id: string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    },
+    {
+      "component": "LinkButton",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

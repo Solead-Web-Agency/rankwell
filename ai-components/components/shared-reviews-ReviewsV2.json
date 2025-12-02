@@ -1,0 +1,24 @@
+{
+  "name": "ReviewsV2",
+  "path": "@/components/shared/reviews/ReviewsV2.tsx",
+  "description": "Component ReviewsV2 from reviews",
+  "category": "testimonial",
+  "props": [
+    {
+      "name": "badgeColor",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "sectionSpacingClass",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

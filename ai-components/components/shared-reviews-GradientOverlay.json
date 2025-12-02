@@ -1,0 +1,11 @@
+{
+  "name": "GradientOverlay",
+  "path": "@/components/shared/reviews/GradientOverlay.tsx",
+  "description": "Component GradientOverlay from reviews",
+  "category": "testimonial",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,18 @@
+{
+  "name": "BlogMenu",
+  "path": "@/components/shared/mega-menu/BlogMenu.tsx",
+  "description": "Component BlogMenu from mega-menu",
+  "category": "shared",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

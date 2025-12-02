@@ -1,0 +1,52 @@
+{
+  "id": "our-team-02-template",
+  "name": "Our-team-02 Template",
+  "description": "Template pour pages de type our-team-02",
+  "category": "our-team-02",
+  "components": [
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Experience",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Teams",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 8
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

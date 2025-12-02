@@ -1,0 +1,54 @@
+{
+  "name": "BeforeAfterServiceImg",
+  "path": "@/components/homepage-36/BeforeAfterServiceImg.tsx",
+  "description": "Component BeforeAfterServiceImg from homepage-36",
+  "category": "other",
+  "props": [
+    {
+      "name": "beforeImage",
+      "type": "string | StaticImageData",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "afterImage",
+      "type": "string | StaticImageData",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "service",
+      "type": "IService",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "initialPosition",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "onPositionChange",
+      "type": "(percentage: number) => void",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "enableKeyboard",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "enableClickToPosition",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

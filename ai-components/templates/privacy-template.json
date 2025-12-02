@@ -1,0 +1,37 @@
+{
+  "id": "privacy-template",
+  "name": "Privacy Template",
+  "description": "Template pour pages de type privacy",
+  "category": "privacy",
+  "components": [
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 2
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "TermsConditionContent",
+      "required": false,
+      "order": 5
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

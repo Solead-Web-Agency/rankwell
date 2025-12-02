@@ -1,0 +1,11 @@
+{
+  "name": "Clients",
+  "path": "@/components/homepage-24/Clients.tsx",
+  "description": "Component Clients from homepage-24",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

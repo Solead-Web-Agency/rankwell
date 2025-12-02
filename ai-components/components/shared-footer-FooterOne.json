@@ -1,0 +1,29 @@
+{
+  "name": "FooterOne",
+  "path": "@/components/shared/footer/FooterOne.tsx",
+  "description": "Component FooterOne from footer",
+  "category": "footer",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "defaultTheme",
+      "type": "'light' | 'dark'",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

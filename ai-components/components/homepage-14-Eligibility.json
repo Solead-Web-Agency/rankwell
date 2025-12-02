@@ -1,0 +1,11 @@
+{
+  "name": "Eligibility",
+  "path": "@/components/homepage-14/Eligibility.tsx",
+  "description": "Component Eligibility from homepage-14",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

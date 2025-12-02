@@ -1,0 +1,11 @@
+{
+  "name": "AvatarGroup",
+  "path": "@/components/homepage-09/AvatarGroup.tsx",
+  "description": "Component AvatarGroup from homepage-09",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

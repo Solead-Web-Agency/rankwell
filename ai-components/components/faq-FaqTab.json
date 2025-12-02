@@ -1,0 +1,11 @@
+{
+  "name": "FaqTab",
+  "path": "@/components/faq/FaqTab.tsx",
+  "description": "Component FaqTab from faq",
+  "category": "faq",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

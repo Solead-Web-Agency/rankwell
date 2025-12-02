@@ -1,0 +1,11 @@
+{
+  "name": "VisionStatement",
+  "path": "@/components/aboutpage-01/VisionStatement.tsx",
+  "description": "Component VisionStatement from aboutpage-01",
+  "category": "about",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

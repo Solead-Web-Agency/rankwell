@@ -1,0 +1,11 @@
+{
+  "name": "HeroVideo",
+  "path": "@/components/homepage-02/HeroVideo.tsx",
+  "description": "Component HeroVideo from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

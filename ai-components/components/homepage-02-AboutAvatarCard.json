@@ -1,0 +1,16 @@
+{
+  "name": "AboutAvatarCard",
+  "path": "@/components/homepage-02/AboutAvatarCard.tsx",
+  "description": "Component AboutAvatarCard from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [
+    {
+      "component": "NumberAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

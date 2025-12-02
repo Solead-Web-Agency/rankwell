@@ -1,0 +1,57 @@
+{
+  "id": "homepage-22-template",
+  "name": "Homepage-22 Template",
+  "description": "Template pour pages de type homepage-22",
+  "category": "homepage-22",
+  "components": [
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FeatureV2",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Steps",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 9
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

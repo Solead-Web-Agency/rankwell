@@ -1,0 +1,72 @@
+{
+  "id": "homepage-13-template",
+  "name": "Homepage-13 Template",
+  "description": "Template pour pages de type homepage-13",
+  "category": "homepage-13",
+  "components": [
+    {
+      "component": "Benefits",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CaseStudy",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FAQ",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FeatureV2",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 10
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 11
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 12
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

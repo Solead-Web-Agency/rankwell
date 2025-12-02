@@ -1,0 +1,11 @@
+{
+  "name": "TermsConditionsTab",
+  "path": "@/components/faq/TermsConditionsTab.tsx",
+  "description": "Component TermsConditionsTab from faq",
+  "category": "faq",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

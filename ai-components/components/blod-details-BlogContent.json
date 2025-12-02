@@ -1,0 +1,11 @@
+{
+  "name": "BlogContent",
+  "path": "@/components/blod-details/BlogContent.tsx",
+  "description": "Component BlogContent from blod-details",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

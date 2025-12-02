@@ -1,0 +1,11 @@
+{
+  "name": "BlogListWrapper",
+  "path": "@/components/blog-03/BlogListWrapper.tsx",
+  "description": "Component BlogListWrapper from blog-03",
+  "category": "blog",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

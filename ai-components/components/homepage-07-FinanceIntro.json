@@ -1,0 +1,11 @@
+{
+  "name": "FinanceIntro",
+  "path": "@/components/homepage-07/FinanceIntro.tsx",
+  "description": "Component FinanceIntro from homepage-07",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ThemeProvider",
+  "path": "@/components/shared/ThemeProvider.tsx",
+  "description": "Component ThemeProvider from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

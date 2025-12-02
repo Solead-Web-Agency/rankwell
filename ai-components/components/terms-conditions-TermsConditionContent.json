@@ -1,0 +1,11 @@
+{
+  "name": "TermsConditionContent",
+  "path": "@/components/terms-conditions/TermsConditionContent.tsx",
+  "description": "Component TermsConditionContent from terms-conditions",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

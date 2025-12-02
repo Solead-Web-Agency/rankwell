@@ -1,0 +1,11 @@
+{
+  "name": "DownloadApp",
+  "path": "@/components/homepage-22/DownloadApp.tsx",
+  "description": "Component DownloadApp from homepage-22",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "ProcessStep",
+  "path": "@/components/process-02/ProcessStep.tsx",
+  "description": "Component ProcessStep from process-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

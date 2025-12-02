@@ -1,0 +1,11 @@
+{
+  "name": "CaseStudy",
+  "path": "@/components/homepage-13/CaseStudy.tsx",
+  "description": "Component CaseStudy from homepage-13",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

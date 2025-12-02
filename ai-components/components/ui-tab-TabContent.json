@@ -1,0 +1,36 @@
+{
+  "name": "TabContent",
+  "path": "@/components/ui/tab/TabContent.tsx",
+  "description": "Component TabContent from tab",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "index",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "display",
+      "type": "'flex' | 'block' | 'grid' | 'inline-block'",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

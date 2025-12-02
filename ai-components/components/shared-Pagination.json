@@ -1,0 +1,42 @@
+{
+  "name": "Pagination",
+  "path": "@/components/shared/Pagination.tsx",
+  "description": "Component Pagination from shared",
+  "category": "shared",
+  "props": [
+    {
+      "name": "totalItems",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "itemsPerPage",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "currentPage",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "onPageChange",
+      "type": "(page: number) => void",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

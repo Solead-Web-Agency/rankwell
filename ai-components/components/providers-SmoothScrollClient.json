@@ -1,0 +1,18 @@
+{
+  "name": "SmoothScrollClient",
+  "path": "@/components/providers/SmoothScrollClient.tsx",
+  "description": "Component SmoothScrollClient from providers",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "ReactNode",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

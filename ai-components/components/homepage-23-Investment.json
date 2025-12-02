@@ -1,0 +1,11 @@
+{
+  "name": "Investment",
+  "path": "@/components/homepage-23/Investment.tsx",
+  "description": "Component Investment from homepage-23",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

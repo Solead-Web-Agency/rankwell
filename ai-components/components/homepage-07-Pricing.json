@@ -1,0 +1,30 @@
+{
+  "name": "Pricing",
+  "path": "@/components/homepage-07/Pricing.tsx",
+  "description": "Component Pricing from homepage-07",
+  "category": "other",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "containerClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "CareerDetailsBody",
+  "path": "@/components/career/CareerDetailsBody.tsx",
+  "description": "Component CareerDetailsBody from career",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

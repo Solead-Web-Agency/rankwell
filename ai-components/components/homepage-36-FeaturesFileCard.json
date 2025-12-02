@@ -1,0 +1,11 @@
+{
+  "name": "FeaturesFileCard",
+  "path": "@/components/homepage-36/FeaturesFileCard.tsx",
+  "description": "Component FeaturesFileCard from homepage-36",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

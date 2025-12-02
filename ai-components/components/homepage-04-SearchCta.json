@@ -1,0 +1,11 @@
+{
+  "name": "SearchCta",
+  "path": "@/components/homepage-04/SearchCta.tsx",
+  "description": "Component SearchCta from homepage-04",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

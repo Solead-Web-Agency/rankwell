@@ -1,0 +1,11 @@
+{
+  "name": "MobileMenuButton",
+  "path": "@/components/shared/header/MobileMenuButton.tsx",
+  "description": "Component MobileMenuButton from header",
+  "category": "header",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

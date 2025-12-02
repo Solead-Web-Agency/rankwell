@@ -1,0 +1,11 @@
+{
+  "name": "Client",
+  "path": "@/components/pricing-02/Client.tsx",
+  "description": "Component Client from pricing-02",
+  "category": "pricing",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

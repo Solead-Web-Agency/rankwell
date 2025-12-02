@@ -1,0 +1,11 @@
+{
+  "name": "Counter",
+  "path": "@/components/homepage-18/Counter.tsx",
+  "description": "Component Counter from homepage-18",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

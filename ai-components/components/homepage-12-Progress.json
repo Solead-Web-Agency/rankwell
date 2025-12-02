@@ -1,0 +1,11 @@
+{
+  "name": "Progress",
+  "path": "@/components/homepage-12/Progress.tsx",
+  "description": "Component Progress from homepage-12",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

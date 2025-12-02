@@ -1,0 +1,11 @@
+{
+  "name": "BlogTabList",
+  "path": "@/components/tutorial/BlogTabList.tsx",
+  "description": "Component BlogTabList from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

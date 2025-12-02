@@ -1,0 +1,11 @@
+{
+  "name": "HowItWorks",
+  "path": "@/components/homepage-38/HowItWorks.tsx",
+  "description": "Component HowItWorks from homepage-38",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

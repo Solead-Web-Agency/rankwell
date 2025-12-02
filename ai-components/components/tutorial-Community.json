@@ -1,0 +1,11 @@
+{
+  "name": "Community",
+  "path": "@/components/tutorial/Community.tsx",
+  "description": "Component Community from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "admin-template",
+  "name": "Admin Template",
+  "description": "Template pour pages de type admin",
+  "category": "admin",
+  "components": [],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

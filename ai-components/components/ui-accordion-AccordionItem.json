@@ -1,0 +1,36 @@
+{
+  "name": "AccordionItem",
+  "path": "@/components/ui/accordion/AccordionItem.tsx",
+  "description": "Component AccordionItem from accordion",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

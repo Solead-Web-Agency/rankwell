@@ -1,0 +1,11 @@
+{
+  "name": "WhatWeOffer",
+  "path": "@/components/homepage-17/WhatWeOffer.tsx",
+  "description": "Component WhatWeOffer from homepage-17",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

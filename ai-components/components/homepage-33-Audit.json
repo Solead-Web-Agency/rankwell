@@ -1,0 +1,11 @@
+{
+  "name": "Audit",
+  "path": "@/components/homepage-33/Audit.tsx",
+  "description": "Component Audit from homepage-33",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

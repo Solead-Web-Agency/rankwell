@@ -1,0 +1,24 @@
+{
+  "name": "Integration",
+  "path": "@/components/integration-02/Integration.tsx",
+  "description": "Component Integration from integration-02",
+  "category": "other",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

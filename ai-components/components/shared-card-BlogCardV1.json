@@ -1,0 +1,24 @@
+{
+  "name": "BlogCardV1",
+  "path": "@/components/shared/card/BlogCardV1.tsx",
+  "description": "Component BlogCardV1 from card",
+  "category": "shared",
+  "props": [
+    {
+      "name": "blog",
+      "type": "IBlogPost",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

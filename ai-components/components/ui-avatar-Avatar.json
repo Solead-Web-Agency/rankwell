@@ -1,0 +1,30 @@
+{
+  "name": "Avatar",
+  "path": "@/components/ui/avatar/Avatar.tsx",
+  "description": "Component Avatar from avatar",
+  "category": "other",
+  "props": [
+    {
+      "name": "src",
+      "type": "string | StaticImageData",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "alt",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

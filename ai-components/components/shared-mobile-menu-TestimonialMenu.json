@@ -1,0 +1,11 @@
+{
+  "name": "TestimonialMenu",
+  "path": "@/components/shared/mobile-menu/TestimonialMenu.tsx",
+  "description": "Component TestimonialMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

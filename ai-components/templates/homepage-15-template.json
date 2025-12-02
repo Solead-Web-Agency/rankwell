@@ -1,0 +1,62 @@
+{
+  "id": "homepage-15-template",
+  "name": "Homepage-15 Template",
+  "description": "Template pour pages de type homepage-15",
+  "category": "homepage-15",
+  "components": [
+    {
+      "component": "About",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Process",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Projects",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 9
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 10
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

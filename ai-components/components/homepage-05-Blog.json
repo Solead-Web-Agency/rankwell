@@ -1,0 +1,18 @@
+{
+  "name": "Blog",
+  "path": "@/components/homepage-05/Blog.tsx",
+  "description": "Component Blog from homepage-05",
+  "category": "other",
+  "props": [
+    {
+      "name": "badgeClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

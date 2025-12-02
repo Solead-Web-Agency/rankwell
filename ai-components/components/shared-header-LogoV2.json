@@ -1,0 +1,11 @@
+{
+  "name": "LogoV2",
+  "path": "@/components/shared/header/LogoV2.tsx",
+  "description": "Component LogoV2 from header",
+  "category": "header",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

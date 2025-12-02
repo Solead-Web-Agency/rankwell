@@ -1,0 +1,11 @@
+{
+  "name": "Tutorials",
+  "path": "@/components/tutorial/Tutorials.tsx",
+  "description": "Component Tutorials from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

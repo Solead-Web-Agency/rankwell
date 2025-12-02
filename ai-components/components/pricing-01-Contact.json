@@ -1,0 +1,11 @@
+{
+  "name": "Contact",
+  "path": "@/components/pricing-01/Contact.tsx",
+  "description": "Component Contact from pricing-01",
+  "category": "pricing",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

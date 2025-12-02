@@ -1,0 +1,11 @@
+{
+  "name": "GradientAnimation",
+  "path": "@/components/homepage-27/GradientAnimation.tsx",
+  "description": "Component GradientAnimation from homepage-27",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Understanding",
+  "path": "@/components/homepage-03/Understanding.tsx",
+  "description": "Component Understanding from homepage-03",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

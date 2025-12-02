@@ -1,0 +1,11 @@
+{
+  "name": "JobOverview",
+  "path": "@/components/career/JobOverview.tsx",
+  "description": "Component JobOverview from career",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

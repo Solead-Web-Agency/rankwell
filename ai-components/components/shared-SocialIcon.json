@@ -1,0 +1,11 @@
+{
+  "name": "SocialIcon",
+  "path": "@/components/shared/SocialIcon.tsx",
+  "description": "Component SocialIcon from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

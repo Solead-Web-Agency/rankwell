@@ -1,0 +1,78 @@
+{
+  "name": "NumberCounter",
+  "path": "@/components/ui/NumberCounter.tsx",
+  "description": "Component NumberCounter from ui",
+  "category": "other",
+  "props": [
+    {
+      "name": "value",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "suffix",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "prefix",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "numberClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "labelClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "triggerOnScroll",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "formatNumber",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "FadeTestimonial",
+  "path": "@/components/shared/FadeTestimonial.tsx",
+  "description": "Component FadeTestimonial from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

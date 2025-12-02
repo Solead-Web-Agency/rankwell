@@ -1,0 +1,11 @@
+{
+  "name": "LoginHeroV4",
+  "path": "@/components/authentication/LoginHeroV4.tsx",
+  "description": "Component LoginHeroV4 from authentication",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

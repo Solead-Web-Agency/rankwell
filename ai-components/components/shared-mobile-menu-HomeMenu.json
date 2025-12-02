@@ -1,0 +1,11 @@
+{
+  "name": "HomeMenu",
+  "path": "@/components/shared/mobile-menu/HomeMenu.tsx",
+  "description": "Component HomeMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

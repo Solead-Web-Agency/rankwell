@@ -1,0 +1,52 @@
+{
+  "id": "features-02-template",
+  "name": "Features-02 Template",
+  "description": "Template pour pages de type features-02",
+  "category": "features-02",
+  "components": [
+    {
+      "component": "Features",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "WhyChooseUs",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "ReviewsV2",
+      "required": false,
+      "order": 8
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

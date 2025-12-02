@@ -1,0 +1,30 @@
+{
+  "name": "TabList",
+  "path": "@/components/ui/tab/TabList.tsx",
+  "description": "Component TabList from tab",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "'desktop' | 'mobile'",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

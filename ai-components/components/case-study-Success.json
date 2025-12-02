@@ -1,0 +1,11 @@
+{
+  "name": "Success",
+  "path": "@/components/case-study/Success.tsx",
+  "description": "Component Success from case-study",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

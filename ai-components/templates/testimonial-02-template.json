@@ -1,0 +1,47 @@
+{
+  "id": "testimonial-02-template",
+  "name": "Testimonial-02 Template",
+  "description": "Template pour pages de type testimonial-02",
+  "category": "testimonial-02",
+  "components": [
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 2
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Experience",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "TestimonialMarquee",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

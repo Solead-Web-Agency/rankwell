@@ -1,0 +1,11 @@
+{
+  "name": "ContactUs",
+  "path": "@/components/homepage-14/ContactUs.tsx",
+  "description": "Component ContactUs from homepage-14",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

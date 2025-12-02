@@ -1,0 +1,24 @@
+{
+  "name": "ServiceCard",
+  "path": "@/components/homepage-38/ServiceCard.tsx",
+  "description": "Component ServiceCard from homepage-38",
+  "category": "other",
+  "props": [
+    {
+      "name": "service",
+      "type": "ServiceData",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "index",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

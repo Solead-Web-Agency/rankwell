@@ -1,0 +1,11 @@
+{
+  "name": "LoginMenu",
+  "path": "@/components/shared/mobile-menu/LoginMenu.tsx",
+  "description": "Component LoginMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

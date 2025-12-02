@@ -1,0 +1,11 @@
+{
+  "name": "Integration",
+  "path": "@/components/tutorial/Integration.tsx",
+  "description": "Component Integration from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

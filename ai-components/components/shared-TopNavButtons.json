@@ -1,0 +1,11 @@
+{
+  "name": "TopNavButtons",
+  "path": "@/components/shared/TopNavButtons.tsx",
+  "description": "Component TopNavButtons from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

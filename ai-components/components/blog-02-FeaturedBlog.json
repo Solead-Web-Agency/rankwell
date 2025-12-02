@@ -1,0 +1,11 @@
+{
+  "name": "FeaturedBlog",
+  "path": "@/components/blog-02/FeaturedBlog.tsx",
+  "description": "Component FeaturedBlog from blog-02",
+  "category": "blog",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "MobileMenuItem",
+  "path": "@/components/shared/mobile-menu/MobileMenuItem.tsx",
+  "description": "Component MobileMenuItem from mobile-menu",
+  "category": "shared",
+  "props": [
+    {
+      "name": "id",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "ReactNode",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "hasSubmenu",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

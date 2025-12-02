@@ -1,0 +1,67 @@
+{
+  "id": "homepage-21-template",
+  "name": "Homepage-21 Template",
+  "description": "Template pour pages de type homepage-21",
+  "category": "homepage-21",
+  "components": [
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Pricing",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "ContactUs",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "About",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Team",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "WhyChooseUs",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "FooterFour",
+      "required": true,
+      "order": 10
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 11
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

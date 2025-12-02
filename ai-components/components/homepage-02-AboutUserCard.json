@@ -1,0 +1,11 @@
+{
+  "name": "AboutUserCard",
+  "path": "@/components/homepage-02/AboutUserCard.tsx",
+  "description": "Component AboutUserCard from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

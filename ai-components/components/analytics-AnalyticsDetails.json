@@ -1,0 +1,11 @@
+{
+  "name": "AnalyticsDetails",
+  "path": "@/components/analytics/AnalyticsDetails.tsx",
+  "description": "Component AnalyticsDetails from analytics",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

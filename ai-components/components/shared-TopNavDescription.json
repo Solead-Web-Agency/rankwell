@@ -1,0 +1,11 @@
+{
+  "name": "TopNavDescription",
+  "path": "@/components/shared/TopNavDescription.tsx",
+  "description": "Component TopNavDescription from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

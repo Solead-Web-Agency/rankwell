@@ -1,0 +1,42 @@
+{
+  "id": "blog-01-template",
+  "name": "Blog-01 Template",
+  "description": "Template pour pages de type blog-01",
+  "category": "blog-01",
+  "components": [
+    {
+      "component": "BlogShowcase",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FeaturedBlog",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 4
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 6
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

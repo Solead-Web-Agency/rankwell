@@ -1,0 +1,42 @@
+{
+  "name": "AccordionContent",
+  "path": "@/components/ui/accordion/AccordionContent.tsx",
+  "description": "Component AccordionContent from accordion",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "animationDuration",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "animationEase",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

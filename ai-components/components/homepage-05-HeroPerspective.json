@@ -1,0 +1,11 @@
+{
+  "name": "HeroPerspective",
+  "path": "@/components/homepage-05/HeroPerspective.tsx",
+  "description": "Component HeroPerspective from homepage-05",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

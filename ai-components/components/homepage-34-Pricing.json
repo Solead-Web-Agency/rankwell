@@ -1,0 +1,11 @@
+{
+  "name": "Pricing",
+  "path": "@/components/homepage-34/Pricing.tsx",
+  "description": "Component Pricing from homepage-34",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

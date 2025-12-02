@@ -1,0 +1,35 @@
+{
+  "name": "CTACheckList",
+  "path": "@/components/shared/cta/CTACheckList.tsx",
+  "description": "Component CTACheckList from cta",
+  "category": "cta",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaCheckListData",
+      "type": "{\n    id: string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "text",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

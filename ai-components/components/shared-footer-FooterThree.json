@@ -1,0 +1,47 @@
+{
+  "name": "FooterThree",
+  "path": "@/components/shared/footer/FooterThree.tsx",
+  "description": "Component FooterThree from footer",
+  "category": "footer",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "bgGradientImg",
+      "type": "StaticImageData",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "gradientClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "toggleTheme",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "defaultTheme",
+      "type": "'light' | 'dark'",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

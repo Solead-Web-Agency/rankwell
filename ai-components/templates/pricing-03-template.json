@@ -1,0 +1,47 @@
+{
+  "id": "pricing-03-template",
+  "name": "Pricing-03 Template",
+  "description": "Template pour pages de type pricing-03",
+  "category": "pricing-03",
+  "components": [
+    {
+      "component": "Client",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Faq",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Pricing",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

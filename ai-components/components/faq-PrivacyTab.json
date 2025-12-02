@@ -1,0 +1,11 @@
+{
+  "name": "PrivacyTab",
+  "path": "@/components/faq/PrivacyTab.tsx",
+  "description": "Component PrivacyTab from faq",
+  "category": "faq",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

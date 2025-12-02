@@ -1,0 +1,24 @@
+{
+  "name": "Team",
+  "path": "@/components/homepage-05/Team.tsx",
+  "description": "Component Team from homepage-05",
+  "category": "other",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeColor",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

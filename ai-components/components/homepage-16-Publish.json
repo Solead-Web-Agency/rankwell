@@ -1,0 +1,11 @@
+{
+  "name": "Publish",
+  "path": "@/components/homepage-16/Publish.tsx",
+  "description": "Component Publish from homepage-16",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

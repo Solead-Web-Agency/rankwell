@@ -1,0 +1,57 @@
+{
+  "name": "ReviewsV1",
+  "path": "@/components/shared/reviews/ReviewsV1.tsx",
+  "description": "Component ReviewsV1 from reviews",
+  "category": "testimonial",
+  "props": [
+    {
+      "name": "background",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeColor",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "buttonLink",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "sliderClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    },
+    {
+      "component": "LinkButton",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

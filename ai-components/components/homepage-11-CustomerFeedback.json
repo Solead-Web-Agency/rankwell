@@ -1,0 +1,11 @@
+{
+  "name": "CustomerFeedback",
+  "path": "@/components/homepage-11/CustomerFeedback.tsx",
+  "description": "Component CustomerFeedback from homepage-11",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "homepage-16-template",
+  "name": "Homepage-16 Template",
+  "description": "Template pour pages de type homepage-16",
+  "category": "homepage-16",
+  "components": [
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FeatureV2",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Pricing",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Publish",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Steps",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 9
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 10
+    },
+    {
+      "component": "ReviewsV3",
+      "required": false,
+      "order": 11
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

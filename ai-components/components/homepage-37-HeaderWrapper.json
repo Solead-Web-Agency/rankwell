@@ -1,0 +1,11 @@
+{
+  "name": "HeaderWrapper",
+  "path": "@/components/homepage-37/HeaderWrapper.tsx",
+  "description": "Component HeaderWrapper from homepage-37",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

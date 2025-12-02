@@ -1,0 +1,11 @@
+{
+  "name": "Integration",
+  "path": "@/components/integration-03/Integration.tsx",
+  "description": "Component Integration from integration-03",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

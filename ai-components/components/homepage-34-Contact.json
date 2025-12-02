@@ -1,0 +1,11 @@
+{
+  "name": "Contact",
+  "path": "@/components/homepage-34/Contact.tsx",
+  "description": "Component Contact from homepage-34",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

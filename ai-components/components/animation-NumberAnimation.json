@@ -1,0 +1,90 @@
+{
+  "name": "NumberAnimation",
+  "path": "@/components/animation/NumberAnimation.tsx",
+  "description": "Component NumberAnimation from animation",
+  "category": "animation",
+  "props": [
+    {
+      "name": "number",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "speed",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "interval",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "rooms",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "space",
+      "type": "number | null",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "symbol",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "showPercentage",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "heightSpaceRatio",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "fontStyle",
+      "type": "React.CSSProperties",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "threshold",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "rootMargin",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

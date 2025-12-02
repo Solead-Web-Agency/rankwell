@@ -1,0 +1,11 @@
+{
+  "name": "DocsContent",
+  "path": "@/components/documentation/DocsContent.tsx",
+  "description": "Component DocsContent from documentation",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

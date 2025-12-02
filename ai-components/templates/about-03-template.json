@@ -1,0 +1,62 @@
+{
+  "id": "about-03-template",
+  "name": "About-03 Template",
+  "description": "Template pour pages de type about-03",
+  "category": "about-03",
+  "components": [
+    {
+      "component": "AboutMap",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Innovation",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "OurMission",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "OurVision",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Teams",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 9
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 10
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "AnalyticsTestimonial",
+  "path": "@/components/analytics/AnalyticsTestimonial.tsx",
+  "description": "Component AnalyticsTestimonial from analytics",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

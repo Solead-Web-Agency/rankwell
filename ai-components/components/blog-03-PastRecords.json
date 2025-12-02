@@ -1,0 +1,30 @@
+{
+  "name": "PastRecords",
+  "path": "@/components/blog-03/PastRecords.tsx",
+  "description": "Component PastRecords from blog-03",
+  "category": "blog",
+  "props": [
+    {
+      "name": "months",
+      "type": "Month[]",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "selectedMonth",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "onMonthChange",
+      "type": "(month: string) => void",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

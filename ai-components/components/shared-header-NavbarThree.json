@@ -1,0 +1,16 @@
+{
+  "name": "NavbarThree",
+  "path": "@/components/shared/header/NavbarThree.tsx",
+  "description": "Component NavbarThree from header",
+  "category": "header",
+  "props": [],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

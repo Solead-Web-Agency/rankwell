@@ -1,0 +1,11 @@
+{
+  "name": "SignUpMenu",
+  "path": "@/components/shared/mobile-menu/SignUpMenu.tsx",
+  "description": "Component SignUpMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

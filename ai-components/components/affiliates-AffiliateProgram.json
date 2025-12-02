@@ -1,0 +1,11 @@
+{
+  "name": "AffiliateProgram",
+  "path": "@/components/affiliates/AffiliateProgram.tsx",
+  "description": "Component AffiliateProgram from affiliates",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

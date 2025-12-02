@@ -1,0 +1,11 @@
+{
+  "name": "TestimonialMarquee",
+  "path": "@/components/testimonial-02/TestimonialMarquee.tsx",
+  "description": "Component TestimonialMarquee from testimonial-02",
+  "category": "testimonial",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

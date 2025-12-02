@@ -1,0 +1,24 @@
+{
+  "name": "RevealAnimation",
+  "path": "@/components/animation/RevealAnimation.tsx",
+  "description": "Component RevealAnimation from animation",
+  "category": "animation",
+  "props": [
+    {
+      "name": "children",
+      "type": "ReactElement<{\n    className?: string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "ref",
+      "type": "Ref<HTMLElement>",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

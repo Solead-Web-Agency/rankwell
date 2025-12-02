@@ -1,0 +1,36 @@
+{
+  "name": "Categories",
+  "path": "@/components/blog-03/Categories.tsx",
+  "description": "Component Categories from blog-03",
+  "category": "blog",
+  "props": [
+    {
+      "name": "categories",
+      "type": "Category[]",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "selectedCategory",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "onCategoryChange",
+      "type": "(category: string) => void",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "AffiliateContent",
+  "path": "@/components/affiliate-policy/AffiliateContent.tsx",
+  "description": "Component AffiliateContent from affiliate-policy",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

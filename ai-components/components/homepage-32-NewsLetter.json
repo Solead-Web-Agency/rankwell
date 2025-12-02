@@ -1,0 +1,11 @@
+{
+  "name": "NewsLetter",
+  "path": "@/components/homepage-32/NewsLetter.tsx",
+  "description": "Component NewsLetter from homepage-32",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

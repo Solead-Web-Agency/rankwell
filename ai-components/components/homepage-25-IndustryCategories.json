@@ -1,0 +1,11 @@
+{
+  "name": "IndustryCategories",
+  "path": "@/components/homepage-25/IndustryCategories.tsx",
+  "description": "Component IndustryCategories from homepage-25",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}
