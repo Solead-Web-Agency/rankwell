@@ -1,16 +1,19 @@
-import SmoothScrollProvider from '@/components/shared/SmoothScroll';
-import { ThemeProvider } from '@/components/shared/ThemeProvider';
-import { AppContextProvider } from '@/context/AppContext';
+import { ClientProviders } from '@/components/providers/ClientProviders';
 import { interTight } from '@/utils/font';
 import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
-import { ReactNode, Suspense } from 'react';
+import { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
   ...generateMetadata(),
 };
 
+/**
+ * Root Layout - Server Component
+ * Client providers are isolated to prevent SSR bailout
+ * SmoothScroll is removed from layout to enable full SSR
+ */
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,13 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={`${interTight.variable} antialiased`}>
-        <AppContextProvider>
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-            <Suspense>
-              <SmoothScrollProvider>{children}</SmoothScrollProvider>
-            </Suspense>
-          </ThemeProvider>
-        </AppContextProvider>
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );
