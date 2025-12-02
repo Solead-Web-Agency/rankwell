@@ -36,6 +36,10 @@ export default function PageGenerator() {
     column: 1,
     position: 'end' as 'start' | 'end',
   });
+  const [templateId, setTemplateId] = useState<string>('');
+  const [minComponents, setMinComponents] = useState<number | ''>('');
+  const [maxComponents, setMaxComponents] = useState<number | ''>('');
+  const [availableTemplates, setAvailableTemplates] = useState<any[]>([]);
 
   useEffect(() => {
     // Vérifier l'authentification au chargement
@@ -44,6 +48,25 @@ export default function PageGenerator() {
       setIsAuthenticated(true);
     }
   }, []);
+
+  useEffect(() => {
+    // Charger les templates disponibles quand on est authentifié
+    if (isAuthenticated) {
+      loadTemplates();
+    }
+  }, [isAuthenticated]);
+
+  const loadTemplates = async () => {
+    try {
+      const response = await fetch('/api/list-templates');
+      if (response.ok) {
+        const data = await response.json();
+        setAvailableTemplates(data.templates || []);
+      }
+    } catch (error) {
+      console.error('Error loading templates:', error);
+    }
+  };
 
   const handleLogin = async () => {
     const password = prompt('Entrez le mot de passe administrateur:');
@@ -104,6 +127,9 @@ export default function PageGenerator() {
           route: route.startsWith('/') ? route : `/${route}`,
           pageName,
           category: route.split('/')[1] || 'page',
+          templateId: templateId || undefined,
+          minComponents: minComponents || undefined,
+          maxComponents: maxComponents || undefined,
         }),
       });
 
@@ -276,6 +302,54 @@ export default function PageGenerator() {
                     placeholder="Ma Page"
                     className="w-full px-4 py-2 border border-stroke-2 dark:border-stroke-6 rounded-lg bg-background-2 dark:bg-background-5"
                   />
+                </div>
+                <div>
+                  <label className="block text-sm font-semibold mb-2">Template (optionnel)</label>
+                  <select
+                    value={templateId}
+                    onChange={(e) => setTemplateId(e.target.value)}
+                    className="w-full px-4 py-2 border border-stroke-2 dark:border-stroke-6 rounded-lg bg-background-2 dark:bg-background-5 mb-2"
+                  >
+                    <option value="">Aucun (utilise tous les composants)</option>
+                    {availableTemplates.map((template) => (
+                      <option key={template.id} value={template.id}>
+                        {template.name} - {template.description}
+                      </option>
+                    ))}
+                  </select>
+                  {templateId && (
+                    <div className="mt-2 space-y-2">
+                      <div className="grid grid-cols-2 gap-2">
+                        <div>
+                          <label className="block text-xs font-semibold mb-1">Min composants</label>
+                          <input
+                            type="number"
+                            min="1"
+                            max="20"
+                            value={minComponents}
+                            onChange={(e) => setMinComponents(e.target.value ? parseInt(e.target.value) : '')}
+                            placeholder="Auto"
+                            className="w-full px-3 py-1 text-sm border border-stroke-2 dark:border-stroke-6 rounded bg-background-2 dark:bg-background-5"
+                          />
+                        </div>
+                        <div>
+                          <label className="block text-xs font-semibold mb-1">Max composants</label>
+                          <input
+                            type="number"
+                            min="1"
+                            max="20"
+                            value={maxComponents}
+                            onChange={(e) => setMaxComponents(e.target.value ? parseInt(e.target.value) : '')}
+                            placeholder="Auto"
+                            className="w-full px-3 py-1 text-sm border border-stroke-2 dark:border-stroke-6 rounded bg-background-2 dark:bg-background-5"
+                          />
+                        </div>
+                      </div>
+                      <p className="text-xs text-body-text">
+                        Si vide, l'IA choisira automatiquement selon le template
+                      </p>
+                    </div>
+                  )}
                 </div>
                 <div>
                   <label className="block text-sm font-semibold mb-2">Menu dans la navigation</label>

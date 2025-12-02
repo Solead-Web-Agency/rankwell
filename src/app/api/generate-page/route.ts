@@ -5,7 +5,7 @@ import path from 'path';
 
 export async function POST(request: Request) {
   try {
-    const { prompt, route, pageName, category } = await request.json();
+    const { prompt, route, pageName, category, templateId, minComponents, maxComponents } = await request.json();
 
     if (!prompt || !route || !pageName) {
       return NextResponse.json(
@@ -30,44 +30,139 @@ export async function POST(request: Request) {
 
     // Charger les composants disponibles
     const aiComponentsDir = path.join(process.cwd(), 'ai-components');
-    const indexPath = path.join(aiComponentsDir, 'index.json');
     
-    if (!fs.existsSync(indexPath)) {
-      return NextResponse.json(
-        { error: 'Components database not found. Please run the scanner first.' },
-        { status: 404 }
-      );
+    let componentsList: any[] = [];
+    let componentsByCategory: Record<string, any[]> = {};
+    let templateInfo: any = null;
+    
+    // Si un template est spécifié, charger le template
+    if (templateId) {
+      const templatePath = path.join(aiComponentsDir, 'templates', `${templateId}.json`);
+      if (fs.existsSync(templatePath)) {
+        templateInfo = JSON.parse(fs.readFileSync(templatePath, 'utf-8'));
+        
+        // Charger les détails complets des composants du template depuis les fichiers JSON
+        const componentsDir = path.join(aiComponentsDir, 'components');
+        componentsList = templateInfo.components.map((templateComp: any) => {
+          // Chercher le fichier JSON correspondant
+          const componentKey = templateComp.path?.replace('@/components/', '').replace('.tsx', '').replace(/\//g, '-') || 
+                              `${templateComp.category}-${templateComp.name}`;
+          const componentFile = `${componentKey}.json`;
+          const componentPath = path.join(componentsDir, componentFile);
+          
+          if (fs.existsSync(componentPath)) {
+            const compData = JSON.parse(fs.readFileSync(componentPath, 'utf-8'));
+            return {
+              name: compData.name || templateComp.name,
+              path: compData.path || templateComp.path,
+              category: compData.category || templateComp.category,
+              props: compData.props || templateComp.props || [],
+              hasProps: (compData.props || templateComp.props || []).length > 0,
+              description: compData.description || templateComp.description,
+              required: templateComp.required || false,
+              order: templateComp.order,
+            };
+          }
+          
+          // Si le fichier n'existe pas, utiliser les données du template
+          return {
+            name: templateComp.name,
+            path: templateComp.path,
+            category: templateComp.category,
+            props: templateComp.props || [],
+            hasProps: (templateComp.props || []).length > 0,
+            description: templateComp.description,
+            required: templateComp.required || false,
+            order: templateComp.order,
+          };
+        });
+        
+        // Grouper par catégorie
+        componentsByCategory = componentsList.reduce((acc, comp) => {
+          if (!acc[comp.category]) acc[comp.category] = [];
+          acc[comp.category].push(comp);
+          return acc;
+        }, {} as Record<string, typeof componentsList>);
+      } else {
+        return NextResponse.json(
+          { error: `Template ${templateId} not found` },
+          { status: 404 }
+        );
+      }
+    } else {
+      // Mode classique : charger les 80 premiers composants
+      const indexPath = path.join(aiComponentsDir, 'index.json');
+      
+      if (!fs.existsSync(indexPath)) {
+        return NextResponse.json(
+          { error: 'Components database not found. Please run the scanner first.' },
+          { status: 404 }
+        );
+      }
+
+      const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+      
+      // Charger quelques composants populaires pour le prompt
+      const componentsDir = path.join(aiComponentsDir, 'components');
+      const componentFiles = fs.readdirSync(componentsDir).slice(0, 100);
+      const sampleComponents = componentFiles.map((file) => {
+        const filePath = path.join(componentsDir, file);
+        return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+      });
+
+      // Préparer le prompt pour Gemini avec plus de contexte
+      componentsList = sampleComponents.slice(0, 80).map(comp => ({
+        name: comp.name,
+        path: comp.path,
+        category: comp.category,
+        props: comp.props,
+        hasProps: comp.props.length > 0,
+        description: comp.description,
+      }));
+      
+      // Grouper les composants par catégorie
+      componentsByCategory = componentsList.reduce((acc, comp) => {
+        if (!acc[comp.category]) acc[comp.category] = [];
+        acc[comp.category].push(comp);
+        return acc;
+      }, {} as Record<string, typeof componentsList>);
     }
 
-    const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+    // Construire les instructions selon le mode (template ou classique)
+    let templateInstructions = '';
+    let componentSelectionInstructions = '';
     
-    // Charger quelques composants populaires pour le prompt
-    const componentsDir = path.join(aiComponentsDir, 'components');
-    const componentFiles = fs.readdirSync(componentsDir).slice(0, 100); // Limiter pour le prompt
-    const sampleComponents = componentFiles.map((file) => {
-      const filePath = path.join(componentsDir, file);
-      return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
-    });
-
-    // Préparer le prompt pour Gemini avec plus de contexte
-    const componentsList = sampleComponents.slice(0, 80).map(comp => ({
-      name: comp.name,
-      path: comp.path,
-      category: comp.category,
-      props: comp.props, // Toutes les props pour mieux comprendre
-      hasProps: comp.props.length > 0, // Indique si le composant accepte des props
-      description: comp.description,
-    }));
-    
-    // Grouper les composants par catégorie pour faciliter la sélection
-    const componentsByCategory = componentsList.reduce((acc, comp) => {
-      if (!acc[comp.category]) acc[comp.category] = [];
-      acc[comp.category].push(comp);
-      return acc;
-    }, {} as Record<string, typeof componentsList>);
+    if (templateInfo) {
+      const minComp = minComponents || templateInfo.minComponents || 3;
+      const maxComp = maxComponents || templateInfo.maxComponents || 8;
+      
+      templateInstructions = `
+TEMPLATE UTILISÉ: "${templateInfo.name}"
+Description: ${templateInfo.description}
+Nombre de composants: Tu dois utiliser entre ${minComp} et ${maxComp} composants de ce template.
+Tu peux choisir les composants que tu veux dans la liste ci-dessous et les ordonner comme tu le souhaites.
+Les composants marqués "required: true" sont obligatoires (NavbarOne, FooterOne, PageHero généralement).
+`;
+      
+      componentSelectionInstructions = `
+SÉLECTION DES COMPOSANTS:
+- Tu dois choisir entre ${minComp} et ${maxComp} composants dans la liste du template
+- Tu peux les ordonner librement selon la logique du contenu
+- Les composants "required: true" sont obligatoires
+- Les composants "required: false" sont optionnels - choisis ceux qui sont pertinents pour le prompt
+`;
+    } else {
+      componentSelectionInstructions = `
+SÉLECTION DES COMPOSANTS:
+- Sélectionne des composants appropriés selon le sujet du prompt
+- Utilise entre 3 et 8 composants pour une page complète
+`;
+    }
 
     const systemPrompt = `Tu es un expert en développement Next.js 16 et React 19. 
 Tu dois générer une page Next.js complète en UTILISANT LA STRUCTURE des composants existants mais en REMPLAÇANT leur contenu hardcodé par du contenu pertinent basé sur le prompt utilisateur.
+
+${templateInstructions}
 
 PRINCIPE FONDAMENTAL:
 - Les composants existants (OurMission, WhyChooseUs, Feature, etc.) ont une STRUCTURE et un DESIGN prédéfinis
@@ -345,9 +440,11 @@ ROUTE: "${route}"
 NOM DE LA PAGE: "${pageName}"
 CATÉGORIE: "${category}"
 
+${componentSelectionInstructions}
+
 INSTRUCTIONS FINALES:
-1. Regarde les composants disponibles dans la liste ci-dessus
-2. Sélectionne des composants appropriés selon le sujet du prompt (about, service, feature, etc.)
+1. Regarde les composants disponibles dans la liste ci-dessus${templateInfo ? ' (du template)' : ''}
+2. ${templateInfo ? `Sélectionne entre ${minComponents || templateInfo.minComponents || 3} et ${maxComponents || templateInfo.maxComponents || 8} composants du template` : 'Sélectionne des composants appropriés selon le sujet du prompt (about, service, feature, etc.)'}
 3. INCLUS OBLIGATOIREMENT:
    - NavbarOne au début (utiliser tel quel avec className et btnClassName standards)
    - FooterOne à la fin (utiliser tel quel sans modification)
@@ -357,6 +454,7 @@ INSTRUCTIONS FINALES:
    - Garde les images, les structures visuelles complexes si appropriées
 5. Utilise PageHero et CTAV1/CTAV2/CTAV4 avec des props personnalisées
 6. Génère le CODE COMPLET de la page avec les composants modifiés inline (pas d'imports des composants templates)
+${templateInfo ? `7. ORDRE: Tu peux réorganiser l'ordre des composants selon la logique du contenu, mais garde NavbarOne en premier et FooterOne en dernier` : ''}
 
 Génère UNIQUEMENT le code TypeScript/TSX complet de la page, sans markdown, sans backticks, sans explications.`;
 

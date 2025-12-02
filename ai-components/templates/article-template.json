@@ -1,0 +1,145 @@
+{
+  "id": "article-template",
+  "name": "Article Template",
+  "description": "Template pour pages d'articles, rapports, contenus longs",
+  "category": "article",
+  "minComponents": 3,
+  "maxComponents": 8,
+  "components": [
+    {
+      "name": "PageHero",
+      "path": "@/components/shared/PageHero",
+      "category": "shared",
+      "props": ["title", "heading", "link"],
+      "hasProps": true,
+      "required": true,
+      "order": 1,
+      "description": "En-tête de page avec titre et breadcrumb"
+    },
+    {
+      "name": "OurMission",
+      "path": "@/components/aboutpage-01/OurMission",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 2,
+      "description": "Section avec texte et image, idéale pour introduction"
+    },
+    {
+      "name": "WhyChooseUs",
+      "path": "@/components/aboutpage-01/WhyChooseUs",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 3,
+      "description": "Section avec liste de points et image latérale"
+    },
+    {
+      "name": "Innovation",
+      "path": "@/components/aboutpage-03/Innovation",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 4,
+      "description": "Section avec texte et image, pour développer un sujet"
+    },
+    {
+      "name": "Feature",
+      "path": "@/components/aboutpage-03/Feature",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 5,
+      "description": "Section avec grille de features/caractéristiques"
+    },
+    {
+      "name": "OurVision",
+      "path": "@/components/aboutpage-03/OurVision",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 6,
+      "description": "Section avec grille de cartes, idéale pour listes/points"
+    },
+    {
+      "name": "VisionStatement",
+      "path": "@/components/aboutpage-01/VisionStatement",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 7,
+      "description": "Section avec texte centré, pour conclusions ou déclarations"
+    },
+    {
+      "name": "FinanceIntro",
+      "path": "@/components/aboutpage-02/FinanceIntro",
+      "category": "about",
+      "props": [],
+      "hasProps": false,
+      "required": false,
+      "order": 8,
+      "description": "Section avec texte et éléments visuels"
+    },
+    {
+      "name": "CTAV1",
+      "path": "@/components/shared/cta/CTAV1",
+      "category": "cta",
+      "props": ["ctaHeading", "description", "ctaBtnText", "badgeText"],
+      "hasProps": true,
+      "required": false,
+      "order": 9,
+      "description": "Call-to-action avec formulaire, pour conversion"
+    },
+    {
+      "name": "CTAV2",
+      "path": "@/components/shared/cta/CTAV2",
+      "category": "cta",
+      "props": ["ctaHeading", "ctaDescription", "ctaBtnText", "ctaCheckListData"],
+      "hasProps": true,
+      "required": false,
+      "order": 10,
+      "description": "Call-to-action avec checklist"
+    },
+    {
+      "name": "CTAV4",
+      "path": "@/components/shared/cta/CTAV4",
+      "category": "cta",
+      "props": ["ctaHeading", "ctaDescription", "ctaBtnText", "badgeText", "ctaCheckListData"],
+      "hasProps": true,
+      "required": false,
+      "order": 11,
+      "description": "Call-to-action avec formulaire et checklist"
+    },
+    {
+      "name": "ReviewsV3",
+      "path": "@/components/shared/reviews/ReviewsV3",
+      "category": "reviews",
+      "props": ["badgeText", "title", "description", "buttonText", "badgeColor"],
+      "hasProps": true,
+      "required": false,
+      "order": 12,
+      "description": "Section de témoignages/avis clients"
+    },
+    {
+      "name": "RevealAnimation",
+      "path": "@/components/animation/RevealAnimation",
+      "category": "animation",
+      "props": ["delay", "duration", "direction"],
+      "hasProps": true,
+      "required": false,
+      "order": 0,
+      "description": "Wrapper d'animation pour révéler les éléments au scroll"
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}
+
