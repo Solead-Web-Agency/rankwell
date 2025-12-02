@@ -1,0 +1,36 @@
+{
+  "name": "Testimonial",
+  "path": "@/components/homepage-03/Testimonial.tsx",
+  "description": "Component Testimonial from homepage-03",
+  "category": "other",
+  "props": [
+    {
+      "name": "badgeText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "classname",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeColor",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

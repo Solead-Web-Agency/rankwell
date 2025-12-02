@@ -1,0 +1,11 @@
+{
+  "name": "CareerContent",
+  "path": "@/components/career/CareerContent.tsx",
+  "description": "Component CareerContent from career",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

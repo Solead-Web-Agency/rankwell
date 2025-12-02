@@ -1,0 +1,11 @@
+{
+  "name": "Heading",
+  "path": "@/components/blog-03/Heading.tsx",
+  "description": "Component Heading from blog-03",
+  "category": "blog",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

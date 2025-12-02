@@ -1,0 +1,11 @@
+{
+  "name": "Reviews",
+  "path": "@/components/homepage-11/Reviews.tsx",
+  "description": "Component Reviews from homepage-11",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

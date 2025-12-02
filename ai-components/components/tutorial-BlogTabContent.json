@@ -1,0 +1,11 @@
+{
+  "name": "BlogTabContent",
+  "path": "@/components/tutorial/BlogTabContent.tsx",
+  "description": "Component BlogTabContent from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

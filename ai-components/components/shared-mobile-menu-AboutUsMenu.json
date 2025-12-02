@@ -1,0 +1,11 @@
+{
+  "name": "AboutUsMenu",
+  "path": "@/components/shared/mobile-menu/AboutUsMenu.tsx",
+  "description": "Component AboutUsMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,67 @@
+{
+  "id": "tutorial-template",
+  "name": "Tutorial Template",
+  "description": "Template pour pages de type tutorial",
+  "category": "tutorial",
+  "components": [
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 2
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Banner",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Community",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "Tutorials",
+      "required": false,
+      "order": 11
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

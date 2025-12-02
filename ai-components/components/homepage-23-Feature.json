@@ -1,0 +1,11 @@
+{
+  "name": "Feature",
+  "path": "@/components/homepage-23/Feature.tsx",
+  "description": "Component Feature from homepage-23",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "FAQ",
+  "path": "@/components/homepage-13/FAQ.tsx",
+  "description": "Component FAQ from homepage-13",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

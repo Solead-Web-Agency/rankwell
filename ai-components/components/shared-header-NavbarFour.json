@@ -1,0 +1,30 @@
+{
+  "name": "NavbarFour",
+  "path": "@/components/shared/header/NavbarFour.tsx",
+  "description": "Component NavbarFour from header",
+  "category": "header",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "megaMenuColor",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

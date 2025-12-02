@@ -1,0 +1,37 @@
+{
+  "id": "refund-policy-template",
+  "name": "Refund-policy Template",
+  "description": "Template pour pages de type refund-policy",
+  "category": "refund-policy",
+  "components": [
+    {
+      "component": "RefundPolicyContent",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 4
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 5
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

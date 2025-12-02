@@ -1,0 +1,47 @@
+{
+  "id": "analytics-template",
+  "name": "Analytics Template",
+  "description": "Template pour pages de type analytics",
+  "category": "analytics",
+  "components": [
+    {
+      "component": "AnalyticsDetails",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "AnalyticsHero",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "AnalyticsTestimonial",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

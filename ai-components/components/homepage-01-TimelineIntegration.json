@@ -1,0 +1,11 @@
+{
+  "name": "TimelineIntegration",
+  "path": "@/components/homepage-01/TimelineIntegration.tsx",
+  "description": "Component TimelineIntegration from homepage-01",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,60 @@
+{
+  "name": "AccordionTrigger",
+  "path": "@/components/ui/accordion/AccordionTrigger.tsx",
+  "description": "Component AccordionTrigger from accordion",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "value",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "iconType",
+      "type": "'arrow' | 'plus' | 'custom'",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "customIcon",
+      "type": "React.ReactNode",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "titleClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "iconClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "PageHero",
+  "path": "@/components/shared/PageHero.tsx",
+  "description": "Component PageHero from shared",
+  "category": "shared",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "heading",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "link",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

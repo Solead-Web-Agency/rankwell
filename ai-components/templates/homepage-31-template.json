@@ -1,0 +1,57 @@
+{
+  "id": "homepage-31-template",
+  "name": "Homepage-31 Template",
+  "description": "Template pour pages de type homepage-31",
+  "category": "homepage-31",
+  "components": [
+    {
+      "component": "Features",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FeaturesV2",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "SuccessStats",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "WhyUs",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "NavbarTwo",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 9
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "About",
+  "path": "@/components/homepage-02/About.tsx",
+  "description": "Component About from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

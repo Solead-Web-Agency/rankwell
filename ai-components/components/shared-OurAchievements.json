@@ -1,0 +1,42 @@
+{
+  "name": "OurAchievements",
+  "path": "@/components/shared/OurAchievements.tsx",
+  "description": "Component OurAchievements from shared",
+  "category": "shared",
+  "props": [
+    {
+      "name": "achievements",
+      "type": "AchievementItem[]",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "defaultClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "instant",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Feature",
+  "path": "@/components/case-study/Feature.tsx",
+  "description": "Component Feature from case-study",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

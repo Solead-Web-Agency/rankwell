@@ -1,0 +1,11 @@
+{
+  "name": "ProcessMenu",
+  "path": "@/components/shared/mobile-menu/ProcessMenu.tsx",
+  "description": "Component ProcessMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

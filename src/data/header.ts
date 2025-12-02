@@ -78,11 +78,11 @@ export const blogMenuItems: MegaMenuItem[] = [
 ];
 
 // Services Menu Data
-export const servicesMenuItems: MegaMenuItem[] = [
-  { id: 'services-1', label: 'Services Page 01', href: '/our-services-01' },
+export const servicesMenuItems: MegaMenuItem[] = [{ id: 'services-1', label: 'Services Page 01', href: '/our-services-01' },
   { id: 'services-2', label: 'Services Page 02', href: '/our-services-02' },
   { id: 'services-3', label: 'Services Page 03', href: '/our-services-03' },
   { id: 'services-details', label: 'Services Details', href: '/our-services/cost-allocation-and-calculation' },
+  { id: '-test-seo', label: 'test seo', href: '/test-seo' },
 ];
 
 // Home Mega Menu Data (3 columns)

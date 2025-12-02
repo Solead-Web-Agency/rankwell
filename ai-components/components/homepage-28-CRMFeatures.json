@@ -1,0 +1,11 @@
+{
+  "name": "CRMFeatures",
+  "path": "@/components/homepage-28/CRMFeatures.tsx",
+  "description": "Component CRMFeatures from homepage-28",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

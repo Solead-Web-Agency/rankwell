@@ -1,0 +1,11 @@
+{
+  "name": "NeedHelp",
+  "path": "@/components/support/NeedHelp.tsx",
+  "description": "Component NeedHelp from support",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Process",
+  "path": "@/components/homepage-15/Process.tsx",
+  "description": "Component Process from homepage-15",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

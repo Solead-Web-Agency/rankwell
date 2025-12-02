@@ -10,9 +10,10 @@
     "lint:fix": "eslint --fix .",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "postinstall": "tsx folder-rename.ts --utb"
+    "postinstall": "tsx folder-rename.ts --utb && node scripts/fix-lightningcss.js"
   },
   "dependencies": {
+    "@google/genai": "^1.30.0",
     "@gsap/react": "^2.1.2",
     "classnames": "^2.5.1",
     "gray-matter": "^4.0.3",
@@ -38,6 +39,7 @@
     "clsx": "^2.1.1",
     "eslint": "^9",
     "eslint-config-next": "16.0.0",
+    "lightningcss": "^1.30.2",
     "postcss": "^8.0.9",
     "prettier": "^3.6.2",
     "prettier-plugin-css-order": "^2.1.2",
@@ -50,5 +52,9 @@
   "resolutions": {
     "@types/react": "19.2.2",
     "@types/react-dom": "19.2.2"
+  },
+  "optionalDependencies": {
+    "@tailwindcss/oxide-darwin-x64": "^4.1.17",
+    "lightningcss-darwin-x64": "^1.30.2"
   }
 }

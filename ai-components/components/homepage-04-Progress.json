@@ -1,0 +1,36 @@
+{
+  "name": "Progress",
+  "path": "@/components/homepage-04/Progress.tsx",
+  "description": "Component Progress from homepage-04",
+  "category": "other",
+  "props": [
+    {
+      "name": "value",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "duration",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "triggerOnScroll",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

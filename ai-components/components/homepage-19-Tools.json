@@ -1,0 +1,11 @@
+{
+  "name": "Tools",
+  "path": "@/components/homepage-19/Tools.tsx",
+  "description": "Component Tools from homepage-19",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

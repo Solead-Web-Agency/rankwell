@@ -1,0 +1,11 @@
+{
+  "name": "Hero",
+  "path": "@/components/homepage-27/Hero.tsx",
+  "description": "Component Hero from homepage-27",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

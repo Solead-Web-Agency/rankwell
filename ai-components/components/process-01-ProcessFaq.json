@@ -1,0 +1,16 @@
+{
+  "name": "ProcessFaq",
+  "path": "@/components/process-01/ProcessFaq.tsx",
+  "description": "Component ProcessFaq from process-01",
+  "category": "other",
+  "props": [],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,41 @@
+{
+  "name": "NavCTAButton",
+  "path": "@/components/shared/header/NavCTAButton.tsx",
+  "description": "Component NavCTAButton from header",
+  "category": "header",
+  "props": [
+    {
+      "name": "btnClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "href",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "label",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "LinkButton",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,36 @@
+{
+  "name": "NavbarOne",
+  "path": "@/components/shared/header/NavbarOne.tsx",
+  "description": "Component NavbarOne from header",
+  "category": "header",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "megaMenuColor",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClassName",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "navItemClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

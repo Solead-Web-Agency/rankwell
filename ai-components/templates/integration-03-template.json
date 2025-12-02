@@ -1,0 +1,37 @@
+{
+  "id": "integration-03-template",
+  "name": "Integration-03 Template",
+  "description": "Template pour pages de type integration-03",
+  "category": "integration-03",
+  "components": [
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 4
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 5
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

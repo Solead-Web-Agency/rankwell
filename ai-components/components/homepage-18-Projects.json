@@ -1,0 +1,11 @@
+{
+  "name": "Projects",
+  "path": "@/components/homepage-18/Projects.tsx",
+  "description": "Component Projects from homepage-18",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

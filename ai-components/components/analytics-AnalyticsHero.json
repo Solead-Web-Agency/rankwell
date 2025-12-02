@@ -1,0 +1,11 @@
+{
+  "name": "AnalyticsHero",
+  "path": "@/components/analytics/AnalyticsHero.tsx",
+  "description": "Component AnalyticsHero from analytics",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

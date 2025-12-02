@@ -1,0 +1,18 @@
+{
+  "name": "BlogList",
+  "path": "@/components/blog-03/BlogList.tsx",
+  "description": "Component BlogList from blog-03",
+  "category": "blog",
+  "props": [
+    {
+      "name": "blogs",
+      "type": "IBlogPost[]",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

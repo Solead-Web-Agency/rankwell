@@ -1,0 +1,11 @@
+{
+  "name": "Banner",
+  "path": "@/components/tutorial/Banner.tsx",
+  "description": "Component Banner from tutorial",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

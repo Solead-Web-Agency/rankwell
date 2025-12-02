@@ -1,0 +1,18 @@
+{
+  "name": "PricingCard",
+  "path": "@/components/homepage-28/PricingCard.tsx",
+  "description": "Component PricingCard from homepage-28",
+  "category": "other",
+  "props": [
+    {
+      "name": "isAnnual",
+      "type": "boolean",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

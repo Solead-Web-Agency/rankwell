@@ -1,0 +1,11 @@
+{
+  "name": "VideoModal",
+  "path": "@/components/shared/VideoModal.tsx",
+  "description": "Component VideoModal from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

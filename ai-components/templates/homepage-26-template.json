@@ -1,0 +1,57 @@
+{
+  "id": "homepage-26-template",
+  "name": "Homepage-26 Template",
+  "description": "Template pour pages de type homepage-26",
+  "category": "homepage-26",
+  "components": [
+    {
+      "component": "Features",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "WhyChooseUs",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "WhyChooseUsV2",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "NavbarFive",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 9
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Gadgets",
+  "path": "@/components/homepage-37/Gadgets.tsx",
+  "description": "Component Gadgets from homepage-37",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

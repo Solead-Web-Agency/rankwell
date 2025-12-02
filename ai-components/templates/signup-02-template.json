@@ -1,0 +1,32 @@
+{
+  "id": "signup-02-template",
+  "name": "Signup-02 Template",
+  "description": "Template pour pages de type signup-02",
+  "category": "signup-02",
+  "components": [
+    {
+      "component": "SignupHeroV2",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 3
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 4
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

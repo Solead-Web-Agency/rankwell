@@ -1,0 +1,16 @@
+{
+  "name": "FooterFour",
+  "path": "@/components/shared/footer/FooterFour.tsx",
+  "description": "Component FooterFour from footer",
+  "category": "footer",
+  "props": [],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

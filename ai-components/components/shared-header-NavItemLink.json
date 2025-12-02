@@ -1,0 +1,24 @@
+{
+  "name": "NavItemLink",
+  "path": "@/components/shared/header/NavItemLink.tsx",
+  "description": "Component NavItemLink from header",
+  "category": "header",
+  "props": [
+    {
+      "name": "item",
+      "type": "NavigationItem",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "variant",
+      "type": "NavItemVariant",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

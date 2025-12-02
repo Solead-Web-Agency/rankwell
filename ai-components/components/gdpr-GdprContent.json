@@ -1,0 +1,11 @@
+{
+  "name": "GdprContent",
+  "path": "@/components/gdpr/GdprContent.tsx",
+  "description": "Component GdprContent from gdpr",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

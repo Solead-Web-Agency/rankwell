@@ -1,0 +1,18 @@
+{
+  "name": "ClientProviders",
+  "path": "@/components/providers/ClientProviders.tsx",
+  "description": "Component ClientProviders from providers",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "ReactNode",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

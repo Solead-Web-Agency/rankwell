@@ -1,0 +1,72 @@
+{
+  "id": "homepage-19-template",
+  "name": "Homepage-19 Template",
+  "description": "Template pour pages de type homepage-19",
+  "category": "homepage-19",
+  "components": [
+    {
+      "component": "Steps",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Clients",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "DownloadApp",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "GetStarted",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "MeetOurTeam",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Solutions",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Tools",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 11
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 12
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

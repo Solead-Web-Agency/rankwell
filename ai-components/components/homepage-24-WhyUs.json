@@ -1,0 +1,11 @@
+{
+  "name": "WhyUs",
+  "path": "@/components/homepage-24/WhyUs.tsx",
+  "description": "Component WhyUs from homepage-24",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

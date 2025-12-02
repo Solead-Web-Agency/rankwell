@@ -1,0 +1,11 @@
+{
+  "name": "StackCardWrapper",
+  "path": "@/components/ui/stack-card/StackCardWrapper.tsx",
+  "description": "Component StackCardWrapper from stack-card",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,52 @@
+{
+  "id": "our-team-01-template",
+  "name": "Our-team-01 Template",
+  "description": "Template pour pages de type our-team-01",
+  "category": "our-team-01",
+  "components": [
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "FAQ",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Experience",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Teams",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 8
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "id": "homepage-35-template",
+  "name": "Homepage-35 Template",
+  "description": "Template pour pages de type homepage-35",
+  "category": "homepage-35",
+  "components": [
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "ServicesV2",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 9
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

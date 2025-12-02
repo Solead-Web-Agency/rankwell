@@ -1,0 +1,11 @@
+{
+  "name": "Contents",
+  "path": "@/components/our-serices-details/Contents.tsx",
+  "description": "Component Contents from our-serices-details",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

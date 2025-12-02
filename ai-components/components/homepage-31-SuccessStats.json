@@ -1,0 +1,11 @@
+{
+  "name": "SuccessStats",
+  "path": "@/components/homepage-31/SuccessStats.tsx",
+  "description": "Component SuccessStats from homepage-31",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "career-template",
+  "name": "Career Template",
+  "description": "Template pour pages de type career",
+  "category": "career",
+  "components": [
+    {
+      "component": "CareerContent",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Positions",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "CustomMarquee",
+  "path": "@/components/shared/CustomMarquee.tsx",
+  "description": "Component CustomMarquee from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

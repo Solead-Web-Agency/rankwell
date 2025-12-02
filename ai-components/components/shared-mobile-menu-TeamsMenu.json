@@ -1,0 +1,11 @@
+{
+  "name": "TeamsMenu",
+  "path": "@/components/shared/mobile-menu/TeamsMenu.tsx",
+  "description": "Component TeamsMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

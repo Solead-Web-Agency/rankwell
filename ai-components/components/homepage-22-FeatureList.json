@@ -1,0 +1,11 @@
+{
+  "name": "FeatureList",
+  "path": "@/components/homepage-22/FeatureList.tsx",
+  "description": "Component FeatureList from homepage-22",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

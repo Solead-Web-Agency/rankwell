@@ -1,0 +1,11 @@
+{
+  "name": "HeroBottomOverlay",
+  "path": "@/components/homepage-38/HeroBottomOverlay.tsx",
+  "description": "Component HeroBottomOverlay from homepage-38",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

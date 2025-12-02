@@ -1,0 +1,11 @@
+{
+  "name": "HeroQR",
+  "path": "@/components/homepage-26/HeroQR.tsx",
+  "description": "Component HeroQR from homepage-26",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

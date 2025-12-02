@@ -1,0 +1,11 @@
+{
+  "name": "ProcessOperation",
+  "path": "@/components/process-02/ProcessOperation.tsx",
+  "description": "Component ProcessOperation from process-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

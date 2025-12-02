@@ -1,0 +1,24 @@
+{
+  "name": "PricingCard",
+  "path": "@/components/homepage-07/PricingCard.tsx",
+  "description": "Component PricingCard from homepage-07",
+  "category": "other",
+  "props": [
+    {
+      "name": "plan",
+      "type": "PricingPlan",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "delay",
+      "type": "number",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

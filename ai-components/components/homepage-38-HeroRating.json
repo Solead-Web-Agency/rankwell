@@ -1,0 +1,11 @@
+{
+  "name": "HeroRating",
+  "path": "@/components/homepage-38/HeroRating.tsx",
+  "description": "Component HeroRating from homepage-38",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

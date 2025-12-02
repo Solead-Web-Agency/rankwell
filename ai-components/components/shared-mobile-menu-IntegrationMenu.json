@@ -1,0 +1,11 @@
+{
+  "name": "IntegrationMenu",
+  "path": "@/components/shared/mobile-menu/IntegrationMenu.tsx",
+  "description": "Component IntegrationMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

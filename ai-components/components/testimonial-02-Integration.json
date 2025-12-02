@@ -1,0 +1,11 @@
+{
+  "name": "Integration",
+  "path": "@/components/testimonial-02/Integration.tsx",
+  "description": "Component Integration from testimonial-02",
+  "category": "testimonial",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LinkButton",
+  "path": "@/components/ui/button/LinkButton.tsx",
+  "description": "Component LinkButton from button",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

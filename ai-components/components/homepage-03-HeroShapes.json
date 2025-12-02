@@ -1,0 +1,11 @@
+{
+  "name": "HeroShapes",
+  "path": "@/components/homepage-03/HeroShapes.tsx",
+  "description": "Component HeroShapes from homepage-03",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

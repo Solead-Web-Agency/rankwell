@@ -1,0 +1,11 @@
+{
+  "name": "RefundPolicyContent",
+  "path": "@/components/refund-policy/RefundPolicyContent.tsx",
+  "description": "Component RefundPolicyContent from refund-policy",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

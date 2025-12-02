@@ -1,0 +1,11 @@
+{
+  "name": "VerticalLine",
+  "path": "@/components/homepage-01/VerticalLine.tsx",
+  "description": "Component VerticalLine from homepage-01",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "FooterRightGradient",
+  "path": "@/components/shared/footer/FooterRightGradient.tsx",
+  "description": "Component FooterRightGradient from footer",
+  "category": "footer",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

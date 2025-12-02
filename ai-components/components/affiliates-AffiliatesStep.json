@@ -1,0 +1,11 @@
+{
+  "name": "AffiliatesStep",
+  "path": "@/components/affiliates/AffiliatesStep.tsx",
+  "description": "Component AffiliatesStep from affiliates",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

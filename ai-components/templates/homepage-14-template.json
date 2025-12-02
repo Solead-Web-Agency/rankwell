@@ -1,0 +1,67 @@
+{
+  "id": "homepage-14-template",
+  "name": "Homepage-14 Template",
+  "description": "Template pour pages de type homepage-14",
+  "category": "homepage-14",
+  "components": [
+    {
+      "component": "ContactUs",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Eligibility",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Solutions",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Steps",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "WhyChooseNextSaas",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 9
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 10
+    },
+    {
+      "component": "ReviewsV3",
+      "required": false,
+      "order": 11
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

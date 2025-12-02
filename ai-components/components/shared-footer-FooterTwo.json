@@ -1,0 +1,11 @@
+{
+  "name": "FooterTwo",
+  "path": "@/components/shared/footer/FooterTwo.tsx",
+  "description": "Component FooterTwo from footer",
+  "category": "footer",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

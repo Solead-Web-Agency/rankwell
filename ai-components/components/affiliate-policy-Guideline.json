@@ -1,0 +1,11 @@
+{
+  "name": "Guideline",
+  "path": "@/components/affiliate-policy/Guideline.tsx",
+  "description": "Component Guideline from affiliate-policy",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

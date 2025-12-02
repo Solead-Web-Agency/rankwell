@@ -1,0 +1,11 @@
+{
+  "name": "TeamMemberImg",
+  "path": "@/components/team-details/TeamMemberImg.tsx",
+  "description": "Component TeamMemberImg from team-details",
+  "category": "team",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

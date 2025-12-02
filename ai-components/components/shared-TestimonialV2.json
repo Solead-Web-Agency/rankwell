@@ -1,0 +1,11 @@
+{
+  "name": "TestimonialV2",
+  "path": "@/components/shared/TestimonialV2.tsx",
+  "description": "Component TestimonialV2 from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

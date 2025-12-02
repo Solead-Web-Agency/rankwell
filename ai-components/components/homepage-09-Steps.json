@@ -1,0 +1,11 @@
+{
+  "name": "Steps",
+  "path": "@/components/homepage-09/Steps.tsx",
+  "description": "Component Steps from homepage-09",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

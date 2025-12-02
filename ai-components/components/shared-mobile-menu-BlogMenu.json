@@ -1,0 +1,11 @@
+{
+  "name": "BlogMenu",
+  "path": "@/components/shared/mobile-menu/BlogMenu.tsx",
+  "description": "Component BlogMenu from mobile-menu",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

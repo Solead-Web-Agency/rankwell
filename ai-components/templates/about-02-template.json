@@ -1,0 +1,57 @@
+{
+  "id": "about-02-template",
+  "name": "About-02 Template",
+  "description": "Template pour pages de type about-02",
+  "category": "about-02",
+  "components": [
+    {
+      "component": "FinanceIntro",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "OurMission",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Reviews",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "VisionStatement",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "TrustedByUsers",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "CTAV2",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 9
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

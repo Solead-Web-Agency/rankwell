@@ -1,0 +1,11 @@
+{
+  "name": "SocialLinkV2",
+  "path": "@/components/shared/SocialLinkV2.tsx",
+  "description": "Component SocialLinkV2 from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

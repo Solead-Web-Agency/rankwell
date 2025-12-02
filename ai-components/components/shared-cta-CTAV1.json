@@ -1,0 +1,95 @@
+{
+  "name": "CTAV1",
+  "path": "@/components/shared/cta/CTAV1.tsx",
+  "description": "Component CTAV1 from cta",
+  "category": "cta",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaHeading",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "spanText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaBtnText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "descriptionClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "headingClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "listTextClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "inputFieldClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "checkListVariant",
+      "type": "'default' | 'gray'",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

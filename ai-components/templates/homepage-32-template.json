@@ -1,0 +1,77 @@
+{
+  "id": "homepage-32-template",
+  "name": "Homepage-32 Template",
+  "description": "Template pour pages de type homepage-32",
+  "category": "homepage-32",
+  "components": [
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "FeatureV2",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FeatureV3",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Highlights",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "NewsLetter",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Process",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "FooterFour",
+      "required": true,
+      "order": 11
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 12
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 13
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

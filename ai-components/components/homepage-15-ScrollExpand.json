@@ -1,0 +1,11 @@
+{
+  "name": "ScrollExpand",
+  "path": "@/components/homepage-15/ScrollExpand.tsx",
+  "description": "Component ScrollExpand from homepage-15",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

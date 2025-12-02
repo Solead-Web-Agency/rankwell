@@ -1,0 +1,11 @@
+{
+  "name": "SelectUs",
+  "path": "@/components/homepage-09/SelectUs.tsx",
+  "description": "Component SelectUs from homepage-09",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "GeneralTab",
+  "path": "@/components/faq/GeneralTab.tsx",
+  "description": "Component GeneralTab from faq",
+  "category": "faq",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

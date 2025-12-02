@@ -1,0 +1,11 @@
+{
+  "name": "OurMission",
+  "path": "@/components/aboutpage-01/OurMission.tsx",
+  "description": "Component OurMission from aboutpage-01",
+  "category": "about",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

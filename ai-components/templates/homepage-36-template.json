@@ -1,0 +1,72 @@
+{
+  "id": "homepage-36-template",
+  "name": "Homepage-36 Template",
+  "description": "Template pour pages de type homepage-36",
+  "category": "homepage-36",
+  "components": [
+    {
+      "component": "CaseStudy",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "ClientsMarquee",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTA",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Faq",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Features",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "HeaderWrapper",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "HowItsWork",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Testimonial",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "WhatWeDo",
+      "required": false,
+      "order": 11
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 12
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "id": "homepage-05-template",
+  "name": "Homepage-05 Template",
+  "description": "Template pour pages de type homepage-05",
+  "category": "homepage-05",
+  "components": [
+    {
+      "component": "Blog",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Faq",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Number",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Process",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Team",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 11
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 12
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

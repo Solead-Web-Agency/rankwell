@@ -1,0 +1,47 @@
+{
+  "id": "case-study-template",
+  "name": "Case-study Template",
+  "description": "Template pour pages de type case-study",
+  "category": "case-study",
+  "components": [
+    {
+      "component": "CaseStudy",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Success",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

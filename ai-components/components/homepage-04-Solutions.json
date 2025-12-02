@@ -1,0 +1,11 @@
+{
+  "name": "Solutions",
+  "path": "@/components/homepage-04/Solutions.tsx",
+  "description": "Component Solutions from homepage-04",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

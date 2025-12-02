@@ -1,0 +1,62 @@
+{
+  "id": "homepage-02-template",
+  "name": "Homepage-02 Template",
+  "description": "Template pour pages de type homepage-02",
+  "category": "homepage-02",
+  "components": [
+    {
+      "component": "About",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Feature",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "Hero",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "Integration",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "Pricing",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "Work",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "FooterTwo",
+      "required": true,
+      "order": 7
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 8
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "VideoModal",
+      "required": false,
+      "order": 10
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

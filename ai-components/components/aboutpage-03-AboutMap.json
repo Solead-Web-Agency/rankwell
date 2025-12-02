@@ -1,0 +1,11 @@
+{
+  "name": "AboutMap",
+  "path": "@/components/aboutpage-03/AboutMap.tsx",
+  "description": "Component AboutMap from aboutpage-03",
+  "category": "about",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

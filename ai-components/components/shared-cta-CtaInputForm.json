@@ -1,0 +1,35 @@
+{
+  "name": "CtaInputForm",
+  "path": "@/components/shared/cta/CtaInputForm.tsx",
+  "description": "Component CtaInputForm from cta",
+  "category": "cta",
+  "props": [
+    {
+      "name": "btnClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaBtnText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "inputFieldClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

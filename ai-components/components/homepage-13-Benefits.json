@@ -1,0 +1,11 @@
+{
+  "name": "Benefits",
+  "path": "@/components/homepage-13/Benefits.tsx",
+  "description": "Component Benefits from homepage-13",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

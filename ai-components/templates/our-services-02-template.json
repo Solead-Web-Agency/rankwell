@@ -1,0 +1,47 @@
+{
+  "id": "our-services-02-template",
+  "name": "Our-services-02 Template",
+  "description": "Template pour pages de type our-services-02",
+  "category": "our-services-02",
+  "components": [
+    {
+      "component": "Features",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Services",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "ServicesV2",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 6
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 7
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "FeatureIntro",
+  "path": "@/components/use-case/FeatureIntro.tsx",
+  "description": "Component FeatureIntro from use-case",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "LoginHero",
+  "path": "@/components/authentication/LoginHero.tsx",
+  "description": "Component LoginHero from authentication",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

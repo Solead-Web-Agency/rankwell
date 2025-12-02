@@ -1,0 +1,18 @@
+{
+  "name": "BlogCard",
+  "path": "@/components/blog-03/BlogCard.tsx",
+  "description": "Component BlogCard from blog-03",
+  "category": "blog",
+  "props": [
+    {
+      "name": "blog",
+      "type": "IBlogPost",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

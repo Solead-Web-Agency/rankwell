@@ -1,0 +1,36 @@
+{
+  "name": "TestimonialCard",
+  "path": "@/components/homepage-37/TestimonialCard.tsx",
+  "description": "Component TestimonialCard from homepage-37",
+  "category": "other",
+  "props": [
+    {
+      "name": "name",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "image",
+      "type": "StaticImageData",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "quote",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "twitterUrl",
+      "type": "string",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

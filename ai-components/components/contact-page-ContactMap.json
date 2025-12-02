@@ -1,0 +1,11 @@
+{
+  "name": "ContactMap",
+  "path": "@/components/contact-page/ContactMap.tsx",
+  "description": "Component ContactMap from contact-page",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

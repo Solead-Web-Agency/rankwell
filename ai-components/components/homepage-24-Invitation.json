@@ -1,0 +1,11 @@
+{
+  "name": "Invitation",
+  "path": "@/components/homepage-24/Invitation.tsx",
+  "description": "Component Invitation from homepage-24",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

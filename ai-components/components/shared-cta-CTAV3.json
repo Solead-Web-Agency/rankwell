@@ -1,0 +1,83 @@
+{
+  "name": "CTAV3",
+  "path": "@/components/shared/cta/CTAV3.tsx",
+  "description": "Component CTAV3 from cta",
+  "category": "cta",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaHeading",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "spanText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "description",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "btnClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaBtnText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeText",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "inputFieldClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "ctaHeadingClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "descriptionClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [
+    {
+      "component": "RevealAnimation",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

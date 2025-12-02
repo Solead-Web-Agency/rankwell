@@ -1,0 +1,24 @@
+{
+  "name": "Services",
+  "path": "@/components/tutorial/Services.tsx",
+  "description": "Component Services from tutorial",
+  "category": "other",
+  "props": [
+    {
+      "name": "stat",
+      "type": "ServiceStat",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "isFirst",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

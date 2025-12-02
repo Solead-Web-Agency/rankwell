@@ -1,0 +1,11 @@
+{
+  "name": "Number",
+  "path": "@/components/homepage-05/Number.tsx",
+  "description": "Component Number from homepage-05",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

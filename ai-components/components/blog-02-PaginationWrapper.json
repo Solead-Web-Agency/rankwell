@@ -1,0 +1,18 @@
+{
+  "name": "PaginationWrapper",
+  "path": "@/components/blog-02/PaginationWrapper.tsx",
+  "description": "Component PaginationWrapper from blog-02",
+  "category": "blog",
+  "props": [
+    {
+      "name": "blogs",
+      "type": "IBlogPost[]",
+      "optional": false,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "Innovation",
+  "path": "@/components/aboutpage-03/Innovation.tsx",
+  "description": "Component Innovation from aboutpage-03",
+  "category": "about",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

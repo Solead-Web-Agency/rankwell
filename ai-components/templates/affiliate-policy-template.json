@@ -1,0 +1,42 @@
+{
+  "id": "affiliate-policy-template",
+  "name": "Affiliate-policy Template",
+  "description": "Template pour pages de type affiliate-policy",
+  "category": "affiliate-policy",
+  "components": [
+    {
+      "component": "AffiliateContent",
+      "required": false,
+      "order": 1
+    },
+    {
+      "component": "Guideline",
+      "required": false,
+      "order": 2
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "FooterThree",
+      "required": true,
+      "order": 4
+    },
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 5
+    },
+    {
+      "component": "PageHero",
+      "required": false,
+      "order": 6
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

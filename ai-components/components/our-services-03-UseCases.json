@@ -1,0 +1,11 @@
+{
+  "name": "UseCases",
+  "path": "@/components/our-services-03/UseCases.tsx",
+  "description": "Component UseCases from our-services-03",
+  "category": "service",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

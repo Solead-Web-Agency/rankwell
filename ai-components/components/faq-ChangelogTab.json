@@ -1,0 +1,11 @@
+{
+  "name": "ChangelogTab",
+  "path": "@/components/faq/ChangelogTab.tsx",
+  "description": "Component ChangelogTab from faq",
+  "category": "faq",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

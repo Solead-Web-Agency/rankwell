@@ -1,0 +1,11 @@
+{
+  "name": "PricingCardThree",
+  "path": "@/components/homepage-02/PricingCardThree.tsx",
+  "description": "Component PricingCardThree from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,197 @@
+{
+  "id": "showcase-template",
+  "name": "Showcase Template",
+  "description": "Template pour pages de type showcase",
+  "category": "showcase",
+  "components": [
+    {
+      "component": "NavbarOne",
+      "required": true,
+      "order": 1
+    },
+    {
+      "component": "FooterOne",
+      "required": true,
+      "order": 2
+    },
+    {
+      "component": "Hero01",
+      "required": false,
+      "order": 3
+    },
+    {
+      "component": "About01",
+      "required": false,
+      "order": 4
+    },
+    {
+      "component": "HowItWorks01",
+      "required": false,
+      "order": 5
+    },
+    {
+      "component": "OurServices01",
+      "required": false,
+      "order": 6
+    },
+    {
+      "component": "Faq01",
+      "required": false,
+      "order": 7
+    },
+    {
+      "component": "TimelineIntegration01",
+      "required": false,
+      "order": 8
+    },
+    {
+      "component": "Testimonial01",
+      "required": false,
+      "order": 9
+    },
+    {
+      "component": "Blog01",
+      "required": false,
+      "order": 10
+    },
+    {
+      "component": "Hero02",
+      "required": false,
+      "order": 11
+    },
+    {
+      "component": "About02",
+      "required": false,
+      "order": 12
+    },
+    {
+      "component": "Work02",
+      "required": false,
+      "order": 13
+    },
+    {
+      "component": "Feature02",
+      "required": false,
+      "order": 14
+    },
+    {
+      "component": "Pricing02",
+      "required": false,
+      "order": 15
+    },
+    {
+      "component": "Integration02",
+      "required": false,
+      "order": 16
+    },
+    {
+      "component": "Hero03",
+      "required": false,
+      "order": 17
+    },
+    {
+      "component": "Features03",
+      "required": false,
+      "order": 18
+    },
+    {
+      "component": "FeaturesV2_03",
+      "required": false,
+      "order": 19
+    },
+    {
+      "component": "Pricing03",
+      "required": false,
+      "order": 20
+    },
+    {
+      "component": "Integration03",
+      "required": false,
+      "order": 21
+    },
+    {
+      "component": "Understanding03",
+      "required": false,
+      "order": 22
+    },
+    {
+      "component": "Testimonial03",
+      "required": false,
+      "order": 23
+    },
+    {
+      "component": "Hero04",
+      "required": false,
+      "order": 24
+    },
+    {
+      "component": "SearchCta04",
+      "required": false,
+      "order": 25
+    },
+    {
+      "component": "Solutions04",
+      "required": false,
+      "order": 26
+    },
+    {
+      "component": "Services04",
+      "required": false,
+      "order": 27
+    },
+    {
+      "component": "Pricing04",
+      "required": false,
+      "order": 28
+    },
+    {
+      "component": "Process04",
+      "required": false,
+      "order": 29
+    },
+    {
+      "component": "Blogs04",
+      "required": false,
+      "order": 30
+    },
+    {
+      "component": "CTAV1",
+      "required": false,
+      "order": 31
+    },
+    {
+      "component": "CTAV2",
+      "required": false,
+      "order": 32
+    },
+    {
+      "component": "CTAV3",
+      "required": false,
+      "order": 33
+    },
+    {
+      "component": "CTAV4",
+      "required": false,
+      "order": 34
+    },
+    {
+      "component": "ReviewsV1",
+      "required": false,
+      "order": 35
+    },
+    {
+      "component": "ReviewsV2",
+      "required": false,
+      "order": 36
+    },
+    {
+      "component": "ReviewsV3",
+      "required": false,
+      "order": 37
+    }
+  ],
+  "seoTemplate": {
+    "title": "{pageName} - NextSaaS",
+    "description": "Description optimisée SEO pour {pageName}"
+  }
+}

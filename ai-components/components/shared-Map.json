@@ -1,0 +1,11 @@
+{
+  "name": "Map",
+  "path": "@/components/shared/Map.tsx",
+  "description": "Component Map from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

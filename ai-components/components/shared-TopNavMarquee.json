@@ -1,0 +1,11 @@
+{
+  "name": "TopNavMarquee",
+  "path": "@/components/shared/TopNavMarquee.tsx",
+  "description": "Component TopNavMarquee from shared",
+  "category": "shared",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "GetStarted",
+  "path": "@/components/homepage-19/GetStarted.tsx",
+  "description": "Component GetStarted from homepage-19",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

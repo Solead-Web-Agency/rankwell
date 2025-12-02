@@ -1,0 +1,11 @@
+{
+  "name": "Comment",
+  "path": "@/components/blod-details/Comment.tsx",
+  "description": "Component Comment from blod-details",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

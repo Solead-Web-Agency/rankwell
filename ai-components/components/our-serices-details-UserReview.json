@@ -1,0 +1,11 @@
+{
+  "name": "UserReview",
+  "path": "@/components/our-serices-details/UserReview.tsx",
+  "description": "Component UserReview from our-serices-details",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

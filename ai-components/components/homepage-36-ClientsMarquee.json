@@ -1,0 +1,11 @@
+{
+  "name": "ClientsMarquee",
+  "path": "@/components/homepage-36/ClientsMarquee.tsx",
+  "description": "Component ClientsMarquee from homepage-36",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

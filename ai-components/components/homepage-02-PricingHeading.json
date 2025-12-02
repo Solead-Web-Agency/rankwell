@@ -1,0 +1,11 @@
+{
+  "name": "PricingHeading",
+  "path": "@/components/homepage-02/PricingHeading.tsx",
+  "description": "Component PricingHeading from homepage-02",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

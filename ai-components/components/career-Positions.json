@@ -1,0 +1,16 @@
+{
+  "name": "Positions",
+  "path": "@/components/career/Positions.tsx",
+  "description": "Component Positions from career",
+  "category": "other",
+  "props": [],
+  "children": [
+    {
+      "component": "LinkButton",
+      "usage": "child"
+    }
+  ],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "SocialAuthV2",
+  "path": "@/components/authentication/SocialAuthV2.tsx",
+  "description": "Component SocialAuthV2 from authentication",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

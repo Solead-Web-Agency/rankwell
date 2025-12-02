@@ -1,0 +1,11 @@
+{
+  "name": "Statistics",
+  "path": "@/components/homepage-29/Statistics.tsx",
+  "description": "Component Statistics from homepage-29",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,54 @@
+{
+  "name": "Accordion",
+  "path": "@/components/ui/accordion/Accordion.tsx",
+  "description": "Component Accordion from accordion",
+  "category": "other",
+  "props": [
+    {
+      "name": "children",
+      "type": "React.ReactNode",
+      "optional": false,
+      "description": ""
+    },
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "defaultValue",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "allowMultiple",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "disabled",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "enableScrollAnimation",
+      "type": "boolean",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "animationDelay",
+      "type": "number",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

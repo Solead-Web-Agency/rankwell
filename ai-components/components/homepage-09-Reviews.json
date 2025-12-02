@@ -1,0 +1,24 @@
+{
+  "name": "Reviews",
+  "path": "@/components/homepage-09/Reviews.tsx",
+  "description": "Component Reviews from homepage-09",
+  "category": "other",
+  "props": [
+    {
+      "name": "className",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    },
+    {
+      "name": "badgeClass",
+      "type": "string",
+      "optional": true,
+      "description": ""
+    }
+  ],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}

@@ -1,0 +1,11 @@
+{
+  "name": "PrivacyContent",
+  "path": "@/components/privacy/PrivacyContent.tsx",
+  "description": "Component PrivacyContent from privacy",
+  "category": "other",
+  "props": [],
+  "children": [],
+  "examples": [],
+  "relatedComponents": [],
+  "templates": []
+}
