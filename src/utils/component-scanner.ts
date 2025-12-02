@@ -202,7 +202,7 @@ function scanPages(): PageDoc[] {
           const componentImports = extractComponentImports(content);
           
           // Extraire les métadonnées
-          const metadataMatch = content.match(/export\s+const\s+metadata[^=]*=\s*\{([^}]+)\}/s);
+          const metadataMatch = content.match(/export\s+const\s+metadata[^=]*=\s*\{([\s\S]+?)\}/);
           let metadata: { title?: string; description?: string } = {};
           if (metadataMatch) {
             const metadataContent = metadataMatch[1];
