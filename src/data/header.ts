@@ -125,8 +125,7 @@ export const homeMegaMenuColumns: MegaMenuColumn[] = [
   },
   {
     id: 'column-3',
-    items: [
-      { id: 'home-27', label: '27. Social Media Management', href: '/homepage-27' },
+    items: [{ id: 'home-27', label: '27. Social Media Management', href: '/homepage-27' },
       { id: 'home-28', label: '28. Nuvexa CRM', href: '/homepage-28' },
       { id: 'home-29', label: '29. Wealth Management', href: '/homepage-29' },
       { id: 'home-30', label: '30. Security Software', href: '/homepage-30' },
@@ -138,6 +137,7 @@ export const homeMegaMenuColumns: MegaMenuColumn[] = [
       { id: 'home-36', label: '36. AI Application', href: '/homepage-36', newPage: true },
       { id: 'home-37', label: '37. AI Gadgets', href: '/homepage-37', newPage: true },
       { id: 'home-38', label: '38. AI Resume Builder', href: '/homepage-38', newPage: true },
+      { id: '-new-test', label: 'new test', href: '/new-test' }
     ],
   },
 ];
