@@ -1,0 +1,22 @@
+# robots.txt for https://www.rankwell.agency
+# Platform: Next.js
+
+Sitemap: https://www.rankwell.agency/sitemap.xml
+
+# ----- AI Agents -----
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: ClaudeBot
+User-agent: Claude-User
+User-agent: anthropic-ai
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Copilot
+Allow: /
+
+# ----- Default rules (all agents) -----
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/

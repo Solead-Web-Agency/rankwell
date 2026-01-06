@@ -1,0 +1,30 @@
+/**
+ * COLOR SAFELIST - Classes Tailwind à inclure dans le build
+ *
+ * Ce fichier force Tailwind à générer ces classes qui sont utilisées
+ * dynamiquement dans le système de couleurs (colorTheme.ts).
+ *
+ * NE PAS SUPPRIMER CE FICHIER !
+ */
+
+/*
+ * Les classes ci-dessous sont référencées pour que Tailwind les génère.
+ * Elles sont utilisées via le mapping dans src/lib/colorTheme.ts
+ */
+
+.safelist-colors {
+  /* rw-blue - GEO/SEO */
+  @apply text-rw-blue bg-rw-blue bg-rw-blue-light bg-rw-blue-soft border-rw-blue border-rw-blue-light;
+
+  /* rw-cyan - SEA */
+  @apply text-rw-cyan bg-rw-cyan bg-rw-cyan-light bg-rw-cyan-soft border-rw-cyan border-rw-cyan-light;
+
+  /* rw-purple - DATA */
+  @apply text-rw-purple bg-rw-purple bg-rw-purple-light bg-rw-purple-soft border-rw-purple border-rw-purple-light;
+
+  /* rw-coral - Accent */
+  @apply text-rw-coral bg-rw-coral bg-rw-coral-light bg-rw-coral-soft border-rw-coral border-rw-coral-light;
+
+  /* rw-pink - Accent */
+  @apply text-rw-pink bg-rw-pink bg-rw-pink-light bg-rw-pink-soft border-rw-pink border-rw-pink-light;
+}

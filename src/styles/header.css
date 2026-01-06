@@ -1,0 +1,67 @@
+/* =========================
+Navbar Styles
+=========================== */
+
+/* =========================
+Sidebar and header animations
+=========================== */
+
+/* Sidebar states */
+/* .show-sidebar {
+  @apply translate-x-0;
+} */
+
+/* .hide-sidebar {
+  @apply translate-x-full;
+} */
+
+/* Menu states */
+/* .active-menu {
+  @apply text-secondary dark:text-accent font-medium;
+} */
+
+/* Submenu arrow animation */
+/* .sub-menu-arrow {
+  @apply transition-transform duration-300 ease-in-out;
+} */
+
+/* Hamburger and close button animations */
+/* .nav-hamburger:hover,
+.nav-hamburger-close:hover {
+  @apply scale-105;
+} */
+
+.nav-hamburger span,
+.nav-hamburger-close span {
+  @apply transition-all duration-200 ease-in-out;
+}
+
+/* Smooth transitions for mobile menu */
+/* .sidebar {
+  @apply transition-transform duration-300 ease-in-out;
+} */
+
+/* Mobile menu backdrop overlay */
+/* .mobile-menu-overlay {
+  @apply fixed inset-0 bg-black/50 transition-opacity duration-300 ease-in-out;
+} */
+
+/* =========================
+Logo color variants by section
+Uses CSS filters to colorize the black logo
+=========================== */
+
+/* Blue (GEO-SEO, default) - #0031cc */
+.logo-blue {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(100%) saturate(5000%) hue-rotate(225deg) brightness(90%) contrast(115%);
+}
+
+/* Cyan (SEA) - #19c8dc */
+.logo-cyan {
+  filter: brightness(0) saturate(100%) invert(65%) sepia(70%) saturate(600%) hue-rotate(145deg) brightness(95%) contrast(95%);
+}
+
+/* Purple (Data) - #632cce */
+.logo-purple {
+  filter: brightness(0) saturate(100%) invert(22%) sepia(80%) saturate(4500%) hue-rotate(255deg) brightness(90%) contrast(105%);
+}
