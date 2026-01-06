@@ -4,6 +4,7 @@ import Springer from '@/utils/springer';
 import { useGSAP } from '@gsap/react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { usePathname } from 'next/navigation';
 import React, { ReactElement, Ref, cloneElement, useRef } from 'react';
 
 if (typeof window !== 'undefined') {
@@ -44,10 +45,14 @@ const RevealAnimation = ({
   className = '',
 }: RevealAnimationProps) => {
   const elementRef = useRef<HTMLElement>(null);
+  const pathname = usePathname(); // Track route changes
 
   useGSAP(() => {
     const element = elementRef.current;
     if (!element) return;
+
+    // Reset element state on each route change
+    gsap.set(element, { clearProps: 'all' });
 
     const spring = useSpring ? Springer.default(0.2, 0.8) : null;
 
@@ -124,7 +129,19 @@ const RevealAnimation = ({
     } else {
       gsap.from(element, animationProps);
     }
-  }, [duration, delay, offset, instant, start, end, direction, useSpring, rotation, animationType]);
+
+    // Cleanup function to kill animation on unmount or route change
+    return () => {
+      if (animationProps.scrollTrigger) {
+        ScrollTrigger.getAll().forEach(trigger => {
+          if (trigger.trigger === element) {
+            trigger.kill();
+          }
+        });
+      }
+      gsap.killTweensOf(element);
+    };
+  }, [duration, delay, offset, instant, start, end, direction, useSpring, rotation, animationType, pathname]);
 
   if (!children || !React.isValidElement(children)) {
     console.warn('RevealAnimation: Invalid children prop provided');

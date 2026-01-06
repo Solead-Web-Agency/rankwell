@@ -49,14 +49,23 @@ export function RouteChangeHandler() {
     // Kill all existing ScrollTriggers to prevent stale triggers
     ScrollTrigger.getAll().forEach(trigger => trigger.kill());
 
-    // Wait for DOM to be ready, then refresh ScrollTrigger
-    // Using double rAF to ensure paint has occurred
-    requestAnimationFrame(() => {
-      requestAnimationFrame(() => {
-        ScrollTrigger.refresh(true);
-      });
-    });
+    // Clear any pending GSAP animations
+    gsap.killTweensOf('*');
 
+    // Force a longer delay to ensure DOM is fully ready
+    // This is especially important in production builds
+    const timer = setTimeout(() => {
+      // Multiple rAF to ensure paint has occurred and content is visible
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            ScrollTrigger.refresh(true);
+          });
+        });
+      });
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, [pathname]);
 
   // This component renders nothing
