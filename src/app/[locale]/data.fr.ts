@@ -33,7 +33,7 @@ export const metadata = {
 // ============================================
 export const heroData = {
   badge: 'Agence GEO & SEO, SEA, Data',
-  title: 'Agence marketing digital orientée performance',
+  title: 'Agence marketing digital orientée performanceux',
   description: 'Votre partenaire digital pour générer du business via le Search. SEO, SEA, Data : on construit votre présence sur Google et sur les moteurs IA avec une approche 100% résultats.',
   primaryCta: {
     text: 'Discutons de votre projet',
