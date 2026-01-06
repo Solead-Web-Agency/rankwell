@@ -45,21 +45,19 @@ const RevealAnimation = ({
   className = '',
 }: RevealAnimationProps) => {
   const elementRef = useRef<HTMLElement>(null);
-  const pathname = usePathname();
+  const pathname = usePathname(); // Track route changes
 
   useGSAP(() => {
     const element = elementRef.current;
     if (!element) return;
 
+    // Reset element state on each route change
+    gsap.set(element, { clearProps: 'all' });
+
     const spring = useSpring ? Springer.default(0.2, 0.8) : null;
 
-    // Définir l'état initial visible par défaut
-    gsap.set(element, { 
-      opacity: 1, 
-      filter: 'blur(0)',
-      x: 0,
-      y: 0
-    });
+    element.style.opacity = '1';
+    element.style.filter = 'blur(0)';
 
     let animationProps: gsap.TweenVars;
 
@@ -95,9 +93,6 @@ const RevealAnimation = ({
         start: start,
         end: end,
         scrub: false,
-        // Force l'animation à se déclencher même si déjà dans le viewport
-        once: false,
-        toggleActions: 'play none none reset',
       };
     }
 
@@ -129,29 +124,13 @@ const RevealAnimation = ({
         break;
     }
 
-    // Si l'élément est déjà dans le viewport après navigation,
-    // afficher immédiatement sans animation
-    const rect = element.getBoundingClientRect();
-    const isInViewport = rect.top < window.innerHeight && rect.bottom > 0;
-    
-    if (isInViewport && !instant && pathname) {
-      // Élément visible, pas d'animation
-      gsap.set(element, { 
-        opacity: 1, 
-        filter: 'blur(0)',
-        x: 0,
-        y: 0
-      });
-      return;
-    }
-
     if (animationType === 'to') {
       gsap.to(element, animationProps);
     } else {
       gsap.from(element, animationProps);
     }
 
-    // Cleanup function
+    // Cleanup function to kill animation on unmount or route change
     return () => {
       if (animationProps.scrollTrigger) {
         ScrollTrigger.getAll().forEach(trigger => {
