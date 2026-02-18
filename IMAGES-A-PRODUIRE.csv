@@ -1,0 +1,166 @@
+Priorite;Page;URL;Section;Nom fichier;Description;Chemin complet;Pages utilisatrices;Statut
+;;;;;;;;
+;;========================================;;;;;;
+;;IMAGES PARTAGEES (SHARED);;;;;;
+;;========================================;;;;;;
+;;;;;;;;
+;;--- GROUPE 1 : Expertises principales (3 images) ---;;;;;;
+;;Composant: ServicesHomepage;;;;;;
+;;Pages: Homepage + Qui sommes-nous = 2 pages;;;;;;
+;;;;;;;;
+1;SHARED;/images/shared/expertises/;Expertises;expertise-geo-seo.webp;Illustration expertise GEO & SEO;public/images/shared/expertises/expertise-geo-seo.webp;/ (Homepage) + /agence/qui-sommes-nous;A faire
+1;SHARED;/images/shared/expertises/;Expertises;expertise-sea.webp;Illustration expertise SEA;public/images/shared/expertises/expertise-sea.webp;/ (Homepage) + /agence/qui-sommes-nous;A faire
+1;SHARED;/images/shared/expertises/;Expertises;expertise-data.webp;Illustration expertise Data & Analytics;public/images/shared/expertises/expertise-data.webp;/ (Homepage) + /agence/qui-sommes-nous;A faire
+;;;;;;;;
+;;--- GROUPE 2 : Services SEO (4 images) ---;;;;;;
+;;Composant: ServicesCards;;;;;;
+;;Pages: /agence-geo-seo + 65 pages ville = 66 pages;;;;;;
+;;;;;;;;
+1;SHARED;/images/shared/services-seo/;Nos services;service-audit-seo.webp;Service Audit SEO complet;public/images/shared/services-seo/service-audit-seo.webp;/agence-geo-seo + TOUTES pages ville (66 pages);A faire
+1;SHARED;/images/shared/services-seo/;Nos services;service-seo-technique.webp;Service SEO semantique et technique;public/images/shared/services-seo/service-seo-technique.webp;/agence-geo-seo + TOUTES pages ville (66 pages);A faire
+1;SHARED;/images/shared/services-seo/;Nos services;service-netlinking.webp;Service Netlinking;public/images/shared/services-seo/service-netlinking.webp;/agence-geo-seo + TOUTES pages ville (66 pages);A faire
+1;SHARED;/images/shared/services-seo/;Nos services;service-creation-contenu.webp;Service Creation de contenu;public/images/shared/services-seo/service-creation-contenu.webp;/agence-geo-seo + TOUTES pages ville (66 pages);A faire
+;;;;;;;;
+;;--- GROUPE 3 : Comprendre le GEO (4 images) ---;;;;;;
+;;Composant: FeaturesGrid;;;;;;
+;;Pages: 65 pages ville uniquement;;;;;;
+;;;;;;;;
+1;SHARED;/images/shared/geo-education/;Comprendre le GEO;geo-quest-ce-que.webp;Quest-ce que le GEO - concept;public/images/shared/geo-education/geo-quest-ce-que.webp;TOUTES pages ville uniquement (65 pages);A faire
+1;SHARED;/images/shared/geo-education/;Comprendre le GEO;geo-contenus-citables.webp;Contenus citation-ready pour IA;public/images/shared/geo-education/geo-contenus-citables.webp;TOUTES pages ville uniquement (65 pages);A faire
+1;SHARED;/images/shared/geo-education/;Comprendre le GEO;geo-autorite-thematique.webp;Autorite thematique;public/images/shared/geo-education/geo-autorite-thematique.webp;TOUTES pages ville uniquement (65 pages);A faire
+1;SHARED;/images/shared/geo-education/;Comprendre le GEO;geo-reseau-mentions.webp;Reseau de mentions;public/images/shared/geo-education/geo-reseau-mentions.webp;TOUTES pages ville uniquement (65 pages);A faire
+;;;;;;;;
+;;========================================;;;;;;
+;;IMAGES SPECIFIQUES PAR PAGE;;;;;;
+;;========================================;;;;;;
+;;;;;;;;
+;;--- AGENCE ---;;;;;;
+;;;;;;;;
+1;Qui sommes-nous;/agence/qui-sommes-nous;Presentation;photo-team.webp;Photo equipe Rankwell;public/images/pages/qui-sommes-nous/photo-team.webp;Cette page uniquement;EXISTE DEJA
+1;Qui sommes-nous;/agence/qui-sommes-nous;Presentation;fondateurs.webp;Photo des fondateurs Rankwell;public/images/pages/qui-sommes-nous/fondateurs.webp;Cette page uniquement;EXISTE DEJA
+;;;;;;;;
+;;--- GEO & SEO : Sous-pages ---;;;;;;
+;;;;;;;;
+2;Audit SEO;/agence-geo-seo/audit;Hero;hero.webp;Image hero Audit SEO;public/images/pages/agence-geo-seo/audit/hero.webp;Cette page uniquement;A faire
+2;Audit SEO;/agence-geo-seo/audit;Livrables;livrable-rapport.webp;Rapport audit complet;public/images/pages/agence-geo-seo/audit/livrable-rapport.webp;Cette page uniquement;A faire
+2;Audit SEO;/agence-geo-seo/audit;Livrables;livrable-priorisation.webp;Matrice de priorisation;public/images/pages/agence-geo-seo/audit/livrable-priorisation.webp;Cette page uniquement;A faire
+2;Audit SEO;/agence-geo-seo/audit;Livrables;livrable-actions.webp;Plan d actions;public/images/pages/agence-geo-seo/audit/livrable-actions.webp;Cette page uniquement;A faire
+2;Audit SEO;/agence-geo-seo/audit;Livrables;livrable-restitution.webp;Reunion de restitution;public/images/pages/agence-geo-seo/audit/livrable-restitution.webp;Cette page uniquement;A faire
+;;;;;;;;
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Hero;hero.webp;Image hero Technique & Semantique;public/images/pages/agence-geo-seo/technique-semantique/hero.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Technique;technique-performance.webp;Performance web / Core Web Vitals;public/images/pages/agence-geo-seo/technique-semantique/technique-performance.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Technique;technique-crawl.webp;Optimisation du crawl;public/images/pages/agence-geo-seo/technique-semantique/technique-crawl.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Technique;technique-architecture.webp;Architecture technique du site;public/images/pages/agence-geo-seo/technique-semantique/technique-architecture.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Technique;technique-donnees-structurees.webp;Schema.org / Donnees structurees;public/images/pages/agence-geo-seo/technique-semantique/technique-donnees-structurees.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Technique;technique-securite.webp;Securite HTTPS;public/images/pages/agence-geo-seo/technique-semantique/technique-securite.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Semantique;semantique-mots-cles.webp;Recherche de mots-cles;public/images/pages/agence-geo-seo/technique-semantique/semantique-mots-cles.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Semantique;semantique-architecture.webp;Architecture semantique / cocons;public/images/pages/agence-geo-seo/technique-semantique/semantique-architecture.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Semantique;semantique-onpage.webp;Optimisation on-page;public/images/pages/agence-geo-seo/technique-semantique/semantique-onpage.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Semantique;semantique-richesse.webp;Richesse semantique du contenu;public/images/pages/agence-geo-seo/technique-semantique/semantique-richesse.webp;Cette page uniquement;A faire
+2;Technique Semantique;/agence-geo-seo/technique-semantique;Volet Semantique;semantique-geo.webp;GEO - Generative Engine Optimization;public/images/pages/agence-geo-seo/technique-semantique/semantique-geo.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;Netlinking;/agence-geo-seo/netlinking;Hero;hero.webp;Image hero Netlinking;public/images/pages/agence-geo-seo/netlinking/hero.webp;Cette page uniquement;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-domain-rating.webp;KPI Domain Rating;public/images/pages/agence-geo-seo/netlinking/kpi-domain-rating.webp;Cette page uniquement;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-domaines-referents.webp;KPI Nombre de domaines referents;public/images/pages/agence-geo-seo/netlinking/kpi-domaines-referents.webp;Cette page uniquement;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-qualite-liens.webp;KPI Qualite des liens;public/images/pages/agence-geo-seo/netlinking/kpi-qualite-liens.webp;Cette page uniquement;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-impact-positions.webp;KPI Impact sur les positions;public/images/pages/agence-geo-seo/netlinking/kpi-impact-positions.webp;Cette page uniquement;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-presence-ia.webp;KPI Presence dans les IA;public/images/pages/agence-geo-seo/netlinking/kpi-presence-ia.webp;/agence-geo-seo/netlinking + /agence-geo-seo/local;A faire
+3;Netlinking;/agence-geo-seo/netlinking;KPIs;kpi-trafic-referent.webp;KPI Trafic referent;public/images/pages/agence-geo-seo/netlinking/kpi-trafic-referent.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Hero;hero.webp;Image hero Creation de contenu;public/images/pages/agence-geo-seo/creation-contenu/hero.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Types contenus;type-pages-piliers.webp;Pages piliers / pillar content;public/images/pages/agence-geo-seo/creation-contenu/type-pages-piliers.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Types contenus;type-articles-blog.webp;Articles de blog;public/images/pages/agence-geo-seo/creation-contenu/type-articles-blog.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Types contenus;type-pages-services.webp;Pages services;public/images/pages/agence-geo-seo/creation-contenu/type-pages-services.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Types contenus;type-landing-pages.webp;Landing pages;public/images/pages/agence-geo-seo/creation-contenu/type-landing-pages.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Types contenus;type-faq.webp;Pages FAQ;public/images/pages/agence-geo-seo/creation-contenu/type-faq.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Modes collab;collab-recurrent.webp;Accompagnement recurrent mensuel;public/images/pages/agence-geo-seo/creation-contenu/collab-recurrent.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Modes collab;collab-oneshot.webp;Mission one-shot ponctuelle;public/images/pages/agence-geo-seo/creation-contenu/collab-oneshot.webp;Cette page uniquement;A faire
+3;Creation Contenu;/agence-geo-seo/creation-contenu;Modes collab;collab-accompagnement.webp;Formation et accompagnement equipe;public/images/pages/agence-geo-seo/creation-contenu/collab-accompagnement.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;SEO Local;/agence-geo-seo/local;Hero;hero.webp;Image hero SEO Local;public/images/pages/agence-geo-seo/local/hero.webp;Cette page uniquement;A faire
+3;SEO Local;/agence-geo-seo/local;KPIs;kpi-pack-local.webp;KPI Positions Pack Local Google;public/images/pages/agence-geo-seo/local/kpi-pack-local.webp;Cette page uniquement;A faire
+3;SEO Local;/agence-geo-seo/local;KPIs;kpi-impressions-gbp.webp;KPI Impressions Google Business Profile;public/images/pages/agence-geo-seo/local/kpi-impressions-gbp.webp;Cette page uniquement;A faire
+3;SEO Local;/agence-geo-seo/local;KPIs;kpi-actions-gbp.webp;KPI Actions Google Business (appels, itineraires);public/images/pages/agence-geo-seo/local/kpi-actions-gbp.webp;Cette page uniquement;A faire
+3;SEO Local;/agence-geo-seo/local;KPIs;kpi-avis.webp;KPI Avis clients Google;public/images/pages/agence-geo-seo/local/kpi-avis.webp;Cette page uniquement;A faire
+3;SEO Local;/agence-geo-seo/local;KPIs;kpi-trafic-local.webp;KPI Trafic local organique;public/images/pages/agence-geo-seo/local/kpi-trafic-local.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;SEO International;/agence-geo-seo/international;Enjeux;enjeu-marche.webp;Comprendre le marche local cible;public/images/pages/agence-geo-seo/international/enjeu-marche.webp;Cette page uniquement;A faire
+3;SEO International;/agence-geo-seo/international;Enjeux;enjeu-technique.webp;Architecture technique multi-pays (hreflang);public/images/pages/agence-geo-seo/international/enjeu-technique.webp;Cette page uniquement;A faire
+3;SEO International;/agence-geo-seo/international;Enjeux;enjeu-autorite.webp;Construire autorite par marche;public/images/pages/agence-geo-seo/international/enjeu-autorite.webp;Cette page uniquement;A faire
+;;;;;;;;
+;;--- SEA ---;;;;;;
+;;;;;;;;
+1;Agence SEA;/agence-sea;Pourquoi SEA;pourquoi-resultats-immediats.webp;Resultats immediats des campagnes;public/images/pages/agence-sea/pourquoi-resultats-immediats.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Pourquoi SEA;pourquoi-ciblage-precis.webp;Ciblage precis des audiences;public/images/pages/agence-sea/pourquoi-ciblage-precis.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Pourquoi SEA;pourquoi-controle-total.webp;Controle total du budget;public/images/pages/agence-sea/pourquoi-controle-total.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Pourquoi SEA;pourquoi-mesurabilite.webp;Mesurabilite complete du ROI;public/images/pages/agence-sea/pourquoi-mesurabilite.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Services;service-setup.webp;Service Setup de compte Google Ads;public/images/pages/agence-sea/service-setup.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Services;service-accompagnement.webp;Service Accompagnement mensuel;public/images/pages/agence-sea/service-accompagnement.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Services;service-analyse-semantique.webp;Service Analyse semantique SEA;public/images/pages/agence-sea/service-analyse-semantique.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Types campagnes;campagne-search.webp;Campagne Search Google Ads;public/images/pages/agence-sea/campagne-search.webp;/agence-sea + /agence-sea/international;A faire
+1;Agence SEA;/agence-sea;Types campagnes;campagne-shopping.webp;Campagne Shopping Google Ads;public/images/pages/agence-sea/campagne-shopping.webp;/agence-sea + /agence-sea/international;A faire
+1;Agence SEA;/agence-sea;Types campagnes;campagne-display.webp;Campagne Display Google Ads;public/images/pages/agence-sea/campagne-display.webp;Cette page uniquement;A faire
+1;Agence SEA;/agence-sea;Types campagnes;campagne-performance-max.webp;Campagne Performance Max;public/images/pages/agence-sea/campagne-performance-max.webp;/agence-sea + /agence-sea/international;A faire
+1;Agence SEA;/agence-sea;Types campagnes;campagne-youtube.webp;Campagne YouTube Ads;public/images/pages/agence-sea/campagne-youtube.webp;Cette page uniquement;A faire
+;;;;;;;;
+2;Setup SEA;/agence-sea/setup;Livrables;livrable-compte-structure.webp;Compte Google Ads structure proprement;public/images/pages/agence-sea/setup/livrable-compte-structure.webp;Cette page uniquement;A faire
+2;Setup SEA;/agence-sea/setup;Livrables;livrable-tracking.webp;Tracking conversions implemente;public/images/pages/agence-sea/setup/livrable-tracking.webp;Cette page uniquement;A faire
+2;Setup SEA;/agence-sea/setup;Livrables;livrable-documentation.webp;Documentation complete du compte;public/images/pages/agence-sea/setup/livrable-documentation.webp;Cette page uniquement;A faire
+2;Setup SEA;/agence-sea/setup;Livrables;livrable-acces.webp;Acces et propriete du compte;public/images/pages/agence-sea/setup/livrable-acces.webp;Cette page uniquement;A faire
+2;Setup SEA;/agence-sea/setup;Livrables;livrable-accompagnement.webp;Accompagnement au lancement;public/images/pages/agence-sea/setup/livrable-accompagnement.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;Accompagnement SEA;/agence-sea/accompagnement;Formules;formule-gestion-complete.webp;Formule Gestion complete deleguee;public/images/pages/agence-sea/accompagnement/formule-gestion-complete.webp;Cette page uniquement;A faire
+3;Accompagnement SEA;/agence-sea/accompagnement;Formules;formule-co-pilotage.webp;Formule Co-pilotage avec equipe interne;public/images/pages/agence-sea/accompagnement/formule-co-pilotage.webp;Cette page uniquement;A faire
+3;Accompagnement SEA;/agence-sea/accompagnement;Formules;formule-conseil-ponctuel.webp;Formule Conseil ponctuel;public/images/pages/agence-sea/accompagnement/formule-conseil-ponctuel.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;Analyse Semantique SEA;/agence-sea/analyse-semantique;Livrables;livrable-base-mots-cles.webp;Base de mots-cles qualifiee;public/images/pages/agence-sea/analyse-semantique/livrable-base-mots-cles.webp;Cette page uniquement;A faire
+3;Analyse Semantique SEA;/agence-sea/analyse-semantique;Livrables;livrable-negatifs.webp;Liste mots-cles negatifs;public/images/pages/agence-sea/analyse-semantique/livrable-negatifs.webp;Cette page uniquement;A faire
+3;Analyse Semantique SEA;/agence-sea/analyse-semantique;Livrables;livrable-structure.webp;Structure de campagnes recommandee;public/images/pages/agence-sea/analyse-semantique/livrable-structure.webp;Cette page uniquement;A faire
+3;Analyse Semantique SEA;/agence-sea/analyse-semantique;Livrables;livrable-budget.webp;Estimation budget mensuel;public/images/pages/agence-sea/analyse-semantique/livrable-budget.webp;Cette page uniquement;A faire
+3;Analyse Semantique SEA;/agence-sea/analyse-semantique;Livrables;livrable-presentation.webp;Presentation strategique;public/images/pages/agence-sea/analyse-semantique/livrable-presentation.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;SEA International;/agence-sea/international;Approche;approche-structure.webp;Structure compte multi-pays;public/images/pages/agence-sea/international/approche-structure.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Approche;approche-localisation.webp;Localisation des campagnes par marche;public/images/pages/agence-sea/international/approche-localisation.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Approche;approche-landing-pages.webp;Landing pages adaptees par pays;public/images/pages/agence-sea/international/approche-landing-pages.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Approche;approche-arbitrage.webp;Arbitrage budgets entre pays;public/images/pages/agence-sea/international/approche-arbitrage.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Types campagnes;campagne-display-youtube.webp;Campagne Display et YouTube;public/images/pages/agence-sea/international/campagne-display-youtube.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Types campagnes;campagne-demand-gen.webp;Campagne Demand Gen;public/images/pages/agence-sea/international/campagne-demand-gen.webp;Cette page uniquement;A faire
+3;SEA International;/agence-sea/international;Types campagnes;campagne-app.webp;Campagne App Promotion;public/images/pages/agence-sea/international/campagne-app.webp;Cette page uniquement;A faire
+;;;;;;;;
+;;--- DATA ---;;;;;;
+;;;;;;;;
+1;Agence Data;/agence-data;Pourquoi Data;pourquoi-roi.webp;Mesurer le ROI reel du marketing;public/images/pages/agence-data/pourquoi-roi.webp;Cette page uniquement;A faire
+1;Agence Data;/agence-data;Pourquoi Data;pourquoi-fuites.webp;Identifier les fuites de conversion;public/images/pages/agence-data/pourquoi-fuites.webp;Cette page uniquement;A faire
+1;Agence Data;/agence-data;Pourquoi Data;pourquoi-prioriser.webp;Prioriser les actions marketing;public/images/pages/agence-data/pourquoi-prioriser.webp;Cette page uniquement;A faire
+1;Agence Data;/agence-data;Pourquoi Data;pourquoi-prouver.webp;Prouver la valeur du marketing;public/images/pages/agence-data/pourquoi-prouver.webp;Cette page uniquement;A faire
+;;;;;;;;
+2;Tracking;/agence-data/tracking;Problemes;probleme-conversions.webp;Conversions non trackees;public/images/pages/agence-data/tracking/probleme-conversions.webp;Cette page uniquement;A faire
+2;Tracking;/agence-data/tracking;Problemes;probleme-doublons.webp;Doublons et sur-comptage des conversions;public/images/pages/agence-data/tracking/probleme-doublons.webp;Cette page uniquement;A faire
+2;Tracking;/agence-data/tracking;Problemes;probleme-attribution.webp;Mauvaise attribution SEO vs SEA;public/images/pages/agence-data/tracking/probleme-attribution.webp;Cette page uniquement;A faire
+2;Tracking;/agence-data/tracking;Problemes;probleme-donnees-manquantes.webp;Donnees manquantes dans les rapports;public/images/pages/agence-data/tracking/probleme-donnees-manquantes.webp;Cette page uniquement;A faire
+2;Tracking;/agence-data/tracking;Problemes;probleme-migration-ga4.webp;Migration GA4 ratee ou incomplete;public/images/pages/agence-data/tracking/probleme-migration-ga4.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;Analytics;/agence-data/analytics;Services;service-audit-ga4.webp;Service Audit GA4;public/images/pages/agence-data/analytics/service-audit-ga4.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Services;service-configuration-avancee.webp;Service Configuration GA4 avancee;public/images/pages/agence-data/analytics/service-configuration-avancee.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Services;service-dashboards.webp;Service Creation de dashboards;public/images/pages/agence-data/analytics/service-dashboards.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Services;service-analyse.webp;Service Analyse et insights;public/images/pages/agence-data/analytics/service-analyse.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Services;service-formation-ga4.webp;Service Formation GA4;public/images/pages/agence-data/analytics/service-formation-ga4.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Formules;formule-audit.webp;Formule Audit ponctuel;public/images/pages/agence-data/analytics/formule-audit.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Formules;formule-mise-en-place.webp;Formule Mise en place complete;public/images/pages/agence-data/analytics/formule-mise-en-place.webp;Cette page uniquement;A faire
+3;Analytics;/agence-data/analytics;Formules;formule-accompagnement.webp;Formule Accompagnement mensuel;public/images/pages/agence-data/analytics/formule-accompagnement.webp;Cette page uniquement;A faire
+;;;;;;;;
+3;CRO;/agence-data/cro;Dimensions;dimension-quantitative.webp;Analyse quantitative des donnees;public/images/pages/agence-data/cro/dimension-quantitative.webp;Cette page uniquement;A faire
+3;CRO;/agence-data/cro;Dimensions;dimension-comportementale.webp;Analyse comportementale (heatmaps, sessions);public/images/pages/agence-data/cro/dimension-comportementale.webp;Cette page uniquement;A faire
+3;CRO;/agence-data/cro;Dimensions;dimension-ux-ui.webp;Analyse UX et UI;public/images/pages/agence-data/cro/dimension-ux-ui.webp;Cette page uniquement;A faire
+3;CRO;/agence-data/cro;Dimensions;dimension-pages-cles.webp;Optimisation des pages cles;public/images/pages/agence-data/cro/dimension-pages-cles.webp;Cette page uniquement;A faire
+3;CRO;/agence-data/cro;Dimensions;dimension-benchmark.webp;Benchmark concurrentiel;public/images/pages/agence-data/cro/dimension-benchmark.webp;Cette page uniquement;A faire
+;;;;;;;;
+;;========================================;;;;;;
+;;PAGES SANS IMAGES;;;;;;
+;;(composants utilisant icones uniquement);;;;;;
+;;========================================;;;;;;
+;;;;;;;;
+-;SEA Local;/agence-sea/local;-;-;Utilise uniquement des icones;-;-;Aucune image
+-;Formations;/formations;-;-;Utilise uniquement des icones;-;-;Aucune image
+-;Contact;/contact;-;-;Formulaire + carte Leaflet;-;-;Aucune image
+-;Nos bureaux;/agence/nos-bureaux;-;-;Cartes Leaflet uniquement;-;-;Aucune image

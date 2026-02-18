@@ -44,19 +44,19 @@ const Footer: FC<FooterProps> = ({ className }) => {
       {/* SECTION 1: Logo + Social + Navigation */}
       {/* ============================================ */}
       <div className="bg-gradient-to-b from-background-2 to-white dark:from-background-7 dark:to-background-8">
-        <div className="main-container">
+        <div className="nav-container">
           <div className="grid grid-cols-12 justify-between gap-x-0 gap-y-12 pt-16 pb-14 lg:gap-x-8 xl:pt-20">
             {/* Logo + Description + Social */}
             <div className="col-span-12 lg:col-span-4">
               <div className="xl:max-w-[320px]">
                 {/* Logo */}
-                <Link href={homeHref} className="inline-block group">
+                <Link href={homeHref} className="inline-block group ml-2">
                   <Image
                     src="/images/shared/logo-header.webp"
                     alt="Rankwell"
-                    width={160}
-                    height={36}
-                    className="h-9 w-auto logo-blue dark:brightness-0 dark:invert transition-transform group-hover:scale-105"
+                    width={180}
+                    height={40}
+                    className="h-10 w-auto logo-blue dark:brightness-0 dark:invert transition-transform group-hover:scale-105"
                   />
                 </Link>
                 <p className="mt-5 mb-7 text-secondary/70 dark:text-accent/70 leading-relaxed">
@@ -176,10 +176,10 @@ const Footer: FC<FooterProps> = ({ className }) => {
       {/* SECTION 2: Offices + Qualiopi */}
       {/* ============================================ */}
       <div className="bg-white dark:bg-background-8 border-t border-stroke-2 dark:border-stroke-6">
-        <div className="main-container">
+        <div className="nav-container">
           <div className="py-10 grid grid-cols-12 gap-8 items-start">
             {/* Paris Office */}
-            <div className="col-span-12 sm:col-span-6 lg:col-span-3">
+            <div className="col-span-12 sm:col-span-6 lg:col-span-4">
               <div className="group">
                 <Link
                   href={getLocalizedHref(officesInfo.paris.href, locale)}
@@ -213,7 +213,7 @@ const Footer: FC<FooterProps> = ({ className }) => {
             </div>
 
             {/* Dubai Office */}
-            <div className="col-span-12 sm:col-span-6 lg:col-span-3">
+            <div className="col-span-12 sm:col-span-6 lg:col-span-4">
               <div className="group">
                 <Link
                   href={getLocalizedHref(officesInfo.dubai.href, locale)}
@@ -246,11 +246,8 @@ const Footer: FC<FooterProps> = ({ className }) => {
               </ul>
             </div>
 
-            {/* Spacer for alignment */}
-            <div className="hidden lg:block lg:col-span-3" />
-
             {/* Qualiopi */}
-            <div className="col-span-12 sm:col-span-6 lg:col-span-3 flex flex-col items-start lg:items-end">
+            <div className="col-span-12 sm:col-span-6 lg:col-span-4 flex flex-col items-start lg:items-end">
               <div className="px-4 py-3 bg-white dark:bg-background-6 rounded-xl border border-stroke-2 dark:border-stroke-6 overflow-hidden">
                 <div className="-my-10">
                   <Image
@@ -274,7 +271,7 @@ const Footer: FC<FooterProps> = ({ className }) => {
       {/* SECTION 3: Copyright + Legal */}
       {/* ============================================ */}
       <div className="bg-secondary dark:bg-background-9">
-        <div className="main-container">
+        <div className="nav-container">
           <div className="py-5 flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-sm text-white/60">
               &copy; {currentYear} {companyInfo.name} - {companyInfo.tagline}

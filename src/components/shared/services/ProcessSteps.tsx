@@ -13,8 +13,9 @@ import RevealAnimation from '@/components/animation/RevealAnimation';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
 
 export interface ProcessStepItem {
-  id: string;
-  stepNumber: number | string;
+  id?: string;
+  stepNumber?: number | string;
+  number?: number | string;
   title: string;
   description: string;
 }
@@ -75,8 +76,9 @@ const ProcessSteps = ({
             aria-label="Step-by-step process"
           >
             {steps.map((step, index) => (
-              <RevealAnimation key={step.id} delay={0.1 + index * 0.2} direction="left" className="flex">
+              <RevealAnimation key={step.id ?? index} delay={0.1 + index * 0.2} direction="left" className="flex">
                 <div
+                  key={step.id ?? index}
                   className={cn(
                     'p-10.5 w-full md:max-w-[306px] rounded-[20px] flex flex-col',
                     index % 2 === 0 ? 'bg-background-3 dark:bg-background-6' : `${colors.bgLight} dark:bg-opacity-20`
@@ -87,7 +89,7 @@ const ProcessSteps = ({
                   {/* Numéro - hauteur fixe */}
                   <div className="h-16 mb-6">
                     <span className="text-heading-3" aria-hidden="true">
-                      {step.stepNumber}
+                      {step.stepNumber ?? step.number}
                     </span>
                   </div>
                   {/* Titre - hauteur fixe pour 2 lignes max */}
@@ -112,6 +114,7 @@ const ProcessSteps = ({
               return (
                 <RevealAnimation key={`arrow-${index}`} delay={0.3 + index * 0.2} direction="left">
                   <div
+                    key={`arrow-${index}`}
                     className="bg-background-3 dark:bg-background-6 overflow-hidden z-10 ring-8 ring-white dark:ring-background-7 rounded-[80px] py-6 px-2.5 absolute -translate-y-1/2 top-1/2 hidden xl:block max-w-[44px] w-full -translate-x-1/2"
                     style={{ left: `${position}%` }}
                   >

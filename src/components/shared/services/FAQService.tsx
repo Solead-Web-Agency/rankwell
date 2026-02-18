@@ -33,7 +33,7 @@ import { colorVariants, type RwColor } from '@/lib/colorTheme';
 // TYPES
 // ============================================
 export interface FAQServiceItem {
-  id: string;
+  id?: string;
   question: string;
   answer: string;
 }
@@ -87,21 +87,24 @@ const FAQService = ({
             className="sm:max-w-[850px] max-w-full sm:mx-auto space-y-4"
             defaultValue={defaultOpen}
             animationDelay={0.1}>
-            {items.map((faq) => (
-              <AccordionItem
-                key={faq.id}
-                className="bg-background-3 dark:bg-background-7 rounded-[20px] sm:px-8 px-6"
-                value={faq.id}>
-                <AccordionTrigger
-                  titleClassName="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
-                  className="flex items-center cursor-pointer justify-between sm:pt-8 pt-6 sm:pb-8 pb-6 w-full"
-                  value={faq.id}
-                  iconType="arrow">
-                  <h3 className="sm:text-heading-6 text-tagline-1 font-normal m-0">{faq.question}</h3>
-                </AccordionTrigger>
-                <AccordionContent value={faq.id}>{faq.answer}</AccordionContent>
-              </AccordionItem>
-            ))}
+            {items.map((faq, index) => {
+              const faqId = faq.id ?? String(index + 1);
+              return (
+                <AccordionItem
+                  key={faqId}
+                  className="bg-background-3 dark:bg-background-7 rounded-[20px] sm:px-8 px-6"
+                  value={faqId}>
+                  <AccordionTrigger
+                    titleClassName="flex-1 text-left sm:text-heading-6 text-tagline-1 font-normal text-secondary dark:text-accent"
+                    className="flex items-center cursor-pointer justify-between sm:pt-8 pt-6 sm:pb-8 pb-6 w-full"
+                    value={faqId}
+                    iconType="arrow">
+                    <h3 className="sm:text-heading-6 text-tagline-1 font-normal m-0">{faq.question}</h3>
+                  </AccordionTrigger>
+                  <AccordionContent value={faqId}>{faq.answer}</AccordionContent>
+                </AccordionItem>
+              );
+            })}
           </Accordion>
         </RevealAnimation>
       </div>

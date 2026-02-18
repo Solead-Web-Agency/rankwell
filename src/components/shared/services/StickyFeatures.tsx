@@ -10,10 +10,11 @@ import { colorVariants, type RwColor } from '@/lib/colorTheme';
 import Icon from '@/components/ui/Icon';
 
 export interface StickyFeatureItem {
-  id: number;
+  id?: number;
   title: string;
   description: string;
   icon: string;
+  features?: string[];
 }
 
 export interface StickyFeaturesProps {
@@ -58,7 +59,7 @@ const StickyFeatures = ({
           <div className="col-span-12 lg:col-span-7">
             <div className="space-y-6">
               {items.map((item, index) => (
-                <RevealAnimation key={item.id} delay={0.3 + index * 0.1}>
+                <RevealAnimation key={item.id ?? index} delay={0.3 + index * 0.1}>
                   <div className="p-6 bg-background-2 dark:bg-background-6 rounded-[20px] flex gap-5 items-start hover:translate-y-[-4px] transition-transform duration-300">
                     <div className={`shrink-0 w-12 h-12 ${colors.bg} rounded-full flex items-center justify-center`}>
                       <Icon name={item.icon as any} className="w-6 h-6 text-white" />

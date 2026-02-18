@@ -77,17 +77,17 @@ interface ExpertisesMegaMenuProps {
 const ExpertisesMegaMenu = ({ isOpen, locale }: ExpertisesMegaMenuProps) => {
   return (
     <div>
-      {/* Invisible bridge to maintain hover state */}
+      {/* Invisible bridge to maintain hover state - covers gap between nav item and menu */}
       <div className={cn(
-        'fixed top-full left-1/2 z-40 w-full max-w-[1140px] -translate-x-1/2 overflow-hidden bg-transparent py-6',
-        isOpen ? 'flex' : 'hidden'
+        'fixed top-[62px] left-1/2 z-40 w-full max-w-[1140px] -translate-x-1/2 h-8 bg-transparent',
+        isOpen ? 'block' : 'hidden'
       )} />
 
       {/* Main mega-menu container */}
       <div
         className={cn(
-          'dark:bg-background-8 shadow-lg dark:border-stroke-6 border-stroke-2 pointer-events-none fixed top-full left-1/2 z-50 mt-2 w-full max-w-[1000px] -translate-x-1/2 translate-y-10 overflow-hidden rounded-[20px] border bg-white opacity-0 transition-all duration-300',
-          isOpen && 'pointer-events-auto translate-y-0 opacity-100'
+          'dark:bg-background-8 shadow-lg dark:border-stroke-6 border-stroke-2 pointer-events-none fixed top-[74px] left-1/2 z-50 w-full max-w-[1000px] -translate-x-1/2 overflow-hidden rounded-[20px] border bg-white opacity-0 transition-all duration-300',
+          isOpen && 'pointer-events-auto opacity-100'
         )}
       >
         <div className="relative flex w-full">

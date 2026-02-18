@@ -101,7 +101,7 @@ export default async function LocalPage({ params }: PageProps) {
   const {
     heroData,
     introData,
-    incluData,
+    recapData,
     quote1Data,
     enjeuxData,
     pointVigilanceData,
@@ -135,12 +135,12 @@ export default async function LocalPage({ params }: PageProps) {
       />
 
       <RecapBoxService
-        sectionId={incluData.sectionId}
-        badge={incluData.badge}
-        accentColor={incluData.accentColor}
-        title={incluData.title}
-        subtitle={incluData.subtitle}
-        items={incluData.items}
+        sectionId={recapData.sectionId}
+        badge={recapData.badge}
+        accentColor={recapData.accentColor}
+        title={recapData.title}
+        subtitle={recapData.subtitle}
+        items={recapData.items}
       />
 
       <Quote

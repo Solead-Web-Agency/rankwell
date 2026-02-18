@@ -72,6 +72,9 @@ const NumberAnimation: React.FC<NumberAnimationProps> = ({
   const initAnimation = useCallback(() => {
     if (!elementRef.current || isAnimated) return;
 
+    // Protection contre number undefined ou NaN
+    if (typeof number !== 'number' || isNaN(number)) return;
+
     const element = elementRef.current;
     const targetNumber = number;
 
