@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "defaultMode": "bypassPermissions",
+    "additionalDirectories": [
+      "C:\\Users\\david\\Documents\\Autres\\Site Rankwell\\rankwell_prod"
+    ]
+  },
+  "outputStyle": "default"
+}

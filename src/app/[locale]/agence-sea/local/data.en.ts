@@ -55,7 +55,7 @@ export const introData = {
 // ============================================
 // 3. RECAP BOX DATA (#inclus)
 // ============================================
-export const incluData = {
+export const recapData = {
   sectionId: 'inclus',
   badge: 'Our contribution',
   accentColor: 'rw-cyan' as const,

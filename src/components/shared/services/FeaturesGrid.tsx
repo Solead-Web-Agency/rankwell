@@ -15,11 +15,13 @@ import { ReactNode } from 'react';
 // TYPES
 // ============================================
 export interface FeatureItem {
-  id: number;
+  id?: number;
   image?: StaticImageData | string;
   alt?: string;
+  icon?: string;
   title: string;
-  desc: string;
+  desc?: string;
+  description?: string;
 }
 
 export interface FeaturesGridProps {
@@ -122,8 +124,9 @@ const FeaturesGrid = ({
               // Mode 2 colonnes : pas de centrage nécessaire (grille naturelle)
 
               return (
-                <RevealAnimation key={feature.id} delay={0.3 + idx * 0.1}>
+                <RevealAnimation key={feature.id ?? idx} delay={0.3 + idx * 0.1}>
                   <div
+                    key={feature.id ?? idx}
                     className={`flex flex-col ${colSpanClass} col-span-12 md:col-span-6 ${offsetClass}`}
                   >
                     {/* card image - hauteur fixe */}
@@ -161,7 +164,7 @@ const FeaturesGrid = ({
                     {/* card content */}
                     <div className="space-y-1">
                       <h3 className="text-[22px] sm:text-heading-5">{feature.title}</h3>
-                      <p>{feature.desc}</p>
+                      <p>{feature.desc ?? feature.description}</p>
                     </div>
                   </div>
                 </RevealAnimation>

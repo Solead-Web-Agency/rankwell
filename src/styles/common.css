@@ -15,6 +15,10 @@ Common Styles all over the sites
   @apply lp:px-0 mx-auto max-w-[1290px] px-5;
 }
 
+@utility nav-container {
+  @apply mx-auto w-full px-5 max-w-[320px] min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px] xl:px-4;
+}
+
 /* ==========SCROLLBAR========== */
 .scroll-bar::-webkit-scrollbar {
   @apply hidden;

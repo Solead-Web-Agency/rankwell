@@ -33,10 +33,13 @@ export default function ConditionalLayout({ children }: ConditionalLayoutProps) 
   }
 
   // Page normale - avec header/footer
+  // key={pathname} force React à remonter tout le contenu de la page lors d'une navigation.
+  // Sans ça, React réutilise les composants (RevealAnimation, etc.) entre pages,
+  // et useGSAP ne se ré-exécute pas → les éléments restent en opacity: 0.
   return (
     <>
       <Header />
-      <main className="min-h-screen bg-background-3 dark:bg-background-7">
+      <main key={pathname} className="min-h-screen bg-background-3 dark:bg-background-7">
         {children}
       </main>
       <Footer />

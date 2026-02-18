@@ -13,16 +13,13 @@ if (typeof window !== 'undefined') {
 /**
  * RouteChangeHandler
  *
- * Gère le refresh de ScrollTrigger lors des navigations client-side.
- * Sans ce handler, les animations GSAP/ScrollTrigger peuvent ne pas se déclencher
- * correctement car les positions de trigger sont calculées sur l'ancienne page.
+ * Gère le scroll-to-top et le refresh de ScrollTrigger lors des navigations client-side.
  *
- * Fonctionnement :
- * 1. Détecte le changement de pathname (navigation Next.js)
- * 2. Scroll to top immédiatement
- * 3. Kill les anciens ScrollTriggers
- * 4. Attend que le DOM soit prêt (requestAnimationFrame)
- * 5. Refresh ScrollTrigger pour recalculer les positions
+ * IMPORTANT : ne PAS kill les ScrollTriggers ici. Le cleanup des animations
+ * est géré automatiquement par useGSAP (@gsap/react) au démontage des composants.
+ * Tuer manuellement les triggers détruit aussi ceux des NOUVEAUX composants
+ * (les effects enfants s'exécutent AVANT les effects parents), ce qui laisse
+ * les éléments bloqués en opacity: 0 / blur.
  */
 export function RouteChangeHandler() {
   const pathname = usePathname();
@@ -46,24 +43,13 @@ export function RouteChangeHandler() {
     // Scroll to top immediately
     window.scrollTo(0, 0);
 
-    // Kill all existing ScrollTriggers to prevent stale triggers
-    ScrollTrigger.getAll().forEach(trigger => trigger.kill());
-
-    // Clear any pending GSAP animations
-    gsap.killTweensOf('*');
-
-    // Force a longer delay to ensure DOM is fully ready
-    // This is especially important in production builds
+    // Wait for the new page DOM to be fully painted, then refresh
+    // ScrollTrigger so it recalculates positions on the new layout.
     const timer = setTimeout(() => {
-      // Multiple rAF to ensure paint has occurred and content is visible
       requestAnimationFrame(() => {
-        requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            ScrollTrigger.refresh(true);
-          });
-        });
+        ScrollTrigger.refresh(true);
       });
-    }, 100);
+    }, 150);
 
     return () => clearTimeout(timer);
   }, [pathname]);

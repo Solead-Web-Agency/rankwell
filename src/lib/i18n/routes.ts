@@ -42,7 +42,7 @@ export const segmentTranslations: Record<string, string> = {
   'contact': 'contact',
   'formations': 'training',
   'mentions-legales': 'legal-notice',
-  'politique-confidentialite': 'privacy-policy',
+  'confidentialite': 'privacy-policy',
 };
 
 /**
@@ -171,4 +171,7 @@ export const LOCALIZED_ROUTES = {
   },
 
   FORMATIONS: { fr: '/formations', en: '/en/training' },
+
+  MENTIONS_LEGALES: { fr: '/mentions-legales', en: '/en/legal-notice' },
+  CONFIDENTIALITE: { fr: '/confidentialite', en: '/en/privacy-policy' },
 } as const;

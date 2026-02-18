@@ -1,3 +1,5 @@
+'use client';
+
 /**
  * RECAPBOXSERVICE - Grille de 4 cartes avec icônes pour pages services
  *
@@ -25,7 +27,7 @@ import Icon from '@/components/ui/Icon';
 // TYPES
 // ============================================
 export interface RecapItem {
-  id: number;
+  id?: number;
   title: string;
   description: string;
   icon: string;
@@ -80,7 +82,7 @@ const RecapBoxService = ({
               : 'col-span-12 md:col-span-6 xl:col-span-3';
 
             return (
-              <div key={`${item.title}-${item.id}`} className={colSpanClass}>
+              <div key={`${item.title}-${item.id ?? index}`} className={colSpanClass}>
                 <RevealAnimation delay={0.3 + index * 0.1}>
                   <div className="h-full px-6 py-8 rounded-[20px] bg-white dark:bg-background-6 space-y-5 text-center flex flex-col items-center hover:translate-y-[-10px] transition-transform duration-500 ease-in-out">
                     <div className={`w-14 h-14 ${colors.bg} rounded-full flex items-center justify-center`}>

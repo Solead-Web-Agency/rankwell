@@ -63,8 +63,8 @@ const defaultTexts: Record<Locale, {
   },
 };
 
-// Type pour les critères : soit string simple, soit objet avec label + description
-export type CriteriaItem = string | { label: string; description?: string };
+// Type pour les critères : string simple, objet { label } ou objet { title } (pages géo-SEO)
+export type CriteriaItem = string | { label?: string; title?: string; description?: string; icon?: string };
 
 export interface ForWhoServiceProps {
   sectionId?: string;
@@ -124,9 +124,9 @@ const ForWhoService = ({
           <RevealAnimation delay={0.4}>
             <div className="space-y-4">
               {criteria.map((item, index) => {
-                // Normaliser l'item : string ou objet
+                // Normaliser l'item : string ou objet (label ou title)
                 const isSimple = typeof item === 'string';
-                const label = isSimple ? item : item.label;
+                const label = isSimple ? item : (item.label ?? item.title);
                 const description = isSimple ? undefined : item.description;
 
                 return (
