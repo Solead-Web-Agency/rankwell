@@ -151,7 +151,7 @@ const footerColumnsData: FooterColumn[] = [
       { label: 'Études de cas', labelEn: 'Case studies', href: ROUTES.RESSOURCES.ETUDES_DE_CAS },
       { label: 'Guides', labelEn: 'Guides', href: ROUTES.RESSOURCES.GUIDES },
       { label: 'Actualités', labelEn: 'News', href: ROUTES.RESSOURCES.BLOG },
-      { label: 'Glossaire', labelEn: 'Glossary', href: ROUTES.RESSOURCES.GLOSSAIRE },
+      { label: 'Glossaire', labelEn: 'Glossary', href: ROUTES.RESSOURCES.GLOSSAIRE.INDEX },
     ],
   },
 ];

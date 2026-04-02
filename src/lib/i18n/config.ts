@@ -42,7 +42,7 @@ export const frenchOnlyPatterns: string[] = [
   '/agence-sea/france',           // Page passerelle France SEA
   '/agence-sea/france/*',         // Pages villes/régions SEA
   '/agence-sea/france/**',
-  // Ajouter d'autres patterns ici si nécessaire
+  '/guides/*',                   // Articles mono-langue (chaque guide existe dans UNE seule langue)
 ];
 
 /**

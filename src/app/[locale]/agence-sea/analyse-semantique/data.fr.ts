@@ -32,6 +32,8 @@ export const heroData = {
   description: 'En SEA, les mots-clés font tout. Cibler les mauvais, c\'est gaspiller du budget. Notre audit sémantique révèle ceux qui génèrent vraiment du business.',
   ctaText: 'Demander un audit mots-clés',
   ctaHref: '/contact',
+  image: '/images/pages/agence-sea/analyse-semantique/hero.webp',
+  imageAlt: 'Audit mots-clés Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -198,35 +200,35 @@ export const livrablesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-base-mots-cles.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-base-mots-cles.webp',
       alt: 'Base de mots-clés',
       title: 'Base de mots-clés complète',
       desc: 'Fichier structuré avec volumes, CPC estimés, intentions et priorités',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-negatifs.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-negatifs.webp',
       alt: 'Liste de négatifs',
       title: 'Liste de négatifs',
       desc: 'Mots-clés à exclure pour éviter le trafic non qualifié',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-structure.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-structure.webp',
       alt: 'Recommandations structure',
       title: 'Recommandations structure',
       desc: 'Organisation optimale dans votre compte Google Ads',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-budget.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-budget.webp',
       alt: 'Estimation budgétaire',
       title: 'Estimation budgétaire',
       desc: 'Projection du budget pour couvrir les mots-clés prioritaires',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-presentation.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-presentation.webp',
       alt: 'Présentation findings',
       title: 'Présentation des findings',
       desc: 'Call pour présenter l\'analyse et répondre à vos questions',

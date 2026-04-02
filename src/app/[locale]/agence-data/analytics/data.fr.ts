@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Collecter des données, c\'est facile. Les comprendre et agir dessus, c\'est autre chose. Nos consultants web analytics vous aident à voir clair dans vos stats GA4.',
   ctaText: 'Parler de vos analytics',
   ctaHref: '/contact',
+  image: '/images/pages/agence-data/analytics/hero.webp',
+  imageAlt: 'Agence web analytics GA4 dashboards Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -116,35 +118,35 @@ export const servicesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-data/analytics/service-audit-ga4.webp',
+      image: '/images/pages/agence-data/analytics/service-audit-ga4.webp',
       alt: 'Audit de configuration GA4',
       title: 'Audit de configuration GA4',
       desc: 'Votre GA4 est-il bien configuré ? Événements, conversions, propriétés, filtres. Nos consultants web analytics vérifient que tout est en place.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-data/analytics/service-configuration-avancee.webp',
+      image: '/images/pages/agence-data/analytics/service-configuration-avancee.webp',
       alt: 'Configuration avancée GA4',
       title: 'Configuration avancée GA4',
       desc: 'Au-delà de l\'installation de base : événements personnalisés, dimensions custom, audiences, intégrations. Un GA4 taillé pour vos besoins.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-data/analytics/service-dashboards.webp',
+      image: '/images/pages/agence-data/analytics/service-dashboards.webp',
       alt: 'Dashboards et reporting Looker Studio',
       title: 'Dashboards et reporting',
       desc: 'Des tableaux de bord Looker Studio (ex Data Studio) clairs et actionnables. Les bonnes métriques, bien présentées, accessibles à tous.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-data/analytics/service-analyse.webp',
+      image: '/images/pages/agence-data/analytics/service-analyse.webp',
       alt: 'Analyse et recommandations analytics',
       title: 'Analyse et recommandations',
       desc: 'On plonge dans vos données GA4 pour en extraire des insights. Qu\'est-ce qui marche ? Qu\'est-ce qui coince ? Quelles opportunités ?',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-data/analytics/service-formation-ga4.webp',
+      image: '/images/pages/agence-data/analytics/service-formation-ga4.webp',
       alt: 'Formation GA4 pour équipes',
       title: 'Formation GA4',
       desc: 'Vos équipes doivent être autonomes. Notre formation GA4 couvre la lecture des données et l\'utilisation des dashboards.',
@@ -314,21 +316,21 @@ export const formulesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-data/analytics/formule-audit.webp',
+      image: '/images/pages/agence-data/analytics/formule-audit.webp',
       alt: 'Audit analytics ponctuel',
       title: 'Audit ponctuel',
       desc: 'Un état des lieux de votre configuration analytics avec recommandations. Idéal pour savoir où vous en êtes.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-data/analytics/formule-mise-en-place.webp',
+      image: '/images/pages/agence-data/analytics/formule-mise-en-place.webp',
       alt: 'Projet de mise en place GA4',
       title: 'Projet de mise en place',
       desc: 'Configuration complète GA4 + dashboards + formation. Le package pour partir sur de bonnes bases.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-data/analytics/formule-accompagnement.webp',
+      image: '/images/pages/agence-data/analytics/formule-accompagnement.webp',
       alt: 'Accompagnement analytics continu',
       title: 'Accompagnement continu',
       desc: 'Suivi régulier, analyses périodiques, évolution des dashboards. Un partenaire data sur la durée.',

@@ -8,7 +8,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Aix-en-Provence | Rankwell',
+  title: 'Agence GEO & SEO à Aix-en-Provence - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Aix-en-Provence. Boostez votre visibilité sur Google et les moteurs IA pour conquérir le marché aixois et provençal.',
 };
@@ -113,25 +113,25 @@ export const geoEducationData = {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
       desc:
-        'Le GEO (Generative Engine Optimization) désigne l\'optimisation pour les moteurs alimentés par l\'IA. Quand quelqu\'un demande à ChatGPT "meilleur restaurant gastronomique à Aix-en-Provence", le GEO assure que votre établissement figure dans la réponse.',
+        'GEO (Generative Engine Optimization) est la discipline qui optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Pas juste ranker sur Google, mais devenir la source que l\'IA choisit de recommander quand un prospect cherche vos services à Aix-en-Provence.',
     },
     {
       id: 2,
       title: 'Pourquoi le GEO compte à Aix-en-Provence ?',
       desc:
-        'Avec ses 40 000 étudiants et son attrait touristique, Aix voit ses consommateurs adopter massivement les assistants IA. Être recommandé par ces outils devient un avantage concurrentiel majeur pour les entreprises locales.',
+        'Avec 148 000 habitants, 40 000 étudiants et un pôle économique de plus de 27 000 salariés aux Milles, Aix concentre une forte densité de recherches digitales. Les consommateurs aixois, étudiants comme cadres du tertiaire, adoptent massivement les assistants IA pour leurs recherches locales. Être recommandé par ces outils devient un avantage concurrentiel décisif.',
     },
     {
       id: 3,
       title: 'Complémentarité SEO + GEO',
       desc:
-        'Le SEO garantit vos positions sur Google, le GEO vous fait recommander par l\'IA. En associant ces deux approches, vous captez l\'intégralité des flux de recherche de votre cible aixoise.',
+        'Le SEO garantit vos positions dans les résultats classiques de Google, le GEO vous fait citer comme source de confiance par les IA. En combinant ces deux approches, vous captez l\'intégralité des comportements de recherche de votre cible aixoise — qu\'elle utilise Google, ChatGPT ou Perplexity.',
     },
     {
       id: 4,
-      title: 'Contenus adaptés aux IA',
+      title: 'Contenus citation-ready',
       desc:
-        'Les moteurs génératifs favorisent le contenu structuré, factuel et contextualisé. Nos équipes produisent des contenus répondant à ces critères tout en valorisant l\'identité provençale de votre entreprise.',
+        'Les moteurs génératifs recherchent des passages qu\'ils peuvent extraire et reformuler facilement : définitions claires, données chiffrées sourcées, listes structurées. Nous produisons des contenus qui répondent à ces critères tout en valorisant le dynamisme économique et culturel aixois.',
     },
   ],
 };
@@ -140,8 +140,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Aix-en-Provence est la plus grande ville étudiante de France après Paris, avec 40 000 étudiants pour 145 000 habitants.',
+  label: 'Le contexte économique aixois',
+  text: 'L\'agglomération d\'Aix-en-Provence concentre plus de 43 000 entreprises et 135 000 salariés dans le secteur privé. Le pôle d\'activités des Milles réunit à lui seul 1 500 entreprises et 27 000 emplois, principalement dans le tertiaire supérieur, le numérique et le conseil. Avec 40 000 étudiants et un afflux touristique constant, la concurrence digitale y est particulièrement intense.',
   icon: 'TrendingUp' as const,
 };
 
@@ -151,38 +151,38 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une stratégie calibrée pour le marché aixois',
+  title: 'Notre approche business centrix pour Aix-en-Provence',
   subtitle:
-    'Notre expertise provençale nous permet de déployer des actions parfaitement adaptées à Aix-en-Provence',
+    'Beaucoup d\'agences parlent de ROI. Voici ce que ça signifie concrètement pour les entreprises aixoises.',
   accentColor: 'rw-blue' as const,
   items: [
     {
       id: 1,
-      icon: 'Search',
-      title: 'Analyse du marché aixois',
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Cartographie de la concurrence locale, identification des requêtes propres à Aix-en-Provence et détection des opportunités de positionnement sur le marché provençal.',
+        'Être premier sur un mot-clé qui ne génère pas de business, ça ne sert à rien. À Aix, la concurrence est dense dans le tertiaire, la restauration et le commerce. Notre métrique principale, c\'est l\'impact réel : leads qualifiés, rendez-vous pris, chiffre d\'affaires attribuable au Search.',
     },
     {
       id: 2,
-      icon: 'FileText',
-      title: 'Contenu ancré en Provence',
+      icon: 'MessageCircle',
+      title: 'On challenge vos priorités',
       description:
-        'Production de contenus valorisant l\'identité aixoise, les spécificités locales et l\'expertise de votre entreprise. Articles et pages pensés pour le référencement et l\'engagement.',
+        'Parfois, viser le mot-clé le plus recherché n\'est pas la bonne stratégie. Si votre cible est le cadre du pôle des Milles, pas le touriste de passage, on adapte. Notre rôle, c\'est aussi de vous réorienter quand votre intuition ne colle pas aux données.',
     },
     {
       id: 3,
-      icon: 'Settings',
-      title: 'Excellence technique',
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Optimisation des temps de chargement, architecture de site orientée SEO, données structurées Schema.org et expérience mobile irréprochable.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur unique qui connaît votre secteur et le tissu économique aixois, joignable en visio, par email ou téléphone.',
     },
     {
       id: 4,
-      icon: 'Award',
-      title: 'Autorité locale renforcée',
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Développement de liens depuis des sites aixois et provençaux reconnus, présence sur les annuaires locaux et partenariats avec des acteurs du territoire.',
+        'Notre plateforme connecte vos données Search à vos indicateurs business. Trafic qualifié, leads, citations IA : vous suivez l\'impact réel en temps réel, pas des vanity metrics dans un rapport mensuel. Chaque action est traçable et justifiée.',
     },
   ],
 };
@@ -193,36 +193,36 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises aixoises accompagnées',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous aidons les acteurs économiques d\'Aix-en-Provence à conquérir leur visibilité digitale',
+    'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où on peut vraiment vous aider à Aix-en-Provence.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      label: 'Hôtellerie & Restauration',
+      label: 'Vous voulez développer votre acquisition digitale',
       description:
-        'Hôtels, restaurants, traiteurs et établissements touristiques souhaitant augmenter leurs réservations directes.',
+        'Votre site existe mais ne génère pas assez de leads ou de ventes. Vous cherchez un partenaire pour structurer et exécuter une stratégie Search efficace sur le marché aixois, que vous cibliez les particuliers ou le B2B.',
     },
     {
-      label: 'Commerce & Artisanat',
+      label: 'Vous préparez une refonte ou un lancement',
       description:
-        'Boutiques du centre-ville, commerces de quartier et artisans provençaux cherchant à développer leur clientèle.',
+        'Vous lancez un nouveau site ou refondez l\'existant et voulez partir sur des bases SEO et GEO solides. L\'optimisation dès la conception évite les corrections coûteuses après coup et accélère votre montée en visibilité.',
     },
     {
-      label: 'Professions libérales',
+      label: 'Tertiaire, conseil et numérique aixois',
       description:
-        'Avocats, médecins, architectes, experts-comptables et consultants ciblant la clientèle aixoise.',
+        'Cabinets de conseil, ESN, startups du pôle des Milles ou de l\'Arbois : le tertiaire supérieur représente le poumon économique d\'Aix avec plus de 27 000 emplois. Le SEO et le GEO sont des leviers essentiels pour vous distinguer face à la concurrence métropolitaine.',
     },
     {
-      label: 'Immobilier & Services',
+      label: 'Commerce, restauration et tourisme',
       description:
-        'Agences immobilières, courtiers et prestataires de services aux particuliers et entreprises.',
+        'Boutiques du Cours Mirabeau, restaurants gastronomiques, hôtels de charme : Aix attire des millions de visiteurs chaque année. Le référencement capte ces recherches au moment où le consommateur décide, sur Google comme via les assistants IA.',
     },
   ],
-  ctaTitle: 'Votre secteur n\'est pas listé ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'applique à tous les domaines d\'activité. Échangeons sur vos enjeux pour définir une stratégie GEO & SEO adaptée à votre entreprise aixoise.',
-  ctaButtonText: 'Parler de votre projet',
+    'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats mesurables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -234,12 +234,12 @@ export const expertisesData = {
   badge: 'Nos services',
   accentColor: 'rw-blue' as const,
   title: 'Nos services GEO & SEO à Aix-en-Provence',
-  subtitle: 'Quatre services complémentaires pour couvrir l\'ensemble de vos besoins en référencement naturel.',
+  subtitle: 'Quatre services complémentaires pour accompagner votre croissance digitale sur le marché aixois.',
   items: [
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel. On identifie ce qui freine votre visibilité à Aix et les leviers d\'accélération prioritaires.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -247,7 +247,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, performance technique. Les fondations d\'une visibilité durable.',
+      description: 'Optimisation on-site, architecture de contenu, performance technique et balisage Schema.org. Les fondations d\'une visibilité durable sur Google.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -255,7 +255,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Stratégie de liens pensée pour renforcer votre autorité. Pas de spam, pas de réseaux douteux. De vrais liens qui comptent.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité. Stratégie sur mesure ciblant les médias régionaux et sites de référence, sans spam ni réseaux douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -263,7 +263,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Rédaction SEO et GEO-ready. Du contenu qui se positionne et qui convertit. Pas du remplissage.',
+      description: 'Contenus optimisés SEO et GEO-ready. Du contenu structuré qui se positionne sur Google et qui est cité par les IA. Pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -281,30 +281,30 @@ export const chiffresData = {
     {
       id: 1,
       icon: 'Users',
-      number: 145,
-      suffix: 'K',
-      label: 'Habitants à Aix-en-Provence',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
     },
     {
       id: 2,
-      icon: 'GraduationCap',
-      number: 40,
-      suffix: 'K',
-      label: 'Étudiants dans la ville',
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
     },
     {
       id: 3,
-      icon: 'TrendingUp',
-      number: 3,
-      suffix: 'M',
-      label: 'Visiteurs annuels au Pays d\'Aix',
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
     },
     {
       id: 4,
-      icon: 'Smartphone',
-      number: 55,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'Recherches locales sur mobile',
+      label: 'Business centrix',
     },
   ],
 };
@@ -376,9 +376,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'À Aix-en-Provence, où tradition et modernité se côtoient, les entreprises qui adoptent le GEO dès maintenant prennent une avance décisive. L\'IA redéfinit les recherches locales.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'I personally believe that almost, if not all, of the core updates since early 2017 are focused on some element of E-E-A-T: Expertise, Experience, Authoritativeness, and Trust.',
+  author: 'Marie Haynes',
+  role: 'Fondatrice de Marie Haynes Consulting, experte Google Algorithms',
 };
 
 // ============================================
@@ -387,44 +387,50 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO à Aix-en-Provence',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
       id: '1',
-      question: 'Pourquoi le SEO est-il important pour une entreprise à Aix-en-Provence ?',
+      question: 'Travaillez-vous avec des entreprises à Aix-en-Provence ?',
       answer:
-        'Aix-en-Provence est une ville dynamique avec une forte concurrence dans de nombreux secteurs. Un bon référencement vous permet de capter les recherches des 145 000 habitants, des 40 000 étudiants et des millions de visiteurs annuels.',
+        'Oui, nous accompagnons des entreprises aixoises depuis plusieurs années. Visios régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. Aix-en-Provence concentre plus de 43 000 entreprises — la concurrence digitale y est forte, surtout dans le tertiaire et le commerce.',
     },
     {
       id: '2',
-      question: 'Comment le GEO peut-il aider mon entreprise à Aix ?',
+      question: 'Quels secteurs accompagnez-vous à Aix-en-Provence ?',
       answer:
-        'Le GEO vous permet d\'être recommandé par les assistants IA quand les utilisateurs posent des questions sur Aix. Si quelqu\'un demande "meilleur traiteur à Aix-en-Provence" à ChatGPT, votre entreprise pourra être mentionnée si votre contenu est optimisé.',
+        'Nous travaillons avec des entreprises de tous secteurs : tertiaire supérieur et numérique (le poumon économique d\'Aix avec le pôle des Milles), commerces du centre-ville, hôtellerie-restauration, professions libérales, immobilier, santé. Le point commun : des entreprises qui veulent transformer leur visibilité digitale en chiffre d\'affaires.',
     },
     {
       id: '3',
-      question: 'Combien de temps pour voir des résultats à Aix-en-Provence ?',
+      question: 'Comment se déroule un projet type ?',
       answer:
-        'Le SEO produit généralement des résultats visibles en 3 à 6 mois. Le GEO peut avoir un impact plus rapide sur certaines requêtes. Nous mettons en place des indicateurs de progression dès le premier mois.',
+        'Premier échange en visio pour comprendre vos enjeux et votre marché. Audit complet de votre situation SEO et GEO-readiness. Roadmap avec priorités classées par impact business. Puis exécution avec un consultant senior dédié et des points réguliers. Vous suivez tout en temps réel via notre plateforme Rankwell One.',
     },
     {
       id: '4',
-      question: 'Travaillez-vous avec tous les secteurs d\'activité ?',
+      question: 'Qu\'est-ce que le GEO exactement ?',
       answer:
-        'Oui, nous accompagnons des entreprises de tous secteurs à Aix-en-Provence : hôtellerie-restauration, commerce, services B2B, immobilier, professions libérales, santé, etc.',
+        'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités comme source fiable par ces IA quand on leur pose des questions liées à votre expertise. C\'est le complément indispensable du SEO classique, et nous l\'intégrons dans tous nos projets.',
     },
     {
       id: '5',
-      question: 'Proposez-vous un accompagnement pour le Pays d\'Aix ?',
+      question: 'Couvrez-vous le Pays d\'Aix et la métropole ?',
       answer:
-        'Absolument. Nous pouvons étendre votre référencement aux communes du Pays d\'Aix et de la métropole. Le SEO local permet d\'optimiser votre visibilité sur des périmètres géographiques étendus.',
+        'Absolument. Le Pays d\'Aix regroupe 36 communes et la métropole Aix-Marseille-Provence représente un bassin de 1,9 million d\'habitants. Nous adaptons le périmètre géographique à vos objectifs : référencement hyperlocal sur Aix centre, couverture du pôle des Milles ou rayonnement métropolitain plus large.',
     },
     {
       id: '6',
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      question: 'Quels sont vos tarifs ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos mentions dans les réponses des IA (ChatGPT, Perplexity, Google SGE). Nous analysons les requêtes où vous êtes cité et mesurons l\'évolution de votre visibilité sur ces nouveaux canaux.',
+        'Les tarifs dépendent de vos objectifs, votre secteur et le niveau de concurrence sur le marché aixois. Nous proposons des forfaits mensuels ou des projets ponctuels (audit, accompagnement refonte). Le plus simple : un premier échange de 30 minutes pour comprendre votre situation et vous donner une estimation réaliste.',
+    },
+    {
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer:
+        'En SEO/GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon le point de départ et l\'intensité concurrentielle de votre secteur à Aix. En SEA, les effets sont quasi immédiats. On vous donne des projections réalistes dès le départ et des indicateurs de progression sont mis en place dès le premier mois de collaboration.',
     },
   ],
 };

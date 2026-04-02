@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises lyonnaises | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises lyonnaises - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Lyon. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };

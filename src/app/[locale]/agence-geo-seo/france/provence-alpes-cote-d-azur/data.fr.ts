@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO en Provence-Alpes-Côte d\'Azur | Rankwell',
+  title: 'Agence GEO & SEO en Provence-Alpes-Côte d\'Azur - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO en Provence-Alpes-Côte d\'Azur. Optimisez votre visibilité sur Google et les moteurs IA pour atteindre vos clients sur le littoral méditerranéen.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'La région PACA génère 20 milliards d\'euros de recettes touristiques annuelles, avec Nice et Cannes parmi les 10 premières destinations françaises.',
+  label: 'Le contexte économique en PACA',
+  text: 'La région Provence-Alpes-Côte d\'Azur compte 5,24 millions d\'habitants et un PIB de 207 milliards d\'euros. Marseille-Fos, premier port de France, traite 70,5 millions de tonnes de marchandises. Sophia Antipolis rassemble 2 650 entreprises tech et 44 500 emplois. Le tourisme génère plus de 23 millions de nuitées hôtelières par an. Un marché dense où la visibilité digitale fait la différence.',
   icon: 'TrendingUp' as const,
 };
 
@@ -146,34 +146,38 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une méthodologie adaptée aux marchés provençaux et azuréens',
+  title: 'Notre approche business centrix',
   subtitle:
-    'Notre expertise régionale nous permet de déployer des stratégies parfaitement alignées avec les dynamiques économiques locales',
+    'Beaucoup d\'agences parlent de ROI. Voici ce que ça signifie concrètement chez Rankwell pour les entreprises de la région PACA.',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Analyse du marché régional',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Nous étudions votre positionnement face aux concurrents locaux, analysons les requêtes spécifiques au territoire PACA et identifions les opportunités de mots-clés saisonniers (tourisme estival, salons cannois, événements azuréens).',
+        'Être premier sur un mot-clé qui ne génère pas de réservations ou de leads, ça ne sert à rien. Notre métrique principale, c\'est l\'impact sur votre activité : chiffre d\'affaires direct, coût d\'acquisition, réservations attribuées au canal Search. Pas des vanity metrics.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenu à forte valeur méditerranéenne',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Création de contenus célébrant la Provence, la Côte d\'Azur et leurs spécificités. Articles de fond, guides locaux et landing pages optimisées pour le référencement régional et la reconnaissance par les IA.',
+        'Le marché PACA a ses spécificités : saisonnalité du tourisme, concurrence internationale sur le luxe, densité de l\'offre à Marseille et Nice. Notre rôle, c\'est de vous dire quand une stratégie fait fausse route et de proposer des alternatives fondées sur la donnée.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique rigoureuse',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Performance mobile prioritaire pour les touristes en déplacement, données structurées Schema.org, vitesse de chargement optimale et architecture de site pensée pour le SEO local.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur unique qui comprend les dynamiques du marché méditerranéen et connaît votre projet dans le détail.',
     },
     {
-      icon: 'Award',
-      title: 'Renforcement de l\'autorité régionale',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Stratégie de netlinking avec des médias provençaux et azuréens, partenariats avec des institutions locales et développement de votre présence sur les annuaires régionaux de référence.',
+        'Notre plateforme connecte vos données Search à vos données business. Positions Google, citations dans les réponses IA, conversions : tout est visible en temps réel. Vous savez exactement ce que produit chaque euro investi.',
     },
   ],
 };
@@ -184,40 +188,31 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises ciblées en Provence-Alpes-Côte d\'Azur',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous accompagnons les structures régionales dans leur conquête de visibilité digitale',
+    'Notre expertise s\'adresse à différents profils d\'entreprises en PACA. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie & Restauration',
-      description:
-        'Hôtels, restaurants gastronomiques, maisons d\'hôtes et établissements touristiques souhaitant augmenter leurs réservations directes.',
+      label: 'Vous voulez augmenter vos réservations ou vos leads',
+      description: 'Votre site existe mais ne convertit pas assez. Vous cherchez un partenaire capable de structurer une stratégie Search orientée résultats : plus de réservations directes, plus de demandes de devis, un coût d\'acquisition maîtrisé.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces & Artisanat',
-      description:
-        'Boutiques provençales, producteurs locaux, commerces de luxe azuréens et artisans cherchant à développer leur clientèle.',
+      label: 'Vous cherchez une expertise GEO et IA',
+      description: 'ChatGPT et Perplexity changent la façon dont vos prospects trouvent des prestataires. Vous voulez une agence qui sait optimiser pour ces nouveaux moteurs, pas juste pour les liens bleus de Google. Le GEO est intégré dans tous nos projets.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, agences, professionnels libéraux et prestataires B2B ciblant le tissu économique régional.',
+      label: 'Tourisme, hôtellerie et économie saisonnière',
+      description: 'Avec plus de 23 millions de nuitées hôtelières par an, la PACA est un marché touristique ultra-concurrentiel. Anticiper les pics de recherche, capter les voyageurs dès la phase de planification via les IA : c\'est là que le GEO fait la différence.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Luxe',
-      description:
-        'Agences immobilières, promoteurs et acteurs du marché du luxe sur la Côte d\'Azur et dans l\'arrière-pays.',
+      label: 'Tech, innovation et services B2B',
+      description: 'Sophia Antipolis concentre 2 650 entreprises tech, Marseille développe son écosystème startup, Aix-en-Provence attire les sièges régionaux. Sur un marché B2B dense, votre visibilité Search détermine votre capacité à capter des prospects qualifiés.',
     },
   ],
-  ctaTitle: 'Votre secteur ne figure pas dans cette liste ?',
-  ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines d\'activité. Contactez-nous pour évaluer comment le GEO et le SEO peuvent propulser votre entreprise provençale.',
-  ctaButtonText: 'Échanger sur votre projet',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats. Nos 8 ans d\'expérience et nos 350+ clients en témoignent.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -234,7 +229,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie les freins à votre visibilité et les leviers de croissance, avec des priorités classées par impact sur votre activité.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +237,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage Schema.org et performance technique. Les fondations d\'un référencement solide qui résiste aux évolutions algorithmiques.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +245,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité. Une stratégie sur mesure, sans spam ni réseaux douteux. Des liens qui comptent aussi pour la crédibilité IA.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +253,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready : structurés, sourcés, conçus pour se positionner sur Google et être cités par les moteurs IA. Du contenu qui convertit, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +268,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '5M', label: 'Habitants en région PACA' },
-    { value: '31M', label: 'Touristes accueillis par an' },
-    { value: '+65%', label: 'Recherches locales sur mobile' },
-    { value: '40%', label: 'Utiliseront l\'IA pour chercher d\'ici 2026' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +362,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'intelligence artificielle bouleverse la façon dont les touristes et professionnels recherchent des services en PACA. Se préparer maintenant au GEO, c\'est prendre une longueur d\'avance décisive sur ce marché ultra-concurrentiel.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'High-quality web content that\'s useful, usable, and enjoyable is one of the greatest competitive advantages you can create for yourself online.',
+  author: 'Kristina Halvorson',
+  role: 'Fondatrice de Brain Traffic',
 };
 
 // ============================================
@@ -354,38 +373,56 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO en Provence-Alpes-Côte d\'Azur',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi investir dans le SEO et le GEO en région PACA ?',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises en Provence-Alpes-Côte d\'Azur ?',
       answer:
-        'La région PACA est l\'une des plus concurrentielles de France, notamment dans le tourisme et l\'immobilier. Avec 31 millions de touristes annuels et une économie dynamique, se démarquer en ligne est crucial. Le SEO vous positionne sur Google, le GEO vous fait recommander par les IA que ces touristes et prospects utilisent de plus en plus.',
+        'Oui, nous accompagnons des entreprises sur l\'ensemble du territoire PACA : Marseille, Nice, Cannes, Aix-en-Provence, Avignon, Toulon et au-delà. Notre modèle de collaboration à distance est éprouvé : visios régulières, consultant senior dédié joignable par email ou téléphone, et accès à Rankwell One pour suivre vos performances en temps réel.',
     },
     {
-      question: 'En combien de temps puis-je voir des résultats ?',
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous en PACA ?',
       answer:
-        'Le SEO produit généralement ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes spécifiques. Nous établissons des indicateurs de progression dès le premier mois pour mesurer l\'impact de nos actions.',
+        'Nous travaillons avec des entreprises de tous secteurs : tourisme et hôtellerie (un marché majeur avec 23 millions de nuitées par an), tech et innovation (Sophia Antipolis), services portuaires et logistiques (Marseille-Fos), cosmétique et parfumerie (filière grassoise), immobilier de prestige. Le point commun : des entreprises qui veulent générer du business via le Search.',
     },
     {
-      question: 'Travaillez-vous avec des entreprises de toute la région ?',
+      id: '3',
+      question: 'Qu\'est-ce que le GEO exactement ?',
       answer:
-        'Oui, nous accompagnons des entreprises de Marseille, Nice, Cannes, Aix-en-Provence, Avignon, Toulon et au-delà. Notre expertise couvre l\'ensemble du territoire PACA, y compris les zones touristiques alpines et l\'arrière-pays provençal.',
+        'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités par ces IA quand un prospect pose une question liée à votre expertise. En PACA, où les touristes internationaux planifient de plus en plus via l\'IA, c\'est un levier de visibilité incontournable.',
     },
     {
-      question: 'Le GEO remplace-t-il le SEO traditionnel ?',
+      id: '4',
+      question: 'Combien de temps avant de voir des résultats ?',
       answer:
-        'Non, le GEO complète le SEO. Google reste le moteur dominant, mais les recherches via l\'IA progressent rapidement. Une stratégie complète intègre les deux approches pour maximiser votre présence sur tous les canaux de recherche.',
+        'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et la concurrence. Le GEO peut produire des effets plus rapides sur des requêtes ciblées. On vous donne des projections réalistes dès le premier échange, avec des jalons mensuels pour suivre la progression et ajuster si nécessaire.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '5',
+      question: 'Comment gérez-vous la saisonnalité du marché PACA ?',
       answer:
-        'Nous utilisons des outils spécialisés pour suivre vos citations dans les réponses des IA (ChatGPT, Perplexity, Google SGE), analyser les requêtes pour lesquelles vous êtes mentionné et mesurer l\'évolution de votre visibilité sur ces nouvelles plateformes.',
+        'Le tourisme en PACA est fortement saisonnier. Nous anticipons les pics de recherche — été, festivals, événements cannois, saison de ski dans les Alpes du Sud — et optimisons votre visibilité plusieurs mois en amont. L\'objectif est de capter le trafic au bon moment, pas de réagir quand il est trop tard.',
     },
     {
-      question: 'Proposez-vous des services pour le tourisme saisonnier ?',
+      id: '6',
+      question: 'Pourquoi choisir une agence nationale plutôt qu\'une agence locale ?',
       answer:
-        'Absolument. Le caractère saisonnier du tourisme en PACA nécessite une stratégie adaptée. Nous anticipons les pics de recherche (été, festivals, événements cannois) et optimisons votre visibilité en amont pour capter le maximum de trafic au bon moment.',
+        'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise méthodologique et la capacité à produire des résultats concrets. Nos consultants seniors ont une vision nationale du marché Search, 8 ans d\'expérience et plus de 350 clients accompagnés. La collaboration à distance est fluide et transparente via notre plateforme.',
+    },
+    {
+      id: '7',
+      question: 'Le GEO est-il utile pour une entreprise qui cible des clients internationaux ?',
+      answer:
+        'Particulièrement en PACA, où 37 % des touristes sont internationaux. Les voyageurs et acheteurs étrangers utilisent massivement les IA pour rechercher des prestataires. Être cité par ChatGPT en anglais quand un prospect demande des recommandations sur la Côte d\'Azur, c\'est un avantage compétitif direct qui se traduit en réservations et en prises de contact.',
+    },
+    {
+      id: '8',
+      question: 'Quels sont vos tarifs ?',
+      answer:
+        'Les tarifs dépendent de vos objectifs, votre secteur et l\'intensité concurrentielle. On travaille sur des forfaits mensuels ou des projets ponctuels comme des audits. Le plus simple : un premier échange de 30 minutes en visio pour comprendre votre situation et vous donner une estimation réaliste. Sans engagement, sans mauvaise surprise.',
     },
   ],
 };

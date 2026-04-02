@@ -106,28 +106,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Bot',
-      title: 'Architecture des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) regroupe les pratiques qui permettent à vos contenus d\'apparaître dans les réponses des moteurs IA : ChatGPT, Perplexity, AI Overviews de Google. Pour une entreprise perpignanaise, cela signifie être recommandé quand un prospect ou un touriste pose une question liée à votre activité, que ce soit en français, en espagnol ou en catalan.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
-      description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les IA sélectionnent des extraits qu\'elles peuvent reformuler et attribuer. Pour être choisi, votre contenu doit être structuré avec des réponses directes, des données vérifiables et une expertise démontrée. Nous optimisons vos pages pour que les algorithmes génératifs les identifient comme des sources fiables sur votre domaine d\'expertise.',
     },
     {
-      icon: 'Award',
-      title: 'Marqueurs de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les modèles de langage évaluent la légitimité de votre site sur un sujet donné. Un acteur de la logistique fruits et légumes à Perpignan doit démontrer une expertise cohérente sur l\'ensemble de sa thématique. La profondeur sémantique, le maillage interne et la couverture exhaustive du sujet sont les leviers que nous actionnons.',
     },
     {
-      icon: 'ChartLine',
-      title: 'Suivi de performance',
-      description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les IA croisent de multiples sources pour valider votre crédibilité : presse locale et nationale, sites institutionnels, annuaires professionnels, réseaux sociaux. Plus votre marque est mentionnée dans des contextes pertinents et diversifiés, plus les moteurs génératifs vous considèrent comme une référence digne de recommandation.',
     },
   ],
 };
@@ -136,8 +132,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Perpignan est la 2ème ville touristique d'Occitanie et sa gare a été qualifiée de \"centre du monde\" par Salvador Dalí. Avec plus de 300 jours de soleil par an et sa position stratégique transfrontalière, la ville attire une clientèle internationale, rendant la visibilité digitale cruciale.",
+  label: 'Le contexte économique perpignanais',
+  text: 'Perpignan et son agglomération concentrent 56 % de la population des Pyrénées-Orientales, soit environ 122 000 habitants en ville et 491 000 dans le département. Saint-Charles International, premier centre européen de commercialisation de fruits et légumes frais, génère 2,3 milliards d\'euros de chiffre d\'affaires et emploie 10 000 personnes. La position transfrontalière de Perpignan, à 30 km de l\'Espagne, en fait un carrefour logistique et commercial où la visibilité digitale multilingue est un avantage concurrentiel décisif.',
   icon: 'TrendingUp' as const,
 };
 
@@ -153,52 +149,32 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Exploration approfondie de votre secteur à Perpignan, mapping concurrentiel et identification des opportunités propres au territoire catalan.',
-      features: [
-        'Audit de visibilité actuelle',
-        'Étude de la concurrence locale',
-        'Analyse des requêtes régionales et transfrontalières',
-        'Compréhension des comportements utilisateurs',
-      ],
+        'Gagner des positions sur « logistique Perpignan » sans que ça génère des demandes de devis, ça ne sert à rien. Notre métrique principale, c\'est l\'impact concret sur votre activité : leads qualifiés, ventes attribuées au Search, coût d\'acquisition par canal. Chaque euro investi doit être traçable.',
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
-      features: [
-        'Rédaction SEO et GEO',
-        'Architecture sémantique',
-        'Contenus multilingues (FR/ES/CAT)',
-        'Mise en valeur de l\'identité catalane',
-      ],
+        'Viser le marché espagnol sans contenu en espagnol correctement localisé, c\'est une impasse. Notre rôle inclut de remettre en question les idées reçues et de réorienter les efforts vers ce qui produit des résultats. Un vrai partenaire stratégique ne se contente pas d\'exécuter aveuglément.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
-      features: [
-        'Amélioration de la vitesse',
-        'Balisage Schema.org',
-        'Responsive et UX',
-        'Sécurité et conformité',
-      ],
+        'Celui qui élabore votre stratégie est celui qui l\'implémente. Pas de commercial qui promet et de junior qui livre. Votre consultant connaît les spécificités du marché transfrontalier catalan et reste votre interlocuteur unique tout au long de la mission, joignable en visio, email ou téléphone.',
     },
     {
-      icon: 'BarChart3',
-      title: 'Monitoring et amélioration',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
-      features: [
-        'Reporting mensuel',
-        'Suivi des positions SEO et GEO',
-        'Analyse des conversions',
-        'Recommandations évolutives',
-      ],
+        'Notre plateforme connecte vos données Search à vos indicateurs commerciaux. Vous suivez en temps réel les positions, les citations IA, le trafic qualifié et les conversions. Fini les rapports PDF statiques : vous disposez d\'un tableau de bord vivant, accessible quand vous le souhaitez.',
     },
   ],
 };
@@ -209,40 +185,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises perpignanaises que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire catalan.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et artisans locaux',
-      description:
-        'Industries, artisans et entreprises du terroir souhaitant amplifier leur rayonnement digital à Perpignan et vers l\'Espagne.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais les demandes de contact restent insuffisantes. Vous avez besoin d\'un partenaire qui structure une vraie stratégie Search, capable de transformer des visiteurs en clients sur le marché catalan et au-delà.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux d\'attirer une clientèle catalane des deux côtés de la frontière.',
+      label: 'Vous cherchez une expertise GEO avant-gardiste',
+      description: 'Vous avez compris que ChatGPT et Perplexity changent la façon dont les gens trouvent des prestataires. Vous voulez une agence qui sait positionner votre entreprise dans ces réponses IA, pas uniquement dans les résultats Google classiques.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur visibilité auprès des Perpignanais.',
+      label: 'Commerce transfrontalier et logistique',
+      description: 'Acteurs de Saint-Charles International, transporteurs, grossistes, importateurs : avec 2,3 milliards d\'euros de chiffre d\'affaires sur la plateforme et 57 % d\'approvisionnement espagnol, votre visibilité digitale doit couvrir les marchés français et ibérique simultanément.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant capter les visiteurs de la Côte Vermeille et des Pyrénées.',
+      label: 'Tourisme de la Côte Vermeille et des Pyrénées catalanes',
+      description: 'Hôteliers, campings, restaurateurs, prestataires d\'activités : les touristes planifient leurs séjours via Google et les IA. Être visible quand un voyageur cherche « où dormir à Collioure » ou « randonnée Canigou » en français, espagnol ou catalan, c\'est capter une clientèle internationale.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Perpignan et dans tout le territoire catalan.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et la capacité à produire des résultats mesurables. Une agence qui comprend le marché transfrontalier vaut mieux qu\'un prestataire local sans vision internationale.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -259,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel adapté au contexte transfrontalier perpignanais. On cartographie vos forces, vos freins et les opportunités de croissance sur les marchés français et ibérique.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -267,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Architecture de contenu multilingue, balisage technique, performance serveur. Les fondations d\'un référencement solide qui fonctionne aussi bien en français qu\'en espagnol et en catalan.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -275,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs sur des sites à forte autorité, en France comme en Espagne. Une stratégie sur-mesure qui renforce votre crédibilité auprès des moteurs et des IA.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -283,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, pensés pour le marché catalan. Du contenu qui se positionne, qui est cité par les moteurs IA et qui convertit les prospects en clients.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -299,24 +265,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '120',
-      suffix: 'k',
-      label: "D'habitants à Perpignan",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,10 +356,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'If you spend your time optimizing your site for algorithmic particulars, you\'ll never have time to do anything else. Focus on building something genuinely useful for your audience.',
+  author: 'Vanessa Fox',
+  role: 'Créatrice de Google Webmaster Central',
 };
 
 // ============================================
@@ -394,38 +367,48 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO à Perpignan',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
-      answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à Perpignan sans être sur place ?',
+      answer: 'Oui, nous accompagnons des entreprises perpignanaises avec un modèle de collaboration à distance éprouvé auprès de plus de 350 clients. Visios régulières, consultant senior dédié joignable en permanence, accès à Rankwell One pour suivre vos résultats en temps réel. La distance n\'est pas un frein quand la méthodologie et les outils sont solides.',
     },
     {
-      question: 'Pourquoi une entreprise perpignanaise doit-elle s\'intéresser au GEO ?',
-      answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects, notamment les touristes qui planifient leur séjour en Catalogne.',
+      id: '2',
+      question: 'Pouvez-vous travailler sur le marché espagnol et catalan ?',
+      answer: 'Oui, la position transfrontalière de Perpignan rend le SEO multilingue stratégique. Nous optimisons votre visibilité en français, espagnol et catalan pour capter le trafic des deux côtés des Pyrénées. Cela inclut l\'adaptation des contenus aux spécificités linguistiques de chaque marché, le ciblage géographique et la gestion des versions multilingues de votre site.',
     },
     {
-      question: 'Travaillez-vous sur le marché espagnol également ?',
-      answer:
-        'Oui, nous pouvons optimiser votre présence en français, espagnol et catalan pour capter le trafic transfrontalier. Perpignan est idéalement placée pour toucher les marchés des deux côtés des Pyrénées.',
+      id: '3',
+      question: 'Qu\'est-ce que le GEO et en quoi ça concerne Perpignan ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou Google AI Overviews. Quand un importateur espagnol demande à une IA « meilleur transitaire fruits et légumes Perpignan » ou qu\'un touriste cherche « que faire à Collioure ce week-end », vous voulez être recommandé. Le GEO positionne votre entreprise dans ces nouvelles réponses conversationnelles.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
-      answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+      id: '4',
+      question: 'Quels secteurs accompagnez-vous dans les Pyrénées-Orientales ?',
+      answer: 'Logistique et commerce de fruits et légumes (Saint-Charles International), tourisme balnéaire et montagnard (Côte Vermeille, Pyrénées catalanes), viticulture roussillonnaise, commerces locaux, services professionnels. Nous adaptons notre stratégie aux spécificités de chaque secteur, en intégrant les dynamiques transfrontalières propres au territoire.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
-      answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+      id: '5',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
+      answer: 'En SEO, comptez entre 3 et 6 mois pour des résultats mesurables, selon votre point de départ et la concurrence sur votre marché. Le GEO peut produire des effets plus rapides quand les contenus sont correctement structurés. On vous donne des projections réalistes dès le départ et vous suivez l\'avancement via votre tableau de bord Rankwell One.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
-      answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+      id: '6',
+      question: 'Le SEO est-il rentable pour une entreprise de taille modeste à Perpignan ?',
+      answer: 'Oui, et souvent davantage que pour les grandes entreprises. Sur des marchés locaux comme Perpignan, la concurrence SEO est moins intense que sur les marchés nationaux. Cela signifie qu\'un investissement raisonnable peut produire des résultats significatifs plus rapidement. L\'important est de cibler les bonnes requêtes : celles qui génèrent des clients, pas du trafic inutile.',
+    },
+    {
+      id: '7',
+      question: 'Comment fonctionne votre tarification ?',
+      answer: 'Les tarifs dépendent de vos objectifs, de la complexité de votre marché et du périmètre linguistique (français seul ou multilingue). Nous proposons des forfaits mensuels pour l\'accompagnement continu ou des missions ponctuelles pour les audits et refontes. Premier échange gratuit de 30 minutes pour comprendre votre situation et vous donner une estimation claire.',
+    },
+    {
+      id: '8',
+      question: 'Saint-Charles International est un marché très spécifique. Comprenez-vous ce secteur ?',
+      answer: 'Notre approche business centrix implique de comprendre en profondeur le métier de chaque client avant de définir la stratégie. Pour le secteur logistique fruits et légumes, cela signifie maîtriser les cycles saisonniers, les flux d\'importation Espagne-Maroc, les requêtes B2B des acheteurs professionnels. On investit le temps nécessaire dans la compréhension de votre marché.',
     },
   ],
 };

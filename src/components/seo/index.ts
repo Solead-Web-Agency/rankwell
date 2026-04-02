@@ -10,4 +10,6 @@ export {
   FAQJsonLd,
   HowToJsonLd,
   LocalBusinessJsonLd,
+  DefinedTermJsonLd,
+  ArticleJsonLd,
 } from './JsonLd';

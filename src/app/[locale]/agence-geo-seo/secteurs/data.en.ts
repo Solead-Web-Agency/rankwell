@@ -1,13 +1,15 @@
 /**
  * SECTORS - GEO & SEO by sector gateway page
  * List of business sectors and project types for internal linking
+ *
+ * 40 entries removed after SEO validation via HaloScan/Ahrefs (March 2026)
  */
 
 // ============================================
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'GEO & SEO Agency by Sector | SEO for your industry - Rankwell',
+  title: 'GEO & SEO Agency by Sector | SEO for your industry',
   description:
     'Discover our GEO & SEO services tailored to your business sector. SEO for lawyers, restaurants, e-commerce, real estate, hotels and more.',
 };
@@ -44,136 +46,94 @@ export interface SecteurItem {
 
 export const secteursMetiersData: SecteurItem[] = [
   // Legal
-  { slug: 'avocat', name: 'Lawyers', category: 'Legal' },
-  { slug: 'notaire', name: 'Notaries', category: 'Legal' },
-  { slug: 'huissier', name: 'Bailiffs', category: 'Legal' },
+  { slug: 'lawyer', name: 'Lawyers', category: 'Legal' },
+  { slug: 'notary', name: 'Notaries', category: 'Legal' },
 
   // Finance & Accounting
-  { slug: 'expert-comptable', name: 'Accountants', category: 'Finance' },
-  { slug: 'banque', name: 'Banks', category: 'Finance' },
-  { slug: 'assurance', name: 'Insurance', category: 'Finance' },
-  { slug: 'courtier', name: 'Brokers', category: 'Finance' },
-  { slug: 'gestionnaire-patrimoine', name: 'Wealth Managers', category: 'Finance' },
+  { slug: 'accountant', name: 'Accountants', category: 'Finance' },
+  { slug: 'bank', name: 'Banks', category: 'Finance' },
+  { slug: 'insurance', name: 'Insurance', category: 'Finance' },
 
   // Healthcare
-  { slug: 'medecin', name: 'General Practitioners', category: 'Healthcare' },
-  { slug: 'chirurgien', name: 'Surgeons', category: 'Healthcare' },
-  { slug: 'dentiste', name: 'Dentists', category: 'Healthcare' },
-  { slug: 'orthodontiste', name: 'Orthodontists', category: 'Healthcare' },
-  { slug: 'ophtalmologue', name: 'Ophthalmologists', category: 'Healthcare' },
-  { slug: 'dermatologue', name: 'Dermatologists', category: 'Healthcare' },
-  { slug: 'kinesitherapeute', name: 'Physiotherapists', category: 'Healthcare' },
-  { slug: 'osteopathe', name: 'Osteopaths', category: 'Healthcare' },
-  { slug: 'psychologue', name: 'Psychologists', category: 'Healthcare' },
-  { slug: 'veterinaire', name: 'Veterinarians', category: 'Healthcare' },
-  { slug: 'pharmacie', name: 'Pharmacies', category: 'Healthcare' },
-  { slug: 'clinique', name: 'Clinics', category: 'Healthcare' },
-  { slug: 'laboratoire', name: 'Medical Labs', category: 'Healthcare' },
+  { slug: 'doctor', name: 'General Practitioners', category: 'Healthcare' },
+  { slug: 'surgeon', name: 'Surgeons', category: 'Healthcare' },
+  { slug: 'dentist', name: 'Dentists', category: 'Healthcare' },
+  { slug: 'ophthalmologist', name: 'Ophthalmologists', category: 'Healthcare' },
+  { slug: 'dermatologist', name: 'Dermatologists', category: 'Healthcare' },
+  { slug: 'osteopath', name: 'Osteopaths', category: 'Healthcare' },
+  { slug: 'psychologist', name: 'Psychologists', category: 'Healthcare' },
+  { slug: 'veterinarian', name: 'Veterinarians', category: 'Healthcare' },
+  { slug: 'pharmacy', name: 'Pharmacies', category: 'Healthcare' },
+  { slug: 'clinic', name: 'Clinics', category: 'Healthcare' },
 
   // Beauty & Wellness
-  { slug: 'coiffeur', name: 'Hairdressers', category: 'Beauty' },
-  { slug: 'estheticienne', name: 'Beauticians', category: 'Beauty' },
+  { slug: 'hairdresser', name: 'Hairdressers', category: 'Beauty' },
   { slug: 'spa', name: 'Spas', category: 'Beauty' },
-  { slug: 'salon-beaute', name: 'Beauty Salons', category: 'Beauty' },
-  { slug: 'barbier', name: 'Barbers', category: 'Beauty' },
+  { slug: 'barber', name: 'Barbers', category: 'Beauty' },
 
   // Hospitality
   { slug: 'hotel', name: 'Hotels', category: 'Hospitality' },
-  { slug: 'chambre-hote', name: 'B&Bs', category: 'Hospitality' },
-  { slug: 'gite', name: 'Holiday Rentals', category: 'Hospitality' },
-  { slug: 'camping', name: 'Campsites', category: 'Hospitality' },
-  { slug: 'residence-tourisme', name: 'Tourist Residences', category: 'Hospitality' },
-  { slug: 'auberge', name: 'Inns', category: 'Hospitality' },
+  { slug: 'holiday-rental', name: 'Holiday Rentals', category: 'Hospitality' },
+  { slug: 'campsite', name: 'Campsites', category: 'Hospitality' },
 
   // Food & Beverage
   { slug: 'restaurant', name: 'Restaurants', category: 'Food & Beverage' },
-  { slug: 'restaurant-gastronomique', name: 'Fine Dining', category: 'Food & Beverage' },
-  { slug: 'pizzeria', name: 'Pizzerias', category: 'Food & Beverage' },
-  { slug: 'brasserie', name: 'Brasseries', category: 'Food & Beverage' },
-  { slug: 'traiteur', name: 'Caterers', category: 'Food & Beverage' },
+  { slug: 'caterer', name: 'Caterers', category: 'Food & Beverage' },
   { slug: 'food-truck', name: 'Food Trucks', category: 'Food & Beverage' },
   { slug: 'bar', name: 'Bars', category: 'Food & Beverage' },
-  { slug: 'cafe', name: 'Cafés', category: 'Food & Beverage' },
-  { slug: 'boulangerie', name: 'Bakeries', category: 'Food & Beverage' },
-  { slug: 'patisserie', name: 'Pastry Shops', category: 'Food & Beverage' },
 
   // Real Estate
-  { slug: 'agence-immobiliere', name: 'Real Estate Agencies', category: 'Real Estate' },
-  { slug: 'promoteur-immobilier', name: 'Property Developers', category: 'Real Estate' },
-  { slug: 'constructeur-maison', name: 'Home Builders', category: 'Real Estate' },
-  { slug: 'syndic', name: 'Property Managers', category: 'Real Estate' },
-  { slug: 'diagnostiqueur', name: 'Property Inspectors', category: 'Real Estate' },
+  { slug: 'real-estate-agency', name: 'Real Estate Agencies', category: 'Real Estate' },
+  { slug: 'property-developer', name: 'Property Developers', category: 'Real Estate' },
+  { slug: 'property-manager', name: 'Property Managers', category: 'Real Estate' },
+  { slug: 'property-inspector', name: 'Property Inspectors', category: 'Real Estate' },
 
   // Architecture & Design
-  { slug: 'architecte', name: 'Architects', category: 'Architecture' },
-  { slug: 'architecte-interieur', name: 'Interior Designers', category: 'Architecture' },
-  { slug: 'decorateur', name: 'Decorators', category: 'Architecture' },
-  { slug: 'paysagiste', name: 'Landscapers', category: 'Architecture' },
+  { slug: 'architect', name: 'Architects', category: 'Architecture' },
+  { slug: 'landscaper', name: 'Landscapers', category: 'Architecture' },
 
   // Trades & Crafts
-  { slug: 'plombier', name: 'Plumbers', category: 'Trades' },
-  { slug: 'electricien', name: 'Electricians', category: 'Trades' },
-  { slug: 'chauffagiste', name: 'Heating Engineers', category: 'Trades' },
-  { slug: 'menuisier', name: 'Carpenters', category: 'Trades' },
-  { slug: 'serrurier', name: 'Locksmiths', category: 'Trades' },
-  { slug: 'carreleur', name: 'Tilers', category: 'Trades' },
-  { slug: 'peintre', name: 'Painters', category: 'Trades' },
-  { slug: 'couvreur', name: 'Roofers', category: 'Trades' },
-  { slug: 'macon', name: 'Masons', category: 'Trades' },
-  { slug: 'charpentier', name: 'Joiners', category: 'Trades' },
-  { slug: 'cuisiniste', name: 'Kitchen Fitters', category: 'Trades' },
-  { slug: 'pisciniste', name: 'Pool Builders', category: 'Trades' },
-  { slug: 'vitrier', name: 'Glaziers', category: 'Trades' },
-  { slug: 'demenageur', name: 'Movers', category: 'Trades' },
+  { slug: 'plumber', name: 'Plumbers', category: 'Trades' },
+  { slug: 'electrician', name: 'Electricians', category: 'Trades' },
+  { slug: 'heating-engineer', name: 'Heating Engineers', category: 'Trades' },
+  { slug: 'carpenter', name: 'Carpenters', category: 'Trades' },
+  { slug: 'locksmith', name: 'Locksmiths', category: 'Trades' },
+  { slug: 'tiler', name: 'Tilers', category: 'Trades' },
+  { slug: 'roofer', name: 'Roofers', category: 'Trades' },
+  { slug: 'joiner', name: 'Joiners', category: 'Trades' },
+  { slug: 'glazier', name: 'Glaziers', category: 'Trades' },
+  { slug: 'mover', name: 'Movers', category: 'Trades' },
 
   // Automotive
-  { slug: 'garage', name: 'Auto Repair Shops', category: 'Automotive' },
-  { slug: 'concessionnaire', name: 'Car Dealers', category: 'Automotive' },
-  { slug: 'carrossier', name: 'Body Shops', category: 'Automotive' },
-  { slug: 'auto-ecole', name: 'Driving Schools', category: 'Automotive' },
-  { slug: 'location-voiture', name: 'Car Rentals', category: 'Automotive' },
+  { slug: 'auto-repair', name: 'Auto Repair Shops', category: 'Automotive' },
+  { slug: 'car-dealer', name: 'Car Dealers', category: 'Automotive' },
+  { slug: 'body-shop', name: 'Body Shops', category: 'Automotive' },
 
   // B2B Services
-  { slug: 'agence-communication', name: 'Marketing Agencies', category: 'B2B Services' },
-  { slug: 'agence-web', name: 'Web Agencies', category: 'B2B Services' },
-  { slug: 'consultant', name: 'Consultants', category: 'B2B Services' },
-  { slug: 'coach', name: 'Business Coaches', category: 'B2B Services' },
-  { slug: 'traducteur', name: 'Translators', category: 'B2B Services' },
-  { slug: 'imprimeur', name: 'Printers', category: 'B2B Services' },
+  { slug: 'marketing-agency', name: 'Marketing Agencies', category: 'B2B Services' },
+  { slug: 'translator', name: 'Translators', category: 'B2B Services' },
+  { slug: 'printer', name: 'Printers', category: 'B2B Services' },
 
   // Creatives
-  { slug: 'photographe', name: 'Photographers', category: 'Creatives' },
-  { slug: 'videaste', name: 'Videographers', category: 'Creatives' },
-  { slug: 'graphiste', name: 'Graphic Designers', category: 'Creatives' },
-  { slug: 'wedding-planner', name: 'Wedding Planners', category: 'Creatives' },
-
-  // Education & Training
-  { slug: 'ecole-privee', name: 'Private Schools', category: 'Education' },
-  { slug: 'centre-formation', name: 'Training Centers', category: 'Education' },
-  { slug: 'professeur-particulier', name: 'Private Tutors', category: 'Education' },
-  { slug: 'ecole-langue', name: 'Language Schools', category: 'Education' },
-  { slug: 'creche', name: 'Nurseries', category: 'Education' },
+  { slug: 'photographer', name: 'Photographers', category: 'Creatives' },
+  { slug: 'videographer', name: 'Videographers', category: 'Creatives' },
+  { slug: 'graphic-designer', name: 'Graphic Designers', category: 'Creatives' },
 
   // Sports & Leisure
-  { slug: 'salle-sport', name: 'Gyms', category: 'Sports' },
-  { slug: 'coach-sportif', name: 'Personal Trainers', category: 'Sports' },
-  { slug: 'club-golf', name: 'Golf Clubs', category: 'Sports' },
-  { slug: 'club-tennis', name: 'Tennis Clubs', category: 'Sports' },
-  { slug: 'centre-equestre', name: 'Equestrian Centers', category: 'Sports' },
+  { slug: 'personal-trainer', name: 'Personal Trainers', category: 'Sports' },
 
   // Retail
-  { slug: 'fleuriste', name: 'Florists', category: 'Retail' },
-  { slug: 'bijoutier', name: 'Jewelers', category: 'Retail' },
-  { slug: 'opticien', name: 'Opticians', category: 'Retail' },
-  { slug: 'caviste', name: 'Wine Merchants', category: 'Retail' },
-  { slug: 'epicerie-fine', name: 'Delicatessens', category: 'Retail' },
+  { slug: 'florist', name: 'Florists', category: 'Retail' },
+  { slug: 'jeweler', name: 'Jewelers', category: 'Retail' },
+  { slug: 'optician', name: 'Opticians', category: 'Retail' },
+  { slug: 'wine-merchant', name: 'Wine Merchants', category: 'Retail' },
   { slug: 'franchise', name: 'Franchises', category: 'Retail' },
 
   // Business Types
   { slug: 'startup', name: 'Startups', category: 'Business' },
-  { slug: 'pme', name: 'SMEs', category: 'Business' },
-  { slug: 'industrie', name: 'Industries', category: 'Business' },
-  { slug: 'association', name: 'Non-profits', category: 'Business' },
+  { slug: 'sme', name: 'SMEs', category: 'Business' },
+  { slug: 'industry', name: 'Industries', category: 'Business' },
+  { slug: 'non-profit', name: 'Non-profits', category: 'Business' },
 ];
 
 // ============================================
@@ -182,16 +142,15 @@ export const secteursMetiersData: SecteurItem[] = [
 export const typesProjetsData: SecteurItem[] = [
   // Site types
   { slug: 'ecommerce', name: 'E-commerce', category: 'Site Type' },
-  { slug: 'site-vitrine', name: 'Corporate Website', category: 'Site Type' },
+  { slug: 'corporate-website', name: 'Corporate Website', category: 'Site Type' },
   { slug: 'marketplace', name: 'Marketplace', category: 'Site Type' },
   { slug: 'blog', name: 'Blog', category: 'Site Type' },
-  { slug: 'application-web', name: 'Web App & SaaS', category: 'Site Type' },
-  { slug: 'intranet', name: 'Intranet', category: 'Site Type' },
+  { slug: 'web-app', name: 'Web App & SaaS', category: 'Site Type' },
 
   // Actions
-  { slug: 'refonte', name: 'Website Redesign', category: 'Project' },
-  { slug: 'migration', name: 'Website Migration', category: 'Project' },
-  { slug: 'creation-site', name: 'Website Creation', category: 'Project' },
+  { slug: 'website-redesign', name: 'Website Redesign', category: 'Project' },
+  { slug: 'website-migration', name: 'Website Migration', category: 'Project' },
+  { slug: 'website-creation', name: 'Website Creation', category: 'Project' },
 ];
 
 // ============================================
@@ -224,7 +183,6 @@ export const cmsPlatformesData: SecteurItem[] = [
   // Headless & Modern
   { slug: 'strapi', name: 'Strapi', category: 'Headless CMS' },
   { slug: 'contentful', name: 'Contentful', category: 'Headless CMS' },
-  { slug: 'sanity', name: 'Sanity', category: 'Headless CMS' },
   { slug: 'prismic', name: 'Prismic', category: 'Headless CMS' },
 
   // Frameworks
@@ -237,6 +195,15 @@ export const cmsPlatformesData: SecteurItem[] = [
   { slug: 'hubspot', name: 'HubSpot CMS', category: 'ERP & Business' },
   { slug: 'salesforce', name: 'Salesforce Commerce', category: 'ERP & Business' },
 ];
+
+// ============================================
+// SECTION TITLES
+// ============================================
+export const sectionTitles = {
+  secteurs: 'By industry',
+  projets: 'By project type',
+  cms: 'By CMS & platform',
+};
 
 // ============================================
 // CTA

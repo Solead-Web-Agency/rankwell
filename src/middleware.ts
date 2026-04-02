@@ -27,6 +27,9 @@ const enToFrSegments: Record<string, string> = {
   'technical-semantic': 'technique-semantique',
   'link-building': 'netlinking',
   'content-creation': 'creation-contenu',
+  'sectors': 'secteurs',
+  'sector': 'secteur',
+  'project': 'projet',
 
   // Sous-pages SEA
   'management': 'accompagnement',
@@ -36,9 +39,13 @@ const enToFrSegments: Record<string, string> = {
   'about-us': 'qui-sommes-nous',
   'our-offices': 'nos-bureaux',
 
+  // Ressources
+  'glossary': 'glossaire',
+
   // Autres
   'legal-notice': 'mentions-legales',
-  'privacy-policy': 'politique-confidentialite',
+  'privacy-policy': 'confidentialite',
+  'case-studies': 'etudes-de-cas',
   'training': 'formations',
 };
 

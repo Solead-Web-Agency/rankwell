@@ -101,7 +101,7 @@ const StepsDimensions = ({
 
       stepLines.forEach((line, index) => {
         gsap.to(line, {
-          height: 380,
+          height: '100%',
           duration: 1.5,
           ease: 'power3.out',
           delay: index * 0.2,
@@ -118,13 +118,15 @@ const StepsDimensions = ({
   );
 
   const renderDimensionCard = (dim: StepDimensionItem, index: number, position: 'left' | 'right') => {
-    const positionClasses = position === 'left'
-      ? 'lg:left-0 lg:top-0 left-1/2 lg:translate-x-0 lg:translate-y-0 -translate-x-1/2 top-1/2 -translate-y-1/2'
-      : 'lg:right-0 lg:top-0 right-1/2 lg:translate-x-0 lg:translate-y-0 translate-x-1/2 top-1/2 -translate-y-1/2';
+    // Desktop : absolute, alternance gauche/droite
+    // Mobile : dans le flux (flex child)
+    const desktopPosition = position === 'left'
+      ? 'lg:absolute lg:left-0 lg:top-0'
+      : 'lg:absolute lg:right-0 lg:top-0';
 
     return (
       <RevealAnimation delay={0.2 + index * 0.1}>
-        <div className={`card-item absolute ${positionClasses} max-w-[370px] w-full space-y-3 lg:bg-none dark:bg-background-6 lg:dark:bg-transparent lg:p-0 lg:rounded-none p-6 rounded-[20px] max-sm:bg-background-4`}>
+        <div className={`card-item flex-1 lg:flex-none ${desktopPosition} lg:max-w-[370px] lg:w-full space-y-3`}>
           <p className={`text-tagline-2 ${colors.text}`}>{dim.label}</p>
           <div className="space-y-2">
             <h3 className="text-heading-6 lg:text-heading-5">{dim.title}</h3>
@@ -148,7 +150,7 @@ const StepsDimensions = ({
     const gradient = gradientColors[accentColor];
 
     return (
-      <div className="h-[320px] lg:h-[380px] w-1 mx-auto bg-stroke-2 dark:bg-stroke-6">
+      <div className="flex-1 min-h-[80px] lg:flex-none lg:h-[380px] w-1 mx-auto bg-stroke-2 dark:bg-stroke-6">
         <svg
           ref={(el) => { stepLineRefs.current[index] = el; }}
           xmlns="http://www.w3.org/2000/svg"
@@ -181,9 +183,9 @@ const StepsDimensions = ({
   };
 
   return (
-    <section id={sectionId} className="pb-[100px] xl:pb-[200px] pt-[100px]">
+    <section id={sectionId} className="pb-16 lg:pb-[100px] xl:pb-[200px] pt-16 lg:pt-[100px]">
       <div className="main-container">
-        <div className="text-center space-y-5 mb-[70px]">
+        <div className="text-center space-y-5 mb-10 lg:mb-[70px]">
           <RevealAnimation delay={0.1}>
             <span className={`badge ${colors.badge}`}>{badge}</span>
           </RevealAnimation>
@@ -198,25 +200,29 @@ const StepsDimensions = ({
         </div>
         <RevealAnimation delay={0.4}>
           <div className="process-steps" ref={scopeRef}>
-            <div className="max-w-[870px] mx-auto mb-[100px]">
+            <div className="max-w-[870px] mx-auto mb-16 lg:mb-[100px]">
               {items.map((dim, index) => {
                 const isLast = index === items.length - 1;
-                // Alternance stricte : gauche (0), droite (1), gauche (2), droite (3)...
                 const position = index % 2 === 0 ? 'left' : 'right';
-                // Supporte dimension ou step comme numéro
                 const stepNumber = dim.dimension ?? dim.step ?? index + 1;
 
                 return (
                   <div key={stepNumber} className="relative">
-                    <div>
-                      <div className="size-[34px] flex items-center justify-center mx-auto rounded-full bg-white drop-shadow-2xl dark:bg-black">
-                        <div className={`size-7 ${colors.bg} rounded-full flex items-center justify-center`}>
-                          <span className="text-white text-sm font-medium">{stepNumber}</span>
+                    {/* Mobile: flex row (timeline left + card right) */}
+                    {/* Desktop: block (timeline centered + card absolute) */}
+                    <div className="flex gap-5 lg:block">
+                      {/* Timeline column */}
+                      <div className="shrink-0 flex flex-col items-center lg:block">
+                        <div className="size-[34px] flex items-center justify-center mx-auto rounded-full bg-white drop-shadow-2xl dark:bg-black">
+                          <div className={`size-7 ${colors.bg} rounded-full flex items-center justify-center`}>
+                            <span className="text-white text-sm font-medium">{stepNumber}</span>
+                          </div>
                         </div>
+                        {!isLast && renderStepLine(index)}
                       </div>
-                      {!isLast && renderStepLine(index)}
+                      {/* Card */}
+                      {renderDimensionCard(dim, index, position)}
                     </div>
-                    {renderDimensionCard(dim, index, position)}
                   </div>
                 );
               })}

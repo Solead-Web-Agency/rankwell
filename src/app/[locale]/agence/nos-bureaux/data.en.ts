@@ -10,7 +10,7 @@ import type { OfficeItem } from '@/components/shared/global';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Our Paris and Dubai Offices | Rankwell',
+  title: 'Our Paris and Dubai Offices - Rankwell',
   description:
     'Rankwell has offices in Paris and Dubai. Two locations, one business centrix approach. Meet us to discuss your SEO, GEO, SEA or Data project.',
 };

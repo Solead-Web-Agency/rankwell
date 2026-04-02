@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Saint-Rémy-de-Provence | Rankwell',
+  title: 'Agence GEO & SEO à Saint-Rémy-de-Provence - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Saint-Rémy-de-Provence. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché des Alpilles.',
 };
@@ -105,28 +105,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
+      id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs de recherche IA. Quand un voyageur demande à ChatGPT "plus belle maison d\'hôtes près des Alpilles", le GEO garantit que votre établissement soit recommandé.',
+      desc: 'GEO (Generative Engine Optimization) est la discipline qui optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Quand un voyageur demande « plus belle maison d\'hôtes près des Alpilles », le GEO garantit que votre établissement figure dans la réponse générée.',
     },
     {
-      icon: 'Eye',
+      id: 2,
       title: 'Pourquoi le GEO compte à Saint-Rémy ?',
-      description:
-        'La clientèle internationale qui visite Saint-Rémy utilise massivement l\'IA pour organiser ses séjours en Provence. Être recommandé par les assistants IA devient un avantage concurrentiel majeur pour les établissements locaux.',
+      desc: 'Avec près de 10 000 habitants mais un flux touristique considérable, Saint-Rémy-de-Provence vit au rythme de sa clientèle internationale. Ces voyageurs préparent leur séjour via les assistants IA, demandant les meilleures adresses, les domaines viticoles à visiter, les marchés provençaux à ne pas manquer. Être recommandé par ces outils devient un avantage concurrentiel décisif.',
     },
     {
-      icon: 'BarChart3',
+      id: 3,
       title: 'Alliance SEO + GEO',
-      description:
-        'Le SEO assure vos positions sur Google, le GEO vous fait citer par les IA. La combinaison de ces deux approches couvre l\'ensemble des comportements de recherche de votre clientèle premium.',
+      desc: 'Le SEO assure vos positions dans les résultats classiques de Google, le GEO vous fait citer comme source de confiance par les IA. En combinant ces deux approches, vous couvrez l\'ensemble des comportements de recherche de votre clientèle premium, qu\'elle passe par Google, ChatGPT ou Perplexity.',
     },
     {
-      icon: 'Lightbulb',
+      id: 4,
       title: 'Contenu authentiquement provençal',
-      description:
-        'Les moteurs génératifs privilégient le contenu authentique et expert. Nos équipes créent des contenus qui reflètent l\'art de vivre provençal et répondent aux critères de qualité des IA.',
+      desc: 'Les moteurs génératifs privilégient le contenu authentique, expert et richement documenté. Nous créons des contenus qui reflètent l\'art de vivre des Alpilles — héritage de Van Gogh, huile d\'olive AOP, vins des Baux-de-Provence — tout en répondant aux critères techniques des IA.',
     },
   ],
 };
@@ -135,8 +131,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Saint-Rémy-de-Provence accueille plus de 2 millions de visiteurs par an, attirés par le site de Glanum, l\'héritage de Van Gogh et le marché provençal.',
+  label: 'Le contexte économique des Alpilles',
+  text: 'Saint-Rémy-de-Provence compte près de 10 000 habitants mais accueille un flux touristique disproportionné, attiré par le site antique de Glanum, l\'héritage de Van Gogh et les marchés provençaux. Le revenu moyen par habitant (23 250 €) dépasse la moyenne nationale. L\'économie repose sur le tourisme haut de gamme, la viticulture AOP Baux-de-Provence, l\'oléiculture et l\'artisanat. Une visibilité digitale forte est essentielle pour capter cette clientèle exigeante.',
   icon: 'TrendingUp' as const,
 };
 
@@ -146,34 +142,38 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une stratégie d\'authenticité pour le marché des Alpilles',
+  title: 'Notre approche business centrix pour les Alpilles',
   subtitle:
-    'Notre expertise provençale nous permet de déployer des stratégies respectant l\'identité de Saint-Rémy',
+    'Ce que ROI signifie concrètement pour les entreprises de Saint-Rémy-de-Provence et des Alpilles.',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Analyse du marché des Alpilles',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Étude de la concurrence locale, identification des requêtes liées aux Alpilles et détection des opportunités de positionnement sur le tourisme de charme.',
+        'Être visible sur « Alpilles » sans générer de réservations ou de ventes directes, ça ne sert à rien. Notre métrique principale, c\'est l\'impact concret : réservations attribuées au Search, demandes de devis, ventes en ligne. On identifie les requêtes qui convertissent votre clientèle premium.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenu d\'exception',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Production de contenus reflétant l\'authenticité provençale, l\'héritage culturel et le savoir-faire local. Storytelling adapté aux attentes d\'une clientèle en quête d\'expériences.',
+        'Faut-il cibler les touristes anglophones ou les résidents secondaires ? Le marché français ou l\'international ? Notre rôle, c\'est de vous orienter vers les stratégies qui génèrent du business réel, pas celles qui flattent les vanity metrics. Un vrai partenaire dit ce qui fonctionne.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique irréprochable',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Performance de site exemplaire, expérience utilisateur premium, données structurées et architecture technique pensée pour le référencement local.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur qui comprend le marché du tourisme de charme et de l\'art de vivre provençal, disponible en visio, par email ou téléphone.',
     },
     {
-      icon: 'Award',
-      title: 'Autorité et authenticité',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Stratégie de netlinking ciblant les médias de voyage et les publications provençales de référence pour asseoir votre légitimité.',
+        'Notre plateforme connecte vos données Search à vos indicateurs business. Réservations, demandes de contact, citations IA : vous suivez l\'impact réel de votre investissement en temps réel, pas dans un rapport mensuel. Chaque action est traçable.',
     },
   ],
 };
@@ -184,39 +184,35 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises saint-rémoises accompagnées',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous aidons les acteurs des Alpilles à développer leur visibilité digitale',
+    'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où on peut vraiment vous aider à Saint-Rémy et dans les Alpilles.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie de charme',
+      label: 'Vous voulez capter la clientèle internationale',
       description:
-        'Maisons d\'hôtes, bastides, mas provençaux et établissements de caractère souhaitant augmenter leurs réservations directes.',
+        'Votre établissement ou votre domaine attire des visiteurs étrangers, mais votre présence digitale ne reflète pas votre qualité. Vous cherchez un partenaire pour structurer votre visibilité en français et en anglais, sur Google comme sur les moteurs IA.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Artisanat & Produits locaux',
+      label: 'Vous voulez plus de réservations directes',
       description:
-        'Artisans, producteurs, boutiques provençales et marchés locaux cherchant à développer leur clientèle.',
+        'Vous dépendez trop des plateformes de réservation ou des intermédiaires. Le SEO et le GEO captent les voyageurs au moment où ils planifient leur séjour dans les Alpilles, et les orientent directement vers votre site.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Œnotourisme & Gastronomie',
+      label: 'Œnotourisme, oléiculture et gastronomie',
       description:
-        'Domaines viticoles, restaurants gastronomiques et prestataires de l\'art de vivre provençal.',
+        'Domaines viticoles AOP Baux-de-Provence, producteurs d\'huile d\'olive, restaurants gastronomiques : vous incarnez l\'art de vivre provençal. Le référencement vous rend visible auprès des amateurs de terroir qui préparent leur visite via Google et les assistants IA.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier de prestige',
+      label: 'Hôtellerie de charme et immobilier de prestige',
       description:
-        'Agences spécialisées dans les mas, bastides et propriétés de caractère des Alpilles.',
+        'Maisons d\'hôtes, bastides, mas rénovés, agences spécialisées dans les propriétés des Alpilles : votre clientèle haut de gamme recherche l\'authenticité en ligne avant de se déplacer. Le SEO et le GEO captent ces recherches à forte valeur ajoutée.',
     },
   ],
-  ctaTitle: 'Votre activité ne figure pas ici ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'adapte à tous les secteurs. Échangeons pour définir comment le GEO et le SEO peuvent propulser votre entreprise à Saint-Rémy-de-Provence.',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise Search, la méthodologie et la capacité à atteindre une clientèle internationale exigeante.',
   ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -229,12 +225,12 @@ export const expertisesData = {
   badge: 'Nos services',
   accentColor: 'rw-blue' as const,
   title: 'Nos services GEO & SEO à Saint-Rémy-de-Provence',
-  subtitle: 'Quatre services complémentaires pour couvrir l\'ensemble de vos besoins en référencement naturel.',
+  subtitle: 'Quatre services complémentaires pour développer votre visibilité sur le marché premium des Alpilles.',
   items: [
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre présence digitale. On identifie les freins à votre visibilité et les leviers d\'accélération prioritaires.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +238,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, données structurées Schema.org et performance technique. Les fondations d\'un référencement durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +246,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs ciblant les médias de voyage, les guides gastronomiques et les publications provençales de référence. Pas de spam, que de la qualité.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +254,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, en français et en anglais. Du contenu authentique qui se positionne, qui est cité par les IA et qui convertit.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '10K', label: 'Habitants à Saint-Rémy' },
-    { value: '2M', label: 'Visiteurs annuels' },
-    { value: '70%', label: 'Clientèle internationale' },
-    { value: '+80%', label: 'Recherches mobiles' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Saint-Rémy-de-Provence attire des voyageurs en quête d\'authenticité qui préparent leur séjour via l\'IA. Les établissements qui maîtrisent le GEO captent ces visiteurs premium avant leurs concurrents.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'Good SEO is good GEO. What you\'ve been doing for search engines generally is still perfectly fine and is still the things that you should be doing. Good SEO is really having good content for people.',
+  author: 'Danny Sullivan',
+  role: 'Google Search Liaison, Director of Google Search',
 };
 
 // ============================================
@@ -354,38 +374,56 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO à Saint-Rémy-de-Provence',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi le SEO est-il important pour une entreprise à Saint-Rémy ?',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à Saint-Rémy-de-Provence ?',
       answer:
-        'Saint-Rémy accueille 2 millions de visiteurs par an, principalement internationaux. Un bon référencement vous permet de capter ces recherches à haute valeur et de vous différencier sur un marché où l\'authenticité est recherchée.',
+        'Oui, nous accompagnons des entreprises des Alpilles et de toute la Provence. Visios régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié. Saint-Rémy est un marché de niche haut de gamme où la qualité du référencement fait la différence entre capter ou manquer une clientèle internationale exigeante.',
     },
     {
-      question: 'Comment le GEO aide-t-il à toucher la clientèle internationale ?',
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous dans les Alpilles ?',
       answer:
-        'La clientèle internationale qui visite les Alpilles utilise massivement l\'IA pour planifier ses séjours. Être recommandé par ChatGPT ou Perplexity quand quelqu\'un cherche les meilleures adresses représente un avantage concurrentiel majeur.',
+        'Nous travaillons avec des entreprises du tourisme de charme (maisons d\'hôtes, bastides, mas rénovés), de l\'œnotourisme et la viticulture AOP, de la gastronomie et restauration, de l\'immobilier de prestige, de l\'artisanat provençal et des producteurs locaux (huile d\'olive, lavande). Le point commun : des acteurs qui veulent rayonner au-delà des Alpilles grâce au digital.',
     },
     {
-      question: 'Travaillez-vous en plusieurs langues ?',
+      id: '3',
+      question: 'Travaillez-vous en français et en anglais ?',
       answer:
-        'Absolument. Nous optimisons votre présence en français et en anglais pour capter la clientèle internationale. Le multilinguisme est essentiel pour un marché comme Saint-Rémy où 70% des visiteurs viennent de l\'étranger.',
+        'Absolument. Nous optimisons votre présence en français et en anglais pour capter la clientèle internationale qui représente une part significative des visiteurs de Saint-Rémy. Le multilinguisme est un levier majeur en SEO comme en GEO : les voyageurs anglophones qui demandent à ChatGPT « best places to stay in Alpilles » doivent trouver votre établissement.',
     },
     {
-      question: 'Proposez-vous des services pour les domaines viticoles ?',
+      id: '4',
+      question: 'Comment se déroule un projet type ?',
       answer:
-        'Oui, nous accompagnons les domaines des Alpilles et des Baux-de-Provence. Le SEO et le GEO sont particulièrement pertinents pour développer l\'œnotourisme et la vente directe.',
+        'Premier échange en visio pour comprendre vos enjeux et votre positionnement. Audit complet de votre situation SEO et GEO-readiness. Roadmap avec priorités classées par impact sur votre activité. Puis exécution avec un consultant senior dédié, des points réguliers et un suivi en temps réel via notre plateforme Rankwell One.',
     },
     {
-      question: 'Combien de temps pour voir des résultats ?',
+      id: '5',
+      question: 'Le GEO est-il pertinent pour un domaine viticole ou un producteur ?',
       answer:
-        'Le SEO produit ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes spécifiques aux Alpilles. Nous établissons des indicateurs dès le démarrage.',
+        'Particulièrement. Les amateurs de vin et de gastronomie utilisent de plus en plus les IA pour découvrir des domaines et planifier des dégustations. Quand un voyageur demande à Perplexity « meilleurs domaines viticoles des Baux-de-Provence », le GEO fait en sorte que votre domaine soit cité. C\'est un complément idéal au SEO classique pour développer la vente directe et l\'accueil.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '6',
+      question: 'Quels sont vos tarifs ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos citations dans les réponses des IA. Nous analysons les requêtes où vous êtes mentionné et mesurons l\'évolution de votre visibilité sur ces canaux émergents.',
+        'Les tarifs dépendent de vos objectifs, de votre secteur et du périmètre géographique visé (local, national, international). Nous proposons des forfaits mensuels ou des projets ponctuels. Le plus simple : un premier échange de 30 minutes en visio pour comprendre votre situation et vous donner une estimation réaliste. Pas de mauvaise surprise ensuite.',
+    },
+    {
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer:
+        'En SEO/GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois. Sur un marché de niche comme les Alpilles, les effets peuvent être plus rapides que sur des marchés très concurrentiels. On vous donne des projections réalistes dès le départ et des indicateurs de progression sont mis en place dès le premier mois.',
+    },
+    {
+      id: '8',
+      question: 'Couvrez-vous d\'autres communes des Alpilles ?',
+      answer:
+        'Oui. Notre accompagnement peut s\'étendre à l\'ensemble du massif des Alpilles : Les Baux-de-Provence, Eygalières, Maussane-les-Alpilles, Mouriès, Fontvieille. Le SEO local permet de cibler ces zones géographiques avec précision tout en renforçant votre visibilité sur l\'ensemble de la destination Alpilles.',
     },
   ],
 };

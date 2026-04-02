@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO en Nouvelle-Aquitaine | Rankwell',
+  title: 'Agence GEO & SEO en Nouvelle-Aquitaine - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO en Nouvelle-Aquitaine. Optimisez votre visibilité sur Google et les moteurs IA de Bordeaux à Biarritz, de La Rochelle à Poitiers.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'La Nouvelle-Aquitaine est la plus grande région de France avec 84 000 km² et génère plus de 15 milliards d\'euros de recettes touristiques annuelles.',
+  label: 'Le poids économique de la Nouvelle-Aquitaine',
+  text: 'Avec 6,15 millions d\'habitants et un PIB de 214 milliards d\'euros, la Nouvelle-Aquitaine est la 3e région économique de France. Plus grande région du pays par sa superficie (84 000 km²), elle génère près de 18 milliards d\'euros de consommation touristique annuelle, emploie 140 000 personnes dans le tourisme et concentre 17 000 emplois directs dans l\'aéronautique. Une diversité économique qui crée autant d\'opportunités digitales que de concurrence.',
   icon: 'TrendingUp' as const,
 };
 
@@ -146,34 +146,34 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une méthodologie adaptée à la diversité néo-aquitaine',
+  title: 'Notre approche business centrix',
   subtitle:
-    'Notre expertise régionale nous permet de déployer des stratégies calibrées pour chaque territoire',
+    'Beaucoup d\'agences parlent de ROI. Voici ce que ça signifie concrètement chez Rankwell pour les entreprises néo-aquitaines.',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Analyse des marchés locaux',
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Étude de votre positionnement face aux concurrents locaux, analyse des requêtes spécifiques à chaque territoire (Gironde, Pays Basque, Charente, etc.) et identification des opportunités.',
+        'Se positionner sur un mot-clé qui ne génère pas de business n\'a aucun intérêt. Notre métrique principale, c\'est l\'impact sur votre activité : leads générés, ventes attribuées au Search, coût d\'acquisition client. Pour un domaine viticole comme pour un sous-traitant aéronautique, on pilote par les résultats.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenu à forte valeur régionale',
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Création de contenus valorisant l\'identité de votre territoire et votre expertise métier. Articles de fond, guides locaux et landing pages optimisées pour le référencement régional.',
+        'Si votre stratégie fait fausse route, on vous le dit. Un partenaire qui acquiesce à tout ne vous fait pas avancer. Notre rôle, c\'est aussi de requestionner vos priorités pour concentrer l\'investissement là où le retour sera maximal sur votre marché néo-aquitain.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique rigoureuse',
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Performance mobile prioritaire, données structurées Schema.org, vitesse de chargement optimale et architecture de site pensée pour le SEO local multi-villes.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas de junior, pas d\'intermédiaire. Vous avez un interlocuteur unique qui connaît votre secteur, votre concurrence et les spécificités de votre marché régional dans le détail.',
     },
     {
-      icon: 'Award',
-      title: 'Renforcement de l\'autorité territoriale',
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Stratégie de netlinking avec des médias régionaux, partenariats avec des institutions locales et développement de votre présence sur les annuaires néo-aquitains.',
+        'Notre plateforme propriétaire connecte vos données Search à vos résultats business en temps réel. Positions, citations IA, trafic, conversions : vous voyez l\'impact concret de chaque action. Pas de vanity metrics dans un rapport PDF mensuel, mais un tableau de bord vivant.',
     },
   ],
 };
@@ -184,40 +184,31 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises ciblées en Nouvelle-Aquitaine',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous accompagnons les acteurs économiques régionaux dans leur conquête de visibilité digitale',
+    'Notre accompagnement s\'adresse aux entreprises néo-aquitaines qui veulent transformer leur visibilité digitale en résultats concrets.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Viticulture & Œnotourisme',
-      description:
-        'Châteaux, domaines, caves et prestataires œnotouristiques souhaitant développer leurs ventes directes et visites.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne convertit pas assez. Vous cherchez un partenaire pour bâtir une stratégie Search qui génère des leads qualifiés et des ventes mesurables, pas seulement du trafic sans lendemain.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Tourisme & Hôtellerie',
-      description:
-        'Hôtels, campings, restaurants et acteurs du tourisme atlantique, pyrénéen et rural.',
+      label: 'Vous cherchez une expertise GEO avant vos concurrents',
+      description: 'Les IA conversationnelles redistribuent les cartes du Search. Vous voulez une agence qui sait optimiser pour ChatGPT et Perplexity, pas seulement pour les 10 liens bleus de Google. En Nouvelle-Aquitaine, peu d\'acteurs ont pris ce virage.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, agences, professions libérales et prestataires B2B ciblant le tissu économique régional.',
+      label: 'Viticulture, œnotourisme et filière viticole',
+      description: 'Avec près de 25 000 emplois dans la filière viti-vinicole régionale, châteaux, domaines et prestataires œnotouristiques ont besoin d\'une présence digitale qui capte les visiteurs internationaux et développe la vente directe en ligne.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Construction',
-      description:
-        'Agences immobilières, promoteurs et acteurs du BTP sur les marchés de Bordeaux, côte basque et territoires.',
+      label: 'Aéronautique, industrie et services B2B',
+      description: 'La construction aéronautique et spatiale représente 14 % des effectifs nationaux du secteur en Nouvelle-Aquitaine. Sous-traitants, équipementiers et prestataires B2B doivent être visibles sur les requêtes métier spécialisées, y compris via les IA.',
     },
   ],
-  ctaTitle: 'Votre secteur ne figure pas dans cette liste ?',
-  ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines d\'activité. Contactez-nous pour évaluer comment le GEO et le SEO peuvent propulser votre entreprise en Nouvelle-Aquitaine.',
-  ctaButtonText: 'Échanger sur votre projet',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte : l\'expertise, la méthode et les résultats prouvés sur des marchés exigeants.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -234,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, analyse sémantique et étude concurrentielle adaptée à votre marché. On identifie ce qui freine votre visibilité et les leviers prioritaires pour l\'accélérer.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage Schema.org et performance technique. Les fondations d\'un référencement durable et résistant aux évolutions algorithmiques.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Une stratégie sur mesure, sans pratiques douteuses ni réseaux de liens artificiels.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, structurés pour la citation par les IA. Du contenu qui se positionne et qui convertit, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +264,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '6M', label: 'Habitants en Nouvelle-Aquitaine' },
-    { value: '30M', label: 'Touristes accueillis par an' },
-    { value: '84K', label: 'km² - Plus grande région' },
-    { value: '40%', label: 'Utiliseront l\'IA d\'ici 2026' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -342,10 +357,9 @@ export const comparaisonData = {
 // QUOTE DATA
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'IA bouleverse la façon dont les touristes et professionnels recherchent des services en Nouvelle-Aquitaine. Se préparer maintenant au GEO, c\'est prendre une longueur d\'avance sur un marché en pleine mutation.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+  quote: 'The most important thing you need is your curiosity. You\'re working, being a detective, and trying to understand what\'s happening under the hood.',
+  author: 'Areej AbuAli',
+  role: 'Founder Crawlina & Women in Tech SEO',
 };
 
 // ============================================
@@ -358,34 +372,52 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises en Nouvelle-Aquitaine ?',
+      answer:
+        'Oui, nous accompagnons des entreprises de toute la région : Bordeaux, La Rochelle, Biarritz, Pau, Poitiers, Limoges, Angoulême et au-delà. Visioconférences régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email et téléphone. Notre mode de collaboration à distance couvre l\'ensemble du territoire néo-aquitain sans compromis sur la qualité.',
+    },
+    {
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous en Nouvelle-Aquitaine ?',
+      answer:
+        'Nous intervenons dans tous les secteurs présents dans la région : viticulture et œnotourisme (Bordelais, Cognac), aéronautique et industrie (Bordeaux, Pau), tourisme atlantique et pyrénéen, services B2B, e-commerce et professions libérales. Le dénominateur commun : des entreprises qui veulent que leur visibilité digitale génère du business mesurable, pas seulement du trafic.',
+    },
+    {
+      id: '3',
       question: 'Pourquoi investir dans le SEO et le GEO en Nouvelle-Aquitaine ?',
       answer:
-        'La Nouvelle-Aquitaine est un territoire économiquement dynamique avec 30 millions de touristes et des filières d\'excellence (vin, aéronautique, tourisme). La concurrence digitale y est forte. SEO et GEO vous permettent de capter efficacement votre cible locale et internationale.',
+        'La Nouvelle-Aquitaine est la 3e région économique de France avec un PIB de 214 milliards d\'euros, 32 millions de touristes par an et des filières d\'excellence reconnues mondialement (vin, aéronautique, tourisme). La concurrence digitale est proportionnelle à ce dynamisme. Investir dans le SEO et le GEO vous permet de capter efficacement vos cibles locales et internationales sur tous les canaux de recherche.',
     },
     {
-      question: 'En combien de temps puis-je voir des résultats ?',
+      id: '4',
+      question: 'Qu\'est-ce que le GEO et en quoi c\'est différent du SEO ?',
       answer:
-        'Le SEO produit généralement ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes. Nous établissons des indicateurs de progression dès le premier mois.',
+        'Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou Google AI Overviews. Le SEO vise les 10 liens bleus de Google. Les deux sont complémentaires : le GEO ne remplace pas le SEO, il l\'enrichit. Un domaine viticole optimisé en GEO sera recommandé quand un touriste demande à ChatGPT "quel château visiter à Saint-Émilion".',
     },
     {
-      question: 'Travaillez-vous avec des entreprises de toute la région ?',
+      id: '5',
+      question: 'Comment se déroule un accompagnement type ?',
       answer:
-        'Oui, nous accompagnons des entreprises de Bordeaux, La Rochelle, Biarritz, Pau, Poitiers, Limoges, Angoulême et au-delà. Notre expertise couvre l\'ensemble du territoire néo-aquitain.',
+        'Premier échange de 30 minutes en visio pour comprendre vos enjeux, sans pitch commercial. Puis un audit complet de votre situation (SEO, GEO-readiness, technique, concurrence). Ensuite, une roadmap priorisée par impact business. Et l\'exécution avec un consultant senior dédié, des points réguliers et un suivi en temps réel via Rankwell One. Vous savez toujours où en est votre projet.',
     },
     {
-      question: 'Le GEO remplace-t-il le SEO traditionnel ?',
+      id: '6',
+      question: 'Quels sont vos tarifs ?',
       answer:
-        'Non, le GEO complète le SEO. Google reste dominant, mais les recherches via l\'IA progressent rapidement. Une stratégie complète intègre les deux approches pour maximiser votre présence sur tous les canaux.',
+        'Les tarifs dépendent de vos objectifs, de votre secteur d\'activité et du niveau de concurrence sur vos marchés. Nous proposons des forfaits mensuels pour l\'accompagnement continu ou des projets ponctuels comme les audits et les refontes. Premier échange gratuit pour évaluer votre situation et vous donner une estimation réaliste et transparente.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats ?',
       answer:
-        'Nous utilisons des outils spécialisés pour suivre vos citations dans les réponses des IA (ChatGPT, Perplexity, Google SGE), analyser les requêtes où vous êtes mentionné et mesurer l\'évolution de votre visibilité.',
+        'En SEO/GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et l\'intensité concurrentielle de votre secteur. Certaines actions GEO peuvent produire des résultats plus rapides sur des requêtes conversationnelles. Nous vous donnons des projections réalistes dès le départ, pas des promesses intenables.',
     },
     {
+      id: '8',
       question: 'Proposez-vous des services pour la filière viticole ?',
       answer:
-        'Absolument. L\'œnotourisme et la vente directe nécessitent une stratégie digitale adaptée. Nous accompagnons châteaux et domaines pour développer leur visibilité en ligne et leurs réservations de visites.',
+        'Absolument. Avec près de 25 000 emplois salariés dans la filière viti-vinicole régionale, l\'œnotourisme et la vente directe sont des marchés digitaux à fort potentiel. Nous accompagnons châteaux, domaines et caves coopératives pour développer leur visibilité en ligne, attirer des visiteurs internationaux et augmenter leurs réservations de visites et dégustations.',
     },
   ],
 };

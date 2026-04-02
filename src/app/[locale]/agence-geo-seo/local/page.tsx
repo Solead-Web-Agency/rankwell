@@ -131,6 +131,8 @@ export default async function LocalSeoPage({ params }: PageProps) {
         description={heroData.description}
         ctaText={heroData.ctaText}
         ctaHref={heroData.ctaHref}
+        image={heroData.image}
+        imageAlt={heroData.imageAlt}
         accentColor={heroData.accentColor}
         locale={locale as Locale}
       />

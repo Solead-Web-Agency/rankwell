@@ -9,7 +9,7 @@
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO en France | Référencement par ville et région - Rankwell',
+  title: 'Agence GEO & SEO en France - Rankwell',
   description:
     'Découvrez nos services GEO & SEO partout en France. Accompagnement par région (Île-de-France, Nouvelle-Aquitaine, Occitanie...) et par ville (Paris, Lyon, Bordeaux...).',
 };

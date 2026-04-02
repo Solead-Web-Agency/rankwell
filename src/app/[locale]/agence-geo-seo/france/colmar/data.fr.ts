@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises colmariennes | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises colmariennes - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Colmar et le Haut-Rhin. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'We want to provide data that is actionable, not just interesting. The goal is to help site owners make informed decisions about their search presence.',
+  author: 'Daniel Waisberg',
+  role: 'Search Advocate, Google',
 };
 
 // ============================================

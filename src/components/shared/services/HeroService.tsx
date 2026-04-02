@@ -93,9 +93,10 @@ const HeroService = ({
         <Image
           src={image}
           alt={imageAlt || 'Illustration'}
-          width={520}
-          height={400}
-          className="w-full h-auto rounded-2xl"
+          width={1200}
+          height={1200}
+          className="w-full h-auto"
+          unoptimized
         />
       );
     }
@@ -239,7 +240,7 @@ const HeroService = ({
 
           {/* Right: Visual */}
           <RevealAnimation delay={0.5} duration={1.5} direction="right" offset={80}>
-            <div className="w-full max-w-[400px] lg:max-w-[480px] xl:max-w-[520px]">
+            <div className="w-full max-w-[420px] lg:max-w-[550px] xl:max-w-[620px] 2xl:max-w-[650px] overflow-visible">
               {renderVisual()}
             </div>
           </RevealAnimation>

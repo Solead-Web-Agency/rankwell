@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Biarritz | Rankwell',
+  title: 'Agence GEO & SEO à Biarritz - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Biarritz. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché de la côte basque.',
 };
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs de recherche IA. Quand un voyageur demande à ChatGPT "meilleur hôtel thalasso Biarritz", le GEO garantit que votre établissement soit recommandé.',
+        'GEO (Generative Engine Optimization) est la discipline qui consiste à optimiser vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Quand un voyageur demande « meilleur hôtel thalasso à Biarritz », le GEO garantit que votre établissement soit la source recommandée, pas juste un lien parmi d\'autres.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi le GEO est crucial à Biarritz ?',
       description:
-        'La clientèle internationale qui visite Biarritz utilise massivement l\'IA pour planifier voyages et expériences. Être recommandé par les assistants IA devient un facteur différenciant sur ce marché premium.',
+        'La clientèle internationale qui visite Biarritz utilise massivement l\'IA pour planifier voyages et expériences haut de gamme. 1,5 million de visiteurs par an préparent leur séjour en ligne. Être recommandé par les assistants IA devient un facteur différenciant décisif sur ce marché où la concurrence digitale est féroce.',
     },
     {
       icon: 'BarChart3',
       title: 'Alliance SEO + GEO',
       description:
-        'Le SEO assure vos positions sur Google, le GEO vous fait citer par les IA. La combinaison de ces deux approches couvre l\'ensemble des comportements de recherche de votre clientèle.',
+        'Le SEO assure vos positions sur les liens bleus de Google, le GEO vous fait citer dans les réponses conversationnelles des IA. La combinaison de ces deux approches couvre l\'intégralité des comportements de recherche de votre clientèle, du voyageur qui tape un mot-clé à celui qui pose une question à ChatGPT.',
     },
     {
       icon: 'Lightbulb',
       title: 'Contenu premium pour l\'IA',
       description:
-        'Les moteurs génératifs privilégient le contenu expert et authentique. Nos équipes créent des contenus qui reflètent l\'excellence de Biarritz et répondent aux critères des IA.',
+        'Les moteurs génératifs privilégient le contenu expert, authentique et structuré. Nos équipes créent des contenus qui reflètent l\'excellence de Biarritz — guides d\'expérience, descriptions détaillées, données chiffrées — formatés pour être facilement extraits et cités par les IA.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Biarritz accueille plus d\'1,5 million de visiteurs par an et possède 6 plages labellisées, faisant d\'elle la capitale européenne du surf.',
+  label: 'Le contexte économique biarrot',
+  text: 'Biarritz et le Pays Basque nord génèrent 1,3 milliard d\'euros de retombées touristiques annuelles. La ville compte environ 26 700 habitants mais accueille plus d\'1,5 million de visiteurs par an. Le tourisme représente plus de 25 000 emplois dans la région, soit 10 % de la population active. Avec un revenu médian supérieur à la moyenne nationale (26 495 € contre 20 590 €), le tissu économique biarrot mêle hôtellerie haut de gamme, surf, thalassothérapie et services premium.',
   icon: 'TrendingUp' as const,
 };
 
@@ -155,25 +155,25 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché premium',
       description:
-        'Étude de la concurrence biarrote, identification des requêtes de la clientèle haut de gamme et détection des opportunités de positionnement.',
+        'Nous cartographions la concurrence digitale sur la côte basque, analysons les requêtes à haute valeur de la clientèle internationale et identifions les opportunités de positionnement sur les thématiques luxe, surf et bien-être qui définissent Biarritz.',
     },
     {
       icon: 'FileText',
       title: 'Contenu d\'exception',
       description:
-        'Production de contenus reflétant l\'excellence de Biarritz et du Pays Basque. Storytelling premium adapté aux attentes d\'une clientèle exigeante.',
+        'Production de contenus éditoriaux reflétant l\'excellence de Biarritz et du Pays Basque. Storytelling premium, guides d\'expérience et pages de destination pensés pour séduire une clientèle exigeante tout en répondant aux critères des moteurs IA.',
     },
     {
       icon: 'Settings',
       title: 'Optimisation technique irréprochable',
       description:
-        'Performance de site exemplaire, expérience utilisateur premium, données structurées et architecture technique sans compromis.',
+        'Performance de chargement exemplaire, expérience mobile fluide pour les visiteurs en déplacement, balisage Schema.org pour les établissements locaux et architecture technique sans compromis. Chaque milliseconde gagnée compte sur un marché premium.',
     },
     {
       icon: 'Award',
-      title: 'Autorité et prestige',
+      title: 'Autorité et prestige digital',
       description:
-        'Stratégie de netlinking ciblant les médias de voyage et les publications basques de référence.',
+        'Stratégie de netlinking ciblant les médias de voyage internationaux, les publications basques de référence et les guides touristiques influents. Nous construisons une empreinte digitale qui renforce votre crédibilité auprès de Google et des moteurs IA.',
     },
   ],
 };
@@ -184,39 +184,29 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises biarrotes accompagnées',
-  subtitle:
-    'Nous aidons les acteurs du marché premium de Biarritz à développer leur visibilité digitale',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises sur la côte basque. Voici les situations où nous pouvons réellement vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie & Thalasso',
-      description:
-        'Hôtels de charme, établissements de thalassothérapie et spas souhaitant augmenter leurs réservations directes.',
+      label: 'Vous voulez capter la clientèle internationale',
+      description: 'Votre établissement attire déjà des visiteurs du monde entier, mais votre visibilité en ligne ne reflète pas votre standing. Vous cherchez un partenaire capable d\'optimiser votre présence sur Google et les moteurs IA en français, anglais et espagnol.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Surf & Sports nautiques',
-      description:
-        'Écoles de surf, shops et prestataires de sports de glisse ciblant une clientèle internationale.',
+      label: 'Vous préparez une saison ou un lancement',
+      description: 'Vous ouvrez un nouvel établissement ou préparez la haute saison sur la côte basque. Vous voulez partir sur des bases SEO et GEO solides pour maximiser les réservations directes dès le départ, sans dépendre uniquement des plateformes.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Gastronomie & Art de vivre',
-      description:
-        'Restaurants gastronomiques, bars à tapas et établissements valorisant l\'art de vivre basque.',
+      label: 'Hôtellerie, thalasso et bien-être',
+      description: 'Hôtels de charme, centres de thalassothérapie, spas et établissements de bien-être à Biarritz. Le marché premium du Pays Basque exige une stratégie digitale qui reflète votre positionnement haut de gamme et capte les recherches à forte intention.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Location',
-      description:
-        'Agences spécialisées dans l\'immobilier de prestige et la location saisonnière sur la côte basque.',
+      label: 'Surf, glisse et tourisme actif',
+      description: 'Écoles de surf, shops, prestataires d\'activités nautiques et acteurs du tourisme sportif. Biarritz est la capitale européenne du surf : votre visibilité en ligne doit être à la hauteur de cette réputation pour capter une clientèle internationale et passionnée.',
     },
   ],
-  ctaTitle: 'Votre activité ne figure pas ici ?',
-  ctaDescription:
-    'Notre expertise s\'adapte à tous les secteurs premium. Échangeons pour définir comment le GEO et le SEO peuvent propulser votre entreprise à Biarritz.',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats mesurables.',
   ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -234,7 +224,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité et les leviers concrets pour l\'accélérer sur le marché biarrot.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +232,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage structuré et performance technique. Les fondations d\'un référencement durable adapté aux exigences du marché premium.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +240,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs auprès de médias de voyage, guides touristiques et publications basques. Une stratégie sur mesure, sans spam ni réseaux douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +248,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready qui positionnent votre expertise et attirent votre audience cible. Du contenu premium qui convertit, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +263,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '25K', label: 'Habitants à Biarritz' },
-    { value: '1.5M', label: 'Visiteurs par an' },
-    { value: '6', label: 'Plages labellisées' },
-    { value: '+75%', label: 'Clientèle internationale' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +357,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Biarritz attire une clientèle internationale exigeante qui prépare ses séjours via l\'IA. Les établissements qui maîtrisent le GEO captent ces visiteurs premium avant leurs concurrents.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'The future of search is search experience optimization — understanding which platform each query belongs to and meeting users where they actually search.',
+  author: 'Britney Muller',
+  role: 'Ex-Senior SEO Scientist chez Moz, AI Educator',
 };
 
 // ============================================
@@ -358,34 +372,52 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi le SEO est-il crucial à Biarritz ?',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à Biarritz sans être sur place ?',
       answer:
-        'Biarritz attire une clientèle internationale premium. Un référencement efficace vous permet de capter ces recherches à haute valeur et de vous différencier sur un marché concurrentiel.',
+        'Oui, nous accompagnons des entreprises sur la côte basque depuis plusieurs années en collaboration à distance. Visioconférences régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. La distance n\'est pas un frein : ce qui compte, c\'est la compétence et la réactivité, pas l\'adresse postale.',
     },
     {
+      id: '2',
+      question: 'Pourquoi le SEO est-il particulièrement important à Biarritz ?',
+      answer:
+        'Biarritz accueille plus d\'1,5 million de visiteurs par an et le tourisme génère 1,3 milliard d\'euros de retombées au Pays Basque. La concurrence digitale y est intense, notamment sur les requêtes liées à l\'hôtellerie, au surf et à la thalassothérapie. Un référencement efficace vous permet de capter ces recherches à haute valeur ajoutée et de vous différencier face aux plateformes de réservation.',
+    },
+    {
+      id: '3',
       question: 'Comment le GEO aide-t-il à toucher la clientèle haut de gamme ?',
       answer:
-        'La clientèle premium utilise de plus en plus l\'IA pour planifier séjours et expériences. Être recommandé par ChatGPT ou Perplexity représente un avantage concurrentiel majeur.',
+        'La clientèle premium prépare de plus en plus ses séjours via les assistants IA. Quand un voyageur demande à ChatGPT « où séjourner à Biarritz pour un week-end thalasso », il attend une recommandation directe, pas une liste de liens. Le GEO positionne votre établissement comme la source de référence que l\'IA choisit de mentionner, créant un avantage concurrentiel difficile à répliquer.',
     },
     {
-      question: 'Travaillez-vous en plusieurs langues ?',
+      id: '4',
+      question: 'Quels secteurs accompagnez-vous sur la côte basque ?',
       answer:
-        'Absolument. Nous optimisons votre présence en français, anglais et espagnol pour capter la clientèle internationale de la côte basque.',
+        'Nous travaillons avec tous les secteurs présents à Biarritz : hôtellerie et thalassothérapie, écoles de surf et sports nautiques, gastronomie basque, immobilier de prestige, location saisonnière, commerces haut de gamme et services aux entreprises. Le point commun : des entreprises qui veulent générer du business via le Search, pas juste du trafic sans conversion.',
     },
     {
-      question: 'Couvrez-vous toute la côte basque ?',
+      id: '5',
+      question: 'Optimisez-vous la visibilité en plusieurs langues ?',
       answer:
-        'Oui, nous accompagnons les entreprises de Biarritz mais aussi de Bayonne, Anglet, Saint-Jean-de-Luz et au-delà.',
+        'Oui, c\'est même une spécificité essentielle pour le marché biarrot. Nous optimisons votre présence en français, anglais et espagnol pour capter la clientèle internationale de la côte basque. Le GEO multilingue est particulièrement efficace car les assistants IA répondent dans la langue de l\'utilisateur et puisent dans des sources de toutes les langues.',
     },
     {
-      question: 'Combien de temps pour voir des résultats ?',
+      id: '6',
+      question: 'Couvrez-vous toute la côte basque ou uniquement Biarritz ?',
       answer:
-        'Le SEO produit ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes.',
+        'Nous accompagnons les entreprises de tout le BAB (Bayonne-Anglet-Biarritz) et au-delà : Saint-Jean-de-Luz, Hendaye, Bidart, Guéthary. La stratégie SEO et GEO s\'adapte à votre zone de chalandise réelle. Pour un hôtel de Biarritz, on ciblera les requêtes internationales. Pour un artisan de Bayonne, on travaillera le référencement local et les requêtes de proximité.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos citations dans les réponses des IA et mesurer l\'évolution de votre visibilité.',
+        'En SEO, les premiers résultats significatifs arrivent généralement entre 3 et 6 mois selon votre point de départ et le niveau de concurrence. Le GEO peut montrer des effets plus rapides sur certaines requêtes conversationnelles. Nous vous donnons des projections réalistes dès le départ, avec des indicateurs de progression visibles dès le premier mois via Rankwell One.',
+    },
+    {
+      id: '8',
+      question: 'Comment mesurez-vous concrètement les performances du GEO ?',
+      answer:
+        'Nous utilisons des outils dédiés pour monitorer vos citations dans les réponses de ChatGPT, Perplexity et les AI Overviews de Google. Nous mesurons la fréquence de mention, la qualité du contexte dans lequel vous êtes cité et l\'impact sur votre trafic et vos conversions. Tout est accessible en temps réel via notre plateforme Rankwell One, pas dans un PDF mensuel.',
     },
   ],
 };

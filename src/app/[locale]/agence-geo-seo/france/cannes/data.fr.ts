@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Cannes | Rankwell',
+  title: 'Agence GEO & SEO à Cannes - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Cannes. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché cannois et azuréen.',
 };
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs de recherche IA. Quand un client fortuné demande à ChatGPT "meilleur palace avec vue mer à Cannes", le GEO garantit que votre établissement soit recommandé.',
+        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs de recherche propulsés par l\'IA. Quand un client fortuné demande à ChatGPT « meilleur palace avec vue mer à Cannes », le GEO travaille pour que votre établissement soit la recommandation principale. Ce n\'est pas du SEO classique : c\'est l\'art de devenir la source que l\'IA choisit de citer.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi le GEO est crucial à Cannes ?',
       description:
-        'La clientèle internationale de Cannes utilise massivement l\'IA pour planifier séjours et achats de luxe. Être recommandé par les assistants IA devient un facteur différenciant pour capter cette clientèle exigeante.',
+        'La clientèle internationale de Cannes utilise massivement l\'IA pour planifier séjours de luxe, réserver des restaurants étoilés ou trouver un prestataire événementiel. Être recommandé par ChatGPT ou Perplexity quand un congressiste du MIPIM cherche un hôtel haut de gamme représente un avantage décisif que vos concurrents ne maîtrisent pas encore.',
     },
     {
       icon: 'BarChart3',
       title: 'Alliance SEO + GEO',
       description:
-        'Le SEO assure vos positions sur Google, le GEO vous fait citer par les IA. La combinaison de ces deux approches couvre l\'ensemble des comportements de recherche de votre clientèle premium.',
+        'Le SEO assure vos positions sur les résultats classiques de Google, le GEO vous fait citer dans les réponses des IA conversationnelles. La combinaison de ces deux leviers couvre l\'intégralité des comportements de recherche de votre clientèle premium, que ce soit une requête tapée sur Google ou une question posée à un assistant IA.',
     },
     {
       icon: 'Lightbulb',
       title: 'Contenu premium pour l\'IA',
       description:
-        'Les moteurs génératifs privilégient le contenu expert et prestigieux. Nos équipes créent des contenus qui reflètent l\'excellence de votre établissement et répondent aux critères des IA.',
+        'Les moteurs génératifs privilégient le contenu expert, structuré et faisant autorité. Nos équipes produisent des contenus qui reflètent le prestige de votre établissement cannois tout en respectant les critères de citation des IA : données vérifiables, expertise démontrée, formulations que les algorithmes peuvent extraire et reformuler facilement.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Le Festival de Cannes génère plus de 200 millions d\'euros de retombées économiques annuelles et attire 200 000 visiteurs pendant 12 jours.',
+  label: 'Le contexte économique cannois',
+  text: 'Le Palais des Festivals et des Congrès génère plus d\'un milliard d\'euros de retombées économiques annuelles avec 156 événements organisés sur 340 jours d\'activité. Premier centre de congrès de France en chiffre d\'affaires, devant Paris, Cannes accueille le MIPIM, Cannes Lions et le Festival qui attire à lui seul 40 000 accrédités de 160 pays. La concurrence digitale y est féroce.',
   icon: 'TrendingUp' as const,
 };
 
@@ -155,25 +155,25 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché premium',
       description:
-        'Étude de la concurrence cannoise, identification des requêtes de la clientèle haut de gamme et détection des opportunités de positionnement sur le marché du luxe.',
+        'Cartographie concurrentielle du marché cannois, analyse des requêtes à forte valeur formulées par la clientèle internationale et identification des opportunités de positionnement sur les thématiques luxe, événementiel et congrès. On ne cible pas le volume, on cible le business.',
     },
     {
       icon: 'FileText',
       title: 'Contenu d\'exception',
       description:
-        'Production de contenus reflétant le prestige de Cannes et l\'excellence de votre établissement. Storytelling premium adapté aux attentes d\'une clientèle exigeante.',
+        'Production de contenus qui incarnent le prestige de Cannes et la singularité de votre établissement. Storytelling premium calibré pour une clientèle exigeante, optimisé pour être cité par les IA lorsqu\'elles recommandent les meilleures adresses de la Croisette.',
     },
     {
       icon: 'Settings',
       title: 'Optimisation technique irréprochable',
       description:
-        'Performance de site exemplaire, expérience utilisateur premium, données structurées et architecture technique sans compromis.',
+        'Performance de chargement exemplaire, expérience mobile impeccable pour les visiteurs internationaux, données structurées Schema.org et architecture technique sans compromis. Un site premium doit offrir une expérience à la hauteur de la marque.',
     },
     {
       icon: 'Award',
-      title: 'Autorité et prestige',
+      title: 'Autorité et prestige digital',
       description:
-        'Stratégie de netlinking ciblant les médias de luxe et les publications azuréennes de référence pour asseoir votre légitimité.',
+        'Stratégie de netlinking ciblant les médias de luxe, les guides de voyage haut de gamme et les publications azuréennes de référence. Chaque lien acquis renforce votre crédibilité aux yeux de Google et des IA qui évaluent votre légitimité sectorielle.',
     },
   ],
 };
@@ -184,39 +184,35 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises cannoises accompagnées',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous aidons les acteurs du marché premium de Cannes à développer leur visibilité digitale',
+    'Notre expertise s\'adresse aux entreprises ambitieuses du marché cannois. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie de luxe',
+      label: 'Vous voulez capter la clientèle internationale',
       description:
-        'Palaces, hôtels 5 étoiles et établissements premium souhaitant augmenter leurs réservations directes.',
+        'Votre entreprise est présente à Cannes mais votre site ne convertit pas suffisamment les visiteurs étrangers. Vous avez besoin d\'une stratégie Search multilingue qui cible les requêtes à forte valeur ajoutée formulées par une clientèle premium.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Luxe & Retail',
+      label: 'Vous cherchez une visibilité IA pour le marché du luxe',
       description:
-        'Joailleries, boutiques de créateurs, commerces de luxe ciblant une clientèle internationale fortunée.',
+        'Les clients haut de gamme interrogent ChatGPT et Perplexity pour planifier séjours, achats et événements. Vous voulez une agence capable d\'optimiser votre présence sur ces nouveaux canaux, pas uniquement sur Google.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Événementiel & Congrès',
+      label: 'Hôtellerie de luxe et palaces',
       description:
-        'Organisateurs d\'événements, traiteurs et prestataires du secteur MICE cannois.',
+        'Cannes accueille des palaces et hôtels 5 étoiles en compétition directe pour les réservations directes. Le référencement SEO et GEO réduit votre dépendance aux OTA et positionne votre établissement comme la référence citée par les assistants IA.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier de prestige',
+      label: 'Événementiel, congrès et MICE',
       description:
-        'Agences spécialisées dans l\'immobilier de luxe et la location de villas sur la Côte d\'Azur.',
+        'Le Palais des Festivals génère plus d\'un milliard d\'euros de retombées annuelles. Organisateurs, traiteurs, prestataires MICE : capter les recherches liées aux 156 événements annuels de Cannes demande une stratégie Search dédiée et saisonnière.',
     },
   ],
-  ctaTitle: 'Votre activité ne figure pas ici ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'adapte à tous les secteurs premium. Échangeons pour définir comment le GEO et le SEO peuvent propulser votre entreprise à Cannes.',
+    'Le prestige d\'une adresse cannoise ne suffit pas en ligne. La visibilité digitale se construit avec méthode, pas avec un logo doré.',
   ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -234,7 +230,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel du marché cannois. On identifie ce qui freine votre visibilité et les leviers à activer en priorité.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +238,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu multilingue, balisage structuré et performance technique. Le socle d\'un référencement premium durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +246,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs depuis les médias luxe, guides de voyage et publications azuréennes. Pas de spam, une stratégie sur mesure.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +254,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus premium optimisés SEO et GEO-ready qui incarnent l\'excellence cannoise, se positionnent et convertissent une clientèle exigeante.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '75K', label: 'Habitants à Cannes' },
-    { value: '2M', label: 'Touristes par an' },
-    { value: '200M€', label: 'Retombées du Festival' },
-    { value: '+80%', label: 'Clientèle internationale' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'À Cannes, l\'excellence est un prérequis. Les entreprises qui maîtrisent le GEO se positionnent comme les références que l\'IA recommande à une clientèle internationale exigeante.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'I think they are important, but I think people overestimate the importance of links. It hasn\'t been in the top three for some time.',
+  author: 'Gary Illyes',
+  role: 'Search Analyst, Google',
 };
 
 // ============================================
@@ -360,32 +380,37 @@ export const faqData = {
     {
       question: 'Pourquoi le SEO est-il crucial pour une entreprise à Cannes ?',
       answer:
-        'Cannes attire une clientèle internationale fortunée qui recherche des services premium. Un référencement efficace vous permet de capter ces recherches à haute valeur et de vous différencier sur un marché ultra-compétitif.',
+        'Cannes accueille chaque année plus de 156 événements au Palais des Festivals, générant plus d\'un milliard d\'euros de retombées. Cette dynamique crée une concurrence digitale intense entre hôtels, restaurants, prestataires et commerces. Un référencement efficace vous permet de capter les recherches à haute valeur formulées par cette clientèle internationale et de vous démarquer sur un marché où chaque position Google compte.',
     },
     {
       question: 'Comment le GEO aide-t-il à toucher la clientèle de luxe ?',
       answer:
-        'La clientèle haut de gamme utilise de plus en plus l\'IA pour planifier séjours et achats. Être recommandé par ChatGPT ou Perplexity quand quelqu\'un cherche les meilleurs établissements à Cannes représente un avantage concurrentiel majeur.',
+        'La clientèle haut de gamme utilise de plus en plus les assistants IA pour planifier séjours, réserver des tables étoilées ou trouver un prestataire événementiel. Quand un congressiste du MIPIM demande à ChatGPT « quel est le meilleur restaurant gastronomique près du Palais des Festivals ? », le GEO travaille pour que votre établissement soit la recommandation. C\'est un avantage concurrentiel que la majorité de vos concurrents ne maîtrise pas encore.',
     },
     {
       question: 'Travaillez-vous en plusieurs langues pour Cannes ?',
       answer:
-        'Absolument. Nous optimisons votre présence en français et en anglais pour capter la clientèle internationale. D\'autres langues peuvent être envisagées selon vos marchés cibles (russe, arabe, chinois...).',
+        'Oui. Le marché cannois est par nature international : 40 000 accrédités de 160 pays pour le Festival, des congressistes venus du monde entier pour le MIPIM et Cannes Lions. Nous optimisons votre présence en français et en anglais comme base, et d\'autres langues peuvent être intégrées selon vos marchés cibles prioritaires. L\'enjeu est de capter les requêtes dans la langue de vos clients, pas seulement en français.',
     },
     {
-      question: 'Proposez-vous des services pour les événements cannois ?',
+      question: 'Proposez-vous des services adaptés à la saisonnalité cannoise ?',
       answer:
-        'Oui, nous intégrons la saisonnalité et les grands événements (Festival de Cannes, MIPIM, MIDEM, etc.) dans nos stratégies pour maximiser votre visibilité aux moments clés.',
+        'Absolument. Cannes vit au rythme de ses événements : Festival en mai, MIPIM en mars, Cannes Lions en juin, ILTM en décembre. Nous intégrons cette saisonnalité dans la stratégie SEO et GEO avec des contenus anticipés, des optimisations ciblées avant chaque temps fort et un suivi des performances par période. L\'objectif est de maximiser votre visibilité aux moments où la demande explose.',
     },
     {
-      question: 'Combien de temps pour voir des résultats ?',
+      question: 'Combien de temps pour voir des résultats concrets ?',
       answer:
-        'Le SEO produit ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes. Nous établissons des indicateurs de progression dès le démarrage.',
+        'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon la compétitivité de votre secteur et votre point de départ. Le GEO peut produire des effets plus rapides sur certaines requêtes conversationnelles. Nous fixons des indicateurs de progression dès le démarrage et vous donnons accès à Rankwell One pour suivre l\'évolution en temps réel. Pas de promesses irréalistes, des projections honnêtes.',
     },
     {
       question: 'Comment mesurez-vous les performances du GEO ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos citations dans les réponses des IA. Nous analysons les requêtes où vous êtes mentionné et mesurons l\'évolution de votre visibilité sur ces canaux émergents.',
+        'Nous utilisons des outils dédiés pour tracer vos citations dans les réponses de ChatGPT, Perplexity et les AI Overviews de Google. Nous analysons les requêtes où votre entreprise est mentionnée, mesurons la fréquence de citation par rapport à vos concurrents et suivons l\'évolution de votre part de voix sur ces canaux émergents. Ces métriques sont intégrées à votre tableau de bord Rankwell One.',
+    },
+    {
+      question: 'Travaillez-vous avec des entreprises à Cannes sans être sur place ?',
+      answer:
+        'Oui, et c\'est notre mode de fonctionnement pour toutes les villes hors Paris. Visioconférences régulières, accès partagé à Rankwell One pour le suivi en temps réel, consultant senior dédié joignable par email ou téléphone. Nous accompagnons plus de 350 entreprises partout en France avec cette méthode. La compétence compte plus que le code postal.',
     },
   ],
 };

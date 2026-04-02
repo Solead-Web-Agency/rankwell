@@ -26,7 +26,7 @@ export const heroData = {
   description: 'Organic search is no longer limited to Google. ChatGPT, Perplexity, Gemini cite sources and recommend brands. Our GEO SEO agency builds your visibility on all fronts.',
   ctaText: 'Request an audit',
   ctaHref: '/en/contact',
-  // image: '/images/pages/agence-geo-seo/hero.webp',
+  image: '/images/pages/agence-geo-seo/hero.webp',
   imageAlt: 'Rankwell SEO and GEO Agency',
   showTrustIndicator: true,
   accentColor: 'rw-blue' as const,
@@ -180,7 +180,7 @@ export const servicesData = {
       description: 'Technical, semantic and competitive analysis. We identify what\'s holding back your visibility and what can accelerate it.',
       href: '/en/geo-seo-agency/audit',
       buttonText: 'Learn more',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-audit-seo.webp',
       imageAlt: 'Complete SEO audit',
     },
     {
@@ -189,7 +189,7 @@ export const servicesData = {
       description: 'On-site optimization, content structure, technical performance. The foundations of lasting visibility.',
       href: '/en/geo-seo-agency/technical-semantic',
       buttonText: 'Learn more',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-technique-semantique.webp',
       imageAlt: 'Semantic and technical SEO',
     },
     {
@@ -198,7 +198,7 @@ export const servicesData = {
       description: 'Link strategy designed to strengthen your authority. No spam, no shady networks. Real links that count.',
       href: '/en/geo-seo-agency/link-building',
       buttonText: 'Learn more',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-netlinking.webp',
       imageAlt: 'Link Building Strategy',
     },
     {
@@ -207,7 +207,7 @@ export const servicesData = {
       description: 'SEO and GEO-ready writing. Content that ranks and converts. Not filler.',
       href: '/en/geo-seo-agency/content-creation',
       buttonText: 'Learn more',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-creation-contenu.webp',
       imageAlt: 'SEO Content Creation',
     },
   ],

@@ -217,19 +217,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Vous savez que le Search est un levier, mais vous n\'avez pas forcément le temps ou l\'expertise en interne.',
+      description: 'Vous savez que le Search est un levier, mais vous n\'avez pas le temps ou l\'expertise en interne pour exploiter le potentiel du marché parisien, l\'un des plus concurrentiels de France.',
     },
     {
       label: 'Vous voulez anticiper les évolutions du Search',
-      description: 'Vous vous demandez ce que l\'IA générative change pour votre visibilité et comment vous y préparer.',
+      description: 'Vous vous demandez ce que l\'IA générative change pour votre visibilité à Paris et comment vous y préparer avant que vos concurrents ne prennent l\'avantage sur ces nouveaux canaux.',
     },
     {
       label: 'Vous avez besoin de résultats mesurables',
-      description: 'Vous en avez assez des reportings qui parlent de positions sans lien avec votre business.',
+      description: 'Vous en avez assez des reportings qui parlent de positions sans lien avec votre business. Vous voulez des métriques connectées à vos objectifs commerciaux réels.',
     },
     {
       label: 'Vous cherchez un partenaire, pas un prestataire',
-      description: 'Vous voulez une agence qui vous challenge et s\'engage sur vos résultats.',
+      description: 'Vous voulez une agence parisienne qui vous challenge, s\'engage sur vos résultats et comprend les enjeux spécifiques de votre secteur sur le marché francilien.',
     },
   ],
   ctaTitle: 'Pas sûr que ce soit pour vous ?',
@@ -390,9 +390,9 @@ export const equipeData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'Content is king, but context is God.',
+  author: 'Gary Vaynerchuk',
+  role: 'CEO VaynerMedia',
 };
 
 // ============================================
@@ -427,12 +427,12 @@ export const faqData = {
     {
       id: '5',
       question: 'Peut-on vous rencontrer avant de s\'engager ?',
-      answer: 'Bien sûr. Le premier échange est sans engagement. On peut se voir dans nos bureaux du 17e, chez vous, ou en visio. L\'objectif : comprendre votre situation et voir si on est le bon partenaire.',
+      answer: 'Bien sûr. Le premier échange est sans engagement. On peut se voir dans nos bureaux du 17e arrondissement, chez vous, ou en visio. L\'objectif : comprendre votre situation, vos enjeux et voir si on est le bon partenaire pour vous accompagner.',
     },
     {
       id: '6',
       question: 'Travaillez-vous uniquement avec des entreprises parisiennes ?',
-      answer: 'Non. On travaille avec des entreprises de toute la France et à l\'international depuis nos bureaux de Paris et Dubaï. La proximité géographique facilite certains échanges mais n\'est pas un prérequis.',
+      answer: 'Non. On travaille avec des entreprises de toute la France et à l\'international depuis nos bureaux de Paris et Dubaï. La proximité géographique facilite certains échanges, mais elle n\'est pas un prérequis pour un accompagnement efficace.',
     },
   ],
 };

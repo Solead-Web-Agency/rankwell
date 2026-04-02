@@ -106,28 +106,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Bot',
-      title: 'Architecture des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) est la discipline qui consiste à faire apparaître vos contenus dans les réponses des moteurs IA : ChatGPT, Perplexity, Google AI Overviews. Pour une entreprise carcassonnaise, c\'est la possibilité d\'être recommandé quand un touriste demande à une IA « que visiter à Carcassonne » ou quand un acheteur cherche « meilleur vin du Languedoc ».',
     },
     {
-      icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
-      description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les moteurs IA privilégient les contenus qu\'ils peuvent extraire et attribuer facilement : définitions précises, listes structurées, données chiffrées avec sources. Pour un domaine viticole ou un hôtel près de la Cité, nous créons des contenus que les algorithmes génératifs identifient comme des sources fiables et dignes d\'être citées dans leurs réponses.',
     },
     {
-      icon: 'Award',
-      title: 'Marqueurs de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les LLMs évaluent si votre site fait autorité sur son sujet. Un restaurant gastronomique de Carcassonne doit démontrer une expertise culinaire cohérente, pas seulement publier un menu en ligne. La profondeur du contenu, sa cohérence thématique et son maillage sémantique sont les critères que les IA utilisent pour décider de vous recommander ou non.',
     },
     {
-      icon: 'ChartLine',
-      title: 'Suivi de performance',
-      description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les IA croisent de multiples sources pour valider votre crédibilité avant de vous citer. Articles de presse locale (L\'Indépendant, Midi Libre), guides touristiques en ligne, avis vérifiés, annuaires institutionnels de l\'Aude : chaque mention positive renforce votre profil de confiance auprès des algorithmes génératifs et augmente vos chances de recommandation.',
     },
   ],
 };
@@ -136,8 +132,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "La Cité de Carcassonne est le 2ème site le plus visité de France après le Mont-Saint-Michel, avec plus de 3 millions de visiteurs par an. Ce flux touristique massif fait de la visibilité digitale un enjeu majeur pour les acteurs locaux.",
+  label: 'Le contexte économique carcassonnais',
+  text: 'Carcassonne Agglo compte 44 691 emplois et 1 627 entreprises créées en 2024. Le territoire possède deux sites classés UNESCO (la Cité médiévale et le Canal du Midi) qui attirent plus de 3 millions de visiteurs par an. Le tourisme génère 1,2 milliard d\'euros de chiffre d\'affaires annuel dans l\'Aude et représente 15 à 17 % de l\'emploi salarié départemental. La viticulture occupe la moitié des espaces agricoles, avec 1 448 exploitations dont 309 en agriculture biologique.',
   icon: 'TrendingUp' as const,
 };
 
@@ -153,52 +149,32 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Exploration approfondie de votre secteur à Carcassonne, mapping concurrentiel et identification des opportunités propres au territoire audois.',
-      features: [
-        'Audit de visibilité actuelle',
-        'Étude de la concurrence locale',
-        'Analyse des requêtes touristiques',
-        'Compréhension des comportements utilisateurs',
-      ],
+        'Ranker sur « Cité de Carcassonne » sans que ça génère des réservations ou des ventes, c\'est du gaspillage. Notre métrique principale, c\'est l\'impact sur votre chiffre d\'affaires : réservations directes, demandes de devis, ventes en ligne. Chaque action SEO ou GEO est évaluée par son retour business.',
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
-      features: [
-        'Rédaction SEO et GEO',
-        'Architecture sémantique',
-        'Contenus multilingues',
-        'Mise en valeur du patrimoine local',
-      ],
+        'Miser uniquement sur les requêtes touristiques génériques quand votre clientèle est locale, c\'est une erreur fréquente. Notre job inclut de recadrer la stratégie pour qu\'elle serve vos vrais objectifs commerciaux. Un partenaire qui acquiesce sans réfléchir ne vous fait pas avancer.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
-      features: [
-        'Amélioration de la vitesse',
-        'Balisage Schema.org',
-        'Responsive et UX',
-        'Sécurité et conformité',
-      ],
+        'La personne qui pense votre stratégie est la même qui la met en œuvre. Pas de sous-traitance, pas d\'intermédiaire. Votre consultant comprend les dynamiques touristiques et viticoles de l\'Aude et reste votre point de contact unique, joignable en visio, email ou téléphone.',
     },
     {
-      icon: 'BarChart3',
-      title: 'Monitoring et amélioration',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
-      features: [
-        'Reporting mensuel',
-        'Suivi des positions SEO et GEO',
-        'Analyse des conversions',
-        'Recommandations évolutives',
-      ],
+        'Notre plateforme connecte vos données Search à vos résultats commerciaux. Positions Google, citations par les IA, trafic qualifié, conversions : tout est visible en temps réel. Vous prenez des décisions informées, pas basées sur des impressions ou un rapport mensuel déjà obsolète.',
     },
   ],
 };
@@ -209,40 +185,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises carcassonnaises que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire audois.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs, guides et prestataires touristiques voulant capter les 3 millions de visiteurs de la Cité.',
+      label: 'Vous voulez transformer votre visibilité en réservations',
+      description: 'Votre établissement existe en ligne mais les réservations directes restent insuffisantes face aux plateformes intermédiaires. Vous cherchez un partenaire pour reprendre le contrôle de votre acquisition et réduire votre dépendance aux OTA et comparateurs.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et artisans',
-      description:
-        'Boutiques, enseignes locales et artisans désireux d\'attirer une clientèle touristique et locale.',
+      label: 'Vous voulez comprendre ce qui bloque votre croissance digitale',
+      description: 'Votre SEO stagne malgré vos efforts ou ceux de votre prestataire actuel. Vous avez besoin d\'un audit objectif qui identifie les vrais problèmes, hiérarchise les priorités et propose un plan d\'action concret avec des résultats mesurables.',
     },
     {
-      icon: 'Building2',
-      title: 'PME et industries',
-      description:
-        'Industries agroalimentaires, viticoles et entreprises du terroir souhaitant amplifier leur rayonnement digital.',
+      label: 'Tourisme et hôtellerie-restauration dans l\'Aude',
+      description: 'Hôtels, chambres d\'hôtes, restaurants, guides touristiques : avec 3 millions de visiteurs annuels à la Cité et le Canal du Midi classé UNESCO, capter ce flux en ligne est vital. Les touristes préparent leur séjour via Google et les IA, et c\'est là que vous devez être visible.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur visibilité auprès des Carcassonnais.',
+      label: 'Viticulture et terroir audois',
+      description: 'Domaines viticoles, caves coopératives, producteurs bio de l\'Aude : avec 1 448 exploitations agricoles et une montée en puissance du bio (309 producteurs certifiés), la différenciation digitale devient un levier de commercialisation essentiel face à une offre abondante.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Carcassonne et dans tout le département de l\'Aude.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise Search, la méthodologie et la capacité à mesurer l\'impact réel sur votre activité. Un partenaire distant mais compétent surpasse un prestataire local aux méthodes obsolètes.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -259,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On évalue votre positionnement face aux acteurs touristiques et viticoles de l\'Aude, et on identifie les leviers de croissance prioritaires.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -267,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Architecture de contenu, balisage Schema.org, performance technique. Les fondations d\'un référencement durable qui résiste aux mises à jour algorithmiques et positionne votre expertise audoise.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -275,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs auprès de médias, guides touristiques et sites institutionnels. Une stratégie de backlinks qui renforce votre autorité sans recourir au spam ou aux réseaux factices.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -283,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus SEO et GEO-ready qui valorisent votre savoir-faire carcassonnais. Du contenu qui se positionne sur Google, qui est cité par les moteurs IA et qui transforme les visiteurs en clients.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -299,24 +265,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'M',
-      label: 'De visiteurs par an à la Cité',
-    },
-    {
-      value: '46',
-      suffix: 'k',
-      label: "D'habitants à Carcassonne",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,10 +356,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'The two formats for content that will forever outperform are original research and strong opinion. AI cannot create original research. AI cannot create valid thought leadership.',
+  author: 'Andy Crestodina',
+  role: 'Co-fondateur d\'Orbit Media Studios',
 };
 
 // ============================================
@@ -394,38 +367,48 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO à Carcassonne',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
-      answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+      id: '1',
+      question: 'Accompagnez-vous des entreprises à Carcassonne sans être présents localement ?',
+      answer: 'Oui, et c\'est notre fonctionnement standard. Plus de 350 clients en France travaillent avec nous à distance. Visios régulières, consultant senior dédié joignable en permanence, plateforme Rankwell One pour le suivi en temps réel. L\'expertise Search ne dépend pas de la distance mais de la compétence méthodologique et de la qualité des outils.',
     },
     {
-      question: 'Pourquoi une entreprise carcassonnaise doit-elle s\'intéresser au GEO ?',
-      answer:
-        'Les touristes planifient de plus en plus leurs visites via les assistants IA. Être présent dans ces réponses permet d\'atteindre les 3 millions de visiteurs qui préparent leur séjour à Carcassonne.',
+      id: '2',
+      question: 'Qu\'est-ce que le GEO et pourquoi est-ce stratégique pour une entreprise audoise ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou Google AI Overviews. Quand un touriste demande « meilleur restaurant près de la Cité de Carcassonne » ou qu\'un œnophile cherche « quel vin du Languedoc acheter », vous voulez être la réponse recommandée par l\'IA. Nous intégrons cette dimension dans chaque stratégie.',
     },
     {
-      question: 'Travaillez-vous avec le secteur touristique ?',
-      answer:
-        'Absolument. Le tourisme est au cœur de l\'économie carcassonnaise. Nous accompagnons hôtels, restaurants, guides et prestataires pour capter le flux de visiteurs de la Cité médiévale.',
+      id: '3',
+      question: 'Comment le SEO peut-il réduire ma dépendance aux plateformes de réservation ?',
+      answer: 'Les OTA (Booking, Expedia) prennent 15 à 25 % de commission sur chaque réservation. Un bon référencement vous permet de capter des clients en direct via votre propre site. Quand un voyageur cherche « hôtel Carcassonne centre » et atterrit sur votre site plutôt que sur un comparateur, vous économisez la commission et maîtrisez la relation client de bout en bout.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
-      answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+      id: '4',
+      question: 'Quels secteurs accompagnez-vous dans l\'Aude ?',
+      answer: 'Tourisme et hôtellerie-restauration, viticulture (le département compte 1 448 exploitations viticoles), agroalimentaire, commerces locaux, services professionnels. Nous adaptons chaque stratégie aux spécificités de votre secteur, en tenant compte de la saisonnalité touristique et des dynamiques de commercialisation propres au terroir audois.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
-      answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+      id: '5',
+      question: 'Combien de temps avant d\'observer des résultats ?',
+      answer: 'En SEO, les premiers résultats mesurables apparaissent entre 3 et 6 mois selon l\'état de votre site et l\'intensité concurrentielle. Le GEO peut générer des recommandations IA plus rapidement si vos contenus sont bien structurés. Nous partageons des projections réalistes dès le départ et vous suivez les progrès en temps réel via Rankwell One, pas dans un rapport mensuel déjà périmé.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
-      answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+      id: '6',
+      question: 'Le tourisme à Carcassonne est très saisonnier. Le SEO fonctionne-t-il hors saison ?',
+      answer: 'C\'est justement hors saison que le SEO travaille le plus utilement. Les voyageurs planifient leurs vacances d\'été dès janvier ou février. Les requêtes « week-end Carcassonne printemps » ou « visite Canal du Midi automne » existent toute l\'année. Un référencement continu vous positionne au moment où l\'intention de voyage se forme, pas quand les touristes sont déjà sur place et ont déjà réservé.',
+    },
+    {
+      id: '7',
+      question: 'Quels sont vos tarifs ?',
+      answer: 'Les tarifs varient selon vos objectifs, la taille de votre site et le niveau de concurrence sur votre marché. Nous proposons des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles (audit, optimisation de refonte). Le premier échange de 30 minutes est gratuit et sans engagement, pour comprendre votre situation et vous donner une estimation transparente.',
+    },
+    {
+      id: '8',
+      question: 'Comment un domaine viticole peut-il tirer parti du GEO ?',
+      answer: 'Les amateurs de vin utilisent de plus en plus les IA pour découvrir des domaines et planifier des dégustations. Quand quelqu\'un demande à ChatGPT « quels vins du Languedoc goûter » ou « domaine viticole bio Carcassonne », votre domaine doit apparaître dans la réponse. Nous structurons vos contenus pour que les IA identifient votre expertise œnologique et vous recommandent naturellement.',
     },
   ],
 };

@@ -11,7 +11,7 @@ import type { ServiceItem } from '@/components/shared/homepage';
 // METADATA
 // ============================================
 export const metadata = {
-  title: "Qui sommes-nous | Rankwell - Agence GEO, SEO & SEA",
+  title: "Qui sommes-nous - Rankwell - Agence GEO, SEO & SEA",
   description: "Découvrez l'histoire de Rankwell, agence Search fondée en 2017. GEO, SEO, SEA et Data avec une approche business centrix. Bureaux à Paris et Dubaï.",
 };
 

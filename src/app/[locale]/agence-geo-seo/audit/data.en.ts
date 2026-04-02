@@ -27,7 +27,7 @@ export const heroData = {
   description: "Your site underperforming? Our agency performs a complete SEO audit of your website: technical, semantic and competitive. We diagnose, prioritize, and give you the roadmap.",
   ctaText: 'Request an SEO audit',
   ctaHref: '/en/contact',
-  // image: '/images/pages/agence-geo-seo/audit-seo/hero.webp',
+  image: '/images/pages/agence-geo-seo/audit/hero.webp',
   imageAlt: 'Rankwell Complete SEO Audit',
   accentColor: 'rw-blue' as const,
 };
@@ -187,24 +187,28 @@ export const livrablesData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-geo-seo/audit/livrable-rapport.webp',
       alt: 'Complete SEO audit report',
       title: 'A complete report',
       description: 'Not an automated tool export. A structured, analyzed, commented document. Each point is explained, contextualized, illustrated.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-geo-seo/audit/livrable-priorisation.webp',
       alt: 'SEO recommendations prioritization',
       title: 'Clear prioritization',
       description: "Not all recommendations are equal. We rank by potential impact and ease of implementation. You know where to start.",
     },
     {
       id: 3,
+      image: '/images/pages/agence-geo-seo/audit/livrable-actions.webp',
       alt: 'Actionable SEO recommendations',
       title: 'Actionable recommendations',
       description: 'No "you should improve SEO". Concrete actions: this page, this tag, this content, this link.',
     },
     {
       id: 4,
+      image: '/images/pages/agence-geo-seo/audit/livrable-restitution.webp',
       alt: 'Video audit presentation',
       title: 'A video presentation',
       description: 'We present the findings, answer your questions, make sure you understand the stakes.',

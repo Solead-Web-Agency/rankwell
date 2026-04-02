@@ -106,28 +106,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Bot',
-      title: 'Architecture des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) désigne l\'ensemble des techniques qui permettent à vos contenus d\'être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'enjeu n\'est plus seulement de figurer dans les liens bleus, mais de devenir la source que l\'intelligence artificielle recommande spontanément à ses utilisateurs.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
-      description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les moteurs IA sélectionnent des passages clairs, structurés et sourcés qu\'ils peuvent reformuler dans leurs réponses. Des définitions précises, des listes ordonnées, des données chiffrées avec leurs références : nous structurons vos contenus pour maximiser vos chances d\'être cité lorsqu\'un utilisateur interroge une IA sur votre secteur d\'activité.',
     },
     {
-      icon: 'Award',
-      title: 'Marqueurs de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les LLMs évaluent si votre site constitue une source légitime sur un sujet donné. Ils analysent la cohérence globale de votre présence en ligne : profondeur du contenu, expertise démontrée, interconnexion des pages. Une entreprise nîmoise spécialisée dans le tourisme patrimonial doit prouver son expertise sur l\'ensemble de cette thématique.',
     },
     {
-      icon: 'ChartLine',
-      title: 'Suivi de performance',
-      description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les IA vérifient votre crédibilité en analysant les mentions de votre marque sur d\'autres sites : articles de presse régionale, études sectorielles, annuaires professionnels du Gard, forums spécialisés. Le netlinking classique évolue vers un écosystème de citations multi-sources qui renforce votre autorité aux yeux des algorithmes génératifs.',
     },
   ],
 };
@@ -136,8 +132,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Les Arènes de Nîmes, parmi les amphithéâtres romains les mieux conservés au monde, accueillent près de 500 000 visiteurs par an. Le tourisme patrimonial et la Feria attirent une clientèle internationale, faisant de la visibilité digitale un enjeu majeur pour les acteurs locaux.",
+  label: 'Le contexte économique nîmois',
+  text: 'Nîmes Métropole rassemble 265 000 habitants et plus de 27 000 entreprises, concentrant 41 % des emplois du Gard. En 2024, les monuments romains ont franchi la barre des 734 000 visiteurs, dont 416 000 pour les Arènes seules. La Maison Carrée, inscrite au patrimoine mondial de l\'UNESCO en 2023, a vu sa fréquentation bondir de 11 %. Tourisme patrimonial, viticulture (Costières de Nîmes), agroalimentaire et services : la concurrence digitale s\'intensifie sur ce territoire dynamique.',
   icon: 'TrendingUp' as const,
 };
 
@@ -153,52 +149,32 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Exploration approfondie de votre secteur à Nîmes, mapping concurrentiel et identification des opportunités propres au territoire gardois.',
-      features: [
-        'Audit de visibilité actuelle',
-        'Étude de la concurrence locale',
-        'Analyse des requêtes régionales',
-        'Compréhension des comportements utilisateurs',
-      ],
+        'Être premier sur « Arènes de Nîmes » sans générer de réservations, ça ne sert à rien. Notre métrique principale, c\'est l\'impact sur votre activité : leads générés, ventes attribuées, coût d\'acquisition. Chaque action SEO ou GEO est évaluée à l\'aune de son retour business réel.',
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
-      features: [
-        'Rédaction SEO et GEO',
-        'Architecture sémantique',
-        'Intégration du vocabulaire métier',
-        'Mise en valeur du savoir-faire local',
-      ],
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Cibler des requêtes à fort volume sans intention d\'achat, c\'est du temps perdu. Notre rôle, c\'est aussi de recadrer la stratégie quand elle s\'éloigne du business. Un partenaire qui dit oui à tout n\'est pas un partenaire.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
-      features: [
-        'Amélioration de la vitesse',
-        'Balisage Schema.org',
-        'Responsive et UX',
-        'Sécurité et conformité',
-      ],
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas de junior, pas d\'intermédiaire. Vous avez un interlocuteur unique qui connaît votre dossier dans le détail, disponible par visio, email ou téléphone. C\'est la clé d\'une collaboration fluide à distance.',
     },
     {
-      icon: 'BarChart3',
-      title: 'Monitoring et amélioration',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
-      features: [
-        'Reporting mensuel',
-        'Suivi des positions SEO et GEO',
-        'Analyse des conversions',
-        'Recommandations évolutives',
-      ],
+        'Notre plateforme connecte vos données Search à vos données business. Vous suivez en temps réel l\'impact de chaque action sur votre activité nîmoise : positions, citations IA, trafic qualifié, conversions. Pas de vanity metrics dans un PDF mensuel, mais un tableau de bord vivant.',
     },
   ],
 };
@@ -209,40 +185,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises nîmoises que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire gardois.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et artisans locaux',
-      description:
-        'Industries, artisans et entreprises du terroir souhaitant amplifier leur rayonnement digital à Nîmes et au-delà.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas assez de leads ou de ventes. Vous cherchez un partenaire capable de structurer une stratégie Search qui transforme le trafic en clients, pas juste en visiteurs qui repartent aussitôt.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux d\'attirer une clientèle plus large via les moteurs de recherche.',
+      label: 'Vous préparez une refonte ou un lancement',
+      description: 'Vous créez un nouveau site ou repensez l\'existant. Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses après coup et vous donne une longueur d\'avance sur vos concurrents nîmois.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur visibilité auprès des Nîmois.',
+      label: 'Tourisme et patrimoine gardois',
+      description: 'Hôteliers, restaurateurs, guides, prestataires d\'événements : avec 734 000 visiteurs dans les monuments romains en 2024 et la Maison Carrée classée UNESCO, capter ce flux touristique en ligne est devenu un levier de croissance incontournable.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant capter les visiteurs de la région nîmoise.',
+      label: 'Viticulture et agroalimentaire du Gard',
+      description: 'Domaines viticoles des Costières de Nîmes, producteurs locaux, coopératives : le digital transforme la commercialisation agricole. Être visible sur Google et recommandé par les IA quand un acheteur cherche un vin du Gard, c\'est ouvrir de nouveaux canaux de vente.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Nîmes et dans toute la région.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats mesurables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -259,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité auprès des entreprises et touristes nîmois, et les leviers à activer en priorité.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -267,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, performance technique. Les fondations d\'une visibilité durable.',
+      description: 'Optimisation on-site, architecture de contenu, performance technique. Les fondations d\'un référencement durable qui positionne votre entreprise sur les requêtes qui génèrent du business.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -275,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Stratégie de liens pensée pour renforcer votre autorité. Pas de spam, pas de réseaux douteux. De vrais liens qui comptent.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Stratégie sur mesure avec des partenaires éditoriaux pertinents, sans spam ni réseaux douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -283,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Rédaction SEO et GEO-ready. Du contenu qui se positionne et qui convertit. Pas du remplissage.',
+      description: 'Contenus optimisés SEO et GEO-ready qui positionnent votre expertise gardoise. Du contenu qui se classe, qui est cité par les IA et qui convertit vos visiteurs en clients.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -299,24 +265,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '150',
-      suffix: 'k',
-      label: "D'habitants dans l'agglomération nîmoise",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,10 +356,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'A well-designed, easy-to-navigate website is useless if no one can find it. If your company is going to succeed in the web economy, optimizing your site for search engine visibility is essential.',
+  author: 'Stephan Spencer',
+  role: 'Co-auteur de The Art of SEO',
 };
 
 // ============================================
@@ -394,38 +367,43 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO à Nîmes',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
-      answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à Nîmes sans être sur place ?',
+      answer: 'Oui, nous accompagnons des entreprises nîmoises depuis plusieurs années. Visios régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. Notre modèle de collaboration à distance est éprouvé auprès de plus de 350 clients en France. La qualité de l\'accompagnement ne dépend pas de la distance, mais de la méthodologie et de la réactivité.',
     },
     {
-      question: 'Pourquoi une entreprise nîmoise doit-elle s\'intéresser au GEO ?',
-      answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects et de conforter votre image d\'expert.',
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous à Nîmes ?',
+      answer: 'Nous travaillons avec des entreprises de tous secteurs du bassin nîmois : tourisme patrimonial (un secteur clé avec 734 000 visiteurs dans les monuments romains en 2024), viticulture (Costières de Nîmes), agroalimentaire, services professionnels, e-commerce. Le point commun : des entreprises qui veulent générer du business via le Search, pas juste du trafic qui ne convertit pas.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
-      answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+      id: '3',
+      question: 'Qu\'est-ce que le GEO et pourquoi c\'est important pour une entreprise nîmoise ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Quand un touriste demande à une IA « quel domaine viticole visiter près de Nîmes ? » ou « meilleur restaurant Nîmes centre », vous voulez être la réponse. C\'est le futur du Search, et on l\'intègre dans tous nos projets dès le départ.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
-      answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+      id: '4',
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer: 'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon le point de départ et l\'intensité concurrentielle sur votre marché. Le GEO peut produire des effets plus rapides quand les contenus sont bien structurés. On vous donne des projections réalistes dès le départ, pas des promesses intenables. Et vous suivez l\'avancement en temps réel via Rankwell One.',
     },
     {
-      question: 'Faut-il privilégier le SEO ou le GEO pour une PME nîmoise ?',
-      answer:
-        'Nous recommandons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO prépare votre visibilité sur les plateformes IA en pleine expansion.',
+      id: '5',
+      question: 'Comment se déroule un projet type ?',
+      answer: 'Premier échange de 30 minutes en visio pour comprendre vos enjeux. Audit complet de votre situation actuelle. Roadmap avec priorités classées par impact business. Puis exécution avec un consultant senior dédié et des points réguliers. Tout est transparent : vous voyez les actions réalisées, les résultats obtenus et les prochaines étapes planifiées dans votre espace Rankwell One.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
-      answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+      id: '6',
+      question: 'Quels sont vos tarifs pour une entreprise nîmoise ?',
+      answer: 'Les tarifs dépendent de vos objectifs, votre secteur et le niveau de concurrence. On travaille sur des forfaits mensuels ou des missions ponctuelles (audit, refonte). Pas de forfait low-cost avec des résultats au rabais. Le plus simple : un premier échange pour comprendre votre situation et recevoir une estimation réaliste et détaillée.',
+    },
+    {
+      id: '7',
+      question: 'Le tourisme à Nîmes est saisonnier. Le SEO reste-t-il pertinent toute l\'année ?',
+      answer: 'Absolument. Les touristes préparent leur voyage des semaines, voire des mois à l\'avance. Les recherches sur la Feria, les Arènes ou les hébergements gardois commencent bien avant l\'été. Un référencement travaillé en continu vous positionne au moment où l\'intention de voyage se forme. De plus, les moteurs IA répondent aux questions de planification toute l\'année, amplifiant l\'effet de votre visibilité digitale.',
     },
   ],
 };

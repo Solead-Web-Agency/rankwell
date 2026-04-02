@@ -97,7 +97,11 @@ export const ROUTES = {
     ETUDES_DE_CAS: '/etudes-de-cas',
     GUIDES: '/guides',
     BLOG: '/blog',
-    GLOSSAIRE: '/glossaire',
+    GLOSSAIRE: {
+      INDEX: '/glossaire',
+      /** Route dynamique : /glossaire/{slug} */
+      ENTRY: '/glossaire/',
+    },
   },
 
   // Legal

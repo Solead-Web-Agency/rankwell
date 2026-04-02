@@ -7,6 +7,14 @@ const nextConfig: NextConfig = {
     // À corriger progressivement après le déploiement
     ignoreBuildErrors: true,
   },
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+    ],
+  },
   turbopack: {
     root: __dirname,
     resolveAlias: {

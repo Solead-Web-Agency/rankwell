@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à La Rochelle | Rankwell',
+  title: 'Agence GEO & SEO à La Rochelle - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à La Rochelle. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché charentais et atlantique.',
 };
@@ -66,7 +66,7 @@ export const recapData = {
   sectionId: 'recap',
   badge: 'En bref',
   title: 'L\'essentiel de notre service GEO & SEO à La Rochelle',
-  subtitle: 'Tout ce que vous devez savoir sur notre accompagnement en référencement',
+  subtitle: 'L\'essentiel de notre accompagnement pour les entreprises du littoral atlantique',
   accentColor: 'rw-blue' as const,
   items: [
     {
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs alimentés par l\'IA. Quand un voyageur demande à ChatGPT "meilleur restaurant de fruits de mer à La Rochelle", le GEO assure que votre établissement soit recommandé.',
+        'GEO (Generative Engine Optimization) est la discipline qui optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Quand un voyageur demande « meilleur restaurant de fruits de mer à La Rochelle », le GEO fait de votre établissement la source recommandée, pas juste un résultat parmi d\'autres.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi le GEO compte à La Rochelle ?',
       description:
-        'Avec 3 millions de visiteurs annuels, La Rochelle voit ses touristes utiliser massivement l\'IA pour planifier leur séjour. Être recommandé par les assistants IA devient un avantage concurrentiel décisif.',
+        'Avec près de 3 millions de nuitées par an et 608 millions d\'euros de retombées touristiques, La Rochelle voit ses visiteurs utiliser massivement l\'IA pour planifier leur séjour. Les requêtes conversationnelles comme « que faire à La Rochelle ce week-end » passent de plus en plus par les assistants IA. Ne pas y figurer, c\'est perdre des clients au profit de concurrents mieux référencés.',
     },
     {
       icon: 'BarChart3',
       title: 'Synergie SEO + GEO',
       description:
-        'Le SEO assure vos positions sur Google, le GEO vous fait citer par les IA. La combinaison de ces deux approches couvre l\'ensemble des comportements de recherche de vos prospects.',
+        'Le SEO assure vos positions sur les liens bleus de Google, le GEO vous fait citer dans les réponses conversationnelles des IA. La combinaison couvre l\'intégralité des comportements de recherche de vos prospects, du touriste qui tape un mot-clé au résident qui interroge son assistant vocal pour trouver un prestataire.',
     },
     {
       icon: 'Lightbulb',
-      title: 'Contenu maritime et touristique',
+      title: 'Contenu local structuré pour l\'IA',
       description:
-        'Les moteurs génératifs privilégient le contenu authentique et expert. Nos équipes créent des contenus qui valorisent l\'identité maritime rochelaise et répondent aux critères des IA.',
+        'Les moteurs génératifs privilégient le contenu authentique, expert et bien structuré. Nos équipes créent des contenus qui valorisent l\'identité maritime rochelaise — guides de quartier, expertise sectorielle, données locales vérifiées — formatés pour être facilement extraits et cités par les IA.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'La Rochelle et l\'agglomération accueillent plus de 3 millions de visiteurs par an, avec un pic estival qui en fait l\'une des destinations atlantiques les plus prisées.',
+  label: 'Le contexte économique rochelais',
+  text: 'L\'agglomération de La Rochelle rassemble 32 000 établissements, plus de 71 000 emplois salariés et accueille près de 3 millions de nuitées touristiques par an, générant 608 millions d\'euros de retombées économiques. La ville compte 80 000 habitants et se positionne sur des filières d\'excellence : numérique, biotechnologies, nautisme, éco-activités et agroalimentaire. Le secteur touristique à lui seul représente 9 070 emplois locaux.',
   icon: 'TrendingUp' as const,
 };
 
@@ -153,27 +153,27 @@ export const approcheData = {
   items: [
     {
       icon: 'Search',
-      title: 'Analyse du marché touristique',
+      title: 'Analyse du marché rochelais',
       description:
-        'Étude de la concurrence locale, identification des requêtes saisonnières et détection des opportunités de positionnement sur les thématiques maritimes et touristiques.',
+        'Nous cartographions la concurrence digitale sur le littoral charentais, analysons les requêtes saisonnières et détectons les opportunités de positionnement sur les thématiques maritimes, touristiques et industrielles propres au bassin rochelais.',
     },
     {
       icon: 'FileText',
       title: 'Contenu maritime authentique',
       description:
-        'Production de contenus valorisant l\'identité rochelaise, le patrimoine maritime et l\'expertise de votre entreprise. Articles et pages pensés pour le référencement et l\'engagement.',
+        'Production de contenus éditoriaux valorisant l\'identité rochelaise, le patrimoine maritime et l\'expertise de votre entreprise. Articles de fond, guides locaux et pages de destination conçus pour performer sur Google et être cités par les moteurs IA.',
     },
     {
       icon: 'Settings',
       title: 'Excellence technique',
       description:
-        'Performance mobile prioritaire pour les touristes en déplacement, données structurées Schema.org et vitesse de chargement optimale.',
+        'Performance mobile prioritaire pour les touristes en déplacement, balisage Schema.org adapté aux établissements locaux, vitesse de chargement optimale et architecture de site pensée pour la conversion. Chaque détail technique contribue à votre visibilité.',
     },
     {
       icon: 'Award',
       title: 'Autorité locale renforcée',
       description:
-        'Stratégie de netlinking ciblant les médias régionaux, partenariats avec des institutions locales et présence sur les annuaires touristiques.',
+        'Stratégie de netlinking ciblant les médias régionaux charentais, les guides touristiques atlantiques et les institutions locales. Nous construisons une empreinte digitale qui renforce votre crédibilité auprès de Google et des IA génératives.',
     },
   ],
 };
@@ -184,39 +184,29 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises rochelaises accompagnées',
-  subtitle:
-    'Nous aidons les acteurs économiques de La Rochelle à conquérir leur visibilité digitale',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises sur le littoral charentais. Voici les situations où nous pouvons réellement vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Tourisme & Hôtellerie',
-      description:
-        'Hôtels, campings, restaurants et prestataires touristiques souhaitant augmenter leurs réservations directes.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas assez de réservations ou de demandes de contact. Vous cherchez un partenaire pour structurer une stratégie Search efficace qui transforme le trafic en chiffre d\'affaires, pas en vanity metrics.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Artisanat',
-      description:
-        'Boutiques du Vieux-Port, commerces de quartier et artisans locaux cherchant à développer leur clientèle.',
+      label: 'Vous préparez la saisonnalité touristique',
+      description: 'Le littoral charentais vit au rythme des saisons. Vous voulez anticiper les pics de recherche estivaux, optimiser votre visibilité en amont et maximiser vos réservations directes sans dépendre uniquement des plateformes tierces.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Nautisme & Maritime',
-      description:
-        'Activités nautiques, ports de plaisance, loueurs de bateaux et entreprises du secteur maritime.',
+      label: 'Tourisme, hôtellerie et restauration',
+      description: 'Hôtels, campings, restaurants de fruits de mer, prestataires touristiques et acteurs de l\'île de Ré. Avec près de 3 millions de nuitées par an, le marché rochelais exige une stratégie digitale qui capte les visiteurs dès la phase de planification de leur séjour.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Services',
-      description:
-        'Agences immobilières, conciergeries et prestataires de services aux résidents et vacanciers.',
+      label: 'Nautisme, maritime et éco-activités',
+      description: 'Ports de plaisance, loueurs de bateaux, activités nautiques et entreprises des filières d\'excellence rochelaises. La Rochelle est le premier port de plaisance de l\'Atlantique : votre visibilité en ligne doit refléter ce positionnement stratégique.',
     },
   ],
-  ctaTitle: 'Votre secteur n\'est pas listé ?',
-  ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines d\'activité. Échangeons sur vos enjeux pour définir une stratégie GEO & SEO adaptée à votre entreprise rochelaise.',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'Choisir une agence proche géographiquement ne garantit rien. Ce qui fait la différence, c\'est la maîtrise des techniques actuelles, la transparence sur les résultats et un vrai engagement sur vos objectifs business.',
   ctaButtonText: 'Parler de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -234,7 +224,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité et les leviers d\'accélération sur le marché rochelais et atlantique.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +232,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, maillage interne, balisage Schema.org et performance technique adaptée aux flux saisonniers. Des fondations solides pour un référencement qui performe toute l\'année.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +240,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs auprès de médias régionaux, guides touristiques atlantiques et publications charentaises. Une stratégie sur mesure, sans spam ni raccourcis douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +248,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready qui positionnent votre expertise locale et attirent votre audience cible. Du contenu qui se positionne et qui convertit, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +263,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '80K', label: 'Habitants à La Rochelle' },
-    { value: '3M', label: 'Visiteurs par an' },
-    { value: '4500', label: 'Anneaux au port de plaisance' },
-    { value: '+75%', label: 'Recherches touristiques sur mobile' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -325,7 +339,7 @@ export const comparaisonData = {
   sectionId: 'comparaison',
   badge: 'Comparatif',
   title: 'SEO vs GEO : quelle approche pour votre entreprise à La Rochelle ?',
-  subtitle: 'Comprendre les différences pour mieux combiner ces deux leviers',
+  subtitle: 'Deux approches complémentaires pour maximiser votre visibilité sur le marché rochelais',
   accentColor: 'rw-blue' as const,
   columns: ['Critère', 'SEO classique', 'GEO (IA générative)'],
   rows: [
@@ -343,9 +357,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'La Rochelle attire des visiteurs qui préparent leur séjour via l\'IA. Les entreprises qui maîtrisent le GEO captent ces flux touristiques avant leurs concurrents.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'We spend all of our time understanding how Google works and not enough time understanding how people work. Audiences over algorithms.',
+  author: 'Wil Reynolds',
+  role: 'Fondateur de Seer Interactive',
 };
 
 // ============================================
@@ -358,34 +372,52 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi le SEO est-il important pour une entreprise à La Rochelle ?',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à La Rochelle sans être sur place ?',
       answer:
-        'La Rochelle accueille 3 millions de visiteurs par an. Un bon référencement vous permet de capter ces recherches touristiques et de toucher les 80 000 habitants de la ville et les 175 000 de l\'agglomération.',
+        'Oui, nous accompagnons des entreprises sur le littoral atlantique en collaboration à distance depuis plusieurs années. Visioconférences régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. Ce qui fait la différence, c\'est la compétence et la réactivité, pas le code postal.',
     },
     {
+      id: '2',
+      question: 'Pourquoi le SEO est-il stratégique pour une entreprise rochelaise ?',
+      answer:
+        'L\'agglomération de La Rochelle génère 608 millions d\'euros de retombées touristiques et rassemble 32 000 établissements. La concurrence digitale est intense sur les requêtes liées au tourisme, à la restauration et aux activités nautiques. Un référencement efficace vous permet de capter ces recherches à forte valeur ajoutée et de réduire votre dépendance aux plateformes de réservation.',
+    },
+    {
+      id: '3',
       question: 'Comment le GEO peut-il aider mon entreprise à La Rochelle ?',
       answer:
-        'Le GEO vous permet d\'être recommandé par les assistants IA quand les utilisateurs posent des questions sur La Rochelle. Si un touriste demande à ChatGPT "que faire à La Rochelle ce week-end", votre activité pourra être mentionnée.',
+        'Le GEO positionne votre entreprise comme la source que les assistants IA recommandent. Quand un touriste demande à ChatGPT « où manger des huîtres près du Vieux-Port » ou « activités nautiques île de Ré », votre établissement apparaît dans la réponse. Ce canal de recommandation IA croît rapidement et représente un avantage concurrentiel difficile à rattraper pour ceux qui tardent.',
     },
     {
-      question: 'Combien de temps pour voir des résultats à La Rochelle ?',
+      id: '4',
+      question: 'Quels secteurs accompagnez-vous à La Rochelle ?',
       answer:
-        'Le SEO produit généralement des résultats visibles en 3 à 6 mois. Le GEO peut avoir un impact plus rapide sur certaines requêtes. Nous mettons en place des indicateurs de progression dès le premier mois.',
+        'Nous travaillons avec tous les secteurs du bassin rochelais : tourisme et hôtellerie, restauration et produits de la mer, nautisme et activités maritimes, commerce local, immobilier, services aux entreprises et filières d\'excellence comme le numérique ou les biotechnologies. Le dénominateur commun : des entreprises qui veulent transformer leur visibilité en ligne en résultats commerciaux.',
     },
     {
-      question: 'Proposez-vous des services pour l\'île de Ré ?',
+      id: '5',
+      question: 'Couvrez-vous l\'île de Ré et le littoral charentais ?',
       answer:
-        'Absolument. Nous couvrons La Rochelle et l\'île de Ré, permettant d\'optimiser votre visibilité sur ces deux marchés touristiques complémentaires.',
+        'Absolument. Notre accompagnement couvre La Rochelle, l\'île de Ré, l\'île d\'Oléron, Rochefort et l\'ensemble du littoral charentais. La stratégie SEO et GEO s\'adapte à votre zone de chalandise réelle : pour un hôtel de l\'île de Ré, on ciblera les requêtes touristiques nationales et internationales. Pour un prestataire rochelais, on travaillera aussi les requêtes locales et de proximité.',
     },
     {
-      question: 'Travaillez-vous avec la saisonnalité touristique ?',
+      id: '6',
+      question: 'Comment gérez-vous la saisonnalité touristique dans vos stratégies ?',
       answer:
-        'Oui, nous intégrons la saisonnalité dans nos stratégies. Nous anticipons les pics de recherche estivaux pour maximiser votre visibilité au moment où le potentiel est le plus élevé.',
+        'La saisonnalité est au cœur de notre approche pour les entreprises du littoral. Nous anticipons les pics de recherche estivaux 3 à 4 mois en amont, optimisons le contenu saisonnier, et travaillons la visibilité sur les requêtes « hors saison » pour lisser votre acquisition. Le GEO est particulièrement efficace en pré-saison quand les voyageurs planifient via l\'IA.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos citations dans les réponses des IA. Nous analysons les requêtes où vous êtes mentionné et mesurons l\'évolution de votre visibilité.',
+        'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon la concurrence sur vos requêtes cibles. Le GEO peut montrer des effets plus rapides sur les requêtes conversationnelles. Nous installons des indicateurs de progression dès le premier mois via Rankwell One, pour que vous ayez une visibilité claire sur l\'avancement, sans attendre un rapport trimestriel.',
+    },
+    {
+      id: '8',
+      question: 'Comment mesurez-vous concrètement les performances du GEO ?',
+      answer:
+        'Nous utilisons des outils spécialisés pour monitorer vos citations dans les réponses de ChatGPT, Perplexity et les AI Overviews de Google. Nous mesurons la fréquence de mention, le contexte de citation et l\'impact sur votre trafic et vos conversions. Tout est centralisé dans notre plateforme Rankwell One, consultable à tout moment.',
     },
   ],
 };

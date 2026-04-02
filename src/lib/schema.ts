@@ -240,6 +240,125 @@ export function generateHowToSchema(
 }
 
 /**
+ * Génère le Schema Article (BlogPosting) pour les guides/articles
+ */
+export interface ArticleSchemaData {
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  imageUrl?: string;
+  imageAlt?: string;
+  url: string;
+  wordCount?: number;
+  locale: string;
+  /** Entités du glossaire liées (génère about/mentions avec DefinedTerm) */
+  glossaryEntities?: { name: string; url: string }[];
+}
+
+export function generateArticleSchema(article: ArticleSchemaData) {
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: article.headline,
+    description: article.description,
+    datePublished: article.datePublished,
+    dateModified: article.dateModified || article.datePublished,
+    inLanguage: article.locale === 'fr' ? 'fr-FR' : 'en-US',
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': article.url.startsWith('http') ? article.url : `${organizationData.url}${article.url}`,
+    },
+    author: {
+      '@type': 'Person',
+      name: 'Nicolas Durand',
+      jobTitle: article.locale === 'fr' ? 'Responsable communications numériques' : 'Digital Communications Manager',
+      url: 'https://www.linkedin.com/in/nicolas-durand-54566b28b/',
+      worksFor: {
+        '@type': 'Organization',
+        name: organizationData.name,
+        url: organizationData.url,
+      },
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: organizationData.name,
+      url: organizationData.url,
+      logo: {
+        '@type': 'ImageObject',
+        url: organizationData.logo,
+      },
+    },
+    isPartOf: {
+      '@type': 'WebSite',
+      name: organizationData.name,
+      url: organizationData.url,
+    },
+  };
+
+  if (article.imageUrl) {
+    schema.image = {
+      '@type': 'ImageObject',
+      url: article.imageUrl.startsWith('http') ? article.imageUrl : `${organizationData.url}${article.imageUrl}`,
+      ...(article.imageAlt ? { description: article.imageAlt } : {}),
+    };
+  }
+
+  if (article.wordCount) {
+    schema.wordCount = article.wordCount;
+  }
+
+  // Entités du glossaire → about + mentions (DefinedTerm)
+  if (article.glossaryEntities && article.glossaryEntities.length > 0) {
+    const entities = article.glossaryEntities.map((e) => ({
+      '@type': 'DefinedTerm',
+      name: e.name,
+      url: e.url.startsWith('http') ? e.url : `${organizationData.url}${e.url}`,
+      inDefinedTermSet: {
+        '@type': 'DefinedTermSet',
+        name: 'Glossaire Rankwell',
+        url: `${organizationData.url}/glossaire`,
+      },
+    }));
+    schema.about = entities;
+    schema.mentions = entities;
+  }
+
+  return schema;
+}
+
+/**
+ * Génère le Schema DefinedTerm pour les pages glossaire
+ */
+export interface DefinedTermData {
+  name: string;
+  alternateName?: string;
+  description: string;
+  url: string;
+}
+
+export function generateDefinedTermSchema(term: DefinedTermData) {
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: term.name,
+    description: term.description,
+    url: term.url.startsWith('http') ? term.url : `${organizationData.url}${term.url}`,
+    inDefinedTermSet: {
+      '@type': 'DefinedTermSet',
+      name: 'Glossaire Rankwell',
+      url: `${organizationData.url}/glossaire`,
+    },
+  };
+
+  if (term.alternateName) {
+    schema.alternateName = term.alternateName;
+  }
+
+  return schema;
+}
+
+/**
  * Génère le Schema LocalBusiness pour les pages de contact/bureaux
  */
 export function generateLocalBusinessSchema(location: 'paris' | 'dubai') {

@@ -1,55 +1,66 @@
 /**
- * DATA FR - Agence GEO & SEO à La Baule
- * Page ville SANS présence physique
+ * DATA - Page La Baule (Agence GEO & SEO pour les entreprises bauloises)
+ * URL: /agence-geo-seo/france/la-baule (FR only)
+ *
+ * Page locale SANS présence physique
+ * Mots-clés: Agence SEO La Baule, Agence GEO La Baule, Référencement La Baule
  */
 
+import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
+
 // ============================================
-// METADATA
+// METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à La Baule | Référencement IA & Traditionnel',
-  description: 'Agence spécialisée en GEO et SEO à La Baule. Boostez votre visibilité sur les moteurs IA et traditionnels dans la plus belle baie d\'Europe.',
+  title: 'Agence GEO et SEO pour les entreprises bauloises - Rankwell',
+  description:
+    'Expertise SEO et GEO pour les entreprises de La Baule. Référencement Google et optimisation IA pour le tourisme, l\'événementiel et l\'hôtellerie de la Côte d\'Amour.',
 };
 
 // ============================================
-// HERO DATA
+// HERO
 // ============================================
 export const heroData = {
   breadcrumb: [
     { label: 'Accueil', href: '/' },
-    { label: 'Agence GEO & SEO', href: '/agence-geo-seo' },
+    { label: 'GEO & SEO', href: '/agence-geo-seo' },
     { label: 'France', href: '/agence-geo-seo/france' },
     { label: 'La Baule' },
-  ],
+  ] as BreadcrumbItem[],
   badge: 'la-baule',
-  title: 'Agence GEO & SEO à La Baule',
-  description: 'Propulsez la visibilité en ligne de votre entreprise bauloise avec notre expertise en référencement traditionnel et optimisation pour les moteurs IA. Des stratégies adaptées à la station balnéaire premium de la côte atlantique.',
-  primaryCta: { text: 'Demander un audit gratuit', href: '/contact' },
-  secondaryCta: { text: 'Découvrir nos services', href: '#services' },
+  title: 'Agence GEO et SEO à La Baule',
+  description:
+    'La Baule accueille 200 000 vacanciers chaque été et génère 26 millions d\'euros de retombées en tourisme d\'affaires. Dans cet écosystème où l\'hôtellerie, la thalassothérapie et l\'événementiel se disputent l\'attention digitale, la visibilité Search fait la différence.',
+  primaryCta: {
+    text: 'Discuter de votre projet',
+    href: '/contact',
+  },
+  secondaryCta: {
+    text: 'Comprendre le GEO',
+    href: '#comprendre-geo',
+  },
 };
 
 // ============================================
-// INTRO DATA
+// INTRO
 // ============================================
 export const introData = {
-  badge: 'Votre partenaire digital à La Baule',
+  badge: 'La Baule',
   accentColor: 'rw-blue' as const,
-  title: 'Une expertise SEO et GEO pour les entreprises bauloises',
+  title: 'Une expertise Search nationale au service de la Côte d\'Amour',
   paragraphs: [
-    "La Baule, station balnéaire de renommée internationale, offre 9 km de plage de sable fin et une clientèle premium toute l\'année. Entre tourisme haut de gamme et résidences secondaires, la ville attire une clientèle exigeante.",
-    "Le GEO (Generative Engine Optimization) constitue la nouvelle dimension du référencement, ciblant les moteurs IA comme ChatGPT, Perplexity ou Google SGE. Associée au SEO traditionnel, cette expertise garantit une couverture optimale.",
-    "Notre agence soutient les acteurs baulois dans leur développement numérique, en élaborant des stratégies qui captent le flux touristique haut de gamme.",
+    'La Baule n\'est pas une station balnéaire ordinaire. Ses 9 km de plage, son Palais des Congrès Atlantia et ses deux centres de thalassothérapie face à l\'océan en font un pôle économique où le tourisme de loisirs croise le tourisme d\'affaires. La concurrence digitale y est féroce : hôtels, restaurants, prestataires événementiels et commerces se battent pour capter une clientèle au pouvoir d\'achat élevé.',
+    'Rankwell accompagne des entreprises dans toute la France depuis 2017. Notre expertise GEO et SEO est accessible aux entreprises bauloises avec une <strong>collaboration à distance structurée et efficace</strong>. Visioconférences régulières, outils partagés, transparence totale via notre plateforme Rankwell One. Le fait de ne pas être à La Baule ne change rien à la qualité de l\'accompagnement.',
+    'Le GEO (Generative Engine Optimization) est devenu incontournable pour les acteurs du tourisme et de l\'événementiel. Quand un voyageur demande à ChatGPT « où séjourner sur la Côte d\'Amour », votre établissement doit apparaître. Nous combinons <strong>SEO et GEO avec une approche business centrix</strong> qui mesure le succès en réservations et en leads, pas en positions.',
   ],
   tocItems: [
-    { id: 'recap', label: 'En bref' },
-    { id: 'comprendre-geo', label: 'Comprendre le GEO' },
-    { id: 'approche', label: 'Notre approche' },
-    { id: 'pour-qui', label: 'Pour qui ?' },
-    { id: 'services', label: 'Nos services' },
-    { id: 'processus', label: 'Processus' },
-    { id: 'comparaison', label: 'SEO vs GEO' },
-    { id: 'faq', label: 'FAQ' },
-  ],
+    { id: 'comprendre-geo', label: 'Comprendre le GEO', icon: 'Lightbulb' },
+    { id: 'approche', label: 'Notre approche', icon: 'Target' },
+    { id: 'pour-qui', label: 'À qui ça s\'adresse', icon: 'Users' },
+    { id: 'expertises', label: 'Nos expertises', icon: 'Layers' },
+    { id: 'comparaison', label: 'SEO vs GEO', icon: 'GitCompare' },
+    { id: 'faq', label: 'Questions fréquentes', icon: 'HelpCircle' },
+  ] as TocItem[],
 };
 
 // ============================================
@@ -57,42 +68,79 @@ export const introData = {
 // ============================================
 export const recapData = {
   sectionId: 'recap',
-  badge: 'En bref',
-  title: 'GEO & SEO à La Baule : l\'essentiel',
-  subtitle: 'Les points clés de notre expertise pour le marché baulois.',
+  badge: 'Rankwell pour La Baule',
+  title: 'Ce que nous apportons aux entreprises bauloises',
+  subtitle: 'Une expertise Search nationale accessible avec une collaboration à distance qui fonctionne.',
   accentColor: 'rw-blue' as const,
   items: [
-    { icon: 'Bot', title: 'GEO - IA', description: 'Présence dans les réponses générées par les assistants IA.' },
-    { icon: 'Search', title: 'SEO classique', description: 'Positionnement solide sur Google et les moteurs traditionnels.' },
-    { icon: 'Target', title: 'Focus premium', description: 'Stratégies pour capter la clientèle haut de gamme.' },
-    { icon: 'TrendingUp', title: 'Impact mesurable', description: 'Augmentation du trafic qualifié et des réservations.' },
+    {
+      id: 1,
+      icon: 'Users',
+      title: '+350 clients',
+      description: 'Accompagnés depuis 2017, partout en France.',
+    },
+    {
+      id: 2,
+      icon: 'Sparkles',
+      title: 'GEO natif',
+      description: 'Optimisation Google ET moteurs IA dès le départ.',
+    },
+    {
+      id: 3,
+      icon: 'Video',
+      title: 'Collaboration efficace',
+      description: 'Visios régulières, outils partagés, réactivité.',
+    },
+    {
+      id: 4,
+      icon: 'UserCheck',
+      title: 'Consultants seniors',
+      description: 'Pas de junior sur votre dossier.',
+    },
   ],
 };
 
 // ============================================
-// GEO EDUCATION SECTION
+// SECTION ÉDUCATIVE GEO
 // ============================================
 export const geoEducationData = {
   sectionId: 'comprendre-geo',
   badge: 'Comprendre le GEO',
   badgeVariant: 'colored' as const,
-  title: 'Décryptage de l\'optimisation pour les moteurs IA',
-  subtitle: 'Le GEO bouleverse les codes du référencement. Découvrez ses bénéfices pour votre entreprise bauloise.',
   accentColor: 'rw-blue' as const,
+  title: 'Le GEO : pourquoi ça change la donne pour les entreprises bauloises',
+  subtitle:
+    'Le SEO traditionnel vise les 10 liens bleus de Google. C\'est toujours indispensable. Mais les habitudes de recherche évoluent : de plus en plus de voyageurs et de professionnels interrogent des IA pour préparer leurs séjours et événements.',
   items: [
-    { icon: 'Bot', title: 'Architecture des moteurs IA', description: 'ChatGPT, Perplexity et SGE agrègent des données pour formuler des réponses complètes.' },
-    { icon: 'FileText', title: 'Contenus structurés', description: 'Les IA privilégient les contenus bien organisés et experts.' },
-    { icon: 'Award', title: 'Marqueurs de confiance', description: 'Citations et backlinks consolident votre crédibilité.' },
-    { icon: 'ChartLine', title: 'Suivi de performance', description: 'Monitoring de votre présence dans les réponses IA.' },
+    {
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) est la discipline qui consiste à optimiser vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'enjeu n\'est plus seulement de ranker sur Google, mais de devenir la source que l\'IA recommande quand un utilisateur cherche un hôtel, un spa ou un lieu d\'événement sur la Côte d\'Amour.',
+    },
+    {
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les IA cherchent des passages qu\'elles peuvent extraire et reformuler facilement. Descriptions précises de vos prestations, données chiffrées sur vos capacités d\'accueil, avis structurés. On optimise vos contenus pour maximiser les chances d\'être cité quand un voyageur interroge une IA sur La Baule.',
+    },
+    {
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les LLMs évaluent si vous êtes une source légitime sur un sujet donné. Pour un hôtel baulois, cela signifie démontrer une expertise cohérente : histoire de l\'établissement, ancrage local, offre détaillée. L\'ensemble de votre présence digitale doit converger vers cette légitimité.',
+    },
+    {
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les IA vérifient votre crédibilité via les mentions sur d\'autres sites : guides touristiques en ligne, articles de presse régionale, plateformes de réservation, blogs spécialisés. Le netlinking reste décisif, mais la logique de citation multi-sources prend le dessus.',
+    },
   ],
 };
 
 // ============================================
-// CALLOUT DATA
+// CALLOUT LA BAULE
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "La Baule possède la plus belle baie d'Europe avec ses 9 km de plage. Station balnéaire premium depuis le XIXe siècle, elle attire une clientèle internationale et de nombreux événements prestigieux.",
+  label: 'Le contexte économique baulois',
+  text: 'La Baule-Escoublac compte 16 600 habitants permanents mais accueille plus de 200 000 vacanciers en période estivale. Le revenu moyen y atteint 28 490 € contre 20 590 € au niveau national, et le taux de chômage reste bas à 6,1 %. Le Palais des Congrès Atlantia génère à lui seul 120 événements professionnels par an. Un marché à fort pouvoir d\'achat où la visibilité digitale conditionne directement le remplissage.',
   icon: 'TrendingUp' as const,
 };
 
@@ -102,14 +150,38 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une méthodologie adaptée à La Baule',
-  subtitle: 'Notre démarche intègre les codes du marché premium baulois.',
   accentColor: 'rw-blue' as const,
+  title: 'Notre approche business centrix',
+  subtitle: 'Beaucoup d\'agences parlent de ROI. Voici ce que ça signifie concrètement chez Rankwell pour les acteurs de la Côte d\'Amour.',
   items: [
-    { icon: 'Search', title: 'Diagnostic du marché local', description: 'Exploration du marché premium baulois et identification des opportunités touristiques haut de gamme.' },
-    { icon: 'FileText', title: 'Production de contenus experts', description: 'Rédaction de contenus premium valorisant l\'excellence bauloise.' },
-    { icon: 'Settings', title: 'Optimisation technique', description: 'Performance, balisage Schema.org et expérience utilisateur premium.' },
-    { icon: 'BarChart3', title: 'Monitoring et amélioration', description: 'Suivi des performances et ajustements stratégiques.' },
+    {
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
+      description:
+        'Être premier sur « thalasso La Baule » sans générer de réservations, ça ne sert à rien. Notre métrique principale, c\'est l\'impact sur votre activité : demandes de devis, réservations directes, taux de remplissage. Le trafic n\'est qu\'un moyen.',
+    },
+    {
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
+      description:
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Cibler la clientèle parisienne en résidence secondaire n\'a pas la même stratégie que capter le tourisme d\'affaires via Atlantia. Notre rôle, c\'est aussi de vous réorienter quand c\'est nécessaire.',
+    },
+    {
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
+      description:
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas de junior, pas d\'intermédiaire. Vous avez un interlocuteur unique qui connaît votre dossier, votre marché saisonnier et les spécificités de la station.',
+    },
+    {
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
+      description:
+        'Notre plateforme connecte vos données Search à vos données business. Vous voyez l\'impact réel en temps réel : positions Google, citations IA, leads générés. Pas des vanity metrics dans un rapport mensuel.',
+    },
   ],
 };
 
@@ -119,18 +191,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises bauloises que nous accompagnons',
-  subtitle: 'Notre expertise s\'adresse aux acteurs du marché premium baulois.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises bauloises. Voici les situations et les secteurs où nous créons le plus de valeur.',
   accentColor: 'rw-blue' as const,
   criteria: [
-    { icon: 'Building2', title: 'Hôtellerie de luxe', description: 'Hôtels, palaces et établissements de thalassothérapie.' },
-    { icon: 'Globe', title: 'Immobilier premium', description: 'Agences immobilières et promoteurs sur le marché des résidences secondaires.' },
-    { icon: 'ShoppingBag', title: 'Commerce & Restauration', description: 'Boutiques haut de gamme et restaurants gastronomiques.' },
-    { icon: 'Briefcase', title: 'Services aux particuliers', description: 'Prestataires de services premium et conciergeries.' },
+    {
+      label: 'Vous voulez transformer votre visibilité digitale en réservations',
+      description: 'Votre site existe mais ne génère pas assez de demandes directes. Vous dépendez trop des OTA ou des intermédiaires. Vous cherchez un partenaire pour structurer une stratégie Search qui ramène du business en propre.',
+    },
+    {
+      label: 'Vous préparez un événement ou une saison et voulez anticiper',
+      description: 'La saisonnalité de La Baule impose de travailler en amont. Vous avez besoin d\'une stratégie qui prépare la visibilité avant le pic estival ou avant un congrès majeur à Atlantia.',
+    },
+    {
+      label: 'Hôtellerie, thalassothérapie et bien-être',
+      description: 'Les deux centres de thalasso face à l\'océan, les hôtels du Resort Barrière et les établissements indépendants se disputent une clientèle premium. Le GEO est un levier décisif pour être recommandé par les IA aux voyageurs en phase de recherche.',
+    },
+    {
+      label: 'Tourisme d\'affaires et événementiel',
+      description: 'Atlantia accueille 120 événements professionnels par an dans ses 3 500 m². Les prestataires événementiels, traiteurs, organisateurs de séminaires ont besoin d\'être visibles quand les décideurs cherchent un lieu sur la Côte d\'Amour.',
+    },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription: 'Échangez avec notre équipe pour développer votre présence digitale à La Baule.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats mesurables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -142,75 +226,148 @@ export const expertisesData = {
   badge: 'Nos services',
   accentColor: 'rw-blue' as const,
   title: 'Nos services GEO & SEO à La Baule',
-  subtitle: 'Quatre services complémentaires pour vos besoins en référencement.',
+  subtitle: 'Quatre services complémentaires pour accompagner la croissance digitale des entreprises de la Côte d\'Amour.',
   items: [
-    { id: 1, title: 'Audit SEO complet', description: 'Analyse technique, sémantique et concurrentielle.', href: '/agence-geo-seo/audit', buttonText: 'En savoir plus', imageAlt: 'Audit SEO complet' },
-    { id: 2, title: 'SEO sémantique & technique', description: 'Optimisation on-site et performance.', href: '/agence-geo-seo/technique-semantique', buttonText: 'En savoir plus', imageAlt: 'SEO sémantique' },
-    { id: 3, title: 'Netlinking', description: 'Acquisition de liens de qualité.', href: '/agence-geo-seo/netlinking', buttonText: 'En savoir plus', imageAlt: 'Netlinking' },
-    { id: 4, title: 'Création de contenu', description: 'Contenus optimisés SEO et GEO.', href: '/agence-geo-seo/creation-contenu', buttonText: 'En savoir plus', imageAlt: 'Création de contenu' },
+    {
+      id: 1,
+      title: 'Audit SEO complet',
+      description: 'Diagnostic technique, sémantique et concurrentiel. On identifie ce qui freine votre visibilité et les leviers pour capter la clientèle premium bauloise.',
+      href: '/agence-geo-seo/audit',
+      buttonText: 'En savoir plus',
+      imageAlt: 'Audit SEO complet',
+    },
+    {
+      id: 2,
+      title: 'SEO sémantique & technique',
+      description: 'Optimisation on-site, architecture de contenu, performance technique. Les fondations d\'un référencement durable adapté à la saisonnalité touristique.',
+      href: '/agence-geo-seo/technique-semantique',
+      buttonText: 'En savoir plus',
+      imageAlt: 'SEO sémantique et technique',
+    },
+    {
+      id: 3,
+      title: 'Netlinking',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité. Guides touristiques, presse régionale, annuaires spécialisés : une stratégie ciblée.',
+      href: '/agence-geo-seo/netlinking',
+      buttonText: 'En savoir plus',
+      imageAlt: 'Stratégie Netlinking',
+    },
+    {
+      id: 4,
+      title: 'Création de contenu',
+      description: 'Contenus optimisés SEO et GEO-ready pour l\'hôtellerie, la thalasso et l\'événementiel. Du contenu qui convertit, pas du remplissage.',
+      href: '/agence-geo-seo/creation-contenu',
+      buttonText: 'En savoir plus',
+      imageAlt: 'Création de contenu SEO',
+    },
   ],
 };
 
 // ============================================
-// CHIFFRES DATA
+// CHIFFRES CLÉS
 // ============================================
 export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '40', suffix: '%', label: 'Des recherches passent par des IA en 2025' },
-    { value: '9', suffix: 'km', label: 'De plage de sable fin' },
-    { value: '16', suffix: 'k', label: "D'habitants permanents" },
-    { value: '95', suffix: '%', label: 'De clients satisfaits' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: 'D\'expertise Search',
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
 // ============================================
-// PROCESS DATA
+// PROCESS
 // ============================================
 export const processData = {
-  sectionId: 'processus',
-  badge: 'Processus',
-  title: 'Notre méthode de travail',
-  subtitle: 'Une approche structurée pour des résultats concrets.',
+  sectionId: 'process',
+  badge: 'Notre méthode',
   accentColor: 'rw-blue' as const,
+  title: 'Comment démarre un accompagnement',
+  subtitle: 'De la première prise de contact à l\'exécution, voici les étapes clés pour les entreprises bauloises.',
   steps: [
-    { number: 1, title: 'Audit initial', description: 'Analyse de votre situation et des opportunités.' },
-    { number: 2, title: 'Stratégie personnalisée', description: 'Plan d\'action SEO et GEO sur mesure.' },
-    { number: 3, title: 'Déploiement', description: 'Mise en œuvre des optimisations.' },
-    { number: 4, title: 'Suivi et amélioration', description: 'Monitoring et ajustements continus.' },
+    {
+      id: 'step-1',
+      stepNumber: '01',
+      title: 'Premier échange',
+      description: '30 min en visio pour comprendre vos enjeux : saisonnalité, cibles, concurrence locale. Pas de pitch commercial.',
+    },
+    {
+      id: 'step-2',
+      stepNumber: '02',
+      title: 'Audit',
+      description: 'Diagnostic complet de votre situation : SEO technique, GEO-readiness, analyse concurrentielle sur le marché baulois et la Côte d\'Amour.',
+    },
+    {
+      id: 'step-3',
+      stepNumber: '03',
+      title: 'Roadmap',
+      description: 'Stratégie sur mesure avec priorités classées par impact business. On intègre la saisonnalité touristique dans le calendrier d\'actions.',
+    },
+    {
+      id: 'step-4',
+      stepNumber: '04',
+      title: 'Exécution',
+      description: 'Production, mesure, ajustement. Suivi en temps réel via Rankwell One. Points réguliers en visio avec votre consultant dédié.',
+    },
   ],
 };
 
 // ============================================
-// COMPARAISON DATA
+// COMPARAISON SEO vs GEO (Tableau)
 // ============================================
 export const comparaisonData = {
   sectionId: 'comparaison',
-  badge: 'Comparatif',
-  title: 'SEO traditionnel versus GEO',
-  subtitle: 'Comprendre les différences pour mieux combiner ces leviers.',
+  badge: 'SEO + GEO',
   accentColor: 'rw-blue' as const,
-  columns: ['Dimension', 'SEO classique', 'GEO (IA)'],
+  title: 'Ce que les entreprises bauloises gagnent avec le GEO',
+  subtitle: 'Le SEO seul ne suffit plus. Voici ce que notre approche SEO + GEO change concrètement pour les acteurs de La Baule.',
+  columns: ['Aspect', 'SEO traditionnel', 'SEO + GEO (Rankwell)'],
   rows: [
-    ['Cible', 'Google, Bing', 'ChatGPT, Perplexity, SGE'],
-    ['Format résultat', 'Liens bleus', 'Réponses synthétisées'],
-    ['Contenu optimal', 'Mots-clés ciblés', 'Contexte et expertise'],
-    ['Mesure', 'Rankings, CTR', 'Mentions, visibilité IA'],
+    ['Moteurs ciblés', 'Google uniquement', 'Google + ChatGPT, Perplexity, AI Overviews'],
+    ['Objectif', 'Top 10 des liens bleus', 'Être cité comme source fiable par les IA'],
+    ['Structure contenu', 'Optimisé mots-clés', 'Citation-ready + mots-clés'],
+    ['Autorité construite', 'Backlinks classiques', 'Backlinks + mentions multi-sources'],
+    ['Mesure du succès', 'Positions Google', 'Positions + citations IA + conversions'],
   ],
 };
 
 // ============================================
-// QUOTE DATA
+// QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'La clientèle premium de La Baule prépare ses séjours via l\'IA. Être cité dans ces réponses devient un avantage concurrentiel majeur.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'Good SEO work only gets better over time. It\'s only search engine tricks that need to keep changing when the ranking algorithms change.',
+  author: 'Jill Whalen',
+  role: 'Pionnière du SEO, HighRankings',
 };
 
 // ============================================
-// FAQ DATA
+// FAQ
 // ============================================
 export const faqData = {
   sectionId: 'faq',
@@ -218,38 +375,74 @@ export const faqData = {
   title: 'Questions fréquentes sur le GEO & SEO à La Baule',
   accentColor: 'rw-blue' as const,
   items: [
-    { question: 'Quelle est la différence entre SEO et GEO ?', answer: 'Le SEO positionne sur Google, le GEO vous fait citer par les IA. Les deux sont complémentaires.' },
-    { question: 'Pourquoi le GEO est-il crucial pour le tourisme premium ?', answer: 'Les voyageurs haut de gamme planifient de plus en plus via l\'IA. Être recommandé par ChatGPT est un avantage concurrentiel.' },
-    { question: 'Travaillez-vous avec l\'hôtellerie de luxe ?', answer: 'Absolument. Nous accompagnons hôtels, palaces et établissements de thalassothérapie.' },
-    { question: 'Quels résultats peut-on espérer ?', answer: 'Les premiers effets SEO sont visibles sous 3 à 6 mois. Le GEO peut être plus rapide.' },
-    { question: 'Comment mesurez-vous les performances ?', answer: 'Nous suivons vos positions Google et vos citations dans les réponses IA.' },
-    { question: 'Proposez-vous des formations ?', answer: 'Oui, nous formons vos équipes au GEO et au SEO.' },
+    {
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises à La Baule sans être sur place ?',
+      answer: 'Oui, nous accompagnons des entreprises sur toute la France depuis 2017. Visioconférences régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. La distance n\'affecte ni la qualité ni la réactivité de l\'accompagnement.',
+    },
+    {
+      id: '2',
+      question: 'Le GEO est-il vraiment utile pour le secteur touristique baulois ?',
+      answer: 'C\'est même l\'un des secteurs où le GEO a le plus d\'impact. Les voyageurs utilisent de plus en plus ChatGPT et Perplexity pour préparer leurs séjours : « meilleur hôtel à La Baule », « thalasso Côte d\'Amour ». Si votre établissement n\'est pas cité dans ces réponses, vous perdez une source de réservations directes en pleine croissance.',
+    },
+    {
+      id: '3',
+      question: 'Comment gérez-vous la saisonnalité de La Baule ?',
+      answer: 'La saisonnalité est au cœur de notre stratégie. On travaille les contenus et le netlinking en amont de la haute saison pour que la visibilité soit maximale quand la demande explose. L\'hiver, on prépare les fondations techniques et on capitalise sur le tourisme d\'affaires autour d\'Atlantia.',
+    },
+    {
+      id: '4',
+      question: 'Quels secteurs accompagnez-vous à La Baule ?',
+      answer: 'Hôtellerie et résidences haut de gamme, centres de thalassothérapie, restaurants gastronomiques, organisateurs d\'événements professionnels, agences immobilières spécialisées en résidences secondaires, commerces premium. Le point commun : des entreprises qui veulent convertir leur visibilité en business réel.',
+    },
+    {
+      id: '5',
+      question: 'Comment le GEO peut-il aider le tourisme d\'affaires à La Baule ?',
+      answer: 'Le Palais des Congrès Atlantia génère 120 événements par an et 26 millions d\'euros de retombées. Quand un organisateur demande à une IA « lieu de séminaire Côte atlantique », les prestataires qui ont travaillé leur GEO apparaissent dans la réponse. C\'est un avantage concurrentiel direct sur les destinations rivales.',
+    },
+    {
+      id: '6',
+      question: 'Quels sont vos tarifs pour une entreprise bauloise ?',
+      answer: 'Les tarifs dépendent de vos objectifs, votre secteur et le niveau de concurrence. On travaille sur des forfaits mensuels ou des projets ponctuels comme un audit. Le plus simple : un premier échange de 30 minutes pour comprendre votre situation et vous donner une estimation réaliste. Pas de mauvaise surprise.',
+    },
+    {
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
+      answer: 'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon le point de départ et la concurrence. Le GEO peut être plus rapide car les IA mettent à jour leurs sources régulièrement. On vous donne des projections réalistes dès le départ, calées sur votre calendrier saisonnier.',
+    },
+    {
+      id: '8',
+      question: 'Comment mesurez-vous la performance du GEO ?',
+      answer: 'Nous monitorons vos citations dans les réponses de ChatGPT, Perplexity et les AI Overviews de Google. Ces données sont croisées avec vos métriques business (réservations, demandes de devis) via Rankwell One. Vous voyez exactement l\'impact du GEO sur votre activité, pas juste un compteur de mentions.',
+    },
   ],
 };
 
 // ============================================
-// CTA DATA
+// CTA FINAL
 // ============================================
 export const ctaData = {
-  title: 'Prêt à briller à La Baule ?',
-  description: 'Demandez un audit gratuit pour découvrir comment propulser votre entreprise bauloise.',
-  buttonText: 'Obtenir mon audit gratuit',
+  title: 'Discutons de votre projet à La Baule',
+  description:
+    'Premier échange de 30 minutes en visio. Sans engagement. On analyse votre situation sur la Côte d\'Amour et on vous dit ce qu\'on en pense.',
+  buttonText: 'Discuter de votre projet',
   buttonHref: '/contact',
   accentColor: 'rw-blue' as const,
 };
 
 // ============================================
-// AUTRES VILLES DATA
+// AUTRES VILLES (pour le maillage interne)
 // ============================================
 export const autresVillesData = {
-  title: 'Découvrez nos services GEO & SEO dans d\'autres villes',
+  title: 'Nous accompagnons aussi des entreprises dans ces villes',
   cities: [
-    { label: 'Pays de la Loire', href: '/agence-geo-seo/france/pays-de-la-loire' },
     { label: 'Nantes', href: '/agence-geo-seo/france/nantes' },
-    { label: 'Paris', href: '/agence-geo-seo/france/paris' },
-    { label: 'Dubai', href: '/agence-geo-seo/emirats-arabes-unis/dubai' },
     { label: 'Saint-Malo', href: '/agence-geo-seo/france/saint-malo' },
-    { label: 'Deauville', href: '/agence-geo-seo/france/deauville' },
-    { label: 'Biarritz', href: '/agence-geo-seo/france/biarritz' },
+    { label: 'Brest', href: '/agence-geo-seo/france/brest' },
+    { label: 'Vannes', href: '/agence-geo-seo/france/vannes' },
+    { label: 'Rennes', href: '/agence-geo-seo/france/rennes' },
+    { label: 'Paris', href: '/agence-geo-seo/france/paris' },
+    { label: 'Dubaï', href: '/agence-geo-seo/emirats/dubai' },
+    { label: 'Pays de la Loire', href: '/agence-geo-seo/france/pays-de-la-loire' },
   ],
 };

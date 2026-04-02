@@ -27,6 +27,8 @@ export const heroData = {
   description: 'In SEA, keywords make everything. Target the wrong ones, waste budget. Our semantic audit reveals those that actually generate business.',
   ctaText: 'Request a keyword audit',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-sea/analyse-semantique/hero.webp',
+  imageAlt: 'Google Ads Keyword Audit Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -193,35 +195,35 @@ export const livrablesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-base-mots-cles.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-base-mots-cles.webp',
       alt: 'Keyword database',
       title: 'Complete keyword database',
       desc: 'Structured file with volumes, estimated CPCs, intents and priorities',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-negatifs.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-negatifs.webp',
       alt: 'Negative list',
       title: 'Negative list',
       desc: 'Keywords to exclude to avoid unqualified traffic',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-structure.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-structure.webp',
       alt: 'Structure recommendations',
       title: 'Structure recommendations',
       desc: 'Optimal organization in your Google Ads account',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-budget.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-budget.webp',
       alt: 'Budget estimate',
       title: 'Budget estimate',
       desc: 'Projection of budget to cover priority keywords',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/analyse-semantique/livrable-presentation.webp',
+      image: '/images/pages/agence-sea/analyse-semantique/livrable-presentation.webp',
       alt: 'Findings presentation',
       title: 'Findings presentation',
       desc: 'Call to present analysis and answer your questions',

@@ -44,7 +44,7 @@ export const heroData = {
   description: 'Votre site sous-performe ? Notre agence réalise l\'audit SEO complet de votre site internet : technique, sémantique et concurrentiel. On diagnostique, on priorise, on vous donne la roadmap.',
   ctaText: 'Demander un audit SEO',
   ctaHref: '/contact',
-  // image: '/images/pages/agence-geo-seo/audit-seo/hero.webp',
+  image: '/images/pages/agence-geo-seo/audit/hero.webp',
   imageAlt: 'Audit SEO complet Rankwell',
   accentColor: 'rw-blue' as const,
 };
@@ -204,28 +204,28 @@ export const livrablesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-geo-seo/audit/livrable-rapport.webp',
+      image: '/images/pages/agence-geo-seo/audit/livrable-rapport.webp',
       alt: 'Rapport d\'audit SEO complet',
       title: 'Un rapport complet',
       description: 'Pas un export d\'outil automatique. Un document structuré, analysé, commenté. Chaque point est expliqué, contextualisé, illustré.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-geo-seo/audit/livrable-priorisation.webp',
+      image: '/images/pages/agence-geo-seo/audit/livrable-priorisation.webp',
       alt: 'Priorisation des recommandations SEO',
       title: 'Une priorisation claire',
       description: 'Toutes les recommandations ne se valent pas. On classe par impact potentiel et facilité de mise en œuvre. Vous savez par quoi commencer.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-geo-seo/audit/livrable-actions.webp',
+      image: '/images/pages/agence-geo-seo/audit/livrable-actions.webp',
       alt: 'Recommandations SEO actionnables',
       title: 'Des recommandations actionnables',
       description: 'Pas de "il faudrait améliorer le SEO". Des actions concrètes : cette page, cette balise, ce contenu, ce lien.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-geo-seo/audit/livrable-restitution.webp',
+      image: '/images/pages/agence-geo-seo/audit/livrable-restitution.webp',
       alt: 'Restitution d\'audit en visio',
       title: 'Une restitution en visio',
       description: 'On vous présente les findings, on répond à vos questions, on s\'assure que vous avez compris les enjeux.',

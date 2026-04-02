@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Without clean tracking, your data is wrong. Google Tag Manager experts, we implement reliable collection for analytics that make sense.',
   ctaText: 'Audit my tracking',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-data/tracking/hero.webp',
+  imageAlt: 'GTM tracking and tagging agency Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -115,30 +117,35 @@ export const problemesData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-data/tracking/probleme-conversions.webp',
       alt: 'Untracked conversions',
       title: 'Untracked conversions',
       desc: 'Forms submitted, purchases made, but nothing in the stats. Impossible to know what works.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-data/tracking/probleme-doublons.webp',
       alt: 'Tracking duplicates and over-counting',
       title: 'Duplicates and over-counting',
       desc: 'The same conversion counted multiple times. Numbers are inflated, decisions are biased.',
     },
     {
       id: 3,
+      image: '/images/pages/agence-data/tracking/probleme-attribution.webp',
       alt: 'Bad SEO SEA attribution',
       title: 'Bad attribution',
       desc: 'Google Ads takes credit for conversions that come from SEO (or vice versa). You don\'t know where to invest.',
     },
     {
       id: 4,
+      image: '/images/pages/agence-data/tracking/probleme-donnees-manquantes.webp',
       alt: 'Missing tracking data',
       title: 'Missing data',
       desc: 'Tracking doesn\'t work on mobile, or on certain pages, or after consent. Gaps in your data.',
     },
     {
       id: 5,
+      image: '/images/pages/agence-data/tracking/probleme-migration-ga4.webp',
       alt: 'Failed GA4 migration',
       title: 'Failed GA4 migration',
       desc: 'The switch from Universal Analytics to GA4 was rushed. Events aren\'t coming through correctly.',

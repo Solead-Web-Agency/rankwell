@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Vous avez du trafic. Mais convertit-il ? L\'optimisation du taux de conversion transforme vos visiteurs en clients. E-commerce ou lead gen, notre audit CRO booste vos résultats.',
   ctaText: 'Demander un audit CRO',
   ctaHref: '/contact',
+  image: '/images/pages/agence-data/cro/hero.webp',
+  imageAlt: 'Audit CRO optimisation taux de conversion Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -171,35 +173,35 @@ export const dimensionsData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-data/cro/dimension-quantitative.webp',
+      image: '/images/pages/agence-data/cro/dimension-quantitative.webp',
       alt: 'Analyse des données quantitatives CRO',
       title: 'Analyse des données quantitatives',
       desc: 'Étude des parcours utilisateurs dans GA4. Identification des pages à fort taux de sortie. Analyse du tunnel de conversion. Segmentation par source, device, audience.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-data/cro/dimension-comportementale.webp',
+      image: '/images/pages/agence-data/cro/dimension-comportementale.webp',
       alt: 'Analyse comportementale heatmaps',
       title: 'Analyse comportementale',
       desc: 'Heatmaps : où cliquent vos visiteurs ? Scrollmaps : jusqu\'où scrollent-ils ? Enregistrements de sessions : comment naviguent-ils ?',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-data/cro/dimension-ux-ui.webp',
+      image: '/images/pages/agence-data/cro/dimension-ux-ui.webp',
       alt: 'Audit UX/UI conversion',
       title: 'Audit UX/UI',
       desc: 'Clarté de la proposition de valeur. Hiérarchie visuelle et lisibilité. Efficacité des CTA. Fluidité du parcours. Éléments de réassurance.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-data/cro/dimension-pages-cles.webp',
+      image: '/images/pages/agence-data/cro/dimension-pages-cles.webp',
       alt: 'Analyse des pages clés du site',
       title: 'Analyse des pages clés',
       desc: 'Homepage, pages produits/services, pages de catégories, landing pages, tunnel de checkout et formulaires.',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-data/cro/dimension-benchmark.webp',
+      image: '/images/pages/agence-data/cro/dimension-benchmark.webp',
       alt: 'Benchmark concurrentiel CRO',
       title: 'Benchmark concurrentiel',
       desc: 'Comment font vos concurrents ? Quelles bonnes pratiques pouvez-vous adopter ? Où pouvez-vous vous différencier ?',

@@ -11,7 +11,7 @@ import type { ServiceItem } from '@/components/shared/homepage';
 // METADATA
 // ============================================
 export const metadata = {
-  title: "About Us | Rankwell - GEO, SEO & SEA Agency",
+  title: "About Us - Rankwell - GEO, SEO & SEA Agency",
   description: "Discover the story of Rankwell, a Search agency founded in 2017. GEO, SEO, SEA and Data with a business centrix approach. Offices in Paris and Dubai.",
 };
 

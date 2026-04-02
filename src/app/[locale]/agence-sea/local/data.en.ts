@@ -27,6 +27,8 @@ export const heroData = {
   description: 'Your customers search "near me". Local Google Ads campaigns position you at the exact moment they need you. Our agency maximizes your visibility where it matters.',
   ctaText: 'Discuss your local visibility',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-sea/local/hero.webp',
+  imageAlt: 'Local Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 

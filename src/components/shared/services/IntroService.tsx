@@ -51,6 +51,10 @@ export interface IntroServiceProps {
   showToc?: boolean;
   /** Couleur d'accent (ex: 'rw-blue', 'rw-cyan', 'rw-purple', 'rw-coral', 'rw-pink') */
   accentColor?: RwColor;
+  /** Mode compact : espacement réduit et texte plus petit (pour les pages avec beaucoup de contenu) */
+  compact?: boolean;
+  /** Titre du bloc TOC (défaut: "Sur cette page") */
+  tocTitle?: string;
 }
 
 const IntroService = ({
@@ -61,6 +65,8 @@ const IntroService = ({
   tocItems = [],
   showToc = true,
   accentColor = 'rw-blue',
+  compact = false,
+  tocTitle = 'Sur cette page',
 }: IntroServiceProps) => {
   // Récupère les classes depuis le color mapping
   const colors = colorVariants[accentColor];
@@ -95,12 +101,12 @@ const IntroService = ({
             </div>
 
             {/* Content blocks with left border accent */}
-            <div className="space-y-8">
+            <div className={compact ? 'space-y-4' : 'space-y-8'}>
               {paragraphs.map((paragraph, index) => (
                 <RevealAnimation key={`para-${index}-${paragraph.substring(0, 30)}`} delay={0.3 + index * 0.1}>
                   <div className={`relative pl-6 border-l-2 ${colors.border}`}>
                     <p
-                      className={`text-lg ${index === 0 ? 'lg:text-xl' : ''} leading-relaxed ${index > 0 ? 'text-secondary/80 dark:text-accent/80' : ''}`}
+                      className={`${compact ? 'text-base' : 'text-lg'} ${!compact && index === 0 ? 'lg:text-xl' : ''} leading-relaxed ${index > 0 ? 'text-secondary/80 dark:text-accent/80' : ''}`}
                       dangerouslySetInnerHTML={{ __html: paragraph }}
                     />
                   </div>
@@ -122,7 +128,7 @@ const IntroService = ({
                         <span className="w-8 h-8 bg-secondary dark:bg-accent rounded-lg flex items-center justify-center">
                           <List className="w-4 h-4 text-white dark:text-secondary" />
                         </span>
-                        Sur cette page
+                        {tocTitle}
                       </p>
 
                       <nav>

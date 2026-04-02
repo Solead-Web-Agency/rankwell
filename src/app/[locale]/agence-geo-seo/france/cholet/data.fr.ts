@@ -102,32 +102,32 @@ export const geoEducationData = {
   badgeVariant: 'colored' as const,
   title: 'Décryptage de l\'optimisation pour les moteurs IA',
   subtitle:
-    'Le GEO bouleverse les codes du référencement. Découvrez son fonctionnement et ses bénéfices pour votre entreprise choletaise.',
+    'Le GEO bouleverse les codes du référencement. Découvrez comment cette discipline transforme la visibilité des entreprises choletaises sur les nouveaux canaux de recherche.',
   accentColor: 'rw-blue' as const,
   items: [
     {
       icon: 'Bot',
-      title: 'Architecture des moteurs IA',
+      title: 'Fonctionnement des moteurs IA',
       description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+        'ChatGPT, Perplexity et Google AI Overviews ne fonctionnent pas comme Google classique. Ils synthétisent des informations provenant de multiples sources pour formuler une réponse unique et contextualisée. Être identifié comme source fiable par ces systèmes devient un enjeu majeur pour les PME choletaises.',
     },
     {
       icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
+      title: 'Contenus structurés et citation-ready',
       description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle.',
+        'Les systèmes IA privilégient les contenus rigoureusement organisés, qui démontrent une expertise vérifiable avec des données chiffrées et des sources. La qualité sémantique et la structure de vos pages déterminent directement si votre entreprise sera citée dans les réponses génératives.',
     },
     {
       icon: 'Award',
-      title: 'Marqueurs de confiance',
+      title: 'Signaux de confiance et autorité',
       description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA.',
+        'Citations dans des médias sectoriels, backlinks depuis des sites institutionnels, mentions cohérentes de votre marque sur le web : ces signaux renforcent votre crédibilité aux yeux des moteurs IA et augmentent la probabilité d\'être recommandé dans leurs réponses.',
     },
     {
       icon: 'ChartLine',
-      title: 'Suivi de performance',
+      title: 'Mesure de la visibilité IA',
       description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA.',
+        'Des outils analytiques dédiés permettent de monitorer votre présence dans les réponses générées par les IA, de mesurer la fréquence de vos citations et d\'ajuster la stratégie en continu. Nous suivons votre visibilité sur ChatGPT, Perplexity et les AI Overviews de Google.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Cholet est historiquement connue pour son industrie textile et son célèbre mouchoir. Aujourd'hui, la ville abrite un tissu de PME dynamiques et un bassin d'emploi de plus de 100 000 actifs.",
+  label: 'Le contexte économique choletais',
+  text: 'Le bassin Choletais-Mauges affiche l\'un des taux de chômage les plus bas de France (moins de 5 %). Avec 400 PMI, Cholet est le premier centre européen de vêtements pour enfants et abrite des marques comme Catimini, ÉRAM et GÉMO. Le territoire, labellisé « Territoires d\'industrie », combine fleurons industriels, sous-traitants spécialisés et jeunes pousses. Cette densité économique remarquable rend la visibilité digitale d\'autant plus stratégique pour se démarquer.',
   icon: 'TrendingUp' as const,
 };
 
@@ -147,34 +147,34 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une méthodologie adaptée à Cholet',
+  title: 'Notre approche business centrix',
   subtitle:
-    'Notre démarche intègre les particularités du marché choletais pour déployer des stratégies efficaces.',
+    'Beaucoup d\'agences parlent de ROI. Voici ce que ça signifie concrètement pour les entreprises choletaises.',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Exploration approfondie de votre secteur à Cholet, mapping concurrentiel et identification des opportunités.',
+        'Être premier sur un mot-clé sans impact commercial, ça ne sert à rien. Notre métrique principale, c\'est l\'effet sur votre activité : leads générés, demandes de devis, coût d\'acquisition. Pour une PME choletaise, chaque euro investi doit produire un retour mesurable.',
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO et les moteurs IA.',
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Notre rôle, c\'est aussi de vous dire quand une direction n\'est pas la bonne. Un partenaire qui valide tout sans discernement n\'est pas un vrai partenaire.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance des moteurs traditionnels et IA.',
+        'La personne qui conçoit votre stratégie est celle qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur unique qui connaît votre marché choletais et vos enjeux dans le détail.',
     },
     {
-      icon: 'BarChart3',
-      title: 'Monitoring et amélioration',
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques.',
+        'Notre plateforme connecte vos données Search à vos données business. Vous voyez l\'impact réel en temps réel : trafic qualifié, citations IA, conversions. Pas des vanity metrics dans un rapport mensuel que personne ne lit.',
     },
   ],
 };
@@ -185,40 +185,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises choletaises que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire des Mauges.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où nous pouvons réellement faire la différence à Cholet.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Industrie & Textile',
-      description:
-        'Industries manufacturières, entreprises textile et sous-traitants du bassin choletais.',
+      label: 'Vous voulez transformer votre site en machine à leads',
+      description: 'Votre site vitrine ne génère pas de contacts qualifiés. Vous avez besoin d\'un partenaire qui sait structurer une stratégie Search orientée conversion : du diagnostic initial à l\'exécution, en passant par le contenu et la technique.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Distribution',
-      description:
-        'Commerces du centre-ville, enseignes locales et acteurs de la distribution.',
+      label: 'Vous préparez une refonte ou un lancement digital',
+      description: 'Vous lancez un nouveau site ou envisagez une refonte complète. Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses après coup et vous donne un avantage dès la mise en ligne.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, professions libérales et prestataires B2B des Mauges.',
+      label: 'Industrie textile, mode et sous-traitance choletaise',
+      description: 'Avec 400 PMI et des marques comme Catimini, ÉRAM et GÉMO, le bassin choletais est un pôle industriel majeur. Nous aidons fabricants, sous-traitants et marques de mode à gagner en visibilité en ligne, y compris dans les réponses des moteurs IA auprès d\'acheteurs professionnels.',
     },
     {
-      icon: 'Globe',
-      title: 'Artisanat & PME',
-      description:
-        'Artisans, PME et entreprises familiales souhaitant développer leur visibilité digitale.',
+      label: 'PME industrielles et artisanales des Mauges',
+      description: 'Le territoire Choletais-Mauges, labellisé « Territoires d\'industrie », concentre des entreprises innovantes avec un taux de chômage parmi les plus bas de France. Nous accompagnons ces PME dans leur digitalisation pour conquérir des marchés au-delà du bassin local.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Cholet.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la qualité d\'un accompagnement SEO. Ce qui compte, c\'est la méthodologie, l\'expertise et les résultats prouvés. Notre collaboration à distance avec les entreprises choletaises est fluide et sans friction.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -235,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité.',
+      description: 'Diagnostic technique, sémantique et concurrentiel approfondi. On identifie les freins à votre visibilité et les leviers prioritaires pour accélérer votre croissance.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -243,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance.',
+      description: 'Optimisation on-site, architecture de contenu, balisage structuré et performance technique. Les fondations d\'un référencement qui dure et qui résiste aux mises à jour.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -251,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité.',
+      description: 'Acquisition de liens qualitatifs pour construire votre autorité de domaine. Stratégie sur mesure, sans spam ni réseaux artificiels. Des liens qui comptent vraiment.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -259,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise.',
+      description: 'Contenus optimisés SEO et GEO-ready : structurés pour ranker sur Google et être cités par les moteurs IA. Du contenu qui positionne et qui convertit.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -274,10 +264,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '40', suffix: '%', label: 'Des recherches passent par des IA en 2025' },
-    { value: '3', suffix: 'x', label: 'Plus de trafic grâce à la synergie SEO + GEO' },
-    { value: '55', suffix: 'k', label: "D'habitants à Cholet" },
-    { value: '95', suffix: '%', label: 'De clients satisfaits' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -321,9 +335,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'L\'avènement des moteurs IA redéfinit les parcours de recherche. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'Consumer ignorance is no longer a viable sales and marketing strategy.',
+  author: 'Marcus Sheridan',
+  role: 'Auteur de They Ask, You Answer',
 };
 
 // ============================================
@@ -335,12 +349,34 @@ export const faqData = {
   title: 'Questions fréquentes sur le GEO & SEO à Cholet',
   accentColor: 'rw-blue' as const,
   items: [
-    { question: 'Quelle est la différence entre SEO et GEO ?', answer: 'Le SEO positionne votre site sur Google. Le GEO vous fait citer par les IA. Les deux sont complémentaires.' },
-    { question: 'Pourquoi s\'intéresser au GEO à Cholet ?', answer: 'Les utilisateurs utilisent de plus en plus l\'IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects.' },
-    { question: 'Quels résultats peut-on espérer ?', answer: 'Les premiers effets SEO sont visibles sous 3 à 6 mois. Le GEO peut montrer des résultats plus rapides.' },
-    { question: 'Comment mesurez-vous les performances ?', answer: 'Nous utilisons des outils spécialisés pour suivre vos positions et vos citations dans les réponses IA.' },
-    { question: 'Travaillez-vous avec l\'industrie textile ?', answer: 'Absolument. Nous accompagnons les entreprises de tous secteurs présents à Cholet.' },
-    { question: 'Proposez-vous des formations ?', answer: 'Oui, nous offrons des sessions de formation sur le GEO et le SEO.' },
+    {
+      question: 'Travaillez-vous avec des entreprises à Cholet malgré la distance ?',
+      answer: 'Oui, nous accompagnons des entreprises choletaises avec une collaboration à distance qui fonctionne. Visioconférences régulières, consultant senior dédié joignable par téléphone et email, accès en temps réel à Rankwell One pour suivre vos performances. Nos clients choletais bénéficient exactement du même niveau de service que nos clients parisiens.',
+    },
+    {
+      question: 'Comment le SEO et le GEO peuvent aider une PME industrielle choletaise ?',
+      answer: 'Le bassin choletais compte 400 PMI et un tissu industriel dense. Le SEO positionne votre site sur les requêtes de vos acheteurs professionnels sur Google. Le GEO assure que quand un donneur d\'ordre demande à ChatGPT ou Perplexity un sous-traitant textile ou industriel dans l\'Ouest, votre entreprise soit dans la réponse. Les deux combinés couvrent l\'ensemble des canaux de recherche B2B.',
+    },
+    {
+      question: 'Quels secteurs accompagnez-vous dans le bassin choletais ?',
+      answer: 'Nous travaillons avec les secteurs clés du territoire : textile et mode (le Choletais est premier centre européen du vêtement enfant), industrie manufacturière et sous-traitance, commerce et distribution, services aux entreprises. Le point commun : des entreprises qui veulent transformer leur présence digitale en levier de croissance mesurable.',
+    },
+    {
+      question: 'Quelle est la différence entre SEO et GEO ?',
+      answer: 'Le SEO vise les résultats classiques de Google (les 10 liens bleus). Le GEO (Generative Engine Optimization) cible les moteurs IA comme ChatGPT, Perplexity et les AI Overviews de Google, qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires : le SEO capte les recherches traditionnelles, le GEO assure votre visibilité sur les nouveaux canaux.',
+    },
+    {
+      question: 'Combien de temps faut-il pour voir des résultats ?',
+      answer: 'En SEO, les premiers résultats tangibles arrivent entre 3 et 6 mois selon votre point de départ et l\'intensité concurrentielle de votre marché. En GEO, l\'intégration dans les réponses IA peut être plus rapide si vos contenus sont bien structurés. Nous définissons des objectifs réalistes dès le démarrage et mesurons la progression chaque mois via Rankwell One.',
+    },
+    {
+      question: 'Quels sont vos tarifs ?',
+      answer: 'Les tarifs varient selon vos objectifs, votre secteur et le niveau de concurrence. Nous proposons des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles (audit, stratégie de contenu). Le plus simple : un premier échange de 30 minutes pour évaluer votre situation et vous donner une estimation transparente et sans engagement.',
+    },
+    {
+      question: 'Pourquoi ne pas choisir une agence locale à Cholet ?',
+      answer: 'La proximité géographique ne garantit pas la compétence en SEO et GEO. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats prouvés. Avec plus de 350 clients accompagnés depuis 2017 et une spécialisation GEO que peu d\'agences maîtrisent, nous apportons un niveau d\'expertise difficilement trouvable localement. La collaboration à distance est fluide et sans friction.',
+    },
   ],
 };
 

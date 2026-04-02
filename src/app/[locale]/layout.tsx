@@ -50,7 +50,6 @@ export async function generateMetadata({
         locale === 'fr'
           ? 'Rankwell - Agence GEO, SEO, SEA & Data'
           : 'Rankwell - GEO, SEO, SEA & Data Agency',
-      template: '%s | Rankwell',
     },
     description:
       locale === 'fr'

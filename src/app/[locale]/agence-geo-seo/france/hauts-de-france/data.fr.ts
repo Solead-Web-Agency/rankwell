@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises des Hauts-de-France | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises des Hauts-de-France - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises des Hauts-de-France. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'It\'s not just one page to one keyword. It\'s about a collective of content that exhibits your company\'s expertise and tells the world that you know what you\'re talking about.',
+  author: 'Jeff Coyle',
+  role: 'Co-founder & Chief Strategy Officer, MarketMuse',
 };
 
 // ============================================

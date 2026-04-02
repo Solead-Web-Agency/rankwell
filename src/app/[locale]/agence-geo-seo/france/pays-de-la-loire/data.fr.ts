@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO en Pays de la Loire | Rankwell',
+  title: 'Agence GEO & SEO en Pays de la Loire - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO en Pays de la Loire. Optimisez votre visibilité sur Google et les moteurs IA de Nantes à Angers, du Mans à La Baule.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Les Pays de la Loire comptent 3,8 millions d\'habitants et Nantes est régulièrement classée parmi les villes où il fait bon vivre en France, attirant entreprises et talents.',
+  label: 'Le dynamisme économique des Pays de la Loire',
+  text: 'Avec un PIB de 137 milliards d\'euros et 3,8 millions d\'habitants, les Pays de la Loire affichent la 2e croissance régionale de France (+3,3 % par an entre 2015 et 2022). Nantes concentre 270 startups et se classe 1re ville française pour la création d\'emplois numériques. Saint-Nazaire abrite les Chantiers de l\'Atlantique, leader mondial de la construction de paquebots. Industrie, numérique, agroalimentaire : la concurrence digitale reflète ce dynamisme.',
   icon: 'TrendingUp' as const,
 };
 
@@ -146,34 +146,34 @@ export const calloutData = {
 export const approcheData = {
   sectionId: 'approche',
   badge: 'Notre approche',
-  title: 'Une méthodologie adaptée à la diversité ligérienne',
+  title: 'Notre approche business centrix',
   subtitle:
-    'Notre expertise régionale nous permet de déployer des stratégies calibrées pour chaque territoire',
+    'Beaucoup d\'agences parlent de résultats. Voici ce que ça signifie concrètement chez Rankwell pour les entreprises ligériennes.',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Analyse des marchés locaux',
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Étude de votre positionnement face aux concurrents locaux, analyse des requêtes spécifiques à chaque territoire (Loire-Atlantique, Maine-et-Loire, Sarthe, etc.) et identification des opportunités.',
+        'Ranker sur un mot-clé qui ne génère pas de chiffre d\'affaires n\'a aucune valeur. Notre métrique principale, c\'est l\'impact sur votre activité : leads qualifiés, ventes attribuées, coût d\'acquisition. Que vous soyez industriel à Saint-Nazaire ou éditeur SaaS à Nantes, on pilote par les résultats business.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenu à forte valeur régionale',
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Création de contenus valorisant l\'identité de votre territoire et votre expertise métier. Articles de fond, guides locaux et landing pages optimisées pour le référencement régional.',
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Notre rôle, c\'est aussi de vous alerter quand votre stratégie fait fausse route. Un partenaire qui valide tout sans esprit critique ne vous fait pas progresser. On concentre l\'effort là où le retour sera maximal.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique rigoureuse',
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Performance mobile prioritaire, données structurées Schema.org, vitesse de chargement optimale et architecture de site pensée pour le SEO local multi-villes.',
+        'Celui qui conçoit votre stratégie Search est celui qui la met en œuvre. Pas de junior affecté à votre dossier, pas d\'intermédiaire. Vous avez un interlocuteur unique, expert de votre secteur, qui connaît les enjeux spécifiques de votre marché ligérien.',
     },
     {
-      icon: 'Award',
-      title: 'Renforcement de l\'autorité territoriale',
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Stratégie de netlinking avec des médias régionaux, partenariats avec des institutions locales et développement de votre présence sur les annuaires ligériens.',
+        'Notre plateforme propriétaire connecte vos données Search à vos résultats business. Positions, citations IA, conversions : tout est visible en temps réel. Pas de rapport mensuel statique, mais un tableau de bord vivant partageable avec votre équipe de direction.',
     },
   ],
 };
@@ -184,40 +184,31 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises ciblées en Pays de la Loire',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous accompagnons les acteurs économiques régionaux dans leur conquête de visibilité digitale',
+    'Notre accompagnement s\'adresse aux entreprises ligériennes qui veulent convertir leur visibilité digitale en croissance mesurable.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Industrie & Naval',
-      description:
-        'Chantiers navals, équipementiers et sous-traitants industriels de la région nantaise et nazairienne.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site ne génère pas suffisamment de leads ou de ventes. Vous cherchez un partenaire capable de structurer une stratégie Search efficace, mesurable et directement connectée à vos objectifs de croissance commerciale.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Tourisme & Hôtellerie',
-      description:
-        'Hôtels, campings, restaurants et acteurs du tourisme littoral de La Baule au Croisic.',
+      label: 'Vous préparez une refonte ou un lancement de site',
+      description: 'Vous lancez un nouveau site ou refondez l\'existant. Intégrer le SEO et le GEO dès la conception vous fait gagner des mois de visibilité et évite les corrections techniques coûteuses après le lancement.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, agences, professions libérales et prestataires B2B ciblant le tissu économique régional.',
+      label: 'Industrie navale, aéronautique et sous-traitance',
+      description: 'Saint-Nazaire et son complexe industrialo-portuaire emploient 28 700 salariés. Chantiers navals, équipementiers aéronautiques et sous-traitants industriels ont besoin d\'être trouvés sur les requêtes métier spécialisées, y compris via les réponses IA.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Viticulture',
-      description:
-        'Agences immobilières, promoteurs et domaines viticoles du Muscadet et de l\'Anjou.',
+      label: 'Numérique, startups et SaaS nantaises',
+      description: 'Nantes est classée 1re ville française pour la création d\'emplois dans le numérique, avec 270 startups et 2 000 diplômés par an dans la tech. Ces acteurs ont besoin d\'une acquisition organique solide pour scaler au-delà du marché local.',
     },
   ],
-  ctaTitle: 'Votre secteur ne figure pas dans cette liste ?',
-  ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines d\'activité. Contactez-nous pour évaluer comment le GEO et le SEO peuvent propulser votre entreprise en Pays de la Loire.',
-  ctaButtonText: 'Échanger sur votre projet',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte : l\'expertise, la méthodologie et les résultats prouvés auprès de plus de 350 clients.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -234,7 +225,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, analyse sémantique et étude concurrentielle sur votre marché ligérien. On identifie les freins à votre visibilité et les leviers d\'accélération prioritaires.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +233,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage structuré et performance. Les fondations d\'un référencement solide qui résiste aux évolutions de Google et des IA.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +241,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Stratégie sur mesure, zéro pratique douteuse, uniquement des sources pertinentes et fiables.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +249,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, conçus pour être cités par les IA et convertir vos visiteurs. Du contenu expert, pas du remplissage de mots-clés.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +264,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '3.8M', label: 'Habitants en Pays de la Loire' },
-    { value: '660K', label: 'Habitants métropole nantaise' },
-    { value: '2ème', label: 'Région française pour l\'emploi' },
-    { value: '40%', label: 'Utiliseront l\'IA d\'ici 2026' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -342,10 +357,9 @@ export const comparaisonData = {
 // QUOTE DATA
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'IA bouleverse la façon dont les clients recherchent des services en Pays de la Loire. Se préparer maintenant au GEO, c\'est prendre une longueur d\'avance sur un marché en pleine mutation.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+  quote: 'A lack of strategy is why SEO recommendations don\'t get prioritized and why SEO teams get marginalized. Creating a strategy is work. Valuable work.',
+  author: 'Tom Critchlow',
+  role: 'Founder SEO MBA',
 };
 
 // ============================================
@@ -358,34 +372,52 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises en Pays de la Loire ?',
+      answer:
+        'Oui, nous accompagnons des entreprises de toute la région : Nantes, Angers, Le Mans, La Baule, Cholet, Saumur, Saint-Nazaire et au-delà. Visioconférences régulières, accès à Rankwell One pour le suivi en temps réel, consultant senior dédié. Notre mode de collaboration à distance est éprouvé auprès de plus de 350 clients en France, avec la même exigence de qualité qu\'en présentiel.',
+    },
+    {
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous en Pays de la Loire ?',
+      answer:
+        'Nous intervenons dans les secteurs clés de la région : industrie navale et aéronautique (Saint-Nazaire, Nantes), agroalimentaire, numérique et startups, tourisme littoral et fluvial, services B2B et e-commerce. Le dénominateur commun de nos clients : des entreprises qui veulent convertir leur visibilité Search en résultats business concrets et mesurables.',
+    },
+    {
+      id: '3',
       question: 'Pourquoi investir dans le SEO et le GEO en Pays de la Loire ?',
       answer:
-        'Les Pays de la Loire sont l\'une des régions les plus dynamiques de France avec une économie diversifiée. La concurrence digitale y est forte. SEO et GEO vous permettent de capter efficacement votre cible locale.',
+        'Les Pays de la Loire affichent la 2e croissance régionale de France avec un PIB de 137 milliards d\'euros. Nantes est un hub numérique majeur, Saint-Nazaire un pôle industriel de premier plan. Cette dynamique crée une concurrence digitale intense. Combiner SEO et GEO vous permet de capter vos cibles sur Google et sur les moteurs IA, avant vos concurrents régionaux.',
     },
     {
-      question: 'En combien de temps puis-je voir des résultats ?',
+      id: '4',
+      question: 'Qu\'est-ce que le GEO et pourquoi ça change la donne ?',
       answer:
-        'Le SEO produit généralement ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes. Nous établissons des indicateurs de progression dès le premier mois.',
+        'Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par ChatGPT, Perplexity ou Google AI Overviews. Quand un prospect demande à une IA "quel chantier naval construit les plus grands paquebots" ou "meilleur prestataire SaaS à Nantes", le GEO fait en sorte que votre entreprise soit mentionnée. C\'est un levier nouveau que très peu d\'entreprises ligériennes exploitent.',
     },
     {
-      question: 'Travaillez-vous avec des entreprises de toute la région ?',
+      id: '5',
+      question: 'Comment se déroule un accompagnement type ?',
       answer:
-        'Oui, nous accompagnons des entreprises de Nantes, Angers, Le Mans, La Baule, Cholet, Saumur et au-delà. Notre expertise couvre l\'ensemble du territoire ligérien.',
+        'Premier échange en visio de 30 minutes pour comprendre vos enjeux, sans pitch commercial. Puis un audit complet : SEO technique, GEO-readiness, analyse concurrentielle. Ensuite, une roadmap priorisée par impact sur votre chiffre d\'affaires. Et enfin l\'exécution avec un consultant senior dédié et un suivi transparent via Rankwell One.',
     },
     {
-      question: 'Le GEO remplace-t-il le SEO traditionnel ?',
+      id: '6',
+      question: 'Quels sont vos tarifs ?',
       answer:
-        'Non, le GEO complète le SEO. Google reste dominant, mais les recherches via l\'IA progressent rapidement. Une stratégie complète intègre les deux approches.',
+        'Les tarifs dépendent de vos objectifs, de votre secteur d\'activité et du niveau de concurrence. Nous travaillons sur des forfaits mensuels pour l\'accompagnement continu ou des projets ponctuels (audits, refontes). Le plus simple : un premier échange gratuit pour évaluer votre situation et recevoir une estimation claire et sans engagement.',
     },
     {
-      question: 'Comment mesurez-vous les performances du GEO ?',
+      id: '7',
+      question: 'Combien de temps avant de voir des résultats ?',
       answer:
-        'Nous utilisons des outils spécialisés pour suivre vos citations dans les réponses des IA (ChatGPT, Perplexity, Google SGE) et mesurer l\'évolution de votre visibilité.',
+        'En SEO/GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et la concurrence dans votre secteur. En SEA (publicité Google), les retours sont plus rapides, de l\'ordre de quelques semaines. Nous établissons des projections réalistes dès le départ, avec des indicateurs de progression visibles dès le premier mois.',
     },
     {
-      question: 'Proposez-vous des services pour le tourisme littoral ?',
+      id: '8',
+      question: 'Pourquoi choisir Rankwell plutôt qu\'une agence locale nantaise ?',
       answer:
-        'Absolument. Le tourisme est un secteur clé de la région. Nous accompagnons hôtels, restaurants et prestataires pour capter les visiteurs de la côte atlantique.',
+        'La proximité géographique ne garantit pas la compétence ni les résultats. Rankwell accompagne plus de 350 entreprises en France depuis 2017. Notre expertise GEO, notre approche business centrix et notre plateforme Rankwell One sont des atouts que peu d\'agences locales peuvent proposer. Ce qui compte : la méthode, les compétences et la capacité à générer du business mesurable.',
     },
   ],
 };

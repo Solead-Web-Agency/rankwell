@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO en Bretagne | Rankwell',
+  title: 'Agence GEO et SEO en Bretagne - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises bretonnes. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'If you don\'t get the foundational technical SEO right, you don\'t have a platform to build upon.',
+  author: 'Patrick Stox',
+  role: 'Product Advisor, Technical SEO & Brand Ambassador, Ahrefs',
 };
 
 // ============================================

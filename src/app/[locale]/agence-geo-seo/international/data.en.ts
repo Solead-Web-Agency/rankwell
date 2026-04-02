@@ -27,6 +27,7 @@ export const heroData = {
   description: "You're targeting multiple markets, multiple languages, multiple countries. International SEO and multilingual optimization isn't just about translating your pages. It's a strategy in its own right.",
   ctaText: 'Discuss your project',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-geo-seo/international/hero.webp',
   imageAlt: 'International SEO and GEO Rankwell',
   accentColor: 'rw-blue' as const,
 };
@@ -109,21 +110,21 @@ export const enjeuxData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-marche.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-marche.webp',
       alt: 'Each market has its own SEO rules',
       title: 'Each market has its own game',
       desc: "Keywords don't translate, they're searched. The intent behind a query varies according to cultures. Your local competitors have years of advantage on their market.",
     },
     {
       id: 2,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-technique.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-technique.webp',
       alt: 'International SEO technical structure',
       title: 'Technology must follow',
       desc: 'Subdomains, directories, national domains? Poorly implemented hreflang? Duplicate content between language versions? Technical errors are costly in international.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-autorite.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-autorite.webp',
       alt: 'Authority and backlinks by market',
       title: 'Authority is built locally',
       desc: "Your French backlinks don't help you in Germany. Each market requires its own reputation strategy. Local mentions count for search engines AND for AI.",

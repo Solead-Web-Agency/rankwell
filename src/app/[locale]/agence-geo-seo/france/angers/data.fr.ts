@@ -109,25 +109,25 @@ export const geoEducationData = {
       icon: 'Bot',
       title: 'Architecture des moteurs IA',
       description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+        'ChatGPT, Perplexity et Google AI Overviews agrègent des données provenant de multiples sources pour formuler des réponses complètes et contextualisées. Pour une entreprise angevine, être identifié comme source de référence par ces moteurs est devenu un avantage concurrentiel décisif.',
     },
     {
       icon: 'FileText',
       title: 'Contenus structurés et crédibles',
       description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+        'Les systèmes IA privilégient les contenus rigoureusement organisés, sourcés avec des données vérifiables et démontrant une expertise sectorielle réelle. La qualité sémantique de vos pages conditionne directement votre capacité à être cité dans les réponses génératives.',
     },
     {
       icon: 'Award',
       title: 'Marqueurs de confiance',
       description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+        'Citations dans des médias spécialisés, backlinks depuis des sites institutionnels et mentions régulières de votre marque consolident votre crédibilité aux yeux des moteurs IA. Ce réseau de signaux favorise votre recommandation dans les réponses générées.',
     },
     {
       icon: 'ChartLine',
-      title: 'Suivi de performance',
+      title: 'Suivi de performance GEO',
       description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+        'Des outils analytiques spécifiques permettent de monitorer votre présence dans les réponses IA, de mesurer la fréquence de vos citations et d\'ajuster la stratégie en continu. Nous suivons votre visibilité sur ChatGPT, Perplexity et les AI Overviews de Google.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Angers est régulièrement élue ville où il fait bon vivre en France. Avec son château médiéval, ses vignobles d'Anjou et son pôle végétal unique, elle attire plus de 3 millions de visiteurs par an et un tissu économique dynamique.",
+  label: 'Le contexte économique angevin',
+  text: 'Angers Loire Métropole concentre 7 000 emplois et 900 entreprises dans l\'électronique et le numérique, générant 1,3 milliard d\'euros de chiffre d\'affaires. Le pôle de compétitivité Végépolys Valley, premier pôle mondial du végétal avec 700 adhérents, a accompagné plus de 1 300 projets valorisés à 4 milliards d\'euros. Labellisée French Tech et engagée dans le plus grand projet de territoire intelligent de France (127 millions d\'euros), Angers est un écosystème où la visibilité digitale est un levier de croissance incontournable.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,7 +156,7 @@ export const approcheData = {
       icon: 'Search',
       title: 'Diagnostic du marché local',
       description:
-        'Exploration approfondie de votre secteur à Angers, mapping concurrentiel et identification des opportunités propres au territoire angevin.',
+        'Exploration approfondie de votre secteur à Angers : analyse de vos concurrents directs sur le bassin angevin, cartographie des opportunités de positionnement et identification des requêtes à fort potentiel de conversion sur votre zone de chalandise.',
       features: [
         'Audit de visibilité actuelle',
         'Étude de la concurrence locale',
@@ -168,7 +168,7 @@ export const approcheData = {
       icon: 'FileText',
       title: 'Production de contenus experts',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Rédaction de contenus qui démontrent votre expertise sectorielle, structurés pour être à la fois bien positionnés sur Google et facilement cités par les moteurs IA. Chaque contenu intègre le vocabulaire métier et les spécificités du marché angevin.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -180,7 +180,7 @@ export const approcheData = {
       icon: 'Settings',
       title: 'Optimisation technique',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'Paramétrage de votre site pour atteindre les meilleurs scores de performance : temps de chargement, balisage Schema.org, compatibilité mobile et accessibilité. Des fondations techniques solides sont indispensables pour que les moteurs traditionnels et IA puissent indexer et citer vos contenus.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -192,7 +192,7 @@ export const approcheData = {
       icon: 'BarChart3',
       title: 'Monitoring et amélioration',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
+        'Suivi continu de vos indicateurs clés via Rankwell One : positions Google, citations dans les réponses IA, trafic qualifié et conversions. Des tableaux de bord clairs et des ajustements stratégiques mensuels pour maximiser votre retour sur investissement.',
       features: [
         'Reporting mensuel',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises angevines que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire angevin.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où nous pouvons réellement vous aider à Angers.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Végétal & Horticulture',
-      description:
-        'Pépinières, entreprises du pôle végétal et filière horticole, fer de lance de l\'économie angevine.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas suffisamment de contacts ou de ventes. Vous cherchez un partenaire capable de structurer une stratégie Search complète, du SEO technique au contenu, pour transformer votre présence en ligne en véritable levier commercial.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Œnotourisme',
-      description:
-        'Boutiques, domaines viticoles de l\'Anjou et prestataires touristiques du Val de Loire.',
+      label: 'Vous cherchez une expertise GEO pour anticiper',
+      description: 'Vous avez compris que ChatGPT, Perplexity et les AI Overviews de Google modifient les comportements de recherche. Vous voulez une agence qui maîtrise ces nouveaux canaux et sait positionner votre entreprise dans les réponses génératives.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, agences, professions libérales et prestataires B2B ciblant le tissu économique angevin.',
+      label: 'Végétal, horticulture et filière verte angevine',
+      description: 'Pépinières, entreprises du pôle Végépolys Valley, acteurs de la filière horticole : Angers est le premier pôle mondial du végétal. Nous aidons ces entreprises à valoriser leur expertise sectorielle en ligne et à être citées par les moteurs IA sur leur domaine.',
     },
     {
-      icon: 'Globe',
-      title: 'Tech & Digital',
-      description:
-        'Startups, éditeurs de logiciels et entreprises innovantes de l\'écosystème numérique angevin.',
+      label: 'Électronique, numérique et startups de la French Tech Angers',
+      description: 'L\'écosystème angevin du numérique compte 900 entreprises et 7 000 emplois. Éditeurs de logiciels, startups et acteurs de l\'électronique ont besoin d\'une visibilité digitale à la hauteur de leur innovation pour conquérir des marchés au-delà du territoire.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Angers et dans tout l\'Anjou.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats démontrés. Notre collaboration à distance avec les entreprises angevines est fluide et efficace.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -259,7 +249,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité et les leviers prioritaires pour l\'accélérer.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -267,7 +257,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage Schema.org et performance technique. Les fondations indispensables d\'un référencement durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -275,7 +265,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Une stratégie sur mesure, sans spam ni réseaux de liens artificiels.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -283,7 +273,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, conçus pour se positionner sur Google et être cités par les moteurs IA. Du contenu qui convertit.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -299,24 +289,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '155',
-      suffix: 'k',
-      label: "D'habitants à Angers",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,10 +380,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'SEO is not about tricking Google. It\'s about partnering with Google to provide the best search results for Google\'s users.',
+  author: 'Joost de Valk',
+  role: 'Fondateur de Yoast SEO',
 };
 
 // ============================================
@@ -398,34 +395,32 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
-      answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+      question: 'Travaillez-vous avec des entreprises à Angers ?',
+      answer: 'Oui, nous accompagnons des entreprises angevines avec une collaboration à distance efficace. Visioconférences régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. Pas besoin d\'être dans la même ville pour obtenir des résultats concrets et mesurables.',
     },
     {
-      question: 'Pourquoi une entreprise angevine doit-elle s\'intéresser au GEO ?',
-      answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects à Angers et dans tout le Val de Loire.',
+      question: 'Quels secteurs accompagnez-vous à Angers ?',
+      answer: 'Nous travaillons avec des entreprises de secteurs variés : végétal et horticulture (un pilier de l\'économie angevine avec Végépolys Valley), électronique et numérique (900 entreprises labellisées French Tech), œnotourisme et viticulture en Anjou, services B2B et professions libérales. Le point commun : des entreprises qui veulent générer du business via le Search.',
     },
     {
-      question: 'Travaillez-vous avec le secteur viticole ?',
-      answer:
-        'Absolument. Les vins d\'Anjou et l\'œnotourisme sont des piliers de l\'économie locale. Nous accompagnons domaines viticoles et caves pour développer leur visibilité en ligne.',
+      question: 'Qu\'est-ce que le GEO et pourquoi est-ce important à Angers ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités quand ces IA répondent à des questions liées à votre expertise. Dans un écosystème compétitif comme Angers, être visible à la fois sur Google et dans les réponses IA donne un avantage décisif.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
-      answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+      question: 'Comment se déroule un accompagnement type ?',
+      answer: 'Premier échange en visio pour comprendre vos enjeux spécifiques. Audit complet de votre situation digitale (SEO, GEO-readiness, technique, concurrence locale). Puis une roadmap avec des priorités classées par impact business. Exécution par un consultant senior dédié avec des points réguliers et un suivi en temps réel via Rankwell One.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
-      answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+      question: 'Les entreprises du pôle végétal ont-elles besoin du SEO et du GEO ?',
+      answer: 'Le pôle végétal angevin regroupe 700 adhérents au sein de Végépolys Valley. La concurrence est forte, y compris à l\'international. Le SEO permet de capter les recherches Google des acheteurs professionnels. Le GEO assure que quand un acheteur demande à ChatGPT un fournisseur horticole en France, votre entreprise soit dans la réponse. Les deux sont complémentaires.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
-      answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+      question: 'Quels sont vos tarifs pour un accompagnement à Angers ?',
+      answer: 'Les tarifs dépendent de vos objectifs, de votre secteur et du niveau de concurrence. Nous travaillons sur des forfaits mensuels ou des projets ponctuels (audit, refonte). Le plus simple est un premier échange pour évaluer votre situation et vous donner une estimation réaliste. Pas de surprise : tout est transparent dès le départ.',
+    },
+    {
+      question: 'Combien de temps avant de voir des résultats concrets ?',
+      answer: 'En SEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et la concurrence sur votre marché. En GEO, l\'intégration dans les réponses IA peut être plus rapide avec des contenus bien structurés. Nous fixons des objectifs réalistes dès le démarrage et mesurons la progression chaque mois.',
     },
   ],
 };

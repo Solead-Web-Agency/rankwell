@@ -109,25 +109,25 @@ export const geoEducationData = {
       icon: 'Bot',
       title: 'Fonctionnement des moteurs IA',
       description:
-        'ChatGPT, Perplexity et Google SGE synthétisent des informations issues de multiples sources pour formuler des réponses complètes. Être reconnu comme source fiable devient stratégique.',
+        'ChatGPT, Perplexity et Google AI Overviews synthétisent des informations issues de multiples sources pour formuler des réponses complètes. Pour une entreprise aéronautique toulousaine ou une startup montpelliéraine, être reconnu comme source fiable par ces moteurs devient un avantage concurrentiel majeur.',
     },
     {
       icon: 'FileText',
       title: 'Contenus structurés et experts',
       description:
-        'Les systèmes IA privilégient les contenus organisés, sourcés et démontrant une expertise réelle. La sémantique influence directement votre visibilité.',
+        'Les systèmes IA privilégient les contenus organisés, sourcés et démontrant une expertise sectorielle réelle. Définitions précises, données chiffrées, listes structurées : la sémantique de vos pages influence directement votre capacité à être cité dans les réponses génératives.',
     },
     {
       icon: 'Award',
       title: 'Signaux de confiance',
       description:
-        'Citations, backlinks pertinents et mentions de marque renforcent la crédibilité perçue par les moteurs IA, augmentant vos chances d\'être recommandé.',
+        'Les LLMs évaluent votre crédibilité via un réseau de mentions : articles de presse, études sectorielles, forums spécialisés. Citations, backlinks pertinents et mentions de marque renforcent la confiance perçue par les moteurs IA et augmentent vos chances d\'être recommandé.',
     },
     {
       icon: 'ChartLine',
       title: 'Performance mesurable',
       description:
-        'Des outils spécialisés permettent de suivre votre présence dans les réponses IA et d\'ajuster la stratégie en fonction des résultats obtenus.',
+        'Des outils spécialisés permettent de suivre votre présence dans les réponses IA, d\'identifier les requêtes pour lesquelles vous êtes cité et d\'ajuster la stratégie en continu. On mesure les citations IA au même titre que les positions Google.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "L'Occitanie est la 2e région française par sa superficie et compte plus de 6 millions d'habitants. Avec Toulouse, capitale européenne de l'aéronautique, et Montpellier, pôle d'excellence numérique, la région offre un potentiel économique considérable.",
+  label: 'Le contexte économique occitan',
+  text: 'L\'Occitanie compte 6,2 millions d\'habitants et constitue la 2e région française par sa superficie. La filière aéronautique et spatiale, portée par Airbus à Toulouse, a progressé de 7 % en 2024. La région accueille plus de 1 000 startups et 150 000 emplois dans le numérique, avec 432 millions d\'euros levés par les startups occitanes en 2024. Un tissu économique dense où la visibilité digitale est un levier de croissance décisif.',
   icon: 'TrendingUp' as const,
 };
 
@@ -153,52 +153,32 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché régional',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Analyse approfondie de votre secteur en Occitanie, cartographie concurrentielle et identification des opportunités spécifiques au territoire.',
-      features: [
-        'Audit de présence digitale',
-        'Étude de la concurrence locale',
-        'Analyse des recherches régionales',
-        'Compréhension des comportements utilisateurs',
-      ],
+        'Être premier sur un mot-clé qui ne génère pas de business, ça ne sert à rien. Notre métrique principale, c\'est l\'impact sur votre activité : leads générés, ventes attribuées, coût d\'acquisition. Que vous soyez un sous-traitant aéronautique toulousain ou un éditeur SaaS montpelliérain.',
     },
     {
-      icon: 'FileText',
-      title: 'Création de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Production de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
-      features: [
-        'Rédaction SEO et GEO',
-        'Architecture sémantique',
-        'Intégration du vocabulaire métier',
-        'Valorisation des savoir-faire régionaux',
-      ],
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Notre job, c\'est aussi de vous dire quand une stratégie fait fausse route. Un partenaire qui dit oui à tout n\'est pas un partenaire. On préfère la franchise à la complaisance.',
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Configuration de votre site pour satisfaire les exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
-      features: [
-        'Amélioration de la vitesse',
-        'Balisage Schema.org',
-        'Responsive et expérience utilisateur',
-        'Sécurité et conformité',
-      ],
+        'La personne qui réfléchit à votre stratégie est la même qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur unique qui connaît les spécificités du marché occitan et le détail de votre projet.',
     },
     {
-      icon: 'BarChart3',
-      title: 'Pilotage et amélioration continue',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi régulier des performances avec tableaux de bord détaillés et ajustements stratégiques pour maximiser les résultats.',
-      features: [
-        'Reporting mensuel personnalisé',
-        'Suivi des positions SEO et GEO',
-        'Analyse des conversions',
-        'Recommandations d\'évolution',
-      ],
+        'Notre plateforme connecte vos données Search à vos données business. Vous suivez l\'impact réel en temps réel : positions Google, citations IA, conversions. Pas des vanity metrics dans un rapport mensuel, mais de la donnée actionnable.',
     },
   ],
 };
@@ -209,39 +189,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises occitanes que nous accompagnons',
-  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises sur tout le territoire occitan.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises en Occitanie. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et ETI régionales',
-      description:
-        'Industries aéronautiques, spatiales, agroalimentaires et technologiques souhaitant amplifier leur visibilité digitale.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas assez de leads ou de ventes. Vous cherchez un partenaire pour structurer et exécuter une stratégie Search qui produit des résultats concrets, mesurables en conversions.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux d\'attirer une clientèle plus large via les moteurs de recherche.',
+      label: 'Vous préparez une refonte ou un lancement',
+      description: 'Vous lancez un nouveau site ou migrez l\'existant et voulez partir sur de bonnes bases SEO et GEO. L\'optimisation dès la conception évite les corrections coûteuses après coup et accélère la montée en visibilité.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur visibilité régionale.',
+      label: 'Aéronautique, spatial et industries de pointe',
+      description: 'L\'Occitanie concentre 800 entreprises dans la filière aérospatiale autour de Toulouse. Face à une concurrence B2B internationale, une stratégie Search solide vous positionne comme référence sectorielle sur Google et auprès des IA.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques souhaitant capter les visiteurs en Occitanie.',
+      label: 'Startups tech et santé numérique',
+      description: 'Avec 432 millions d\'euros levés en 2024 et des pôles santé-biotech en forte croissance, l\'écosystème startup occitan est dense. Se différencier en ligne dès les premiers mois d\'activité est un levier de croissance essentiel.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre visibilité digitale en Occitanie et au-delà.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats démontrables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -258,7 +229,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel. On identifie ce qui freine votre visibilité et ce qui peut l\'accélérer, avec des priorités classées par impact business.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -266,7 +237,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, performance technique. Les fondations d\'une visibilité durable.',
+      description: 'Optimisation on-site, architecture de contenu, performance technique. Les fondations d\'un référencement durable qui résiste aux mises à jour algorithmiques.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -274,7 +245,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Stratégie de liens pensée pour renforcer votre autorité. Pas de spam, pas de réseaux douteux. De vrais liens qui comptent.',
+      description: 'Acquisition de liens qualitatifs pour construire votre autorité. Une stratégie sur mesure, sans spam ni réseaux douteux. Des liens qui renforcent aussi votre crédibilité auprès des IA.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -282,7 +253,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Rédaction SEO et GEO-ready. Du contenu qui se positionne et qui convertit. Pas du remplissage.',
+      description: 'Contenus optimisés SEO et GEO-ready. Du contenu structuré, sourcé, qui se positionne sur Google et que les moteurs IA choisissent de citer. Pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -298,24 +269,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '6',
-      suffix: 'M',
-      label: "D'habitants en Occitanie",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,9 +361,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Les moteurs IA transforment radicalement la manière dont les internautes accèdent à l\'information. Anticiper cette évolution, c\'est offrir à son entreprise un avantage compétitif décisif.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'Every pixel on your site matters, and it\'s how you\'ll stand a chance against digital goliaths.',
+  author: 'Glen Allsopp',
+  role: 'Fondateur de Detailed.com',
 };
 
 // ============================================
@@ -393,38 +372,56 @@ export const quoteData = {
 export const faqData = {
   sectionId: 'faq',
   badge: 'FAQ',
-  title: 'Questions fréquentes sur le GEO & SEO en Occitanie',
+  title: 'Questions fréquentes',
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
+      id: '1',
+      question: 'Travaillez-vous avec des entreprises en Occitanie ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs de recherche classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui génèrent des réponses synthétiques. Les deux disciplines sont complémentaires.',
+        'Oui, nous accompagnons des entreprises sur tout le territoire occitan depuis plusieurs années. Visios régulières, accès à Rankwell One pour suivre vos performances en temps réel, consultant senior dédié joignable par email ou téléphone. La distance n\'est pas un obstacle : notre modèle de collaboration à distance est éprouvé avec des clients dans toute la France.',
     },
     {
-      question: 'Pourquoi une entreprise occitane doit-elle s\'intéresser au GEO ?',
+      id: '2',
+      question: 'Quels secteurs accompagnez-vous en Occitanie ?',
       answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être visible dans ces réponses permet d\'atteindre de nouveaux prospects et de renforcer votre image d\'expert sur votre marché.',
+        'Nous travaillons avec des entreprises de tous secteurs : aéronautique et spatial (la filière historique de Toulouse), santé-biotech (un secteur en forte croissance avec 127 millions d\'euros levés en 2024), startups tech, e-commerce, tourisme, viticulture. Le point commun : des entreprises qui veulent générer du business via le Search, pas juste du trafic.',
     },
     {
-      question: 'Quels résultats peut-on attendre et sous quel délai ?',
+      id: '3',
+      question: 'Qu\'est-ce que le GEO exactement ?',
       answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous établissons des objectifs réalistes dès le départ.',
+        'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités par ces IA quand on leur pose des questions liées à votre expertise. C\'est complémentaire au SEO classique, et on l\'intègre dans tous nos projets dès le départ.',
     },
     {
-      question: 'Comment mesurez-vous la visibilité sur les moteurs IA ?',
+      id: '4',
+      question: 'Combien de temps avant de voir des résultats ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+        'En SEO, les premiers résultats significatifs arrivent généralement entre 3 et 6 mois selon la concurrence et votre point de départ. En GEO, l\'intégration dans les réponses IA peut être plus rapide si vos contenus sont bien structurés. On vous donne des projections réalistes dès le premier échange, avec des jalons clairs pour mesurer la progression.',
     },
     {
-      question: 'Faut-il privilégier le SEO ou le GEO pour une entreprise régionale ?',
+      id: '5',
+      question: 'Pourquoi choisir une agence nationale plutôt qu\'une agence locale ?',
       answer:
-        'Nous préconisons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO prépare votre visibilité sur les plateformes IA en pleine expansion.',
+        'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise méthodologique, la connaissance des algorithmes et la capacité à produire des résultats. Nos consultants seniors ont une vision nationale du marché Search, enrichie par 8 ans d\'expérience et plus de 350 clients accompagnés dans des secteurs très variés.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
+      id: '6',
+      question: 'Comment se déroule la collaboration au quotidien ?',
       answer:
-        'Oui, nous dispensons des formations pour aider vos équipes à comprendre les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Premier échange en visio pour comprendre vos enjeux. Audit complet de votre situation. Roadmap avec priorités claires. Puis exécution avec un consultant senior dédié et des points réguliers. Vous suivez l\'avancement en temps réel via Rankwell One, notre plateforme qui connecte données Search et données business.',
+    },
+    {
+      id: '7',
+      question: 'Le GEO est-il pertinent pour une entreprise B2B en Occitanie ?',
+      answer:
+        'Absolument. Les acheteurs B2B, y compris dans l\'aéronautique et l\'industrie, utilisent de plus en plus les IA pour qualifier des fournisseurs et comparer des solutions. Être cité par ChatGPT ou Perplexity quand un prospect recherche un prestataire dans votre domaine, c\'est un avantage compétitif concret qui se traduit en prises de contact qualifiées.',
+    },
+    {
+      id: '8',
+      question: 'Quels sont vos tarifs ?',
+      answer:
+        'Les tarifs dépendent de vos objectifs, votre secteur et le niveau de concurrence. On travaille sur des forfaits mensuels ou des projets ponctuels comme des audits. Le plus simple : un premier échange de 30 minutes pour comprendre votre situation et vous donner une estimation réaliste. Sans engagement, sans surprise.',
     },
   ],
 };

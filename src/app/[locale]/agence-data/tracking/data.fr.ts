@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Sans tracking propre, vos données sont fausses. Experts Google Tag Manager, on met en place une collecte fiable pour des analyses qui ont du sens.',
   ctaText: 'Auditer mon tracking',
   ctaHref: '/contact',
+  image: '/images/pages/agence-data/tracking/hero.webp',
+  imageAlt: 'Agence GTM tracking plan de taggage Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -115,35 +117,35 @@ export const problemesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-data/tracking/probleme-conversions.webp',
+      image: '/images/pages/agence-data/tracking/probleme-conversions.webp',
       alt: 'Conversions non trackées',
       title: 'Conversions non trackées',
       desc: 'Des formulaires envoyés, des achats réalisés, mais rien dans les stats. Impossible de savoir ce qui fonctionne.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-data/tracking/probleme-doublons.webp',
+      image: '/images/pages/agence-data/tracking/probleme-doublons.webp',
       alt: 'Doublons et sur-comptage tracking',
       title: 'Doublons et sur-comptage',
       desc: 'La même conversion comptée plusieurs fois. Les chiffres sont gonflés, les décisions biaisées.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-data/tracking/probleme-attribution.webp',
+      image: '/images/pages/agence-data/tracking/probleme-attribution.webp',
       alt: 'Mauvaise attribution SEO SEA',
       title: 'Mauvaise attribution',
       desc: 'Google Ads s\'attribue des conversions qui viennent du SEO (ou l\'inverse). Vous ne savez pas où investir.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-data/tracking/probleme-donnees-manquantes.webp',
+      image: '/images/pages/agence-data/tracking/probleme-donnees-manquantes.webp',
       alt: 'Données manquantes tracking',
       title: 'Données manquantes',
       desc: 'Le tracking ne fonctionne pas sur mobile, ou sur certaines pages, ou après consentement. Des trous dans vos données.',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-data/tracking/probleme-migration-ga4.webp',
+      image: '/images/pages/agence-data/tracking/probleme-migration-ga4.webp',
       alt: 'Migration GA4 ratée',
       title: 'Migration GA4 ratée',
       desc: 'Le passage de Universal Analytics à GA4 a été fait à la va-vite. Les événements ne remontent pas correctement.',
