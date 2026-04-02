@@ -18,10 +18,14 @@ import {
   generateFAQSchema,
   generateHowToSchema,
   generateLocalBusinessSchema,
+  generateDefinedTermSchema,
+  generateArticleSchema,
   type BreadcrumbItem,
   type ServiceSchemaData,
   type FAQItem,
   type HowToStep,
+  type DefinedTermData,
+  type ArticleSchemaData,
 } from '@/lib/schema';
 import { type Locale } from '@/lib/i18n/config';
 
@@ -118,6 +122,28 @@ interface LocalBusinessJsonLdProps {
 
 export function LocalBusinessJsonLd({ location }: LocalBusinessJsonLdProps) {
   return <JsonLd data={generateLocalBusinessSchema(location)} />;
+}
+
+// ============================================
+// DEFINED TERM SCHEMA (glossaire)
+// ============================================
+interface DefinedTermJsonLdProps {
+  term: DefinedTermData;
+}
+
+export function DefinedTermJsonLd({ term }: DefinedTermJsonLdProps) {
+  return <JsonLd data={generateDefinedTermSchema(term)} />;
+}
+
+// ============================================
+// ARTICLE (BLOGPOSTING) SCHEMA
+// ============================================
+interface ArticleJsonLdProps {
+  article: ArticleSchemaData;
+}
+
+export function ArticleJsonLd({ article }: ArticleJsonLdProps) {
+  return <JsonLd data={generateArticleSchema(article)} />;
 }
 
 // ============================================

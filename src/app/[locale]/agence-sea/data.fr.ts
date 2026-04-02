@@ -30,6 +30,8 @@ export const heroData = {
   description: 'Le SEA sans stratégie, c\'est brûler du budget. Notre agence SEA transforme chaque euro investi en résultat mesurable. Prix transparent, ROI garanti.',
   ctaText: 'Parler de vos campagnes',
   ctaHref: '/contact',
+  image: '/images/pages/agence-sea/hero.webp',
+  imageAlt: 'Agence Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -115,28 +117,28 @@ export const pourquoiSeaData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/pourquoi-resultats-immediats.webp',
+      image: '/images/pages/agence-sea/pourquoi-resultats-immediats.webp',
       alt: 'Résultats immédiats SEA',
       title: 'Résultats immédiats',
       desc: 'Le SEO prend du temps. Le SEA produit du trafic dès le premier jour. Idéal pour un lancement, une promo, une saisonnalité forte.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/pourquoi-ciblage-precis.webp',
+      image: '/images/pages/agence-sea/pourquoi-ciblage-precis.webp',
       alt: 'Ciblage précis Google Ads',
       title: 'Ciblage précis',
       desc: 'Mots-clés, géographie, horaires, appareils, audiences. Vous touchez exactement qui vous voulez, quand vous voulez.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/pourquoi-controle-total.webp',
+      image: '/images/pages/agence-sea/pourquoi-controle-total.webp',
       alt: 'Contrôle total campagnes',
       title: 'Contrôle total',
       desc: 'Budget, enchères, diffusion : tout est paramétrable. Vous gardez la main, on pilote au quotidien.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/pourquoi-mesurabilite.webp',
+      image: '/images/pages/agence-sea/pourquoi-mesurabilite.webp',
       alt: 'Mesurabilité SEA',
       title: 'Mesurabilité',
       desc: 'Chaque clic, chaque conversion, chaque euro est tracké. Pas d\'ambiguïté sur ce qui marche.',
@@ -207,7 +209,7 @@ export const servicesSeaData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/service-setup.webp',
+      image: '/images/pages/agence-sea/service-setup.webp',
       imageAlt: 'Set Up SEA Google Ads',
       title: 'Set Up SEA',
       description: 'Création de compte, structure de campagnes, configuration du tracking. On pose les fondations d\'un compte performant.',
@@ -216,7 +218,7 @@ export const servicesSeaData = {
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/service-accompagnement.webp',
+      image: '/images/pages/agence-sea/service-accompagnement.webp',
       imageAlt: 'Accompagnement SEA',
       title: 'Accompagnement & monitoring',
       description: 'Gestion continue de vos campagnes, optimisation des enchères, tests d\'annonces, ajustements stratégiques.',
@@ -225,7 +227,7 @@ export const servicesSeaData = {
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/service-analyse-semantique.webp',
+      image: '/images/pages/agence-sea/service-analyse-semantique.webp',
       imageAlt: 'Analyse sémantique SEA',
       title: 'Analyse sémantique SEA',
       description: 'Audit de vos mots-clés, identification des opportunités, restructuration sémantique pour plus de performance.',
@@ -247,35 +249,35 @@ export const campagnesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/campagne-search.webp',
+      image: '/images/pages/agence-sea/campagne-search.webp',
       alt: 'Campagnes Search Google Ads',
       title: 'Search',
       desc: 'Les annonces textuelles classiques sur les résultats Google. Le coeur du SEA, celui qui capte l\'intention.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/campagne-shopping.webp',
+      image: '/images/pages/agence-sea/campagne-shopping.webp',
       alt: 'Campagnes Shopping',
       title: 'Shopping',
       desc: 'Pour les e-commerçants. Vos produits directement dans les résultats, avec image et prix.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/campagne-display.webp',
+      image: '/images/pages/agence-sea/campagne-display.webp',
       alt: 'Campagnes Display',
       title: 'Display',
       desc: 'Bannières sur le réseau de sites partenaires Google. Pour la notoriété, le remarketing, les audiences.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/campagne-performance-max.webp',
+      image: '/images/pages/agence-sea/campagne-performance-max.webp',
       alt: 'Campagnes Performance Max',
       title: 'Performance Max',
       desc: 'Les campagnes automatisées de Google qui diffusent sur tous les canaux. On sait les configurer pour qu\'elles performent vraiment.',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/campagne-youtube.webp',
+      image: '/images/pages/agence-sea/campagne-youtube.webp',
       alt: 'Campagnes YouTube Ads',
       title: 'YouTube Ads',
       desc: 'Vidéo pour la notoriété ou la conversion. Un levier sous-exploité par beaucoup d\'annonceurs.',

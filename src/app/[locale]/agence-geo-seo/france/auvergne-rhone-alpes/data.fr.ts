@@ -11,7 +11,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO en Auvergne-Rhône-Alpes | Rankwell',
+  title: 'Agence GEO et SEO en Auvergne-Rhône-Alpes - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises d\'Auvergne-Rhône-Alpes. Référencement Google et optimisation IA. Lyon, Grenoble, Annecy, Chambéry, Valence. Approche business centrix.',
 };
@@ -114,22 +114,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'Le GEO (Generative Engine Optimization) optimise vos contenus pour qu\'ils soient cités par ChatGPT, Perplexity ou Google AI Overviews. L\'enjeu : devenir LA source de référence que les IA choisissent de mentionner.',
+      desc: 'GEO (Generative Engine Optimization) est la discipline qui vise à rendre vos contenus citables par les moteurs IA comme ChatGPT, Perplexity ou Google AI Overviews. L\'enjeu ne se limite plus à ranker sur Google : il s\'agit de devenir LA source de référence que les IA choisissent de mentionner quand un dirigeant ou un acheteur pose une question.',
     },
     {
       id: 2,
       title: 'Contenus citation-ready',
-      desc: 'Les IA privilégient les contenus structurés : définitions claires, listes organisées, données sourcées. Nous formatons vos contenus pour maximiser leur potentiel de citation.',
+      desc: 'Les IA ne fonctionnent pas comme Google : elles cherchent des passages qu\'elles peuvent extraire et reformuler. Définitions précises, listes structurées, données chiffrées avec leurs sources. En Auvergne-Rhône-Alpes, où la concurrence sectorielle est dense, structurer ses contenus pour la citation devient un avantage décisif.',
     },
     {
       id: 3,
       title: 'Autorité thématique',
-      desc: 'Les LLMs évaluent votre légitimité sur un sujet. Un corpus cohérent de contenus experts renforce votre crédibilité auprès des algorithmes IA.',
+      desc: 'Les LLMs évaluent si vous êtes une source légitime sur un sujet donné. Pas seulement si vous avez publié un article, mais si l\'ensemble de votre présence digitale démontre une expertise cohérente et approfondie. Pour les entreprises de la région, cela passe par un corpus de contenus experts aligné sur leur savoir-faire.',
     },
     {
       id: 4,
       title: 'Réseau de mentions',
-      desc: 'Votre réputation digitale compte. Les IA croisent les sources : presse, études, forums spécialisés. Le netlinking évolue vers une stratégie de présence globale.',
+      desc: 'Les IA vérifient votre crédibilité en croisant les mentions sur d\'autres sites : articles de presse, études sectorielles, publications spécialisées. Dans une région où la densité d\'acteurs industriels et tech est forte, le netlinking évolue vers une stratégie de présence multi-sources qui dépasse le simple backlink.',
     },
   ],
 };
@@ -138,8 +138,8 @@ export const geoEducationData = {
 // CALLOUT RÉGION
 // ============================================
 export const calloutData = {
-  label: 'Auvergne-Rhône-Alpes en chiffres',
-  text: 'Avec 8 millions d\'habitants et un PIB de plus de 280 milliards d\'euros, Auvergne-Rhône-Alpes est la 2e région économique française. Tech, industrie, tourisme : les opportunités digitales sont massives, la concurrence aussi.',
+  label: 'Le poids économique d\'Auvergne-Rhône-Alpes',
+  text: 'Avec un PIB qui dépasse les 300 milliards d\'euros et 8 millions d\'habitants, Auvergne-Rhône-Alpes est la 2e économie régionale française et la 4e de l\'Union européenne. La région investit 8,4 milliards d\'euros en R&D (15 % de l\'effort national) et compte 17 des 100 plus grandes usines françaises. Tech, industrie, biotech, tourisme de montagne : la concurrence digitale est à la hauteur du dynamisme économique.',
   icon: 'TrendingUp' as const,
 };
 
@@ -158,28 +158,28 @@ export const approcheData = {
       icon: 'Target',
       title: 'On mesure ce qui compte',
       description:
-        'Ranker sur un mot-clé sans impact business, ça ne nous intéresse pas. On pilote par les leads, les ventes, le coût d\'acquisition.',
+        'Être premier sur un mot-clé sans impact business, ça ne sert à rien. Notre métrique principale, c\'est l\'impact concret sur votre activité : leads générés, ventes attribuées au Search, coût d\'acquisition par canal. Pour les entreprises d\'AURA, où les marchés sont matures, cette approche fait la différence.',
     },
     {
       id: 2,
       icon: 'MessageCircle',
       title: 'On challenge vos objectifs',
       description:
-        'Si votre stratégie fait fausse route, on vous le dit. Un vrai partenaire n\'acquiesce pas à tout.',
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Si votre stratégie fait fausse route, on vous le dit. Un partenaire qui dit oui à tout ne vous fait pas progresser. Notre rôle inclut de questionner vos priorités pour concentrer l\'effort là où le retour sera maximal.',
     },
     {
       id: 3,
       icon: 'UserCheck',
       title: 'Un consultant senior dédié',
       description:
-        'Celui qui pense votre stratégie est celui qui l\'exécute. Un seul interlocuteur, expert de votre dossier.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute au quotidien. Pas de junior sur votre dossier, pas d\'intermédiaire. Vous avez un interlocuteur unique qui connaît votre marché régional, votre concurrence et vos objectifs dans le détail.',
     },
     {
       id: 4,
       icon: 'ChartLine',
       title: 'Transparence via Rankwell One',
       description:
-        'Notre plateforme connecte vos données Search à vos résultats business. Performances visibles en temps réel.',
+        'Notre plateforme connecte vos données Search à vos données business en temps réel. Vous voyez l\'impact de chaque action sur vos conversions, pas des vanity metrics dans un rapport mensuel. Une transparence totale, accessible à tout moment depuis n\'importe où en région.',
     },
   ],
 };
@@ -196,19 +196,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Votre site ne génère pas assez de leads ou de ventes. Vous cherchez une stratégie Search structurée et efficace.',
+      description: 'Votre site existe mais ne génère pas assez de leads ou de ventes. Vous cherchez un partenaire pour structurer une stratégie Search efficace, mesurable et alignée sur vos objectifs de croissance.',
     },
     {
-      label: 'Vous cherchez une expertise GEO',
-      description: 'Les IA conversationnelles changent la donne et vous voulez une agence qui maîtrise ces nouveaux enjeux.',
+      label: 'Vous préparez une refonte ou un lancement',
+      description: 'Vous lancez un nouveau site ou refondez l\'existant. Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses et vous fait gagner des mois de visibilité.',
     },
     {
-      label: 'Vous préparez une refonte',
-      description: 'Un nouveau site se construit avec le SEO et le GEO dès le départ. Pas après coup.',
+      label: 'Industrie, tech et biotech régionales',
+      description: 'Avec 17 des 100 plus grandes usines françaises et des pôles tech à Lyon et Grenoble, la région concentre des acteurs B2B qui ont besoin d\'une visibilité digitale à la hauteur de leur expertise sectorielle.',
     },
     {
-      label: 'Vous voulez comprendre ce qui bloque',
-      description: 'Votre référencement stagne. Il vous faut un diagnostic objectif et des priorités claires.',
+      label: 'Tourisme et services en zone de montagne',
+      description: 'Stations de ski, hébergeurs, prestataires outdoor : le tourisme de montagne et le thermalisme auvergnat génèrent des recherches saisonnières intenses où la visibilité Search conditionne directement le remplissage.',
     },
   ],
   ctaTitle: 'Point de vigilance',
@@ -230,7 +230,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Diagnostic technique, analyse sémantique et étude concurrentielle pour identifier vos axes de progression.',
+      description: 'Diagnostic technique complet, analyse sémantique approfondie et étude concurrentielle ciblée sur votre marché. On identifie ce qui freine votre visibilité et ce qui peut l\'accélérer.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -238,7 +238,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Travail sur l\'architecture, les contenus et les performances de votre site pour maximiser son potentiel de référencement.',
+      description: 'Optimisation on-site, architecture de contenu, performance technique. Les fondations d\'un référencement durable qui résiste aux mises à jour algorithmiques.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -246,7 +246,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Stratégie d\'acquisition de liens provenant de sites pertinents et fiables. Zéro pratique douteuse, que du qualitatif.',
+      description: 'Acquisition de liens qualitatifs provenant de sites pertinents et fiables pour renforcer votre autorité. Une stratégie sur mesure, sans spam ni réseaux douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -254,7 +254,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus SEO et GEO-ready conçus pour répondre aux intentions de recherche et transformer les visiteurs en clients.',
+      description: 'Contenus optimisés SEO et GEO-ready qui se positionnent et convertissent. Du contenu structuré pour la citation IA, pas du remplissage de mots-clés.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -360,9 +360,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'SEO has become a growth discipline. You test, you iterate, you learn, you scale. The tactics come and go, but the strategies always stay the same.',
+  author: 'Kevin Indig',
+  role: 'Growth Advisor, ex-Shopify & G2',
 };
 
 // ============================================
@@ -377,32 +377,42 @@ export const faqData = {
     {
       id: '1',
       question: 'Travaillez-vous avec des entreprises en Auvergne-Rhône-Alpes ?',
-      answer: 'Oui, nous accompagnons des entreprises de toute la région : Lyon, Grenoble, Annecy, Chambéry, Valence et au-delà. Visios régulières, accès à Rankwell One, consultant senior dédié. La collaboration à distance fonctionne.',
+      answer: 'Oui, nous accompagnons des entreprises de toute la région : Lyon, Grenoble, Annecy, Chambéry, Valence, Clermont-Ferrand et au-delà. Visioconférences régulières, accès en temps réel à Rankwell One pour suivre vos performances, consultant senior dédié joignable par email et téléphone. La collaboration à distance est fluide et efficace, avec la même exigence que pour nos clients parisiens.',
     },
     {
       id: '2',
-      question: 'Intervenez-vous dans toutes les villes de la région ?',
-      answer: 'Nous travaillons avec des entreprises partout en Auvergne-Rhône-Alpes. Notre mode de collaboration à distance permet une flexibilité totale, sans compromis sur la qualité de l\'accompagnement.',
+      question: 'Quels secteurs accompagnez-vous en Auvergne-Rhône-Alpes ?',
+      answer: 'Nous travaillons avec des entreprises de tous secteurs présents dans la région : industrie et sous-traitance automobile, tech et SaaS (Lyon, Grenoble), santé et biotech, tourisme de montagne et thermalisme, services B2B et e-commerce. Le point commun : des entreprises qui veulent générer du business via le Search, pas uniquement du trafic sans conversion.',
     },
     {
       id: '3',
-      question: 'Comment se déroule la collaboration à distance ?',
-      answer: 'Visioconférences régulières, outils de travail partagés, accès temps réel à vos performances via Rankwell One. Vous avez un consultant senior dédié, joignable par email et téléphone.',
+      question: 'Comment se déroule un projet type ?',
+      answer: 'Premier échange de 30 minutes en visio pour comprendre vos enjeux business. Puis un audit complet de votre situation SEO et GEO-readiness. Ensuite, une roadmap avec des priorités classées par impact sur votre activité. Et enfin, l\'exécution avec un consultant senior dédié et des points réguliers. Vous suivez l\'avancement en temps réel via Rankwell One.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO exactement ?',
-      answer: 'Le GEO (Generative Engine Optimization) optimise vos contenus pour les moteurs IA : ChatGPT, Perplexity, Google AI Overviews. L\'objectif : être cité comme source fiable quand ces IA répondent à des questions liées à votre expertise.',
+      question: 'Qu\'est-ce que le GEO et pourquoi est-ce important pour la région ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou Google AI Overviews. Dans une région aussi compétitive qu\'Auvergne-Rhône-Alpes, avec son tissu dense d\'entreprises tech et industrielles, être cité par les IA quand on interroge sur votre domaine d\'expertise représente un avantage concurrentiel majeur que peu d\'acteurs exploitent encore.',
     },
     {
       id: '5',
       question: 'Quels sont vos tarifs ?',
-      answer: 'Les tarifs varient selon vos objectifs, votre secteur et la concurrence. Forfaits mensuels ou projets ponctuels. Premier échange gratuit pour évaluer votre situation et vous donner une estimation claire.',
+      answer: 'Les tarifs dépendent de vos objectifs, de votre secteur et du niveau de concurrence sur vos marchés. Nous proposons des forfaits mensuels pour un accompagnement continu ou des projets ponctuels (audit, refonte). Le plus simple : un premier échange gratuit pour comprendre votre situation et vous donner une estimation réaliste. Pas de mauvaise surprise ensuite.',
     },
     {
       id: '6',
-      question: 'Combien de temps pour voir des résultats ?',
-      answer: 'En SEO/GEO, comptez 3 à 6 mois pour des résultats significatifs selon votre point de départ. En SEA, quelques semaines suffisent. On vous donne des projections réalistes, pas des promesses en l\'air.',
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer: 'En SEO/GEO, les premiers résultats significatifs apparaissent généralement entre 3 et 6 mois selon votre point de départ et l\'intensité concurrentielle de votre marché. En SEA, les retours sont plus rapides, de l\'ordre de quelques semaines. Nous vous donnons des projections réalistes dès le départ, basées sur l\'analyse de votre secteur en Auvergne-Rhône-Alpes.',
+    },
+    {
+      id: '7',
+      question: 'Pourquoi ne pas choisir une agence SEO locale à Lyon ou Grenoble ?',
+      answer: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats prouvés. Rankwell accompagne plus de 350 clients en France depuis 2017. Notre approche business centrix et notre expertise GEO sont difficiles à trouver dans une agence locale qui applique les mêmes recettes SEO depuis des années.',
+    },
+    {
+      id: '8',
+      question: 'Comment fonctionne Rankwell One ?',
+      answer: 'Rankwell One est notre plateforme propriétaire qui connecte vos données Search (positions, trafic, citations IA) à vos données business (leads, ventes, CA attribué). Vous accédez à un tableau de bord en temps réel, partageable avec votre équipe. Fini les rapports mensuels statiques : vous voyez l\'impact de chaque action au fil de l\'eau.',
     },
   ],
 };

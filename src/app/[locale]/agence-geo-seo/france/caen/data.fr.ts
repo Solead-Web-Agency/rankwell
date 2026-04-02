@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises caennaises | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises caennaises - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Caen. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'SEO has been way too navel-gazing about its own capabilities for so long that we\'ve forgotten that we exist in a bigger matrix of marketing.',
+  author: 'Mordy Oberstein',
+  role: 'Head of SEO Brand, Wix',
 };
 
 // ============================================

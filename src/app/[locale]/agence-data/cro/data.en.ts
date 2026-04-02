@@ -32,6 +32,8 @@ export const heroData = {
   description: 'You have traffic. But does it convert? Conversion rate optimization turns your visitors into customers. E-commerce or lead gen, our CRO audit boosts your results.',
   ctaText: 'Request a CRO audit',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-data/cro/hero.webp',
+  imageAlt: 'CRO audit conversion rate optimization Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -171,30 +173,35 @@ export const dimensionsData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-data/cro/dimension-quantitative.webp',
       alt: 'CRO quantitative data analysis',
       title: 'Quantitative data analysis',
       desc: 'Study of user journeys in GA4. Identification of high exit rate pages. Conversion funnel analysis. Segmentation by source, device, audience.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-data/cro/dimension-comportementale.webp',
       alt: 'Behavioral heatmaps analysis',
       title: 'Behavioral analysis',
       desc: 'Heatmaps: where do your visitors click? Scrollmaps: how far do they scroll? Session recordings: how do they navigate?',
     },
     {
       id: 3,
+      image: '/images/pages/agence-data/cro/dimension-ux-ui.webp',
       alt: 'Conversion UX/UI audit',
       title: 'UX/UI audit',
       desc: 'Value proposition clarity. Visual hierarchy and readability. CTA effectiveness. Journey fluidity. Reassurance elements.',
     },
     {
       id: 4,
+      image: '/images/pages/agence-data/cro/dimension-pages-cles.webp',
       alt: 'Key site pages analysis',
       title: 'Key pages analysis',
       desc: 'Homepage, product/service pages, category pages, landing pages, checkout funnel and forms.',
     },
     {
       id: 5,
+      image: '/images/pages/agence-data/cro/dimension-benchmark.webp',
       alt: 'CRO competitive benchmark',
       title: 'Competitive benchmark',
       desc: 'How do your competitors do it? What best practices can you adopt? Where can you differentiate?',

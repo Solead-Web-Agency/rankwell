@@ -130,9 +130,9 @@ const FeaturesGrid = ({
                     className={`flex flex-col ${colSpanClass} col-span-12 md:col-span-6 ${offsetClass}`}
                   >
                     {/* card image - hauteur fixe */}
-                    <div className="max-w-[409px] w-full rounded-[20px] bg-white dark:bg-background-6 p-2.5 mb-3">
+                    <div className="max-w-[409px] w-full rounded-[20px] bg-white dark:bg-background-6 p-4 mb-3 border border-stroke-1/50 dark:border-stroke-6/50 shadow-sm">
                       {feature.image ? (
-                        <figure className="aspect-[409/300] overflow-hidden rounded-xl">
+                        <figure className="relative aspect-[409/300] overflow-hidden rounded-xl">
                           {typeof feature.image === 'string' ? (
                             <img
                               src={feature.image}

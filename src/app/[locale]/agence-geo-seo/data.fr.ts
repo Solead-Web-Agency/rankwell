@@ -47,7 +47,7 @@ export const heroData = {
   description: 'Le référencement naturel ne se limite plus à Google. ChatGPT, Perplexity, Gemini citent des sources et recommandent des marques. Notre agence GEO SEO construit votre visibilité sur tous les fronts.',
   ctaText: 'Demander un audit',
   ctaHref: '/contact',
-  // image: '/images/pages/agence-geo-seo/hero.webp',
+  image: '/images/pages/agence-geo-seo/hero.webp',
   imageAlt: 'Agence SEO et GEO Rankwell',
   showTrustIndicator: true,
   accentColor: 'rw-blue' as const,
@@ -201,7 +201,7 @@ export const servicesData = {
       description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-audit-seo.webp',
       imageAlt: 'Audit SEO complet',
     },
     {
@@ -210,7 +210,7 @@ export const servicesData = {
       description: 'Optimisation on-site, structure de contenu, performance technique. Les fondations d\'une visibilité durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-technique-semantique.webp',
       imageAlt: 'SEO sémantique et technique',
     },
     {
@@ -219,7 +219,7 @@ export const servicesData = {
       description: 'Stratégie de liens pensée pour renforcer votre autorité. Pas de spam, pas de réseaux douteux. De vrais liens qui comptent.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-netlinking.webp',
       imageAlt: 'Stratégie Netlinking',
     },
     {
@@ -228,7 +228,7 @@ export const servicesData = {
       description: 'Rédaction SEO et GEO-ready. Du contenu qui se positionne et qui convertit. Pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
-      // image:
+      image: '/images/pages/agence-geo-seo/services-creation-contenu.webp',
       imageAlt: 'Création de contenu SEO',
     },
   ],

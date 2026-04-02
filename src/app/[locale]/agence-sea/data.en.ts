@@ -26,6 +26,8 @@ export const heroData = {
   description: 'SEA without strategy means burning budget. Our SEA agency transforms every euro invested into measurable results. Transparent pricing, guaranteed ROI.',
   ctaText: 'Discuss your campaigns',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-sea/hero.webp',
+  imageAlt: 'Rankwell Google Ads Agency',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -111,28 +113,28 @@ export const pourquoiSeaData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/pourquoi-resultats-immediats.webp',
+      image: '/images/pages/agence-sea/pourquoi-resultats-immediats.webp',
       alt: 'Immediate SEA results',
       title: 'Immediate results',
       desc: 'SEO takes time. SEA delivers traffic from day one. Ideal for launches, promotions, or high seasonality.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/pourquoi-ciblage-precis.webp',
+      image: '/images/pages/agence-sea/pourquoi-ciblage-precis.webp',
       alt: 'Precise Google Ads targeting',
       title: 'Precise targeting',
       desc: 'Keywords, geography, schedules, devices, audiences. You reach exactly who you want, when you want.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/pourquoi-controle-total.webp',
+      image: '/images/pages/agence-sea/pourquoi-controle-total.webp',
       alt: 'Total campaign control',
       title: 'Total control',
       desc: 'Budget, bids, delivery: everything is configurable. You keep control, we manage day-to-day.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/pourquoi-mesurabilite.webp',
+      image: '/images/pages/agence-sea/pourquoi-mesurabilite.webp',
       alt: 'SEA measurability',
       title: 'Measurability',
       desc: 'Every click, every conversion, every euro is tracked. No ambiguity about what works.',
@@ -203,7 +205,7 @@ export const servicesSeaData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/service-setup.webp',
+      image: '/images/pages/agence-sea/service-setup.webp',
       imageAlt: 'Google Ads SEA Setup',
       title: 'SEA Setup',
       description: 'Account creation, campaign structure, tracking configuration. We lay the foundations for a high-performing account.',
@@ -212,7 +214,7 @@ export const servicesSeaData = {
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/service-accompagnement.webp',
+      image: '/images/pages/agence-sea/service-accompagnement.webp',
       imageAlt: 'SEA Management',
       title: 'Management & monitoring',
       description: 'Continuous campaign management, bid optimization, ad testing, strategic adjustments.',
@@ -221,7 +223,7 @@ export const servicesSeaData = {
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/service-analyse-semantique.webp',
+      image: '/images/pages/agence-sea/service-analyse-semantique.webp',
       imageAlt: 'SEA Semantic Analysis',
       title: 'SEA Keyword Analysis',
       description: 'Audit of your keywords, opportunity identification, semantic restructuring for better performance.',
@@ -243,35 +245,35 @@ export const campagnesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/campagne-search.webp',
+      image: '/images/pages/agence-sea/campagne-search.webp',
       alt: 'Google Ads Search Campaigns',
       title: 'Search',
       desc: 'Classic text ads on Google results. The core of SEA, the one that captures intent.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/campagne-shopping.webp',
+      image: '/images/pages/agence-sea/campagne-shopping.webp',
       alt: 'Shopping Campaigns',
       title: 'Shopping',
       desc: 'For e-commerce. Your products directly in search results, with image and price.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/campagne-display.webp',
+      image: '/images/pages/agence-sea/campagne-display.webp',
       alt: 'Display Campaigns',
       title: 'Display',
       desc: 'Banners on Google partner sites network. For awareness, remarketing, audiences.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/campagne-performance-max.webp',
+      image: '/images/pages/agence-sea/campagne-performance-max.webp',
       alt: 'Performance Max Campaigns',
       title: 'Performance Max',
       desc: 'Google\'s automated campaigns that broadcast across all channels. We know how to configure them for real performance.',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/campagne-youtube.webp',
+      image: '/images/pages/agence-sea/campagne-youtube.webp',
       alt: 'YouTube Ads Campaigns',
       title: 'YouTube Ads',
       desc: 'Video for awareness or conversion. An underutilized lever by many advertisers.',

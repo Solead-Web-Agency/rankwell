@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Google Ads ne s\'optimise pas tout seul. Nos experts Google Ads prennent les commandes, ajustent en continu, vous récoltez les conversions.',
   ctaText: 'Confier la gestion de mes campagnes',
   ctaHref: '/contact',
+  image: '/images/pages/agence-sea/accompagnement/hero.webp',
+  imageAlt: 'Gestion Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -277,21 +279,21 @@ export const formulesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/accompagnement/formule-gestion-complete.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-gestion-complete.webp',
       alt: 'Gestion complète Google Ads',
       title: 'Gestion complète',
       desc: 'On gère tout. Vous nous donnez vos objectifs et votre budget, on s\'occupe du reste. Vous recevez les reportings et validez les orientations stratégiques.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/accompagnement/formule-co-pilotage.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-co-pilotage.webp',
       alt: 'Co-pilotage Google Ads',
       title: 'Co-pilotage',
       desc: 'Vous avez une équipe qui gère au quotidien, on intervient en support : audits réguliers, recommandations, formation, validation des grandes décisions.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/accompagnement/formule-conseil-ponctuel.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-conseil-ponctuel.webp',
       alt: 'Conseil ponctuel Google Ads',
       title: 'Conseil ponctuel',
       desc: 'Vous êtes autonome mais vous avez besoin d\'un regard expert de temps en temps. On intervient sur demande pour des audits ou des problématiques spécifiques.',

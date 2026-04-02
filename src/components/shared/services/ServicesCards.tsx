@@ -77,7 +77,7 @@ const ServicesCards = ({
 
             return (
               <RevealAnimation key={service.id} delay={0.4 + index * 0.1}>
-                <div className="p-7 lg:max-w-full lg:p-[42px] rounded-[20px] border border-stroke-1 dark:border-stroke-7 bg-background-1 dark:bg-background-6">
+                <div className="p-7 lg:max-w-full lg:p-[42px] rounded-[20px] border border-stroke-1 dark:border-stroke-7 bg-white dark:bg-background-6">
                   <div className="grid grid-cols-12 items-center xl:gap-[100px] lg:gap-20 gap-y-10">
                     {/* Content - order changes based on image position */}
                     <div className={`col-span-12 lg:col-span-6 ${imageOnLeft ? 'lg:order-2' : 'lg:order-1'}`}>
@@ -101,13 +101,14 @@ const ServicesCards = ({
                     <div className={`col-span-12 lg:col-span-6 ${imageOnLeft ? 'lg:order-1' : 'lg:order-2'}`}>
                       <div className="flex items-center justify-center">
                         {service.image ? (
-                          <figure className="max-w-[500px] w-full rounded-[20px] overflow-hidden">
+                          <figure className="max-w-[500px] w-full aspect-[500/350] rounded-[20px] overflow-hidden">
                             <Image
                               src={service.image}
                               alt={service.imageAlt || service.title}
-                              width={500}
-                              height={350}
-                              className="w-full h-auto object-cover"
+                              width={2400}
+                              height={1792}
+                              className="w-full h-full object-cover"
+                              unoptimized
                             />
                           </figure>
                         ) : (

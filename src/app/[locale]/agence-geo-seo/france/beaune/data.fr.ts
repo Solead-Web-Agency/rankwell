@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises de Beaune | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises de Beaune - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Beaune. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'Don\'t start with the SEO. Start with what the customer wants. That\'s the kind of content we should create.',
+  author: 'Paddy Moogan',
+  role: 'Co-founder, Aira',
 };
 
 // ============================================

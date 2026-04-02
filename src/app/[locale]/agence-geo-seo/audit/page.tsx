@@ -171,6 +171,8 @@ export default async function AuditSeoPage({ params }: PageProps) {
         description={heroData.description}
         ctaText={heroData.ctaText}
         ctaHref={heroData.ctaHref}
+        image={heroData.image}
+        imageAlt={heroData.imageAlt}
         accentColor={heroData.accentColor}
         locale={locale as Locale}
       />
@@ -237,6 +239,8 @@ export default async function AuditSeoPage({ params }: PageProps) {
           id: item.id,
           title: item.title,
           desc: item.description,
+          image: item.image,
+          alt: item.alt,
         }))}
       />
 

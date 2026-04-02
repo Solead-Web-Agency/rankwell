@@ -10,7 +10,7 @@ import type { OfficeItem } from '@/components/shared/global';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Nos bureaux Paris et Dubaï | Rankwell',
+  title: 'Nos bureaux Paris et Dubaï - Rankwell',
   description:
     'Rankwell est implantée à Paris et Dubaï. Deux bureaux, une même approche business centrix. Rencontrez-nous pour parler de votre projet SEO, GEO, SEA ou Data.',
 };

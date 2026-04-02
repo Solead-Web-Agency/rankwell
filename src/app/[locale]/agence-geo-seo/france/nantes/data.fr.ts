@@ -106,28 +106,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Bot',
-      title: 'Architecture des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) désigne l\'ensemble des techniques permettant à vos contenus d\'être sélectionnés et cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'enjeu n\'est plus seulement de ranker, mais de devenir la source que l\'IA recommande spontanément à ses utilisateurs.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
-      description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les moteurs IA cherchent des passages extractibles et reformulables : définitions précises, listes structurées, données chiffrées sourcées. Nous retravaillons vos contenus pour qu\'ils présentent ces caractéristiques et maximisent vos chances d\'être cités dans les réponses générées automatiquement.',
     },
     {
-      icon: 'Award',
-      title: 'Marqueurs de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les LLMs évaluent si vous êtes une source légitime sur un sujet donné. Cela dépasse le simple article publié : c\'est l\'ensemble de votre empreinte digitale — site, profils, publications — qui doit démontrer une expertise cohérente et approfondie sur votre domaine d\'activité.',
     },
     {
-      icon: 'ChartLine',
-      title: 'Suivi de performance',
-      description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les moteurs IA vérifient votre crédibilité en analysant les mentions sur des sites tiers : articles de presse, études sectorielles, forums spécialisés, annuaires professionnels. Le netlinking reste déterminant, mais selon des critères de pertinence et de confiance différents du SEO classique.',
     },
   ],
 };
@@ -137,7 +133,7 @@ export const geoEducationData = {
 // ============================================
 export const calloutData = {
   label: 'Le saviez-vous ?',
-  text: "Nantes est régulièrement classée parmi les villes où il fait bon travailler en France. Sa métropole de 660 000 habitants concentre un écosystème tech et créatif dynamique avec la French Tech Nantes et des événements comme le Web2Day.",
+  text: "Nantes est régulièrement classée parmi les villes où il fait bon travailler en France. Sa métropole de 660 000 habitants concentre un écosystème tech et créatif dynamique avec la French Tech Nantes, des événements comme le Web2Day et plus de 300 startups actives.",
   icon: 'TrendingUp' as const,
 };
 
@@ -153,10 +149,11 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Exploration approfondie de votre secteur à Nantes, mapping concurrentiel et identification des opportunités propres à la métropole ligérienne.',
+        'Être premier sur un mot-clé sans potentiel commercial ne sert à rien. Notre métrique principale, c\'est l\'impact réel sur votre activité nantaise : leads générés, ventes attribuées au Search, coût d\'acquisition maîtrisé.',
       features: [
         'Audit de visibilité actuelle',
         'Étude de la concurrence locale',
@@ -165,10 +162,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Parfois, ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Notre rôle inclut de vous alerter quand une direction n\'est pas la bonne. Un prestataire qui acquiesce à tout ne produit pas de résultats durables.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -177,10 +175,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'La personne qui conçoit votre stratégie est celle qui l\'exécute. Pas d\'intermédiaire ni de sous-traitance. Vous disposez d\'un interlocuteur unique qui maîtrise votre dossier et le contexte du marché nantais.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -189,10 +188,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'BarChart3',
-      title: 'Monitoring et amélioration',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
+        'Notre plateforme connecte vos données Search à vos indicateurs business. Vous visualisez l\'impact réel en temps réel, pas des vanity metrics dans un PDF mensuel. Chaque euro investi est traçable.',
       features: [
         'Reporting mensuel',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises nantaises que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises de la métropole nantaise.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où nous pouvons réellement faire la différence.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Startups & Tech',
-      description:
-        'Startups de la French Tech Nantes, éditeurs SaaS et entreprises innovantes souhaitant amplifier leur visibilité digitale.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas suffisamment de leads ou de ventes. Vous cherchez un partenaire capable de structurer et piloter une stratégie Search performante adaptée au marché nantais.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux d\'attirer une clientèle plus large via les moteurs de recherche.',
+      label: 'Vous préparez une refonte',
+      description: 'Vous lancez un nouveau site et souhaitez intégrer le SEO et le GEO dès la conception. Optimiser en amont évite les corrections coûteuses et les pertes de trafic post-migration.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services aux entreprises',
-      description:
-        'Cabinets de conseil, agences, professions libérales et prestataires B2B ciblant le tissu économique nantais.',
+      label: 'Numérique et startups',
+      description: 'Nantes est la 3e métropole numérique de France : plus de 300 startups, un label French Tech dynamique et 133 M\u20AC levés en 2024. Un écosystème où la visibilité IA devient un avantage concurrentiel décisif.',
     },
     {
-      icon: 'Globe',
-      title: 'Industrie & Naval',
-      description:
-        'Entreprises industrielles, chantiers navals et équipementiers de l\'estuaire de la Loire.',
+      label: 'Industrie et agroalimentaire',
+      description: 'Capgemini, LU/Belin, construction navale : le tissu industriel nantais est dense et diversifié. Les décideurs B2B utilisent de plus en plus les moteurs IA pour sourcer leurs fournisseurs et prestataires.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Nantes et dans toute la métropole.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes dépassées. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats mesurables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -299,24 +289,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '660',
-      suffix: 'k',
-      label: "D'habitants dans la métropole nantaise",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -383,9 +381,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'Content is the reason search began in the first place.',
+  author: 'Lee Odden',
+  role: 'CEO TopRank Marketing',
 };
 
 // ============================================
@@ -398,34 +396,46 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: '1',
       question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques comme Google et Bing. Le GEO cible les moteurs IA (ChatGPT, Perplexity, AI Overviews) qui formulent des réponses synthétiques en citant leurs sources. Les deux disciplines sont complémentaires : le SEO assure votre socle de visibilité, le GEO prépare votre présence sur les canaux émergents.',
     },
     {
+      id: '2',
       question: 'Pourquoi une entreprise nantaise doit-elle s\'intéresser au GEO ?',
       answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects dans cette métropole tech-friendly.',
+        'Nantes concentre un écosystème numérique parmi les plus actifs de France, avec des utilisateurs particulièrement en avance sur l\'adoption des outils IA. Les décideurs locaux interrogent de plus en plus ChatGPT ou Perplexity pour sourcer des prestataires. Ne pas y figurer, c\'est laisser le champ libre à vos concurrents sur un canal en pleine croissance.',
     },
     {
+      id: '3',
       question: 'Quels résultats peut-on espérer et sous quel délai ?',
       answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois selon la concurrence sectorielle. Pour le GEO, l\'apparition dans les réponses IA peut être plus rapide si vos contenus sont déjà bien structurés et sourcés. Nous définissons des KPIs réalistes dès le lancement et mesurons chaque mois l\'évolution des leads, du trafic et des citations IA.',
     },
     {
+      id: '4',
       question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+        'Nous utilisons des outils spécialisés qui interrogent régulièrement les principaux LLMs sur vos requêtes stratégiques et analysent les réponses générées. Cela permet de repérer les mentions de votre marque, de suivre leur fréquence dans le temps et d\'identifier les contenus concurrents qui captent les citations à votre place.',
     },
     {
+      id: '5',
       question: 'Travaillez-vous avec les startups nantaises ?',
       answer:
-        'Absolument. L\'écosystème French Tech Nantes est dynamique et nous accompagnons de nombreuses startups et scale-ups dans leur stratégie de visibilité.',
+        'Absolument. L\'écosystème French Tech Nantes est l\'un des plus dynamiques de France, avec plus de 300 startups actives. Nous accompagnons startups et scale-ups dans leur stratégie de visibilité Search, en adaptant nos méthodes à leurs contraintes de croissance rapide et à leurs cycles de levée de fonds.',
     },
     {
+      id: '6',
       question: 'Proposez-vous des formations sur le GEO ?',
       answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Oui, nous dispensons des formations pratiques pour aider vos équipes à comprendre les mécanismes du GEO, à identifier les opportunités propres à votre secteur et à produire des contenus optimisés pour les moteurs IA. Ces sessions combinent théorie et exercices appliqués à vos problématiques métier réelles.',
+    },
+    {
+      id: '7',
+      question: 'L\'écosystème tech nantais influence-t-il votre stratégie ?',
+      answer:
+        'Directement. Nantes est la 3e métropole numérique française, portée par le Web2Day, la Cantine Numérique et des pôles comme Atlanpole. Cette maturité digitale implique une concurrence accrue en ligne. Nous en tenons compte dans le calibrage des mots-clés, la construction de l\'autorité thématique et le ciblage des requêtes conversationnelles propres à ce bassin tech.',
     },
   ],
 };

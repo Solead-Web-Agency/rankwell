@@ -9,7 +9,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO à Annecy | Rankwell',
+  title: 'Agence GEO et SEO à Annecy - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises d\'Annecy et sa région. Référencement Google et optimisation IA. Collaboration à distance efficace. Approche orientée résultats.',
 };
@@ -112,22 +112,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'Le GEO (Generative Engine Optimization) vise à faire citer vos contenus par les IA : ChatGPT, Perplexity, Google AI Overviews. L\'enjeu : devenir la référence que l\'IA mentionne.',
+      desc: 'Le GEO (Generative Engine Optimization) consiste à optimiser vos contenus pour qu\'ils soient cités par les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. L\'enjeu n\'est plus seulement de ranker sur Google, mais de devenir la source que l\'IA choisit de recommander à ses utilisateurs.',
     },
     {
       id: 2,
       title: 'Contenus citation-ready',
-      desc: 'Définitions précises, listes structurées, données sourcées. Les IA privilégient les contenus facilement extractibles. Nous optimisons cette dimension.',
+      desc: 'Les IA extraient des passages précis pour formuler leurs réponses. Définitions claires, listes structurées, données chiffrées avec leurs sources : nous structurons vos contenus pour maximiser les chances d\'être sélectionné et cité par les modèles de langage.',
     },
     {
       id: 3,
       title: 'Autorité thématique',
-      desc: 'Un corpus cohérent de contenus experts renforce votre crédibilité aux yeux des algorithmes. Les IA favorisent les sources qui démontrent une expertise établie.',
+      desc: 'Les modèles de langage évaluent si votre site est une source légitime sur un sujet donné. Un corpus cohérent de contenus experts, couvrant votre domaine en profondeur, renforce cette perception et augmente vos chances d\'être cité comme référence.',
     },
     {
       id: 4,
       title: 'Réseau de mentions',
-      desc: 'Les IA croisent les sources. Être mentionné sur des sites reconnus amplifie votre légitimité et vos chances d\'être cité.',
+      desc: 'Les IA croisent les sources pour valider la crédibilité d\'une information. Être mentionné dans des articles de presse, des études sectorielles ou des forums spécialisés amplifie votre signal de confiance auprès des algorithmes.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT VILLE
 // ============================================
 export const calloutData = {
-  label: 'Annecy en chiffres',
-  text: 'Plus de 130 000 habitants dans l\'agglomération, siège de marques mondiales comme Salomon et Fusalp. Le bassin annécien combine attractivité touristique et dynamisme économique. La visibilité digitale y est un avantage concurrentiel décisif.',
+  label: 'Le contexte économique annécien',
+  text: 'L\'agglomération du Grand Annecy regroupe près de 136 000 habitants et affiche un taux de chômage inférieur à 6 %. Siège de marques mondiales comme Salomon, Fusalp et NTN Europe (premier employeur privé de Haute-Savoie avec 2 400 salariés), le bassin annécien excelle dans l\'outdoor, la mécatronique, le numérique et les industries créatives. Plus de 2 000 entreprises y sont créées chaque année.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,28 +156,28 @@ export const approcheData = {
       icon: 'Target',
       title: 'On mesure ce qui compte',
       description:
-        'Les classements Google ne suffisent pas. On pilote par les leads, les ventes, le coût d\'acquisition client.',
+        'Les classements Google ne paient pas les factures. On pilote par les leads générés, les ventes attribuées et le coût d\'acquisition client. C\'est votre chiffre d\'affaires qui détermine le succès, pas le nombre de mots-clés en première page.',
     },
     {
       id: 2,
       icon: 'MessageCircle',
       title: 'On challenge vos objectifs',
       description:
-        'Si votre stratégie part dans la mauvaise direction, on vous le dit franchement. C\'est ça, un vrai partenaire.',
+        'Si votre stratégie part dans une direction qui ne servira pas vos résultats, on vous le dit franchement. Un partenaire qui acquiesce à tout n\'est pas un partenaire, c\'est un exécutant. Notre rôle inclut le devoir de conseil.',
     },
     {
       id: 3,
       icon: 'UserCheck',
       title: 'Un consultant senior dédié',
       description:
-        'Votre stratégie est pensée et exécutée par la même personne. Un interlocuteur expert, disponible.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute au quotidien. Pas d\'intermédiaire, pas de junior. Vous avez un interlocuteur expert qui connaît votre dossier dans le détail et reste disponible.',
     },
     {
       id: 4,
       icon: 'ChartLine',
       title: 'Transparence via Rankwell One',
       description:
-        'Vos performances Search connectées à vos résultats business, visibles en temps réel sur notre plateforme.',
+        'Notre plateforme propriétaire connecte vos données Search à vos métriques business. Vous suivez l\'impact réel de nos actions en temps réel, pas des vanity metrics présentées dans un rapport mensuel.',
     },
   ],
 };
@@ -194,19 +194,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Votre site ne convertit pas assez. Vous cherchez un partenaire pour structurer et déployer une stratégie efficace.',
+      description: 'Votre site existe mais ne génère pas suffisamment de leads ou de ventes. Vous cherchez un partenaire pour structurer une stratégie Search qui convertit réellement votre audience en clients.',
     },
     {
       label: 'Vous cherchez une expertise GEO',
-      description: 'Les IA redéfinissent la recherche. Vous voulez anticiper plutôt que subir.',
+      description: 'ChatGPT, Perplexity et les AI Overviews redéfinissent la manière dont vos prospects trouvent l\'information. Vous voulez une agence qui maîtrise ces nouveaux canaux, pas une qui découvre le sujet.',
     },
     {
-      label: 'Vous préparez une refonte',
-      description: 'SEO et GEO dès la conception. Éviter les rustines coûteuses après coup.',
+      label: 'Acteurs de l\'outdoor et du tourisme alpin',
+      description: 'Marques de sport, hébergeurs, prestataires d\'activités : dans le bassin annécien, la concurrence digitale est féroce. Une stratégie SEO et GEO ciblée fait la différence pour capter les recherches saisonnières et pérennes.',
     },
     {
-      label: 'Vous voulez comprendre ce qui bloque',
-      description: 'Votre référencement stagne sans raison apparente. Un diagnostic externe s\'impose.',
+      label: 'Entreprises industrielles et mécatroniques',
+      description: 'La filière mécatronique annécienne (automobile, aéronautique, médical) a des cycles de vente B2B longs. Une visibilité Search durable sur les requêtes techniques attire des prospects qualifiés sans dépendre uniquement du réseau.',
     },
   ],
   ctaTitle: 'Point de vigilance',
@@ -228,7 +228,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Diagnostic technique, sémantique et concurrentiel. On détecte ce qui freine votre visibilité.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité et les leviers prioritaires pour l\'accélérer.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -236,7 +236,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage et performance technique. Les fondations d\'un référencement durable et robuste.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -244,7 +244,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité. Une stratégie éthique et efficace.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Une stratégie sur mesure, sans spam ni réseaux de liens douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -252,7 +252,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Rédaction SEO et GEO-ready. Du contenu qui performe et qui convertit votre audience.',
+      description: 'Contenus optimisés SEO et GEO-ready, conçus pour se positionner sur Google et être cités par les IA. Du contenu qui convertit, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -358,9 +358,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'What is said about your brand will matter as much as—or more than—where your brand ranks.',
+  author: 'Barry Schwartz',
+  role: 'Founder Search Engine Roundtable',
 };
 
 // ============================================
@@ -375,32 +375,37 @@ export const faqData = {
     {
       id: '1',
       question: 'Travaillez-vous avec des entreprises à Annecy ?',
-      answer: 'Absolument. Nous accompagnons des entreprises annéciennes avec le même niveau d\'exigence que nos clients parisiens. Visios, Rankwell One, consultant dédié.',
+      answer: 'Oui, nous accompagnons des entreprises annéciennes depuis plusieurs années. La collaboration se fait via des visioconférences régulières, un accès permanent à notre plateforme Rankwell One pour suivre vos performances en temps réel, et un consultant senior dédié joignable par email ou téléphone. La distance n\'est jamais un frein à la qualité de l\'accompagnement.',
     },
     {
       id: '2',
       question: 'Quels secteurs accompagnez-vous à Annecy ?',
-      answer: 'Outdoor, tourisme, services, industrie : tous les secteurs. Notre expertise Search s\'adapte à votre contexte, pas l\'inverse.',
+      answer: 'Nous travaillons avec des entreprises de tous secteurs présents dans le bassin annécien : outdoor et équipements sportifs, tourisme et hôtellerie, mécatronique et industrie, services professionnels, numérique et industries créatives. Le dénominateur commun de nos clients : ils veulent générer du business via le Search, pas simplement du trafic.',
     },
     {
       id: '3',
-      question: 'La collaboration à distance fonctionne-t-elle vraiment ?',
-      answer: 'Oui. Visioconférences régulières, outils partagés, accès temps réel à vos données. Un consultant senior reste votre point de contact privilégié.',
+      question: 'La collaboration à distance est-elle aussi efficace qu\'en présentiel ?',
+      answer: 'Plus de 80 % de nos clients sont en dehors de Paris, et notre méthodologie est conçue pour la distance. Visioconférences de suivi régulières, outils de travail partagés, accès temps réel aux données via Rankwell One. Votre consultant senior reste votre interlocuteur unique. Nos résultats le prouvent : la proximité géographique n\'est pas un facteur de performance.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO exactement ?',
-      answer: 'L\'optimisation pour les moteurs IA : ChatGPT, Perplexity, Google AI Overviews. Être cité comme source fiable quand ces IA répondent à des questions.',
+      question: 'Qu\'est-ce que le GEO et pourquoi c\'est important ?',
+      answer: 'Le GEO (Generative Engine Optimization) est l\'optimisation de vos contenus pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités quand ces IA répondent à des questions liées à votre expertise. C\'est un complément essentiel au SEO classique, car ces IA captent une part croissante des recherches B2B et B2C.',
     },
     {
       id: '5',
-      question: 'Quels sont vos tarifs ?',
-      answer: 'Dépendent de vos objectifs et de la concurrence dans votre secteur. Premier échange gratuit pour cadrer le projet et donner une estimation.',
+      question: 'Quels sont vos tarifs pour une entreprise annécienne ?',
+      answer: 'Les tarifs dépendent de vos objectifs, de votre secteur d\'activité et du niveau de concurrence sur vos requêtes cibles. Nous proposons des forfaits mensuels ou des missions ponctuelles (audit, refonte). Le plus simple : un premier échange gratuit de 30 minutes pour comprendre votre situation et vous donner une estimation réaliste. Pas de mauvaise surprise ensuite.',
     },
     {
       id: '6',
-      question: 'Combien de temps pour voir des résultats ?',
-      answer: 'SEO/GEO : 3 à 6 mois selon le contexte. SEA : quelques semaines. On pose des attentes réalistes dès le départ.',
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer: 'En SEO et GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et la concurrence dans votre secteur. Les actions SEA (publicité Google Ads) produisent des résultats en quelques semaines. Nous posons des projections honnêtes dès le départ pour que vous sachiez exactement à quoi vous attendre.',
+    },
+    {
+      id: '7',
+      question: 'Pourquoi choisir une agence nationale plutôt qu\'une agence locale à Annecy ?',
+      answer: 'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise technique, la méthodologie éprouvée et les résultats concrets. Rankwell accompagne plus de 350 entreprises en France depuis 2017, avec une approche GEO que peu d\'agences locales maîtrisent. Notre plateforme Rankwell One assure une transparence totale, quelle que soit la distance.',
     },
   ],
 };

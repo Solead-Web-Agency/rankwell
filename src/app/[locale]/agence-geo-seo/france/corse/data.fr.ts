@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO en Corse | Rankwell',
+  title: 'Agence GEO & SEO en Corse - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO en Corse. Optimisez votre visibilité sur Google et les moteurs IA d\'Ajaccio à Bastia, de Porto-Vecchio à Calvi.',
 };
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs alimentés par l\'IA. Quand un voyageur demande à ChatGPT "meilleur hôtel à Porto-Vecchio", le GEO assure que votre établissement soit mentionné.',
+        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs alimentés par l\'IA. Quand un voyageur demande à ChatGPT « meilleur hôtel à Porto-Vecchio » ou à Perplexity « où randonner en Corse du Sud », le GEO garantit que votre établissement soit cité dans la réponse, pas noyé dans une liste de liens.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi c\'est essentiel en Corse ?',
       description:
-        'Avec 3 millions de touristes par an, la Corse voit ses visiteurs planifier massivement via l\'IA. Les moteurs génératifs recommandent directement hébergements, restaurants et activités.',
+        'Le tourisme génère 3,5 milliards d\'euros par an et représente 39 % du PIB insulaire. En 2024, la fréquentation a bondi de 6,7 % avec 9,9 millions de nuitées enregistrées. Les visiteurs planifient de plus en plus leurs séjours via les assistants IA — être recommandé directement par ces moteurs, c\'est capter cette clientèle avant vos concurrents.',
     },
     {
       icon: 'BarChart3',
       title: 'SEO + GEO = couverture maximale',
       description:
-        'Le SEO vous positionne sur Google, le GEO vous fait recommander par l\'IA. En combinant ces deux approches, vous captez l\'ensemble des canaux de recherche utilisés par vos clients.',
+        'Le SEO vous positionne dans les résultats Google classiques, le GEO vous fait recommander dans les réponses conversationnelles des IA. En combinant ces deux approches, vous captez l\'ensemble des canaux de recherche utilisés par vos clients — ceux qui tapent « camping Corse » sur Google comme ceux qui demandent des recommandations à ChatGPT.',
     },
     {
       icon: 'Lightbulb',
-      title: 'Contenu adapté au tourisme insulaire',
+      title: 'Contenu ancré dans le territoire',
       description:
-        'L\'IA privilégie le contenu expert et contextualisé. Nos équipes créent des contenus qui reflètent l\'authenticité corse et répondent aux attentes des visiteurs.',
+        'Les moteurs IA privilégient le contenu expert et contextualisé localement. Nous créons des contenus qui reflètent l\'authenticité corse — terroir, savoir-faire artisanal, géographie singulière — et structurés pour être facilement extractibles et cités par les algorithmes de génération de réponses.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'La Corse accueille plus de 3 millions de visiteurs par an, générant 2,7 milliards d\'euros de recettes touristiques. Le digital est devenu incontournable pour capter cette clientèle.',
+  label: 'L\'économie corse en chiffres',
+  text: 'Le tourisme pèse 3,5 milliards d\'euros par an, soit 39 % du PIB insulaire. La Corse compte plus de 18 000 établissements actifs et 120 000 salariés — 95 % sont des micro-entreprises et PME. Dans un tissu économique aussi dense, la visibilité digitale est devenue le premier levier de différenciation, de la haute saison estivale au reste de l\'année.',
   icon: 'TrendingUp' as const,
 };
 
@@ -155,25 +155,25 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché insulaire',
       description:
-        'Étude de votre positionnement face aux concurrents locaux, analyse des requêtes spécifiques (Corse-du-Sud, Haute-Corse) et identification des opportunités saisonnières.',
+        'Étude approfondie de votre positionnement face aux concurrents locaux et nationaux. Analyse des requêtes spécifiques par micro-région (Corse-du-Sud, Haute-Corse, Balagne, extrême sud) et cartographie des opportunités saisonnières pour anticiper les pics de recherche.',
     },
     {
       icon: 'FileText',
       title: 'Contenu à forte valeur touristique',
       description:
-        'Création de contenus valorisant l\'authenticité corse et votre expertise métier. Articles de fond, guides locaux et landing pages optimisées pour le référencement insulaire.',
+        'Création de contenus valorisant l\'authenticité corse et votre expertise métier. Articles de fond, guides locaux, landing pages multi-destinations — chaque contenu est structuré pour être citation-ready et repris par les moteurs IA lorsqu\'un voyageur planifie son séjour sur l\'île.',
     },
     {
       icon: 'Settings',
       title: 'Optimisation technique rigoureuse',
       description:
-        'Performance mobile prioritaire, données structurées Schema.org, vitesse de chargement optimale et architecture de site pensée pour le SEO local multi-destinations.',
+        'Performance mobile prioritaire (80 % des recherches touristiques se font sur smartphone), données structurées Schema.org pour les établissements et activités, vitesse de chargement optimale et architecture de site pensée pour le SEO local multi-destinations insulaires.',
     },
     {
       icon: 'Award',
       title: 'Renforcement de l\'autorité territoriale',
       description:
-        'Stratégie de netlinking avec des médias régionaux, partenariats avec des offices de tourisme et développement de votre présence sur les annuaires corses.',
+        'Stratégie de netlinking ciblée avec des médias régionaux (Corse Matin, France 3 Corse), partenariats avec les offices de tourisme d\'Ajaccio, Bastia et Porto-Vecchio, et développement de votre présence sur les plateformes et annuaires de référence en Corse.',
     },
   ],
 };
@@ -190,28 +190,24 @@ export const pourQuiData = {
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie & Hébergement',
+      label: 'Vous voulez capter la clientèle touristique en ligne',
       description:
-        'Hôtels, résidences de tourisme, campings et locations saisonnières sur toute l\'île.',
+        'Votre établissement ou activité dépend du flux saisonnier. Vous cherchez à maximiser les réservations directes et réduire votre dépendance aux plateformes intermédiaires comme Booking ou TripAdvisor grâce à un référencement performant.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Restauration & Terroir',
+      label: 'Vous préparez la saison suivante',
       description:
-        'Restaurants, producteurs locaux et acteurs de l\'agrotourisme valorisant les produits corses.',
+        'Le SEO se travaille en amont. Vous souhaitez anticiper la haute saison en construisant dès maintenant une visibilité durable sur les requêtes touristiques liées à la Corse, de la Balagne à l\'extrême sud.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Activités & Loisirs',
+      label: 'Hôtellerie, restauration et activités de plein air',
       description:
-        'Prestataires nautiques, randonnées, excursions et activités de plein air.',
+        'Hôtels, résidences, campings, restaurants, prestataires nautiques ou de randonnée : vous opérez dans les secteurs clés du tourisme corse et la concurrence digitale y est intense, notamment sur les requêtes localisées.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Services',
+      label: 'Artisanat, terroir et services insulaires',
       description:
-        'Agences immobilières, conciergeries et prestataires de services aux visiteurs.',
+        'Producteurs locaux, artisans, agences immobilières, conciergeries : l\'économie corse repose sur 95 % de micro-entreprises. Le référencement est votre meilleur levier pour vous démarquer sans budget publicitaire massif.',
     },
   ],
   ctaTitle: 'Votre secteur ne figure pas dans cette liste ?',
@@ -234,7 +230,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel adapté au contexte insulaire. On identifie les freins à votre visibilité et les opportunités face aux concurrents locaux et nationaux.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +238,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture multi-destinations, balisage structuré et performance mobile. Les fondations d\'un référencement solide pour chaque micro-région corse.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +246,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs auprès de médias régionaux et d\'acteurs du tourisme. Une stratégie de netlinking sur mesure pour renforcer votre autorité territoriale en Corse.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +254,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, ancrés dans le territoire corse. Du contenu expert qui se positionne sur Google et qui est repris par les moteurs IA.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '340K', label: 'Habitants en Corse' },
-    { value: '3M', label: 'Visiteurs par an' },
-    { value: '2.7Md', label: 'Euros de recettes touristiques' },
-    { value: '40%', label: 'Utiliseront l\'IA d\'ici 2026' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'IA bouleverse la façon dont les touristes planifient leurs séjours en Corse. Se préparer maintenant au GEO, c\'est prendre une longueur d\'avance sur un marché ultra-concurrentiel.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'You need to show that you really have something that\'s unique and compelling and of high quality.',
+  author: 'John Mueller',
+  role: 'Search Advocate, Google',
 };
 
 // ============================================
@@ -360,32 +380,42 @@ export const faqData = {
     {
       question: 'Pourquoi investir dans le SEO et le GEO en Corse ?',
       answer:
-        'Le tourisme corse est ultra-concurrentiel. SEO et GEO vous permettent de capter efficacement une clientèle internationale qui planifie ses séjours en ligne et via l\'IA.',
+        'Le tourisme représente 39 % du PIB corse et la concurrence digitale est féroce entre acteurs locaux et plateformes nationales. SEO et GEO vous permettent de capter directement la clientèle qui planifie ses séjours en ligne ou via les assistants IA comme ChatGPT et Perplexity. Chaque réservation directe gagnée réduit votre dépendance aux intermédiaires qui prennent 15 à 25 % de commission.',
     },
     {
       question: 'En combien de temps puis-je voir des résultats ?',
       answer:
-        'Le SEO produit généralement ses premiers effets en 3 à 6 mois. Le GEO peut montrer des résultats plus rapides sur certaines requêtes. Nous établissons des indicateurs de progression dès le premier mois.',
+        'Le SEO produit généralement ses premiers effets significatifs en 3 à 6 mois, selon votre point de départ et le niveau de concurrence sur vos requêtes cibles. Le GEO peut montrer des résultats plus rapides car les moteurs IA valorisent la qualité du contenu davantage que l\'ancienneté du domaine. Nous établissons des indicateurs de progression dès le premier mois et partageons les données en temps réel via Rankwell One.',
     },
     {
       question: 'Travaillez-vous avec des entreprises de toute l\'île ?',
       answer:
-        'Oui, nous accompagnons des entreprises d\'Ajaccio, Bastia, Porto-Vecchio, Calvi, Bonifacio, Corte et au-delà. Notre expertise couvre l\'ensemble du territoire corse.',
+        'Oui, nous accompagnons des entreprises basées à Ajaccio, Bastia, Porto-Vecchio, Calvi, Bonifacio, Corte et dans les zones rurales de l\'intérieur. Notre collaboration fonctionne à distance avec des visioconférences régulières, un consultant senior dédié et un accès permanent à Rankwell One pour suivre vos résultats. La proximité géographique n\'est pas un critère de qualité — l\'expertise l\'est.',
     },
     {
       question: 'Le GEO remplace-t-il le SEO traditionnel ?',
       answer:
-        'Non, le GEO complète le SEO. Google reste dominant, mais les recherches via l\'IA progressent rapidement. Une stratégie complète intègre les deux approches.',
+        'Non, le GEO vient compléter le SEO. Google reste le moteur dominant pour les recherches touristiques en Corse, mais de plus en plus de voyageurs utilisent ChatGPT ou Perplexity pour planifier leur séjour. Une stratégie complète intègre les deux approches : le SEO pour capter le trafic Google, le GEO pour être cité dans les réponses IA quand un touriste demande « où loger en Corse du Sud cet été ».',
     },
     {
       question: 'Comment gérez-vous la saisonnalité du tourisme corse ?',
       answer:
-        'Nous adaptons nos stratégies au calendrier touristique : préparation en basse saison, montée en puissance au printemps et optimisation continue pendant la haute saison.',
+        'La saisonnalité est au cœur de notre méthodologie pour les entreprises insulaires. En basse saison, on prépare les fondations : audit, optimisation technique, création de contenus. Au printemps, on intensifie la publication de contenus saisonniers. Pendant la haute saison, on optimise en continu et on mesure les performances réelles. L\'objectif est aussi d\'étendre la visibilité sur les requêtes hors saison pour lisser votre activité.',
     },
     {
       question: 'Proposez-vous des services multilingues ?',
       answer:
-        'Oui, nous optimisons votre présence pour les marchés français, mais aussi italien, allemand et anglais, essentiels pour le tourisme corse.',
+        'Oui, le tourisme corse attire des visiteurs français, italiens, allemands et britanniques principalement. Nous optimisons votre présence pour le marché français en priorité, avec des extensions en anglais, italien et allemand selon la provenance de votre clientèle. Le SEO multilingue est essentiel pour capter les touristes étrangers dès la phase de planification du séjour.',
+    },
+    {
+      question: 'Quels sont vos tarifs pour une entreprise corse ?',
+      answer:
+        'Les tarifs dépendent de vos objectifs, votre secteur et le niveau de concurrence sur vos requêtes cibles. Nous travaillons sur des forfaits mensuels ou des projets ponctuels comme un audit. Le plus simple est un premier échange de 30 minutes pour comprendre votre situation et vous donner une estimation réaliste. Pas de surprise — la transparence fait partie de notre méthodologie.',
+    },
+    {
+      question: 'Qu\'est-ce que le GEO exactement ?',
+      answer:
+        'Le GEO (Generative Engine Optimization) est l\'optimisation de vos contenus pour être cités par les moteurs IA — ChatGPT, Perplexity, Google AI Overviews. Quand un voyageur demande à une IA « quel est le meilleur restaurant de fruits de mer à Ajaccio », le GEO fait en sorte que votre établissement apparaisse dans la réponse générée. C\'est le prolongement naturel du SEO à l\'ère de l\'intelligence artificielle.',
     },
   ],
 };

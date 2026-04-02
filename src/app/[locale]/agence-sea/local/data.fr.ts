@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Vos clients cherchent "près de chez moi". Les campagnes locales Google Ads vous positionnent au moment précis où ils ont besoin de vous. Notre agence maximise votre visibilité là où ça compte.',
   ctaText: 'Parler de votre visibilité locale',
   ctaHref: '/contact',
+  image: '/images/pages/agence-sea/local/hero.webp',
+  imageAlt: 'Publicité locale Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 

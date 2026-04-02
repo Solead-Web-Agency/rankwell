@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises quimpéroises | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises quimpéroises - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Quimper. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'Link building for local SEO is almost entirely different from traditional link building. To get strong local links, you just have to do old-school marketing.',
+  author: 'Greg Gifford',
+  role: 'COO, SearchLab Digital',
 };
 
 // ============================================

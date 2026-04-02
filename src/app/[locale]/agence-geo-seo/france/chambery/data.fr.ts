@@ -9,7 +9,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO à Chambéry | Rankwell',
+  title: 'Agence GEO et SEO à Chambéry - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Chambéry. Référencement Google et optimisation pour les moteurs IA. Collaboration à distance efficace. Résultats mesurables.',
 };
@@ -112,22 +112,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'GEO signifie Generative Engine Optimization. L\'objectif : optimiser vos contenus pour qu\'ils soient cités par ChatGPT, Perplexity ou les AI Overviews de Google.',
+      desc: 'GEO signifie Generative Engine Optimization. Il s\'agit d\'optimiser vos contenus pour qu\'ils soient sélectionnés et cités par les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. L\'objectif dépasse le simple classement Google : il faut devenir la source que l\'IA recommande.',
     },
     {
       id: 2,
       title: 'Contenus citation-ready',
-      desc: 'Les IA extraient des passages précis. Structurer vos contenus avec des définitions claires et des données sourcées maximise vos chances d\'être cité.',
+      desc: 'Les IA extraient des passages précis pour construire leurs réponses. Structurer vos pages avec des définitions explicites, des listes ordonnées et des données vérifiables maximise vos chances d\'être sélectionné et reformulé par les modèles de langage.',
     },
     {
       id: 3,
       title: 'Autorité thématique',
-      desc: 'Les LLMs évaluent votre légitimité globale sur un sujet. Un corpus de contenus cohérent renforce cette perception.',
+      desc: 'Les LLMs évaluent votre légitimité globale sur un domaine, pas seulement page par page. Un corpus de contenus cohérent, couvrant les différentes facettes de votre expertise, renforce cette perception d\'autorité auprès des algorithmes.',
     },
     {
       id: 4,
       title: 'Réseau de mentions',
-      desc: 'Les IA recoupent les sources. Être mentionné sur des sites de référence augmente votre crédibilité algorithmique.',
+      desc: 'Les IA recoupent les informations entre plusieurs sources pour vérifier leur fiabilité. Être mentionné sur des sites de référence dans votre secteur — presse spécialisée, annuaires professionnels, études — augmente significativement votre crédibilité algorithmique.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT VILLE
 // ============================================
 export const calloutData = {
-  label: 'Chambéry en chiffres',
-  text: 'Avec près de 60 000 habitants et une position stratégique aux portes des Alpes, Chambéry est un carrefour économique entre Lyon, Grenoble et l\'Italie. Tourisme, industrie, services : les opportunités digitales sont réelles.',
+  label: 'Le contexte économique chambérien',
+  text: 'Chambéry et son agglomération Grand Chambéry rassemblent plus de 130 000 habitants, avec une aire urbaine de 216 000 personnes. Savoie Technolac, le technopôle du territoire, accueille 230 entreprises, 3 500 salariés et 5 000 étudiants. Les filières d\'excellence — énergies intelligentes, numérique, outdoor et ingénierie de montagne — font de ce carrefour entre Lyon, Grenoble et l\'Italie un pôle économique en croissance.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,28 +156,28 @@ export const approcheData = {
       icon: 'Target',
       title: 'On mesure ce qui compte',
       description:
-        'Pas les positions, mais les résultats business : leads, ventes, coût d\'acquisition. Ce qui impacte votre chiffre d\'affaires.',
+        'Les positions Google sont un indicateur, pas une fin en soi. On pilote par les leads qualifiés générés, les ventes attribuées au canal Search et le coût d\'acquisition réel. C\'est l\'impact sur votre activité qui détermine le succès de la mission.',
     },
     {
       id: 2,
       icon: 'MessageCircle',
       title: 'On challenge vos objectifs',
       description:
-        'Si la direction choisie nous semble hasardeuse, on le dit. Un partenaire honnête vaut mieux qu\'un prestataire complaisant.',
+        'Si la direction choisie nous semble risquée ou inadaptée à votre marché, on vous le dit clairement. Un partenaire honnête qui challenge vos hypothèses a plus de valeur qu\'un prestataire qui valide tout sans réfléchir.',
     },
     {
       id: 3,
       icon: 'UserCheck',
       title: 'Un consultant senior dédié',
       description:
-        'La même personne conçoit et déploie votre stratégie. Un seul interlocuteur, une vraie connaissance de votre dossier.',
+        'La même personne conçoit et déploie votre stratégie Search. Un seul interlocuteur qui connaît votre dossier en profondeur, votre marché et vos contraintes. Pas de turnover, pas de perte d\'information.',
     },
     {
       id: 4,
       icon: 'ChartLine',
       title: 'Transparence via Rankwell One',
       description:
-        'Performances Search et métriques business réunies sur une plateforme accessible en temps réel.',
+        'Notre plateforme réunit vos performances Search et vos métriques business dans un même tableau de bord, accessible en temps réel. Vous voyez exactement ce qui progresse et ce qui reste à optimiser.',
     },
   ],
 };
@@ -194,19 +194,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Votre présence en ligne ne génère pas assez de business. Vous cherchez une approche structurée.',
+      description: 'Votre présence en ligne existe mais ne génère pas assez de business. Vous cherchez un partenaire expérimenté pour bâtir une stratégie Search structurée, avec des objectifs clairs et des résultats mesurables.',
     },
     {
       label: 'Vous cherchez une expertise GEO',
-      description: 'Les IA bouleversent la recherche. Vous voulez un partenaire qui maîtrise ces nouveaux territoires.',
+      description: 'Les IA conversationnelles bouleversent les habitudes de recherche de vos clients et prospects. Vous voulez un partenaire qui maîtrise ces nouveaux territoires et peut vous y positionner dès maintenant.',
     },
     {
-      label: 'Vous préparez une refonte',
-      description: 'Intégrer SEO et GEO dès la conception évite les correctifs après coup.',
+      label: 'Acteurs du tourisme et de la montagne en Savoie',
+      description: 'Hébergeurs, stations, prestataires d\'activités, commerces de montagne : la saisonnalité impose une stratégie Search anticipée. Être visible au bon moment sur les requêtes touristiques et locales génère des réservations directes.',
     },
     {
-      label: 'Vous voulez comprendre ce qui bloque',
-      description: 'Votre référencement stagne. Un regard externe peut débloquer la situation.',
+      label: 'Entreprises du technopôle et de l\'innovation',
+      description: 'Startups de Savoie Technolac, bureaux d\'études, sociétés d\'ingénierie : votre expertise technique mérite une visibilité à la hauteur. Le SEO et le GEO positionnent votre savoir-faire devant les décideurs qui cherchent des solutions.',
     },
   ],
   ctaTitle: 'Point de vigilance',
@@ -228,7 +228,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Examen technique, sémantique et concurrentiel de votre site. Un diagnostic actionnable pour orienter votre stratégie.',
+      description: 'Examen technique, sémantique et concurrentiel approfondi de votre site. Un diagnostic actionnable avec des priorités classées par impact pour orienter votre stratégie.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -236,7 +236,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site méthodique : structure de pages, balises, liens internes et rapidité de chargement au service du référencement.',
+      description: 'Optimisation on-site méthodique : structure de pages, maillage interne, balisage structuré et performance technique. Les fondations indispensables d\'un référencement pérenne.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -244,7 +244,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Création d\'un profil de liens entrants robuste. Approche qualitative, partenariats pertinents, sans techniques black-hat.',
+      description: 'Construction d\'un profil de liens entrants solide et cohérent. Approche qualitative avec des partenariats pertinents dans votre secteur, sans techniques black-hat.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -252,7 +252,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus SEO et GEO-ready, rédigés pour répondre aux requêtes utilisateurs et favoriser les conversions.',
+      description: 'Contenus optimisés SEO et GEO-ready, rédigés pour répondre aux requêtes de vos cibles et maximiser les conversions. Des textes utiles qui performent, pas du remplissage.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -358,9 +358,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'The bar for content quality has risen. Merely good content is no longer sufficient—you need to create unique and engaging content that offers value beyond what AI can produce.',
+  author: 'Cyrus Shepard',
+  role: 'Founder Zyppy SEO',
 };
 
 // ============================================
@@ -375,32 +375,37 @@ export const faqData = {
     {
       id: '1',
       question: 'Travaillez-vous avec des entreprises à Chambéry ?',
-      answer: 'Oui. Nous accompagnons des entreprises chambériennes avec la même rigueur que nos clients des grandes métropoles. Visios, Rankwell One, consultant senior dédié.',
+      answer: 'Absolument. Nous accompagnons des entreprises chambériennes avec la même rigueur et le même engagement que nos clients des grandes métropoles. Visioconférences de suivi planifiées, accès à la plateforme Rankwell One, consultant senior dédié qui connaît votre dossier. Notre méthodologie est pensée pour fonctionner parfaitement à distance.',
     },
     {
       id: '2',
-      question: 'Quels secteurs accompagnez-vous à Chambéry ?',
-      answer: 'Tourisme, industrie, services, commerce : tous les secteurs. Notre approche s\'adapte à votre contexte spécifique.',
+      question: 'Quels secteurs accompagnez-vous dans le bassin chambérien ?',
+      answer: 'Tourisme et montagne, énergies renouvelables, ingénierie, numérique, commerce et services : nous travaillons avec tous les secteurs représentés sur le territoire de Grand Chambéry. Notre expertise Search s\'adapte à votre contexte métier et à votre environnement concurrentiel spécifique.',
     },
     {
       id: '3',
-      question: 'Comment fonctionne la collaboration à distance ?',
-      answer: 'Visios régulières, outils de travail partagés, accès temps réel aux données via Rankwell One. Votre consultant senior reste joignable et réactif.',
+      question: 'Comment fonctionne concrètement la collaboration à distance ?',
+      answer: 'Visioconférences de suivi à fréquence définie ensemble, outils de travail partagés pour la gestion des contenus et des actions, et accès temps réel à toutes vos données de performance via Rankwell One. Votre consultant senior reste joignable par email et téléphone. La majorité de nos 350+ clients fonctionnent ainsi avec succès.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO exactement ?',
-      answer: 'L\'optimisation pour les moteurs IA (ChatGPT, Perplexity, AI Overviews). Être cité comme source fiable quand les IA répondent à des questions de votre domaine.',
+      question: 'En quoi le GEO est-il différent du SEO classique ?',
+      answer: 'Le SEO vise les résultats classiques de Google (les 10 liens bleus). Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. Ces deux disciplines sont complémentaires et nous les intégrons systématiquement dans nos stratégies.',
     },
     {
       id: '5',
-      question: 'Quels sont vos tarifs ?',
-      answer: 'Ils varient selon vos objectifs et votre environnement concurrentiel. Premier échange gratuit pour évaluer et proposer une estimation.',
+      question: 'Quels sont vos tarifs pour une entreprise chambérienne ?',
+      answer: 'Les tarifs varient selon l\'ampleur de vos objectifs, la taille de votre site et le niveau de concurrence sur vos mots-clés cibles. Nous proposons des accompagnements mensuels et des missions ponctuelles. Le premier échange de 30 minutes est gratuit et sans engagement : il nous permet d\'évaluer votre situation et de vous proposer un budget réaliste.',
     },
     {
       id: '6',
-      question: 'Combien de temps pour voir des résultats ?',
-      answer: 'En SEO/GEO, 3 à 6 mois pour des résultats significatifs. En SEA, quelques semaines. On fixe des attentes réalistes dès le départ.',
+      question: 'Combien de temps avant de constater des résultats concrets ?',
+      answer: 'En SEO et GEO, comptez entre 3 et 6 mois pour observer des résultats significatifs, selon votre point de départ et l\'intensité concurrentielle de votre marché. Les campagnes SEA (Google Ads) produisent des résultats dès les premières semaines. Nous fixons des jalons intermédiaires clairs pour mesurer la progression.',
+    },
+    {
+      id: '7',
+      question: 'Avez-vous de l\'expérience avec les entreprises du technopôle Savoie Technolac ?',
+      answer: 'Notre expertise s\'adapte parfaitement aux entreprises tech et innovantes. Startups, bureaux d\'études, sociétés d\'ingénierie : nous comprenons les cycles de vente B2B longs et les requêtes techniques sur lesquelles il faut se positionner. Le GEO est particulièrement pertinent pour ces structures, car les décideurs utilisent de plus en plus les IA pour identifier des fournisseurs.',
     },
   ],
 };

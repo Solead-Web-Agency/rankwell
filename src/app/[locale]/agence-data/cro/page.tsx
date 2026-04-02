@@ -120,6 +120,8 @@ export default async function CroPage({ params }: PageProps) {
         description={heroData.description}
         ctaText={heroData.ctaText}
         ctaHref={heroData.ctaHref}
+        image={heroData.image}
+        imageAlt={heroData.imageAlt}
         accentColor={heroData.accentColor}
         locale={locale as Locale}
       />

@@ -27,6 +27,8 @@ export const heroData = {
   description: 'Google Ads doesn\'t optimize itself. Our Google Ads experts take the controls, adjust continuously, you collect the conversions.',
   ctaText: 'Entrust campaign management to us',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-sea/accompagnement/hero.webp',
+  imageAlt: 'Google Ads Management Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -272,21 +274,21 @@ export const formulesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/accompagnement/formule-gestion-complete.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-gestion-complete.webp',
       alt: 'Complete Google Ads management',
       title: 'Complete management',
       desc: 'We handle everything. You give us your objectives and budget, we take care of the rest. You receive reports and validate strategic directions.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/accompagnement/formule-co-pilotage.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-co-pilotage.webp',
       alt: 'Google Ads co-management',
       title: 'Co-management',
       desc: 'You have a team managing day-to-day, we provide support: regular audits, recommendations, training, validation of major decisions.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/accompagnement/formule-conseil-ponctuel.webp',
+      image: '/images/pages/agence-sea/accompagnement/formule-conseil-ponctuel.webp',
       alt: 'Occasional Google Ads consulting',
       title: 'Occasional consulting',
       desc: 'You\'re autonomous but need expert insight from time to time. We intervene on demand for audits or specific issues.',

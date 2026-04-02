@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'SEO and GEO Agency in Dubai for the MENA Market | Rankwell',
+  title: 'SEO and GEO Agency in Dubai for the MENA Market - Rankwell',
   description:
     'SEO and GEO agency based in Dubai. Optimization for Google and AI-powered search engines in the MENA market. Dubai office, business-centric approach.',
 };

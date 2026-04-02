@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises à Deauville | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises à Deauville - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Deauville et la Côte Fleurie. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'People will only be honest when they search. That is what companies have to understand and embrace and be attentive to what people are searching.',
+  author: 'Olga Andrienko',
+  role: 'VP of Brand Marketing, Semrush',
 };
 
 // ============================================

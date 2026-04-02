@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Poitiers | Rankwell',
+  title: 'Agence GEO & SEO à Poitiers - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Poitiers. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché poitevin et régional.',
 };
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs alimentés par l\'IA. Quand quelqu\'un demande à ChatGPT "que visiter à Poitiers", le GEO assure que votre site ou activité soit recommandé.',
+        'Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Quand un visiteur demande à une IA « où dormir près du Futuroscope » ou « quel prestataire B2B à Poitiers », le GEO garantit que votre entreprise est mentionnée dans la réponse.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi le GEO compte à Poitiers ?',
       description:
-        'Avec le Futuroscope et 28 000 étudiants, Poitiers voit ses visiteurs et sa population jeune utiliser massivement l\'IA pour trouver informations et services.',
+        'Grand Poitiers accueille 27 000 étudiants et le Futuroscope draine près de 2 millions de visiteurs par an. Cette population jeune et ces touristes connectés utilisent massivement les assistants IA pour trouver informations, services et recommandations. Ne pas être visible dans ces réponses, c\'est perdre des clients.',
     },
     {
       icon: 'BarChart3',
       title: 'Synergie SEO + GEO',
       description:
-        'Le SEO garantit vos positions sur Google, le GEO vous fait recommander par l\'IA. En associant ces deux approches, vous captez l\'ensemble des flux de recherche.',
+        'Le SEO positionne votre site dans les résultats Google classiques. Le GEO fait en sorte que les IA vous recommandent. En combinant les deux, vous captez l\'intégralité des flux de recherche, qu\'ils passent par un moteur traditionnel ou par un assistant conversationnel.',
     },
     {
       icon: 'Lightbulb',
-      title: 'Contenu adapté au territoire',
+      title: 'Contenu expert et contextualisé',
       description:
-        'Les moteurs génératifs favorisent le contenu expert et contextualisé. Nos équipes produisent des contenus valorisant le patrimoine et l\'innovation poitevine.',
+        'Les modèles de langage privilégient les contenus qui démontrent une expertise réelle et un ancrage local. Nos équipes produisent des contenus qui valorisent le patrimoine roman de Poitiers, l\'innovation du technopôle et le savoir-faire de vos équipes, dans un format optimisé pour la citation par les IA.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Le Futuroscope attire près de 2 millions de visiteurs par an, faisant de Poitiers l\'une des principales destinations touristiques du Centre-Ouest.',
+  label: 'Le contexte économique poitevin',
+  text: 'Grand Poitiers est le deuxième pôle d\'enseignement supérieur de Nouvelle-Aquitaine avec 27 000 étudiants, 36 laboratoires de recherche et plus de 1 300 chercheurs. Le technopôle du Futuroscope accueille 250 établissements et 7 500 salariés, tandis que le parc attire près de 2 millions de visiteurs chaque année. Un bassin économique où la visibilité digitale conditionne la captation de ces flux.',
   icon: 'TrendingUp' as const,
 };
 
@@ -155,25 +155,25 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché poitevin',
       description:
-        'Cartographie de la concurrence locale, identification des requêtes propres à Poitiers et sa région, détection des opportunités.',
+        'Cartographie détaillée de la concurrence locale et régionale, identification des requêtes spécifiques au bassin poitevin et détection des opportunités inexploitées. On évalue votre positionnement actuel sur Google et dans les réponses des moteurs IA pour établir un diagnostic précis.',
     },
     {
       icon: 'FileText',
       title: 'Contenu ancré dans le territoire',
       description:
-        'Production de contenus valorisant le patrimoine poitevin, l\'innovation et l\'expertise de votre entreprise.',
+        'Production de contenus qui valorisent votre expertise et votre ancrage poitevin. Chaque texte est structuré pour ranker sur Google et être cité par les IA : données vérifiables, passages facilement extractibles et démonstration d\'autorité thématique sur votre secteur d\'activité.',
     },
     {
       icon: 'Settings',
       title: 'Excellence technique',
       description:
-        'Optimisation des performances, données structurées Schema.org et expérience mobile irréprochable.',
+        'Optimisation des temps de chargement, balisage Schema.org complet, architecture de site logique et expérience mobile sans friction. Le socle technique conditionne aussi bien votre positionnement Google que la capacité des IA à extraire et reformuler vos informations.',
     },
     {
       icon: 'Award',
       title: 'Autorité locale renforcée',
       description:
-        'Développement de liens depuis des sites poitevins reconnus et partenariats avec des acteurs locaux.',
+        'Construction d\'un réseau de liens et de mentions depuis des sources poitevines reconnues : presse locale, annuaires professionnels, sites institutionnels du Grand Poitiers. Ces signaux de confiance renforcent votre crédibilité auprès de Google et des moteurs IA.',
     },
   ],
 };
@@ -184,40 +184,32 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises poitevines accompagnées',
+  title: 'Est-ce pertinent pour votre entreprise poitevine ?',
   subtitle:
-    'Nous aidons les acteurs économiques de Poitiers à conquérir leur visibilité digitale',
+    'Notre expertise s\'adresse à des profils variés d\'entreprises. Voici les situations où notre accompagnement SEO et GEO génère un impact concret.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Tourisme & Culture',
-      description:
-        'Hôtels, restaurants, sites touristiques et prestataires culturels liés au Futuroscope et au patrimoine.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site web ne convertit pas suffisamment. Vous cherchez un partenaire capable de construire une stratégie Search complète — SEO et GEO — qui transforme le trafic en leads qualifiés et en ventes, avec des indicateurs de performance clairs et un suivi rigoureux.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Artisanat',
-      description:
-        'Commerces du centre-ville, boutiques de quartier et artisans locaux.',
+      label: 'Vous voulez comprendre pourquoi votre SEO stagne',
+      description: 'Malgré vos efforts ou ceux de votre prestataire actuel, vos positions Google n\'évoluent plus. Vous avez besoin d\'un audit objectif qui identifie les vrais blocages, hiérarchise les priorités d\'action et intègre les enjeux GEO que votre stratégie actuelle ignore probablement.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services professionnels',
-      description:
-        'Avocats, experts-comptables, consultants et prestataires B2B de la Vienne.',
+      label: 'Acteurs du tourisme liés au Futuroscope et au patrimoine poitevin',
+      description: 'Hôtels, restaurants, sites culturels et prestataires touristiques de la Vienne : le Futuroscope draine 2 millions de visiteurs par an. Quand un touriste demande à une IA « où dormir près du Futuroscope » ou « que visiter à Poitiers », le GEO garantit que votre établissement figure dans la réponse.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Services',
-      description:
-        'Agences immobilières et prestataires de services aux particuliers et entreprises.',
+      label: 'Start-ups et entreprises tech du technopôle du Futuroscope',
+      description: 'Le technopôle concentre 250 établissements et 7 500 salariés dans l\'innovation, le numérique et la recherche. Dans cet écosystème compétitif, le référencement SEO et GEO vous distingue des concurrents et attire les décideurs B2B qui cherchent des partenaires technologiques via Google ou les IA.',
     },
   ],
-  ctaTitle: 'Votre secteur n\'est pas listé ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines. Échangeons pour définir une stratégie GEO & SEO adaptée à votre entreprise poitevine.',
-  ctaButtonText: 'Parler de votre projet',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats. Rankwell accompagne des entreprises partout en France depuis 2017.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -234,7 +226,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie ce qui freine votre visibilité et ce qui peut l\'accélérer rapidement.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +234,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage et performance technique. Les fondations indispensables d\'un référencement durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +242,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité. Une stratégie sur mesure, sans spam ni réseaux douteux.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +250,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready. Du contenu qui se positionne sur Google, qui est cité par les IA et qui convertit.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +265,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '90K', label: 'Habitants à Poitiers' },
-    { value: '28K', label: 'Étudiants' },
-    { value: '2M', label: 'Visiteurs au Futuroscope' },
-    { value: '+55%', label: 'Recherches sur mobile' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +359,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Poitiers combine patrimoine historique et innovation avec le Futuroscope. Les entreprises qui maîtrisent le GEO captent ces flux touristiques et cette population jeune.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'It is important to think about producing something excellent first. If you have an outstanding product or world-class content, then you can step back and start thinking about how to promote it.',
+  author: 'Eric Enge',
+  role: 'Co-author, The Art of SEO — Pilot Holding',
 };
 
 // ============================================
@@ -358,34 +374,39 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi le SEO est-il important à Poitiers ?',
+      question: 'Travaillez-vous avec des entreprises à Poitiers sans être sur place ?',
       answer:
-        'Poitiers accueille 2 millions de visiteurs au Futuroscope et compte 28 000 étudiants. Un bon référencement vous permet de capter ces publics variés.',
+        'Oui, nous accompagnons des entreprises dans toute la France depuis 2017 grâce à une collaboration à distance efficace. Visioconférences régulières avec un consultant senior dédié, accès permanent à notre plateforme Rankwell One pour suivre vos performances en temps réel et réactivité garantie par email ou téléphone. La distance n\'affecte ni la qualité ni les résultats.',
     },
     {
-      question: 'Comment le GEO peut-il aider mon entreprise ?',
+      question: 'Pourquoi le SEO et le GEO sont-ils particulièrement importants à Poitiers ?',
       answer:
-        'Le GEO vous permet d\'être recommandé par les assistants IA quand les utilisateurs posent des questions sur Poitiers et ses environs.',
+        'Grand Poitiers est le deuxième pôle universitaire de Nouvelle-Aquitaine avec 27 000 étudiants, et le Futuroscope attire 2 millions de visiteurs par an. Cette population jeune et ces touristes connectés utilisent massivement Google et les assistants IA pour trouver des services. Un référencement solide sur ces deux canaux vous permet de capter ces publics à fort potentiel.',
     },
     {
-      question: 'Combien de temps pour voir des résultats ?',
+      question: 'Comment le GEO peut-il aider mon entreprise poitevine ?',
       answer:
-        'Le SEO produit généralement des résultats en 3 à 6 mois. Le GEO peut avoir un impact plus rapide sur certaines requêtes.',
+        'Le GEO optimise vos contenus pour être cités dans les réponses de ChatGPT, Perplexity et Google AI Overviews. Concrètement, quand un visiteur demande à une IA « quel restaurant gastronomique à Poitiers » ou un décideur recherche « prestataire numérique dans la Vienne », votre entreprise apparaît dans la réponse générée. C\'est un avantage concurrentiel que peu d\'entreprises locales exploitent aujourd\'hui.',
     },
     {
-      question: 'Travaillez-vous avec le secteur touristique ?',
+      question: 'Quels secteurs accompagnez-vous dans le Grand Poitiers ?',
       answer:
-        'Oui, nous accompagnons les hôtels, restaurants et prestataires touristiques liés au Futuroscope et au patrimoine poitevin.',
+        'Nous travaillons avec des entreprises variées : hôtellerie et tourisme liés au Futuroscope, start-ups et entreprises tech du technopôle, commerces du centre-ville, professions libérales, acteurs de l\'immobilier et prestataires B2B. Le point commun de nos clients : des entreprises qui veulent transformer le Search en levier de croissance mesurable.',
     },
     {
-      question: 'Couvrez-vous la Vienne ?',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
       answer:
-        'Absolument. Nous pouvons étendre votre référencement à l\'ensemble du département de la Vienne.',
+        'En SEO, les premiers résultats significatifs apparaissent entre 3 et 6 mois selon votre positionnement de départ et le niveau de concurrence dans votre secteur. Le GEO peut produire des effets plus rapides sur les requêtes conversationnelles, car la concurrence y est encore faible. Nous fixons des objectifs réalistes dès le premier échange et vous donnons une feuille de route claire.',
     },
     {
-      question: 'Comment mesurez-vous les performances ?',
+      question: 'Comment mesurez-vous la visibilité dans les réponses IA ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos positions Google et vos citations dans les réponses des IA.',
+        'Nous interrogeons régulièrement les principaux moteurs IA sur des requêtes pertinentes pour votre activité à Poitiers. Nous traquons la fréquence de vos citations, mesurons votre part de voix face aux concurrents et suivons l\'évolution dans le temps. Ces données sont accessibles en permanence sur votre tableau de bord Rankwell One, aux côtés de vos métriques SEO classiques.',
+    },
+    {
+      question: 'Quels sont vos tarifs pour une entreprise poitevine ?',
+      answer:
+        'Les tarifs dépendent de vos objectifs, de votre secteur d\'activité et du niveau de concurrence. Nous proposons des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles comme un audit SEO et GEO. Le plus simple : un premier échange de 30 minutes en visio pour analyser votre situation et vous donner une estimation précise, sans engagement et sans mauvaise surprise.',
     },
   ],
 };

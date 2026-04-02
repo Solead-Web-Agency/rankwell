@@ -30,6 +30,8 @@ export const heroData = {
   description: 'Tracking, Analytics, CRO. We measure what matters, identify what blocks, optimize what converts. A data driven approach to drive your growth.',
   ctaText: 'Discuss your data needs',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-data/hero.webp',
+  imageAlt: 'Data marketing agency Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -114,24 +116,28 @@ export const pourquoiData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-data/pourquoi-roi.webp',
       alt: 'Measure real ROI data marketing',
       title: 'Measure real ROI',
       desc: 'Are your SEO and SEA campaigns really generating business? Without proper tracking, you can\'t know. Our analytics agency gives you the answers.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-data/pourquoi-fuites.webp',
       alt: 'Identify conversion leaks',
       title: 'Identify leaks',
       desc: 'Your traffic is growing but not your conversions? There\'s a leak somewhere. A data driven approach lets you find and fix it.',
     },
     {
       id: 3,
+      image: '/images/pages/agence-data/pourquoi-prioriser.webp',
       alt: 'Prioritize marketing actions',
       title: 'Prioritize actions',
       desc: 'You can\'t do everything. Data marketing tells you where to focus your efforts for maximum impact.',
     },
     {
       id: 4,
+      image: '/images/pages/agence-data/pourquoi-prouver.webp',
       alt: 'Prove marketing value',
       title: 'Prove value',
       desc: 'To the board, to management, to investors. Solid figures to demonstrate the impact of your marketing actions.',
@@ -178,6 +184,8 @@ export const servicesData = {
   items: [
     {
       id: 'tracking',
+      image: '/images/pages/agence-data/service-tracking.webp',
+      alt: 'Tracking and GTM tagging plan',
       title: 'Tracking & Tagging plan',
       description: 'The foundation of everything. Without reliable tracking, no reliable data. We configure Google Tag Manager, events, conversions. Properly.',
       href: '/en/data-agency/tracking',
@@ -186,6 +194,8 @@ export const servicesData = {
     },
     {
       id: 'analytics',
+      image: '/images/pages/agence-data/service-analytics.webp',
+      alt: 'GA4 analytics and dashboards',
       title: 'Analytics',
       description: 'GA4, dashboards, reports. We transform your raw data into actionable insights. You understand what\'s happening on your site.',
       href: '/en/data-agency/analytics',
@@ -194,6 +204,8 @@ export const servicesData = {
     },
     {
       id: 'cro',
+      image: '/images/pages/agence-data/service-cro.webp',
+      alt: 'CRO audit conversion optimization',
       title: 'CRO Audit',
       description: 'Conversion rate optimization. We analyze user journeys, identify friction points, propose testable improvements.',
       href: '/en/data-agency/cro',

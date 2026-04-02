@@ -9,7 +9,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO à Grenoble | Rankwell',
+  title: 'Agence GEO et SEO à Grenoble - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises grenobloises. Référencement Google et optimisation pour les moteurs IA. Approche business centrix orientée résultats.',
 };
@@ -112,22 +112,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'GEO (Generative Engine Optimization) : l\'art d\'optimiser vos contenus pour être cités par les IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Devenir la source que l\'IA recommande.',
+      desc: 'GEO (Generative Engine Optimization) désigne l\'ensemble des techniques pour faire citer vos contenus par les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. Au-delà du classement Google, l\'enjeu est de devenir la source que l\'intelligence artificielle choisit de recommander à ses utilisateurs.',
     },
     {
       id: 2,
       title: 'Contenus citation-ready',
-      desc: 'Les IA extraient des passages précis : définitions, listes, données chiffrées. Structurer vos contenus pour faciliter cette extraction maximise votre visibilité.',
+      desc: 'Les IA extraient des passages précis pour construire leurs réponses : définitions, listes, données chiffrées et sourcées. Nous structurons vos contenus pour faciliter cette extraction et maximiser le nombre de citations obtenues auprès des différents modèles de langage.',
     },
     {
       id: 3,
       title: 'Autorité thématique',
-      desc: 'Les modèles de langage évaluent votre expertise globale sur un sujet. Un ensemble cohérent de contenus renforce votre crédibilité algorithmique.',
+      desc: 'Les modèles de langage évaluent votre expertise non pas page par page, mais sur l\'ensemble de votre présence en ligne. Un corpus cohérent de contenus experts, couvrant les différents aspects de votre domaine, renforce durablement votre crédibilité algorithmique.',
     },
     {
       id: 4,
       title: 'Réseau de mentions',
-      desc: 'Les IA croisent les sources pour valider votre légitimité. Être mentionné sur des sites de référence amplifie votre signal de confiance.',
+      desc: 'Les IA croisent les informations provenant de multiples sources pour valider votre légitimité. Être mentionné dans la presse sectorielle, des publications académiques ou des annuaires professionnels amplifie votre signal de confiance auprès des algorithmes.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT VILLE
 // ============================================
 export const calloutData = {
-  label: 'Grenoble en chiffres',
-  text: 'Avec plus de 160 000 habitants et un écosystème tech de premier plan (CEA, CNRS, STMicroelectronics), Grenoble est un pôle d\'innovation majeur. La visibilité digitale y est un enjeu stratégique pour se démarquer.',
+  label: 'Le contexte économique grenoblois',
+  text: 'Grenoble Alpes Métropole regroupe 450 000 habitants sur 49 communes et a été élue Capitale européenne de l\'innovation 2026. L\'écosystème compte 475 startups actives dont 44 % en deeptech, le pôle Minalogic (micro et nanotechnologies) et des acteurs majeurs comme STMicroelectronics (4 000 salariés sur site), le CEA et Schneider Electric. Grenoble figure dans le Top 20 mondial des écosystèmes deeptech.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,28 +156,28 @@ export const approcheData = {
       icon: 'Target',
       title: 'On mesure ce qui compte',
       description:
-        'Les positions ne paient pas les factures. On se concentre sur les leads générés, les ventes attribuées, le retour sur investissement réel.',
+        'Les positions ne paient pas les factures. Notre métrique principale, c\'est l\'impact concret sur votre activité : nombre de leads qualifiés générés, ventes attribuées au canal Search, coût d\'acquisition par rapport aux autres leviers marketing.',
     },
     {
       id: 2,
       icon: 'MessageCircle',
       title: 'On challenge vos objectifs',
       description:
-        'Une stratégie bancale, on vous le dit. Notre rôle de partenaire implique parfois de challenger vos certitudes.',
+        'Si une stratégie nous semble inadaptée à votre marché, on vous le dit avant de la déployer. Notre rôle de partenaire implique un devoir de conseil sincère, y compris quand cela signifie remettre en question vos certitudes initiales.',
     },
     {
       id: 3,
       icon: 'UserCheck',
       title: 'Un consultant senior dédié',
       description:
-        'La même personne pense et exécute votre stratégie. Un interlocuteur unique qui maîtrise votre dossier.',
+        'La même personne pense et exécute votre stratégie. Un interlocuteur unique qui connaît votre marché, vos contraintes techniques et vos objectifs commerciaux. Pas de rotation d\'équipe, pas de perte de contexte.',
     },
     {
       id: 4,
       icon: 'ChartLine',
       title: 'Transparence via Rankwell One',
       description:
-        'Accès temps réel à vos performances. Données Search connectées à vos métriques business.',
+        'Accès permanent à vos performances via notre plateforme propriétaire. Données Search connectées à vos métriques business : vous visualisez l\'impact réel de chaque action, sans attendre un rapport mensuel.',
     },
   ],
 };
@@ -194,19 +194,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Votre site existe mais ne génère pas suffisamment de business. Vous cherchez une stratégie Search qui délivre.',
+      description: 'Votre site existe mais ne génère pas le volume de leads ou de ventes attendu. Vous avez besoin d\'un partenaire expérimenté pour construire une stratégie Search qui produit des résultats mesurables et durables.',
     },
     {
       label: 'Vous cherchez une expertise GEO',
-      description: 'Les IA changent la recherche d\'information. Vous voulez une agence qui anticipe ces évolutions.',
+      description: 'Les IA conversationnelles transforment la façon dont vos prospects et clients cherchent l\'information. Vous voulez une agence qui intègre ces nouveaux canaux dans sa stratégie, pas une qui les ignore encore.',
     },
     {
-      label: 'Vous préparez une refonte',
-      description: 'Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses après lancement.',
+      label: 'Startups et entreprises tech de l\'écosystème grenoblois',
+      description: 'Deeptech, SaaS, micro-électronique, cleantech : l\'innovation grenobloise mérite une visibilité à la hauteur de son excellence. Le SEO et le GEO vous positionnent devant les décideurs, investisseurs et partenaires qui recherchent des solutions avancées.',
     },
     {
-      label: 'Vous voulez comprendre ce qui bloque',
-      description: 'Votre référencement plafonne. Un audit objectif identifie les freins et les leviers prioritaires.',
+      label: 'Laboratoires et structures de recherche',
+      description: 'Centres de recherche, spin-offs universitaires, sociétés de conseil scientifique : votre expertise est pointue et votre audience spécifique. Nous structurons votre présence digitale pour toucher les bonnes cibles sur les requêtes techniques pertinentes.',
     },
   ],
   ctaTitle: 'Point de vigilance',
@@ -228,7 +228,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Diagnostic technique, sémantique et concurrentiel. On identifie les obstacles et les opportunités de croissance.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On identifie les obstacles à votre visibilité et les opportunités de croissance à saisir en priorité.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -236,7 +236,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, balisage et performance. Les fondations d\'un SEO robuste.',
+      description: 'Optimisation on-site complète : architecture de contenu, balisage structuré, maillage interne et performance de chargement. Les fondations d\'un référencement robuste et durable.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -244,7 +244,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens qualitatifs pour consolider votre autorité. Une approche éthique et efficace.',
+      description: 'Acquisition de liens qualitatifs pour consolider votre autorité de domaine. Des partenariats pertinents dans votre secteur, une approche éthique sans techniques risquées.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -252,7 +252,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO-ready. Du contenu qui performe et qui convertit.',
+      description: 'Contenus optimisés SEO et structurés pour le GEO. Des textes qui se positionnent sur Google, qui sont cités par les IA et qui convertissent vos visiteurs en clients.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -358,9 +358,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'Modern SEO is all about crafting content so compelling that other people want to promote it by linking to it or sharing it, which increases your trust and authority.',
+  author: 'Brian Dean',
+  role: 'Founder Backlinko',
 };
 
 // ============================================
@@ -375,32 +375,37 @@ export const faqData = {
     {
       id: '1',
       question: 'Travaillez-vous avec des entreprises à Grenoble ?',
-      answer: 'Oui, nous accompagnons des entreprises grenobloises depuis plusieurs années. Visios régulières, plateforme Rankwell One, consultant senior dédié. La distance n\'est pas un frein.',
+      answer: 'Oui, nous accompagnons des entreprises grenobloises avec le même niveau d\'exigence que nos clients parisiens ou lyonnais. Visioconférences régulières, accès permanent à notre plateforme Rankwell One, et un consultant senior dédié qui suit votre dossier dans la durée. La distance géographique n\'a jamais freiné la qualité de nos résultats.',
     },
     {
       id: '2',
       question: 'Quels secteurs accompagnez-vous à Grenoble ?',
-      answer: 'Tech, industrie, services, recherche : nous travaillons avec tous les secteurs. Le point commun de nos clients : vouloir générer du business via le Search, pas juste du trafic.',
+      answer: 'Tech et deeptech, micro-électronique, énergie, services aux entreprises, recherche appliquée, SaaS : nous travaillons avec les secteurs qui font la force de l\'écosystème grenoblois. Le point commun de nos clients : ils veulent transformer leur visibilité digitale en résultats business concrets, pas accumuler du trafic sans valeur.',
     },
     {
       id: '3',
-      question: 'Comment fonctionne la collaboration à distance ?',
-      answer: 'Visioconférences régulières, outils partagés, accès temps réel à vos données via Rankwell One. Un consultant senior dédié reste votre interlocuteur privilégié.',
+      question: 'Votre approche est-elle adaptée aux entreprises tech et deeptech ?',
+      answer: 'Parfaitement. Les entreprises technologiques ont des enjeux SEO spécifiques : requêtes techniques à fort potentiel de conversion, cycles de vente B2B longs, audience de décideurs et d\'ingénieurs. Notre méthodologie intègre ces particularités. Le GEO est d\'ailleurs particulièrement efficace pour les acteurs tech, car les décideurs utilisent massivement les IA pour leur veille.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO exactement ?',
-      answer: 'Le GEO optimise vos contenus pour les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. L\'objectif : être cité comme source de référence sur votre expertise.',
+      question: 'Qu\'est-ce que le GEO et en quoi diffère-t-il du SEO ?',
+      answer: 'Le GEO (Generative Engine Optimization) optimise vos contenus pour les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. Tandis que le SEO vise les résultats classiques de Google, le GEO vise à être cité comme source de référence dans les réponses générées par l\'IA. Ces deux disciplines sont complémentaires et nous les déployons ensemble.',
     },
     {
       id: '5',
-      question: 'Quels sont vos tarifs ?',
-      answer: 'Variables selon vos objectifs et votre contexte concurrentiel. Premier échange gratuit pour évaluer votre situation et proposer une estimation réaliste.',
+      question: 'Quels sont vos tarifs pour une entreprise grenobloise ?',
+      answer: 'Les tarifs dépendent de la complexité de votre projet : taille du site, objectifs de croissance, intensité concurrentielle de votre marché. Nous proposons des accompagnements mensuels et des missions ponctuelles comme les audits SEO. Le premier échange de 30 minutes est gratuit et nous permet de vous proposer un budget adapté à vos ambitions.',
     },
     {
       id: '6',
-      question: 'Combien de temps pour voir des résultats ?',
-      answer: 'SEO/GEO : 3 à 6 mois pour des résultats tangibles. SEA : quelques semaines. On vous donne des projections honnêtes dès le départ.',
+      question: 'Combien de temps pour observer des résultats mesurables ?',
+      answer: 'En SEO et GEO, les premiers résultats tangibles apparaissent entre 3 et 6 mois selon votre situation de départ et le niveau de concurrence. Les campagnes SEA (Google Ads) produisent des résultats dès les premières semaines. Nous définissons des indicateurs de progression intermédiaires pour que vous puissiez suivre l\'avancement dès le premier mois.',
+    },
+    {
+      id: '7',
+      question: 'Grenoble est un pôle d\'innovation : en quoi Rankwell est pertinent ?',
+      answer: 'Grenoble est la 7e ville mondiale en densité d\'écosystème deeptech. Cette concentration d\'acteurs innovants crée une concurrence digitale intense, y compris sur les requêtes B2B techniques. Rankwell apporte une expertise GEO que les agences locales ne proposent généralement pas, et notre plateforme Rankwell One offre le niveau de transparence que les dirigeants tech attendent.',
     },
   ],
 };

@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises messines | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises messines - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Metz. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'A website can be perfect in terms of technical SEO and even localization, but then it uses a tone of voice that sounds totally out of this world in the local culture.',
+  author: 'Gianluca Fiorelli',
+  role: 'Strategic & International SEO Consultant, ILoveSEO',
 };
 
 // ============================================

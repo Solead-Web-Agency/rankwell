@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Marseille | Rankwell',
+  title: 'Agence GEO & SEO à Marseille - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Marseille. Boostez votre visibilité sur Google et les moteurs IA pour conquérir le marché phocéen et méditerranéen.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Marseille accueille 5 millions de touristes par an et son port génère 43 000 emplois directs, en faisant le premier port de France et de Méditerranée.',
+  label: 'Le contexte économique marseillais',
+  text: 'La métropole Aix-Marseille-Provence rassemble 1,9 million d\'habitants et accueille 7,7 millions de touristes chaque année, générant 2,8 milliards d\'euros de retombées. Adossée au premier port de France et de Méditerranée, elle s\'appuie sur six filières d\'excellence — santé, aéronautique, numérique, énergie, mer et industries créatives — qui en font un carrefour euro-méditerranéen de premier plan.',
   icon: 'TrendingUp' as const,
 };
 
@@ -190,28 +190,24 @@ export const pourQuiData = {
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Tourisme & Hôtellerie',
+      label: 'Vous voulez développer votre acquisition digitale à Marseille',
       description:
-        'Hôtels, restaurants, prestataires d\'excursions et acteurs du tourisme marseillais souhaitant augmenter leurs réservations directes.',
+        'Votre site existe mais ne capte pas assez le marché phocéen. Vous cherchez un partenaire pour structurer une stratégie Search qui génère des leads qualifiés sur le bassin méditerranéen.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Retail',
+      label: 'Vous préparez une refonte ou un lancement de site',
       description:
-        'Boutiques marseillaises, commerces des quartiers emblématiques et enseignes cherchant à développer leur clientèle locale.',
+        'Vous lancez un nouveau site ou refondez l\'existant. Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses et accélère votre visibilité sur Marseille.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services professionnels',
+      label: 'Tourisme, hôtellerie et restauration',
       description:
-        'Avocats, experts-comptables, consultants et prestataires B2B ciblant le marché des entreprises marseillaises.',
+        'Avec 7,7 millions de touristes par an sur la métropole, la concurrence digitale est féroce. Être cité par les IA et visible sur Google fait la différence pour vos réservations directes.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Maritime',
+      label: 'Maritime, logistique et services portuaires',
       description:
-        'Agences immobilières, acteurs de la promotion et entreprises du secteur maritime opérant depuis Marseille.',
+        'Le premier port de Méditerranée génère un écosystème B2B dense. Une stratégie Search ciblée vous positionne face aux décideurs qui cherchent des prestataires sur le corridor euro-méditerranéen.',
     },
   ],
   ctaTitle: 'Votre secteur n\'est pas listé ?',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '870K', label: 'Habitants à Marseille' },
-    { value: '5M', label: 'Touristes accueillis par an' },
-    { value: '1er', label: 'Port de France et Méditerranée' },
-    { value: '+60%', label: 'Recherches locales sur mobile' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'IA transforme profondément les recherches locales à Marseille. Les entreprises qui s\'adaptent dès maintenant au GEO prendront une avance significative sur leurs concurrents phocéens.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'GEO is fundamentally a content strategy discipline, not a technical discipline. Marketers need to get used to thinking in semantic space, not keyword space.',
+  author: 'Dale Bertrand',
+  role: 'Founder, Fire&Spark',
 };
 
 // ============================================

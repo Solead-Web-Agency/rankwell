@@ -109,25 +109,25 @@ export const geoEducationData = {
       icon: 'Bot',
       title: 'Architecture des moteurs IA',
       description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour produire des réponses exhaustives. Être reconnu comme source de référence devient stratégique.',
+        'ChatGPT, Perplexity et Google AI Overviews compilent des données issues de multiples sources pour produire des réponses détaillées. Pour un studio d\'animation angoumoisin ou un négociant en cognac, être identifié comme source de référence par ces systèmes devient un avantage concurrentiel déterminant.',
     },
     {
       icon: 'FileText',
       title: 'Contenus structurés et crédibles',
       description:
-        'Les systèmes IA privilégient les contenus organisés, sourcés et démontrant une expertise réelle. La sémantique influe directement sur votre visibilité.',
+        'Les modèles de langage privilégient les contenus bien organisés, sourcés et démontrant une expertise vérifiable. Un contenu qui cite des données précises sur votre secteur et structure ses informations de manière claire sera davantage repris par les IA dans leurs réponses.',
     },
     {
       icon: 'Award',
       title: 'Marqueurs de confiance',
       description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+        'Citations dans la presse spécialisée, backlinks depuis des sites institutionnels et mentions cohérentes de votre marque sur le web consolident votre crédibilité aux yeux des moteurs IA. Ce réseau de signaux détermine si l\'IA vous recommande ou recommande un concurrent.',
     },
     {
       icon: 'ChartLine',
       title: 'Suivi de performance',
       description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+        'Des outils spécialisés permettent de traquer vos apparitions dans les réponses générées par les IA, de mesurer votre part de voix par rapport à vos concurrents et d\'ajuster votre stratégie de contenu pour maximiser votre taux de citation.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Le Festival International de la Bande Dessinée d'Angoulême attire chaque année plus de 200 000 visiteurs, faisant de la ville un pôle majeur des industries créatives en France et un territoire où la visibilité digitale est cruciale.",
+  label: 'Le contexte économique angoumoisin',
+  text: "L'agglomération du Grand Angoulême rassemble 141 000 habitants et un tissu entrepreneurial dense avec une entreprise pour 12 habitants. Le Pôle Image Magelis génère 124 millions d'euros de chiffre d'affaires direct et emploie 2 500 professionnels dans les industries créatives. Avec 910 entreprises créées en 2024 et 15 écoles supérieures spécialisées accueillant 2 000 étudiants, Angoulême est un territoire où la visibilité digitale conditionne la croissance.",
   icon: 'TrendingUp' as const,
 };
 
@@ -156,7 +156,7 @@ export const approcheData = {
       icon: 'Search',
       title: 'Diagnostic du marché local',
       description:
-        'Exploration approfondie de votre secteur à Angoulême, mapping concurrentiel et identification des opportunités propres au territoire charentais.',
+        'Exploration approfondie de votre secteur à Angoulême : cartographie concurrentielle, analyse des requêtes spécifiques au territoire charentais et identification des opportunités inexploitées. On évalue votre visibilité actuelle sur Google et dans les réponses des IA.',
       features: [
         'Audit de visibilité actuelle',
         'Étude de la concurrence locale',
@@ -168,7 +168,7 @@ export const approcheData = {
       icon: 'FileText',
       title: 'Production de contenus experts',
       description:
-        'Rédaction de contenus qui affirment votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Rédaction de contenus qui démontrent votre expertise et sont conçus pour être cités par les moteurs IA. Structure sémantique avancée, données chiffrées sourcées et intégration du vocabulaire métier propre aux industries créatives, au cognac ou à l\'artisanat charentais.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -180,7 +180,7 @@ export const approcheData = {
       icon: 'Settings',
       title: 'Optimisation technique',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'Paramétrage de votre site pour satisfaire les exigences de performance des moteurs traditionnels et IA : temps de chargement optimisés, balisage Schema.org complet, expérience mobile irréprochable et architecture de site pensée pour faciliter l\'extraction d\'informations par les LLMs.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -192,7 +192,7 @@ export const approcheData = {
       icon: 'BarChart3',
       title: 'Monitoring et amélioration',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
+        'Suivi continu des performances via notre plateforme Rankwell One : positions Google, citations dans les réponses IA, trafic qualifié et conversions. Chaque mois, vous recevez un rapport clair avec les actions réalisées, les résultats obtenus et les prochaines priorités.',
       features: [
         'Reporting mensuel',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,32 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises angoumoisines que nous accompagnons',
+  title: 'Est-ce pertinent pour votre entreprise angoumoisine ?',
   subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire charentais.',
+    'Notre expertise s\'adresse à des profils variés. Voici les situations où notre accompagnement SEO et GEO fait vraiment la différence.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et acteurs créatifs',
-      description:
-        'Studios d\'animation, éditeurs, agences créatives et entreprises locales souhaitant amplifier leur rayonnement digital.',
+      label: 'Vous cherchez à développer votre acquisition digitale',
+      description: 'Votre site existe mais les leads ou les ventes restent insuffisants. Vous avez besoin d\'un partenaire capable de structurer une stratégie Search complète — SEO et GEO — et de l\'exécuter avec rigueur pour générer un retour mesurable.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux de capter une clientèle élargie via les moteurs de recherche.',
+      label: 'Vous préparez une refonte ou un lancement de site',
+      description: 'Vous lancez un nouveau site ou repensez l\'existant. Intégrer le SEO et le GEO dès la conception évite les corrections coûteuses et vous positionne immédiatement sur les bons canaux de recherche, Google comme IA.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur visibilité auprès des Charentais.',
+      label: 'Studios créatifs et acteurs de l\'image à Angoulême',
+      description: 'Studios d\'animation, éditeurs de BD, agences créatives du Pôle Magelis : votre savoir-faire mérite une visibilité à la hauteur de votre réputation. Le GEO vous positionne comme référence quand les IA répondent aux questions sur l\'animation ou la bande dessinée.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant attirer visiteurs et congressistes en Charente.',
+      label: 'Entreprises du cognac et de l\'agroalimentaire charentais',
+      description: 'Maisons de cognac, producteurs et transformateurs agroalimentaires de Charente : votre marché est international et la recherche en ligne conditionne les décisions d\'achat. Être cité par les IA comme expert de votre domaine accélère votre développement commercial.',
     },
   ],
-  ctaTitle: 'Votre activité se reconnaît dans ces profils ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale à Angoulême et au-delà.',
-  ctaButtonText: 'Contacter un expert',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats. Rankwell accompagne des entreprises partout en France depuis 2017.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -299,24 +291,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '110',
-      suffix: 'k',
-      label: "Habitants dans l'agglomération d'Angoulême",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -383,9 +383,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'essor des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'I have never bought a backlink because people will link for free if you give them something worth linking to.',
+  author: 'Bill Slawski',
+  role: 'SEO by the Sea (1958–2022)',
 };
 
 // ============================================
@@ -398,34 +398,39 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
+      question: 'Travaillez-vous avec des entreprises à Angoulême sans être sur place ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+        'Oui, nous accompagnons des entreprises partout en France depuis 2017. La collaboration se fait par visioconférences régulières, un consultant senior dédié joignable directement par email ou téléphone, et un accès à notre plateforme Rankwell One pour suivre vos performances en temps réel. La distance n\'affecte ni la réactivité ni la qualité du travail.',
     },
     {
-      question: 'Pourquoi une entreprise d\'Angoulême doit-elle s\'intéresser au GEO ?',
+      question: 'Quelle est la différence entre SEO et GEO ?',
       answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects et de conforter votre image d\'expert.',
+        'Le SEO positionne votre site dans les résultats classiques de Google (les liens bleus). Le GEO optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Les deux sont complémentaires : le SEO reste indispensable, mais le GEO capte une part croissante des recherches, notamment chez les publics jeunes et technophiles.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
+      question: 'Le GEO est-il pertinent pour les industries créatives d\'Angoulême ?',
       answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+        'Absolument. Le Pôle Image Magelis emploie 2 500 professionnels et génère 124 millions d\'euros de chiffre d\'affaires. Quand un producteur cherche un studio d\'animation via ChatGPT ou qu\'un éditeur international se renseigne sur les talents angoumoisins, le GEO garantit que votre structure est citée comme référence dans ces réponses.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
+      question: 'Quels secteurs accompagnez-vous à Angoulême ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+        'Nous travaillons avec tous les secteurs : studios d\'animation et éditeurs BD, maisons de cognac et agroalimentaire, commerces et artisans, professions libérales, tourisme et hôtellerie. Le point commun de nos clients : des entreprises qui veulent transformer leur visibilité digitale en chiffre d\'affaires, pas simplement accumuler du trafic sans valeur.',
     },
     {
-      question: 'Faut-il privilégier le SEO ou le GEO pour une PME angoumoisine ?',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
       answer:
-        'Nous préconisons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO anticipe votre visibilité sur les plateformes IA en plein essor.',
+        'En SEO, les premiers résultats significatifs apparaissent entre 3 et 6 mois selon votre point de départ et le niveau de concurrence sur vos mots-clés. Le GEO peut produire des effets plus rapides sur certaines requêtes conversationnelles. Nous vous donnons des projections réalistes dès le premier échange, sans promesses intenables.',
     },
     {
-      question: 'Offrez-vous des formations sur le GEO ?',
+      question: 'Comment mesurez-vous la visibilité dans les moteurs IA ?',
       answer:
-        'Oui, nous proposons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Nous utilisons des outils dédiés qui interrogent régulièrement ChatGPT, Perplexity et d\'autres IA sur des requêtes liées à votre activité. Nous traquons les mentions de votre marque, mesurons votre part de voix par rapport aux concurrents et ajustons la stratégie en fonction des résultats. Tout est visible dans votre tableau de bord Rankwell One.',
+    },
+    {
+      question: 'Quels sont vos tarifs pour une entreprise angoumoisine ?',
+      answer:
+        'Les tarifs dépendent de vos objectifs, de votre secteur et du niveau de concurrence. Nous proposons des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles comme un audit. Le plus simple : un premier échange de 30 minutes en visio pour comprendre votre situation et vous donner une estimation réaliste et transparente.',
     },
   ],
 };

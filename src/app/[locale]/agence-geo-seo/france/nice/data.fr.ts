@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Nice | Rankwell',
+  title: 'Agence GEO & SEO à Nice - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Nice. Optimisez votre visibilité sur Google et les moteurs IA pour développer votre activité sur la Côte d\'Azur.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'L\'aéroport Nice Côte d\'Azur est le 3ème aéroport de France avec 14,5 millions de passagers par an, générant un flux touristique international majeur.',
+  label: 'Le contexte économique niçois',
+  text: 'Nice est la porte d\'entrée de la Côte d\'Azur : son aéroport, 3e de France, a accueilli 15,2 millions de passagers en 2025. Les aéroports Nice-Cannes génèrent 2,8 milliards d\'euros de PIB et 40 800 emplois. À 20 minutes, Sophia Antipolis — premier technopôle d\'Europe — pèse 6 milliards d\'euros de chiffre d\'affaires annuel et rassemble 2 500 entreprises et 5 500 chercheurs.',
   icon: 'TrendingUp' as const,
 };
 
@@ -190,28 +190,24 @@ export const pourQuiData = {
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Hôtellerie & Tourisme',
+      label: 'Vous cherchez à capter la clientèle internationale de la Côte d\'Azur',
       description:
-        'Hôtels, résidences de vacances, restaurants et prestataires touristiques cherchant à augmenter leurs réservations directes.',
+        'Vos prospects viennent du monde entier et utilisent de plus en plus l\'IA pour planifier leur séjour ou trouver un prestataire. Vous avez besoin d\'une stratégie Search multilingue, optimisée pour Google et les moteurs génératifs.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Luxe & Retail',
+      label: 'Votre SEO stagne malgré vos efforts',
       description:
-        'Boutiques de luxe, joailleries, commerces haut de gamme et enseignes azuréennes ciblant une clientèle exigeante.',
+        'Vous investissez dans le référencement mais les résultats plafonnent. Un audit objectif identifie les vrais blocages et les actions prioritaires pour relancer votre visibilité sur le marché azuréen.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services professionnels',
+      label: 'Hôtellerie, tourisme et restauration haut de gamme',
       description:
-        'Cabinets juridiques, experts-comptables, consultants et entreprises B2B implantées à Nice.',
+        'Avec 15 millions de passagers aériens et 55 millions de nuitées sur la Côte d\'Azur, les réservations directes se jouent en ligne. Être recommandé par les IA donne un avantage décisif face aux OTA.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier de prestige',
+      label: 'Tech, startups et Sophia Antipolis',
       description:
-        'Agences immobilières, promoteurs et gestionnaires de biens sur la Côte d\'Azur.',
+        'Le premier technopôle d\'Europe concentre 2 500 entreprises innovantes à 20 minutes de Nice. Une visibilité Search forte positionne votre SaaS, deeptech ou service B2B face aux décideurs du secteur.',
     },
   ],
   ctaTitle: 'Votre activité ne figure pas ici ?',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '340K', label: 'Habitants à Nice' },
-    { value: '4M', label: 'Touristes par an' },
-    { value: '3ème', label: 'Aéroport de France' },
-    { value: '+70%', label: 'Recherches internationales' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Nice attire une clientèle internationale qui planifie de plus en plus via l\'IA. Les entreprises azuréennes qui intègrent le GEO dans leur stratégie captent ces flux touristiques avant leurs concurrents.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'The way I see the future is making websites self-healing through automation and systemization. SEO results should take a few weeks, not six months.',
+  author: 'Hamlet Batista',
+  role: 'Founder, RankSense (R.I.P.)',
 };
 
 // ============================================

@@ -28,6 +28,7 @@ export const heroData = {
   description: 'Vous visez plusieurs marchés, plusieurs langues, plusieurs pays. Le SEO international et le référencement multilingue ne se résument pas à traduire vos pages. C\'est une stratégie à part entière.',
   ctaText: 'Discuter de votre projet',
   ctaHref: '/contact',
+  image: '/images/pages/agence-geo-seo/international/hero.webp',
   imageAlt: 'SEO et GEO international Rankwell',
   accentColor: 'rw-blue' as const,
 };
@@ -110,21 +111,21 @@ export const enjeuxData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-marche.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-marche.webp',
       alt: 'Chaque marché a ses propres règles SEO',
       title: 'Chaque marché a son propre jeu',
       desc: 'Les mots-clés ne se traduisent pas, ils se recherchent. L\'intention derrière une requête varie selon les cultures. Vos concurrents locaux ont des années d\'avance sur leur marché.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-technique.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-technique.webp',
       alt: 'Structure technique SEO international',
       title: 'La technique doit suivre',
       desc: 'Sous-domaines, répertoires, domaines nationaux ? Hreflang mal implémenté ? Contenu dupliqué entre versions linguistiques ? Les erreurs techniques coûtent cher en international.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-geo-seo/international/enjeu-autorite.webp',
+      image: '/images/pages/agence-geo-seo/international/enjeu-autorite.webp',
       alt: 'Autorité et backlinks par marché',
       title: 'L\'autorité se construit localement',
       desc: 'Vos backlinks français ne vous aident pas en Allemagne. Chaque marché demande sa propre stratégie de notoriété. Les mentions locales comptent pour les moteurs ET pour les IA.',

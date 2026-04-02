@@ -9,7 +9,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO à Valence | Rankwell',
+  title: 'Agence GEO et SEO à Valence - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Valence et la Drôme. Référencement Google et optimisation IA. Collaboration à distance performante. Approche business centrix.',
 };
@@ -112,22 +112,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'GEO (Generative Engine Optimization) : faire en sorte que vos contenus soient cités par les IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Devenir LA référence.',
+      desc: 'GEO (Generative Engine Optimization) : faire en sorte que vos contenus soient cités par les IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Pas juste apparaître dans les liens bleus, mais devenir LA source que l\'IA choisit de mentionner quand un prospect pose une question liée à votre expertise.',
     },
     {
       id: 2,
       title: 'Contenus citation-ready',
-      desc: 'Les IA privilégient les contenus bien structurés : définitions précises, listes organisées, données vérifiables. On optimise cette dimension.',
+      desc: 'Les IA privilégient les contenus bien structurés qu\'elles peuvent extraire et reformuler : définitions précises, listes organisées, données chiffrées avec leurs sources. On structure vos contenus pour maximiser les chances de citation par les moteurs génératifs.',
     },
     {
       id: 3,
       title: 'Autorité thématique',
-      desc: 'Un ensemble cohérent de contenus experts renforce votre crédibilité aux yeux des algorithmes IA. Pas un article isolé, mais une présence affirmée.',
+      desc: 'Les algorithmes IA évaluent si vous êtes une source légitime sur un sujet. Pas juste un article isolé, mais l\'ensemble de votre présence digitale qui démontre une expertise cohérente. C\'est cette profondeur qui différencie les sources citées des sources ignorées.',
     },
     {
       id: 4,
       title: 'Réseau de mentions',
-      desc: 'Les IA croisent les sources pour valider votre légitimité. Être mentionné sur des sites de référence amplifie votre signal de confiance.',
+      desc: 'Les IA croisent les sources pour valider votre crédibilité : articles de presse, annuaires professionnels, publications sectorielles. Être mentionné sur des sites de référence de la Drôme et au niveau national amplifie considérablement votre signal de confiance.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT VILLE
 // ============================================
 export const calloutData = {
-  label: 'Valence en chiffres',
-  text: 'Avec plus de 65 000 habitants et une position stratégique sur l\'axe rhodanien, Valence est un carrefour logistique et économique majeur. Agroalimentaire, industrie, services : la concurrence digitale s\'intensifie.',
+  label: 'Le contexte économique valentinois',
+  text: 'Valence Romans Agglo rassemble 223 000 habitants, 102 000 emplois et 23 000 établissements, ce qui en fait le 5e pôle économique d\'Auvergne-Rhône-Alpes. Le parc Rovaltain accueille 150 entreprises et 2 800 emplois autour du numérique et de la recherche. Agroalimentaire, industrie, luxe-maroquinerie : la concurrence digitale s\'intensifie sur un territoire en pleine croissance démographique.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,28 +156,28 @@ export const approcheData = {
       icon: 'Target',
       title: 'On mesure ce qui compte',
       description:
-        'Les positions ne suffisent pas. On suit les leads générés, les ventes attribuées, le retour sur investissement concret.',
+        'Être premier sur un mot-clé qui ne génère pas de business n\'a aucun intérêt. Notre métrique principale, c\'est l\'impact concret sur votre activité : leads qualifiés générés, ventes attribuées au Search, coût d\'acquisition par canal.',
     },
     {
       id: 2,
       icon: 'MessageCircle',
       title: 'On challenge vos objectifs',
       description:
-        'Une stratégie qui nous semble bancale, on le dit. C\'est le rôle d\'un partenaire de confiance.',
+        'Parfois ce que vous pensez vouloir n\'est pas ce dont vous avez besoin. Une stratégie qui nous semble bancale, on vous le dit. Un partenaire qui acquiesce à tout n\'est pas un partenaire, c\'est un prestataire passif.',
     },
     {
       id: 3,
       icon: 'UserCheck',
       title: 'Un consultant senior dédié',
       description:
-        'La personne qui conçoit votre stratégie l\'exécute aussi. Un interlocuteur unique qui maîtrise votre dossier.',
+        'La personne qui conçoit votre stratégie est la même qui l\'exécute. Pas d\'intermédiaire, pas de junior sur votre dossier. Vous avez un interlocuteur unique qui connaît votre contexte valentinois et vos objectifs dans le détail.',
     },
     {
       id: 4,
       icon: 'ChartLine',
       title: 'Transparence via Rankwell One',
       description:
-        'Vos performances accessibles en temps réel. Données Search et métriques business connectées.',
+        'Notre plateforme connecte vos données Search à vos métriques business. Vous voyez l\'impact réel en temps réel : positions, citations IA, leads générés. Pas des vanity metrics dans un rapport mensuel, des données actionnables au quotidien.',
     },
   ],
 };
@@ -194,19 +194,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous voulez développer votre acquisition digitale',
-      description: 'Votre site existe mais ne génère pas assez de leads. Vous cherchez une stratégie structurée.',
+      description: 'Votre site existe mais ne génère pas assez de leads ou de demandes de devis. Vous cherchez un partenaire pour structurer et exécuter une stratégie Search qui transforme le trafic en résultats commerciaux mesurables.',
     },
     {
-      label: 'Vous cherchez une expertise GEO',
-      description: 'Les IA transforment la recherche. Vous voulez une agence qui anticipe ces évolutions.',
+      label: 'Vous cherchez une expertise GEO avant vos concurrents',
+      description: 'ChatGPT, Perplexity et les AI Overviews de Google changent la façon dont vos prospects trouvent des fournisseurs. Vous voulez une agence qui maîtrise ces nouveaux canaux, pas qui les découvre en même temps que vous.',
     },
     {
-      label: 'Vous préparez une refonte',
-      description: 'SEO et GEO intégrés dès la conception. Éviter les correctifs tardifs et coûteux.',
+      label: 'Agroalimentaire et industrie drômoise',
+      description: 'Avec 16 % d\'emplois industriels et un label Territoire d\'industrie, la Drôme concentre des filières agroalimentaires, mécaniques et électroniques compétitives. Un référencement B2B performant attire des prospects qualifiés bien au-delà du bassin valentinois.',
     },
     {
-      label: 'Vous voulez comprendre ce qui bloque',
-      description: 'Votre référencement plafonne. Un diagnostic externe peut débloquer la situation.',
+      label: 'Numérique et services sur Rovaltain',
+      description: 'Le parc Rovaltain accueille 150 entreprises dont un quart dans le numérique, avec Le Cube Numérique comme vitrine de la French Tech locale. Agences, startups, éditeurs : une visibilité Search solide est le socle d\'une stratégie d\'acquisition pérenne.',
     },
   ],
   ctaTitle: 'Point de vigilance',
@@ -358,9 +358,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'You can\'t even start thinking about keywords until you think about the people that will use them.',
+  author: 'Mike King',
+  role: 'Founder & CEO, iPullRank',
 };
 
 // ============================================
@@ -375,32 +375,37 @@ export const faqData = {
     {
       id: '1',
       question: 'Travaillez-vous avec des entreprises à Valence ?',
-      answer: 'Oui. Nous accompagnons des entreprises valentunoises avec le même engagement que nos clients des grandes métropoles. Visios, Rankwell One, consultant dédié.',
+      answer: 'Oui. Nous accompagnons des entreprises valentunoises avec le même engagement et les mêmes outils que nos clients parisiens ou lyonnais. Visioconférences régulières, accès à Rankwell One pour le suivi en temps réel, consultant senior dédié joignable par email ou téléphone. La distance n\'a aucun impact sur la qualité de l\'accompagnement.',
     },
     {
       id: '2',
       question: 'Quels secteurs accompagnez-vous à Valence ?',
-      answer: 'Agroalimentaire, industrie, services, commerce : tous les secteurs. L\'expertise Search s\'adapte à votre contexte, pas l\'inverse.',
+      answer: 'Agroalimentaire, industrie mécanique et électronique, services numériques, luxe-maroquinerie, commerce : notre expertise Search s\'adapte à votre contexte sectoriel. Valence Romans Agglo concentre 102 000 emplois dans des filières variées. Le référencement SEO et GEO fonctionne dès lors qu\'il y a une audience qui recherche vos produits ou services en ligne.',
     },
     {
       id: '3',
-      question: 'La collaboration à distance fonctionne-t-elle ?',
-      answer: 'Parfaitement. Visios régulières, outils partagés, accès temps réel à vos données via Rankwell One. Votre consultant senior reste votre interlocuteur principal.',
+      question: 'La collaboration à distance est-elle vraiment efficace ?',
+      answer: 'C\'est notre mode de fonctionnement pour toutes les villes hors Paris, et ça marche depuis 2017 avec plus de 350 entreprises. Visios planifiées, accès partagé à votre tableau de bord Rankwell One, livrables commentés en direct, consultant senior qui connaît votre dossier. Ce qui détermine la qualité d\'un accompagnement SEO, c\'est l\'expertise et la rigueur, pas l\'adresse postale.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO exactement ?',
-      answer: 'L\'optimisation pour les IA conversationnelles : ChatGPT, Perplexity, Google AI Overviews. Être cité comme source de référence sur vos sujets d\'expertise.',
+      question: 'Qu\'est-ce que le GEO et pourquoi c\'est important à Valence ?',
+      answer: 'Le GEO (Generative Engine Optimization) optimise votre présence pour les IA conversationnelles comme ChatGPT, Perplexity et les AI Overviews de Google. Quand un prospect B2B demande à une IA « quel fournisseur agroalimentaire dans la Drôme ? », le GEO travaille pour que votre entreprise soit citée. Sur un territoire comme Valence où l\'industrie est forte, c\'est un avantage concurrentiel décisif.',
     },
     {
       id: '5',
       question: 'Quels sont vos tarifs ?',
-      answer: 'Variables selon vos objectifs et votre contexte concurrentiel. Premier échange gratuit pour cadrer le projet et proposer une estimation réaliste.',
+      answer: 'Les tarifs varient selon vos objectifs, votre secteur et le niveau de concurrence digitale. Nous travaillons sur des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles pour des audits et des refontes. Le premier échange de 30 minutes est gratuit et sans engagement : on analyse votre situation et vous proposons une estimation réaliste.',
     },
     {
       id: '6',
-      question: 'Combien de temps pour voir des résultats ?',
-      answer: 'En SEO/GEO, 3 à 6 mois pour des résultats tangibles. En SEA, quelques semaines. On fixe des attentes honnêtes dès le départ.',
+      question: 'Combien de temps pour voir des résultats concrets ?',
+      answer: 'En SEO et GEO, les premiers résultats significatifs arrivent entre 3 et 6 mois selon votre point de départ et la compétitivité de votre marché. En SEA, les retours sont plus rapides, en quelques semaines. On vous donne des projections honnêtes dès le départ et des jalons de progression mesurables via Rankwell One. Pas de promesses spectaculaires impossibles à tenir.',
+    },
+    {
+      id: '7',
+      question: 'Pouvez-vous accompagner des entreprises de Rovaltain ?',
+      answer: 'Bien sûr. Le parc Rovaltain accueille 150 entreprises spécialisées dans le numérique, la recherche et l\'économie verte. Que vous soyez une startup, un bureau d\'études ou une PME installée sur le parc, notre expertise SEO et GEO s\'adapte à vos enjeux B2B : génération de leads qualifiés, visibilité sectorielle et positionnement comme référence dans votre domaine.',
     },
   ],
 };

@@ -106,28 +106,32 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: 1,
       icon: 'Bot',
       title: 'Fonctionnement des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des informations de multiples sources pour formuler des réponses complètes. Être reconnu comme source fiable devient stratégique.',
+      desc:
+        'ChatGPT, Perplexity et Google SGE ne se contentent pas d\'afficher des liens : ils synthétisent l\'information de centaines de sources pour formuler une réponse unique. Être reconnu comme source fiable par ces systèmes devient un enjeu stratégique majeur pour toute entreprise toulousaine souhaitant capter la demande conversationnelle.',
     },
     {
+      id: 2,
       icon: 'FileText',
       title: 'Contenus structurés et experts',
-      description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La structuration sémantique conditionne votre visibilité.',
+      desc:
+        'Les moteurs génératifs privilégient les contenus bien organisés, sourcés et démontrant une expertise vérifiable. La structuration sémantique — titres hiérarchisés, données factuelles, citations d\'experts — conditionne directement votre visibilité dans les réponses IA et votre capacité à être recommandé plutôt que simplement indexé.',
     },
     {
+      id: 3,
       icon: 'Award',
       title: 'Signaux de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque renforcent la crédibilité perçue par les moteurs IA, augmentant vos chances d\'être recommandé.',
+      desc:
+        'Citations dans des médias reconnus, backlinks depuis des sites d\'autorité et mentions régulières de votre marque forment un écosystème de crédibilité que les moteurs IA exploitent pour sélectionner leurs sources. Plus ces signaux sont cohérents et diversifiés, plus votre entreprise a de chances d\'apparaître dans les recommandations génératives.',
     },
     {
+      id: 4,
       icon: 'ChartLine',
       title: 'Mesure de performance',
-      description:
-        'Des outils spécialisés permettent de suivre votre présence dans les réponses IA et d\'ajuster la stratégie selon les résultats obtenus.',
+      desc:
+        'Des outils spécialisés interrogent périodiquement les IA sur vos requêtes stratégiques pour mesurer votre part de voix, la fréquence de vos mentions et le contexte dans lequel vous êtes cité. Ces données permettent d\'ajuster la stratégie en continu et de démontrer un retour sur investissement concret, au-delà des métriques SEO classiques.',
     },
   ],
 };
@@ -153,10 +157,11 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: 1,
       icon: 'Search',
       title: 'Diagnostic du marché local',
       description:
-        'Analyse approfondie de votre secteur à Toulouse, cartographie concurrentielle et identification des opportunités spécifiques à la métropole.',
+        'Nous cartographions votre environnement concurrentiel toulousain, identifions les requêtes à fort potentiel et détectons les lacunes de votre présence digitale actuelle. Chaque opportunité est quantifiée en volume de recherche et en potentiel business.',
       features: [
         'Audit de présence digitale',
         'Étude de la concurrence locale',
@@ -165,10 +170,11 @@ export const approcheData = {
       ],
     },
     {
+      id: 2,
       icon: 'FileText',
       title: 'Production de contenus experts',
       description:
-        'Création de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Nous créons des contenus qui démontrent votre expertise sectorielle, structurés pour satisfaire à la fois les algorithmes Google et les critères de sélection des moteurs IA. Chaque page est pensée pour convertir un visiteur en prospect qualifié.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -177,10 +183,11 @@ export const approcheData = {
       ],
     },
     {
+      id: 3,
       icon: 'Settings',
       title: 'Optimisation technique',
       description:
-        'Paramétrage de votre site pour satisfaire les exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'Votre site doit être rapide, accessible et parfaitement compris par les robots d\'indexation. Nous intervenons sur la performance serveur, le balisage structuré Schema.org, l\'expérience mobile et la sécurité pour bâtir des fondations techniques solides.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -189,10 +196,11 @@ export const approcheData = {
       ],
     },
     {
+      id: 4,
       icon: 'BarChart3',
       title: 'Pilotage et amélioration continue',
       description:
-        'Suivi régulier des performances avec tableaux de bord détaillés et ajustements stratégiques pour maximiser les résultats.',
+        'Nous mesurons chaque action avec des tableaux de bord en temps réel. Positions SEO, mentions GEO, trafic qualifié et conversions sont suivis mensuellement. Les ajustements stratégiques sont pilotés par la donnée, pas par l\'intuition.',
       features: [
         'Reporting mensuel personnalisé',
         'Suivi des positions SEO et GEO',
@@ -215,34 +223,30 @@ export const pourQuiData = {
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et sous-traitants industriels',
+      label: 'Vous cherchez une expertise GEO',
       description:
-        'Acteurs de l\'aéronautique, du spatial et de leurs chaînes de sous-traitance cherchant à développer leur visibilité digitale.',
+        'Vous avez compris que les moteurs IA bouleversent la recherche d\'information et vous voulez être parmi les premiers de votre secteur à Toulouse à apparaître dans les réponses de ChatGPT, Perplexity et Google SGE.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
+      label: 'Votre SEO stagne malgré vos investissements',
       description:
-        'Boutiques, enseignes locales et sites marchands souhaitant capter une clientèle plus large via les moteurs de recherche.',
+        'Vous avez déjà investi en référencement mais les résultats plafonnent. Vous cherchez un regard neuf, une méthodologie data-driven et une double expertise SEO + GEO pour débloquer votre croissance organique sur le marché toulousain.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
+      label: 'Aéronautique et sous-traitance',
       description:
-        'Avocats, médecins, consultants et experts-comptables désireux de renforcer leur présence auprès des Toulousains.',
+        'Airbus, Safran, Latécoère et leurs 40 000 emplois directs structurent l\'économie toulousaine. Nous accompagnons les sous-traitants et équipementiers de la filière pour renforcer leur visibilité digitale auprès des donneurs d\'ordres.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
+      label: 'Tech et innovation',
       description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant attirer visiteurs et congressistes dans la Ville Rose.',
+        'Toulouse est labellisée French Tech et abrite un écosystème de startups et scale-ups en forte croissance. Le GEO positionne votre solution dans les recommandations IA que consultent investisseurs, partenaires et early adopters.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre visibilité digitale à Toulouse et au-delà.',
-  ctaButtonText: 'Contacter un expert',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est la méthodologie, la transparence des résultats et la capacité à comprendre votre marché. Nous travaillons avec des entreprises toulousaines depuis nos bureaux — et nos résultats parlent d\'eux-mêmes.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -299,24 +303,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '1.4',
-      suffix: 'M',
-      label: "D'habitants dans la métropole toulousaine",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -383,9 +395,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Les moteurs IA redéfinissent la manière dont les internautes accèdent à l\'information. Anticiper cette transformation, c\'est offrir à son entreprise un avantage compétitif décisif.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'SEO is a marathon, not a sprint. The companies that win are those that commit to building authority over time.',
+  author: 'Neil Patel',
+  role: 'Entrepreneur & expert marketing digital',
 };
 
 // ============================================
@@ -398,34 +410,46 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: 'faq-1',
       question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui génèrent des réponses synthétiques. Les deux disciplines sont complémentaires.',
+        'Le SEO vise à positionner votre site dans les résultats classiques de Google et Bing via des liens bleus. Le GEO cible les moteurs IA — ChatGPT, Perplexity, Google SGE — qui génèrent des réponses synthétiques en citant leurs sources. Les deux disciplines sont complémentaires : le SEO assure un flux constant de trafic organique, le GEO vous positionne comme référence dans les réponses conversationnelles.',
     },
     {
+      id: 'faq-2',
       question: 'Pourquoi une entreprise toulousaine doit-elle s\'intéresser au GEO ?',
       answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects et de renforcer votre image d\'expert sur votre marché.',
+        'Toulouse est une métropole de 800 000 habitants avec un tissu économique tourné vers l\'innovation. Les décideurs de l\'aéronautique, du spatial et de la tech adoptent massivement les assistants IA dans leur veille et leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects qualifiés et de consolider votre image d\'expert sur un marché local exigeant.',
     },
     {
+      id: 'faq-3',
       question: 'Quels résultats peut-on attendre et sous quel délai ?',
       answer:
-        'Les premiers effets SEO apparaissent généralement sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+        'Les premiers effets SEO apparaissent généralement entre 3 et 6 mois, selon la compétitivité de votre secteur et l\'état technique de votre site. Le GEO peut produire des résultats plus rapides — parfois sous 4 à 8 semaines — car les moteurs génératifs réévaluent leurs sources en continu. Nous installons un tableau de bord dès le premier mois avec des indicateurs de progression concrets.',
     },
     {
+      id: 'faq-4',
       question: 'Comment mesurez-vous la visibilité sur les moteurs IA ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+        'Nous utilisons des outils spécialisés qui interrogent périodiquement ChatGPT, Perplexity et Google SGE sur les requêtes stratégiques de votre secteur à Toulouse. Nous analysons la fréquence de vos mentions, le contexte dans lequel vous êtes cité et votre part de voix face aux concurrents. Ces données sont restituées dans un reporting mensuel qui pilote les ajustements stratégiques.',
     },
     {
+      id: 'faq-5',
       question: 'Faut-il privilégier le SEO ou le GEO pour une PME toulousaine ?',
       answer:
-        'Nous préconisons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO prépare votre visibilité sur les plateformes IA en pleine expansion.',
+        'Nous préconisons une approche combinée. Le SEO construit un socle solide sur les moteurs traditionnels — trafic récurrent, positions durables, conversions mesurables. Le GEO prépare votre visibilité sur les plateformes IA en pleine expansion et capte une audience complémentaire. L\'un sans l\'autre laisse des opportunités commerciales sur la table, surtout sur un marché aussi concurrentiel que Toulouse.',
     },
     {
+      id: 'faq-6',
       question: 'Proposez-vous des formations sur le GEO ?',
       answer:
-        'Oui, nous dispensons des formations pour aider vos équipes à comprendre les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Oui, nous dispensons des formations adaptées à vos équipes pour qu\'elles comprennent les enjeux du GEO et sachent produire des contenus optimisés pour les moteurs IA. Ces sessions couvrent les critères de sélection des IA, la structuration sémantique, les signaux de confiance et les bonnes pratiques rédactionnelles. Un accompagnement opérationnel complète la formation.',
+    },
+    {
+      id: 'faq-7',
+      question: 'Comment le GEO profite-t-il aux entreprises de l\'aéronautique toulousaine ?',
+      answer:
+        'La filière aéronautique toulousaine — Airbus, Safran, Latécoère et leurs milliers de sous-traitants — fonctionne sur un marché B2B où la crédibilité est déterminante. Le GEO positionne votre entreprise comme référence sectorielle dans les réponses IA que consultent les donneurs d\'ordres, les acheteurs industriels et les partenaires potentiels, créant un avantage concurrentiel difficile à répliquer.',
     },
   ],
 };

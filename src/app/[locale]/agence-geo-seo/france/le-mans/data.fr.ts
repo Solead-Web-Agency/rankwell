@@ -100,34 +100,34 @@ export const geoEducationData = {
   sectionId: 'comprendre-geo',
   badge: 'Comprendre le GEO',
   badgeVariant: 'colored' as const,
-  title: 'Décryptage de l\'optimisation pour les moteurs IA',
+  title: 'Le GEO : pourquoi ça change la donne pour les entreprises mancelles',
   subtitle:
-    'Le GEO bouleverse les codes du référencement. Découvrez son fonctionnement et ses bénéfices pour votre entreprise mancelle.',
+    'Le SEO traditionnel cible les 10 liens bleus de Google. Mais une mutation profonde est en marche : les utilisateurs posent de plus en plus leurs questions à des IA conversationnelles.',
   accentColor: 'rw-blue' as const,
   items: [
     {
       icon: 'Bot',
-      title: 'Architecture des moteurs IA',
+      title: 'Qu\'est-ce que le GEO ?',
       description:
-        'ChatGPT, Perplexity et Google SGE agrègent des données multiples pour formuler des réponses complètes. Être reconnu comme source de référence devient stratégique.',
+        'GEO (Generative Engine Optimization) désigne l\'optimisation de vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'enjeu n\'est plus seulement de ranker, mais de devenir la source que l\'IA recommande quand un prospect manceau pose une question.',
     },
     {
       icon: 'FileText',
-      title: 'Contenus structurés et crédibles',
+      title: 'Contenus citation-ready',
       description:
-        'Les systèmes IA privilégient les contenus bien organisés, sourcés et démontrant une expertise réelle. La sémantique conditionne votre visibilité.',
+        'Les IA extraient des passages précis pour construire leurs réponses : définitions claires, listes structurées, données chiffrées avec sources. Nous structurons vos contenus pour maximiser ces citations et positionner votre entreprise comme référence dans votre secteur d\'activité.',
     },
     {
       icon: 'Award',
-      title: 'Marqueurs de confiance',
+      title: 'Autorité thématique',
       description:
-        'Citations, backlinks pertinents et mentions de marque consolident votre crédibilité aux yeux des moteurs IA, favorisant votre recommandation.',
+        'Les LLMs évaluent si vous êtes une source légitime sur un sujet donné. Pas juste si vous avez publié un article, mais si l\'ensemble de votre présence digitale démontre une expertise cohérente et vérifiable. Pour une entreprise mancelle, cette autorité se construit méthodiquement.',
     },
     {
       icon: 'ChartLine',
-      title: 'Suivi de performance',
+      title: 'Réseau de mentions',
       description:
-        'Des solutions analytiques permettent de monitorer votre présence dans les réponses IA et d\'affiner la stratégie selon les résultats.',
+        'Les IA vérifient votre crédibilité via les mentions sur d\'autres sites : articles de presse locaux et nationaux, annuaires professionnels, forums sectoriels. Le netlinking reste essentiel, mais les signaux de confiance se diversifient avec les moteurs génératifs.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Les 24 Heures du Mans attirent plus de 250 000 spectateurs chaque année, faisant du Mans l'un des rendez-vous sportifs les plus médiatisés au monde. Cette notoriété internationale renforce l'importance de la visibilité digitale pour les entreprises locales.",
+  label: 'Le contexte économique manceau',
+  text: 'Le Mans Métropole est le troisième pôle économique des Pays de la Loire. L\'économie sarthoise s\'articule autour de trois piliers : l\'automobile (Renault, équipementiers), l\'assurance (MMA et le groupe Covéa, 27,7 milliards d\'euros de primes en 2024) et l\'agroalimentaire (groupe LDC). La technopole Le Mans Innovation et le réseau Le Mans Tech, labellisé French Tech, accélèrent les projets de mobilité durable. Les 24 Heures attirent 250 000 spectateurs et une couverture médiatique mondiale chaque année.',
   icon: 'TrendingUp' as const,
 };
 
@@ -156,7 +156,7 @@ export const approcheData = {
       icon: 'Search',
       title: 'Diagnostic du marché local',
       description:
-        'Exploration approfondie de votre secteur au Mans, mapping concurrentiel et identification des opportunités propres au territoire sarthois.',
+        'Cartographie complète de votre environnement concurrentiel au Mans : analyse de vos rivaux sur le bassin sarthois, identification des requêtes à fort potentiel de conversion et repérage des opportunités spécifiques à votre secteur d\'activité.',
       features: [
         'Audit de visibilité actuelle',
         'Étude de la concurrence locale',
@@ -168,7 +168,7 @@ export const approcheData = {
       icon: 'FileText',
       title: 'Production de contenus experts',
       description:
-        'Rédaction de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Rédaction de contenus qui démontrent votre expertise sectorielle, structurés pour performer sur Google et être cités par les moteurs IA. Chaque contenu intègre le vocabulaire métier et les spécificités du marché manceau pour toucher précisément votre audience.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -180,7 +180,7 @@ export const approcheData = {
       icon: 'Settings',
       title: 'Optimisation technique',
       description:
-        'Paramétrage de votre site pour répondre aux exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'Mise à niveau technique de votre site : temps de chargement, balisage Schema.org, compatibilité mobile et accessibilité. Des fondations solides sont le prérequis pour que les moteurs traditionnels et IA puissent correctement indexer et valoriser vos contenus.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -192,7 +192,7 @@ export const approcheData = {
       icon: 'BarChart3',
       title: 'Monitoring et amélioration',
       description:
-        'Suivi continu des performances avec tableaux de bord clairs et ajustements stratégiques pour maximiser le retour sur investissement.',
+        'Suivi en continu de vos indicateurs clés via Rankwell One : positions Google, fréquence de citations dans les réponses IA, trafic qualifié et taux de conversion. Des ajustements stratégiques réguliers pour maximiser votre retour sur investissement.',
       features: [
         'Reporting mensuel',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises mancelles que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire sarthois.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les situations où nous pouvons réellement vous aider au Mans.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Automobile & Industrie',
-      description:
-        'Équipementiers automobiles, sous-traitants et entreprises industrielles du pôle manceau.',
+      label: 'Vous voulez développer votre acquisition digitale',
+      description: 'Votre site existe mais ne génère pas assez de contacts qualifiés ou de ventes. Vous cherchez un partenaire pour construire une stratégie Search globale, du SEO au GEO, qui transforme votre présence en ligne en véritable canal d\'acquisition commerciale.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Services',
-      description:
-        'Commerces du centre-ville, boutiques et enseignes locales souhaitant développer leur clientèle.',
+      label: 'Vous voulez comprendre ce qui bloque votre SEO',
+      description: 'Votre référencement stagne malgré vos efforts et vos investissements. Vous avez besoin d\'un audit objectif et indépendant pour identifier les vrais problèmes, hiérarchiser les priorités et repartir sur des bases solides.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Assurance & Finance',
-      description:
-        'Mutuelles, assurances et services financiers implantés dans le bassin manceau.',
+      label: 'Automobile, équipementiers et industrie sarthoise',
+      description: 'Le Mans est un pôle automobile majeur avec Renault et ses sous-traitants. Nous aidons les équipementiers et industriels manceaux à gagner en visibilité auprès de leurs donneurs d\'ordre, y compris dans les réponses des moteurs IA utilisés par les acheteurs professionnels.',
     },
     {
-      icon: 'Globe',
-      title: 'Tourisme & Événementiel',
-      description:
-        'Hôteliers, restaurateurs et prestataires événementiels liés aux 24 Heures et au patrimoine.',
+      label: 'Assurance, mutuelle et services financiers du bassin manceau',
+      description: 'MMA et le groupe Covéa ont fait du Mans un centre névralgique de l\'assurance française. Courtiers, mutuelles et prestataires de ce secteur peuvent renforcer leur visibilité digitale pour attirer des clients particuliers et professionnels au-delà du territoire sarthois.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre présence digitale au Mans et dans toute la Sarthe.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence SEO. Ce qui compte, c\'est l\'expertise technique, la méthodologie rigoureuse et les résultats démontrés. Notre collaboration à distance avec les entreprises mancelles est efficace et transparente.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -259,7 +249,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel de votre site. On détecte ce qui freine votre visibilité et on priorise les actions à fort impact.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -267,7 +257,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage structuré et performance technique. Les fondations d\'un référencement qui résiste dans la durée.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -275,7 +265,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs pour renforcer votre autorité de domaine. Une stratégie propre, sans spam ni techniques risquées. Des liens pertinents.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -283,7 +273,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready, pensés pour se positionner sur Google et être cités par les moteurs IA. Du contenu qui sert votre business.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -299,24 +289,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '250',
-      suffix: 'k',
-      label: 'Spectateurs aux 24 Heures du Mans',
-    },
-    {
-      value: '145',
-      suffix: 'k',
-      label: "D'habitants au Mans",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -382,10 +380,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote:
-    'L\'avènement des moteurs IA redéfinit les parcours de recherche des utilisateurs. S\'y préparer aujourd\'hui, c\'est assurer la compétitivité de son entreprise pour les années à venir.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+  quote: 'The best marketing doesn\'t feel like marketing.',
+  author: 'Ann Handley',
+  role: 'Chief Content Officer, MarketingProfs',
 };
 
 // ============================================
@@ -398,34 +395,36 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
-      answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui formulent des réponses synthétiques. Ces deux disciplines sont complémentaires.',
+      question: 'Travaillez-vous avec des entreprises au Mans ?',
+      answer: 'Oui, nous accompagnons des entreprises mancelles avec une collaboration à distance structurée et efficace. Visioconférences régulières, consultant senior dédié joignable en direct, accès à Rankwell One pour suivre vos performances en temps réel. La distance n\'est pas un frein quand la méthodologie et les outils sont en place.',
     },
     {
-      question: 'Pourquoi une entreprise mancelle doit-elle s\'intéresser au GEO ?',
-      answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects, notamment les visiteurs des 24 Heures qui planifient leur séjour.',
+      question: 'Quels secteurs accompagnez-vous au Mans ?',
+      answer: 'Nous travaillons avec les secteurs clés de l\'économie mancelle : automobile et équipementiers (un pilier historique du bassin sarthois), assurance et services financiers (MMA, courtiers, mutuelles), agroalimentaire, tourisme événementiel lié aux 24 Heures et acteurs de la mobilité durable portés par Le Mans Tech. Le dénominateur commun : des entreprises qui veulent du business, pas des vanity metrics.',
     },
     {
-      question: 'Travaillez-vous avec le secteur automobile ?',
-      answer:
-        'Absolument. Le Mans est un pôle automobile majeur et nous accompagnons équipementiers et sous-traitants pour développer leur visibilité en ligne.',
+      question: 'Qu\'est-ce que le GEO et pourquoi est-ce important au Mans ?',
+      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. L\'objectif : que vos contenus soient cités quand un prospect pose une question liée à votre expertise. Au Mans, dans un tissu économique dominé par l\'automobile et l\'assurance, être visible dans ces nouvelles réponses IA offre un avantage concurrentiel tangible.',
     },
     {
-      question: 'Quels résultats peut-on espérer et sous quel délai ?',
-      answer:
-        'Les premiers effets SEO sont généralement visibles sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu.',
+      question: 'Comment se déroule un accompagnement type ?',
+      answer: 'Premier échange en visio de 30 minutes pour comprendre vos enjeux. Audit complet de votre situation digitale : SEO technique, contenu, concurrence locale, GEO-readiness. Puis élaboration d\'une roadmap avec des priorités classées par impact business. Exécution par un consultant senior dédié qui connaît votre dossier, avec des points réguliers et un suivi transparent via Rankwell One.',
     },
     {
-      question: 'Comment évaluez-vous la visibilité sur les moteurs IA ?',
-      answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque.',
+      question: 'Le GEO est-il utile pour le secteur de l\'assurance au Mans ?',
+      answer: 'Le Mans concentre un écosystème assuranciel majeur autour de MMA et Covéa. Quand un prospect demande à ChatGPT quel courtier ou quelle mutuelle recommander dans la Sarthe, votre entreprise doit figurer dans la réponse. Le GEO structure vos contenus pour maximiser ces citations dans les moteurs IA, en complément du SEO classique qui capte les recherches Google.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
-      answer:
-        'Oui, nous offrons des sessions de formation pour aider vos équipes à maîtriser les enjeux du GEO et à produire des contenus optimisés.',
+      question: 'Quels sont vos tarifs pour un accompagnement au Mans ?',
+      answer: 'Les tarifs dépendent de vos objectifs, de votre secteur et de l\'intensité concurrentielle. Nous proposons des forfaits mensuels pour un accompagnement continu ou des missions ponctuelles (audit SEO, stratégie GEO). Le plus simple : un premier échange pour évaluer votre situation et vous donner une estimation réaliste. Tout est transparent dès le départ, sans surprise.',
+    },
+    {
+      question: 'Combien de temps avant de voir des résultats ?',
+      answer: 'En SEO, les premiers résultats significatifs apparaissent entre 3 et 6 mois selon votre point de départ et la concurrence sur votre marché sarthois. En GEO, l\'intégration dans les réponses IA peut être plus rapide si les contenus sont correctement structurés. Nous fixons des objectifs réalistes dès le démarrage et mesurons la progression chaque mois.',
+    },
+    {
+      question: 'Pourquoi choisir Rankwell plutôt qu\'une agence locale ?',
+      answer: 'La proximité géographique ne détermine pas la qualité d\'un accompagnement SEO et GEO. Avec plus de 350 clients accompagnés depuis 2017 et une spécialisation GEO que très peu d\'agences maîtrisent en France, nous apportons un niveau d\'expertise et de méthodologie difficilement trouvable au niveau local. Notre plateforme Rankwell One garantit une transparence totale sur l\'avancement et les résultats.',
     },
   ],
 };

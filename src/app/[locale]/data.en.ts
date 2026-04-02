@@ -24,7 +24,7 @@
 // 1. METADATA
 // ============================================
 export const metadata = {
-  title: 'Digital Marketing & Performance Agency | Rankwell',
+  title: 'Digital Marketing & Performance Agency - Rankwell',
   description: 'Rankwell, a digital agency specialized in digital marketing and Search performance. We support businesses in their growth with a data-driven approach. Paris & Dubai.',
 };
 
@@ -94,7 +94,7 @@ export const servicesData = {
       description: 'Organic search designed for Google AND generative engines. Technical audit, semantic strategy, link building, content creation. A comprehensive approach to dominate both classic search results and AI responses.',
       href: '/en/geo-seo-agency',
       buttonText: 'Discover our expertise',
-      // image: '/images/homepage/expertise-geo-seo.webp',
+      image: '/images/homepage/expertise-geo-seo.webp',
       imageAlt: 'GEO & SEO Expertise Rankwell',
     },
     {
@@ -103,7 +103,7 @@ export const servicesData = {
       description: 'Performance-driven Google Ads. Setup, continuous optimization, semantic analysis. Every euro invested must deliver returns. We don\'t do advertising spend, we generate business.',
       href: '/en/sea-agency',
       buttonText: 'Discover our expertise',
-      // image: '/images/homepage/expertise-sea.webp',
+      image: '/images/homepage/expertise-sea.webp',
       imageAlt: 'SEA Expertise Rankwell',
     },
     {
@@ -112,7 +112,7 @@ export const servicesData = {
       description: 'No decision without reliable data. Tracking, Analytics, CRO. We measure what matters, we optimize what converts. Data serving your growth, not useless dashboards.',
       href: '/en/data-agency',
       buttonText: 'Discover our expertise',
-      // image: '/images/homepage/expertise-data.webp',
+      image: '/images/homepage/expertise-data.webp',
       imageAlt: 'Data & Analytics Expertise Rankwell',
     },
   ],

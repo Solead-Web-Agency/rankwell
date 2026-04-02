@@ -4,6 +4,7 @@
  */
 
 import { type Locale, defaultLocale } from './config';
+import { translateSlugToEnglish, translateSlugToFrench } from './slugMappings';
 
 /**
  * Traduction des segments d'URL
@@ -23,6 +24,10 @@ export const segmentTranslations: Record<string, string> = {
   'creation-contenu': 'content-creation',
   'local': 'local',
   'international': 'international',
+  'secteurs': 'sectors',
+  'secteur': 'sector',
+  'projet': 'project',
+  'cms': 'cms',
 
   // Sous-pages SEA
   'setup': 'setup',
@@ -37,6 +42,12 @@ export const segmentTranslations: Record<string, string> = {
   // Pages Agence
   'qui-sommes-nous': 'about-us',
   'nos-bureaux': 'our-offices',
+
+  // Ressources
+  'glossaire': 'glossary',
+  'etudes-de-cas': 'case-studies',
+  'guides': 'guides',
+  'blog': 'blog',
 
   // Autres
   'contact': 'contact',
@@ -63,9 +74,23 @@ export function translatePathToEnglish(frenchPath: string): string {
   }
 
   const segments = frenchPath.split('/').filter(Boolean);
-  const translatedSegments = segments.map(
-    (segment) => segmentTranslations[segment] || segment
-  );
+  const translatedSegments: string[] = [];
+
+  for (let i = 0; i < segments.length; i++) {
+    const segment = segments[i];
+    const prevSegment = segments[i - 1];
+
+    // Si le segment precedent est un type dynamique, traduire le slug
+    if (prevSegment === 'secteur') {
+      translatedSegments.push(translateSlugToEnglish(segment, 'secteur'));
+    } else if (prevSegment === 'projet') {
+      translatedSegments.push(translateSlugToEnglish(segment, 'projet'));
+    } else if (prevSegment === 'cms') {
+      translatedSegments.push(translateSlugToEnglish(segment, 'cms'));
+    } else {
+      translatedSegments.push(segmentTranslations[segment] || segment);
+    }
+  }
 
   return '/' + translatedSegments.join('/');
 }
@@ -81,9 +106,23 @@ export function translatePathToFrench(englishPath: string): string {
   }
 
   const segments = englishPath.split('/').filter(Boolean);
-  const translatedSegments = segments.map(
-    (segment) => reverseSegmentTranslations[segment] || segment
-  );
+  const translatedSegments: string[] = [];
+
+  for (let i = 0; i < segments.length; i++) {
+    const segment = segments[i];
+    const prevSegment = segments[i - 1];
+
+    // Si le segment precedent est un type dynamique EN, traduire le slug vers FR
+    if (prevSegment === 'sector') {
+      translatedSegments.push(translateSlugToFrench(segment, 'secteur'));
+    } else if (prevSegment === 'project') {
+      translatedSegments.push(translateSlugToFrench(segment, 'projet'));
+    } else if (prevSegment === 'cms') {
+      translatedSegments.push(translateSlugToFrench(segment, 'cms'));
+    } else {
+      translatedSegments.push(reverseSegmentTranslations[segment] || segment);
+    }
+  }
 
   return '/' + translatedSegments.join('/');
 }
@@ -171,6 +210,10 @@ export const LOCALIZED_ROUTES = {
   },
 
   FORMATIONS: { fr: '/formations', en: '/en/training' },
+
+  RESSOURCES: {
+    GLOSSAIRE: { fr: '/glossaire', en: '/en/glossary' },
+  },
 
   MENTIONS_LEGALES: { fr: '/mentions-legales', en: '/en/legal-notice' },
   CONFIDENTIALITE: { fr: '/confidentialite', en: '/en/privacy-policy' },

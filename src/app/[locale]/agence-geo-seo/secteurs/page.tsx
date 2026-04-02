@@ -14,6 +14,8 @@ import RevealAnimation from '@/components/animation/RevealAnimation';
 
 // SEO
 import { BreadcrumbJsonLd } from '@/components/seo';
+import { baseUrl } from '@/lib/i18n';
+import { getLocalizedPath } from '@/lib/i18n/routes';
 
 // Data
 import * as dataFr from './data.fr';
@@ -29,10 +31,22 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const data = locale === 'fr' ? dataFr : dataEn;
+  const frenchPath = '/agence-geo-seo/secteurs';
+  const currentUrl = locale === 'fr'
+    ? `${baseUrl}${frenchPath}`
+    : `${baseUrl}${getLocalizedPath(frenchPath, 'en')}`;
 
   return {
     title: data.metadata.title,
     description: data.metadata.description,
+    alternates: {
+      canonical: currentUrl,
+      languages: {
+        'fr': `${baseUrl}${frenchPath}`,
+        'en': `${baseUrl}${getLocalizedPath(frenchPath, 'en')}`,
+        'x-default': `${baseUrl}${getLocalizedPath(frenchPath, 'en')}`,
+      },
+    },
   };
 }
 
@@ -48,9 +62,13 @@ export default async function SecteursPage({
   const data = locale === 'fr' ? dataFr : dataEn;
 
   // Préparer les données pour le schema
+  const frenchPath = '/agence-geo-seo/secteurs';
+  const currentPath = locale === 'fr' ? frenchPath : getLocalizedPath(frenchPath, 'en');
   const breadcrumbSchemaItems = data.pageHeroData.breadcrumb.map((item) => ({
     name: item.label,
-    url: item.href || '/agence-geo-seo/secteurs',
+    url: item.href
+      ? (locale === 'fr' ? item.href : getLocalizedPath(item.href, 'en'))
+      : currentPath,
   }));
 
   return (
@@ -85,7 +103,7 @@ export default async function SecteursPage({
         <div className="main-container">
           <RevealAnimation delay={0.1}>
             <h2 className="text-heading-5 text-secondary dark:text-accent mb-8 text-center">
-              Par secteur d&apos;activité
+              {data.sectionTitles.secteurs}
             </h2>
           </RevealAnimation>
 
@@ -116,7 +134,7 @@ export default async function SecteursPage({
                         delay={0.1 + index * 0.02}
                       >
                         <Link
-                          href={`/agence-geo-seo/secteur/${secteur.slug}`}
+                          href={locale === 'fr' ? `/agence-geo-seo/secteur/${secteur.slug}` : `/en/geo-seo-agency/sector/${secteur.slug}`}
                           className="block bg-white dark:bg-background-6 rounded-xl p-4 hover:shadow-lg transition-all duration-300 group border border-transparent hover:border-rw-blue/20"
                         >
                           <span className="text-secondary dark:text-accent group-hover:text-rw-blue transition-colors">
@@ -138,14 +156,14 @@ export default async function SecteursPage({
         <div className="main-container">
           <RevealAnimation delay={0.1}>
             <h2 className="text-heading-5 text-secondary dark:text-accent mb-8 text-center">
-              Par type de projet
+              {data.sectionTitles.projets}
             </h2>
           </RevealAnimation>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {data.typesProjetsData.map((projet, index) => (
               <RevealAnimation key={projet.slug} delay={0.1 + index * 0.02}>
                 <Link
-                  href={`/agence-geo-seo/projet/${projet.slug}`}
+                  href={locale === 'fr' ? `/agence-geo-seo/projet/${projet.slug}` : `/en/geo-seo-agency/project/${projet.slug}`}
                   className="block bg-white dark:bg-background-6 rounded-xl p-4 hover:shadow-lg transition-all duration-300 group border border-transparent hover:border-rw-blue/20"
                 >
                   <span className="text-secondary dark:text-accent group-hover:text-rw-blue transition-colors">
@@ -163,7 +181,7 @@ export default async function SecteursPage({
         <div className="main-container">
           <RevealAnimation delay={0.1}>
             <h2 className="text-heading-5 text-secondary dark:text-accent mb-8 text-center">
-              Par CMS &amp; plateforme
+              {data.sectionTitles.cms}
             </h2>
           </RevealAnimation>
 
@@ -191,7 +209,7 @@ export default async function SecteursPage({
                     {items.map((cms, index) => (
                       <RevealAnimation key={cms.slug} delay={0.1 + index * 0.02}>
                         <Link
-                          href={`/agence-geo-seo/cms/${cms.slug}`}
+                          href={locale === 'fr' ? `/agence-geo-seo/cms/${cms.slug}` : `/en/geo-seo-agency/cms/${cms.slug}`}
                           className="block bg-white dark:bg-background-6 rounded-xl p-4 hover:shadow-lg transition-all duration-300 group border border-transparent hover:border-rw-blue/20"
                         >
                           <span className="text-secondary dark:text-accent group-hover:text-rw-blue transition-colors">

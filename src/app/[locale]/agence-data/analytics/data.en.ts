@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Collecting data is easy. Understanding and acting on it is something else. Our web analytics consultants help you see clearly in your GA4 stats.',
   ctaText: 'Discuss your analytics',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-data/analytics/hero.webp',
+  imageAlt: 'Web analytics GA4 dashboards agency Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -116,30 +118,35 @@ export const servicesData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-data/analytics/service-audit-ga4.webp',
       alt: 'GA4 configuration audit',
       title: 'GA4 configuration audit',
       desc: 'Is your GA4 properly configured? Events, conversions, properties, filters. Our web analytics consultants verify everything is in place.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-data/analytics/service-configuration-avancee.webp',
       alt: 'Advanced GA4 configuration',
       title: 'Advanced GA4 configuration',
       desc: 'Beyond basic installation: custom events, custom dimensions, audiences, integrations. GA4 tailored to your needs.',
     },
     {
       id: 3,
+      image: '/images/pages/agence-data/analytics/service-dashboards.webp',
       alt: 'Looker Studio dashboards and reporting',
       title: 'Dashboards and reporting',
       desc: 'Clear and actionable Looker Studio (formerly Data Studio) dashboards. The right metrics, well presented, accessible to all.',
     },
     {
       id: 4,
+      image: '/images/pages/agence-data/analytics/service-analyse.webp',
       alt: 'Analytics analysis and recommendations',
       title: 'Analysis and recommendations',
       desc: 'We dive into your GA4 data to extract insights. What works? What\'s stuck? What opportunities exist?',
     },
     {
       id: 5,
+      image: '/images/pages/agence-data/analytics/service-formation-ga4.webp',
       alt: 'GA4 training for teams',
       title: 'GA4 Training',
       desc: 'Your teams need to be autonomous. Our GA4 training covers data reading and dashboard usage.',
@@ -309,18 +316,21 @@ export const formulesData = {
   items: [
     {
       id: 1,
+      image: '/images/pages/agence-data/analytics/formule-audit.webp',
       alt: 'One-time analytics audit',
       title: 'One-time audit',
       desc: 'An assessment of your analytics configuration with recommendations. Ideal to know where you stand.',
     },
     {
       id: 2,
+      image: '/images/pages/agence-data/analytics/formule-mise-en-place.webp',
       alt: 'GA4 setup project',
       title: 'Setup project',
       desc: 'Complete GA4 configuration + dashboards + training. The package to start on solid foundations.',
     },
     {
       id: 3,
+      image: '/images/pages/agence-data/analytics/formule-accompagnement.webp',
       alt: 'Ongoing analytics support',
       title: 'Ongoing support',
       desc: 'Regular monitoring, periodic analyses, dashboard evolution. A data partner for the long term.',

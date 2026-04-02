@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence GEO et SEO pour les entreprises lilloises | Rankwell',
+  title: 'Agence GEO et SEO pour les entreprises lilloises - Rankwell',
   description:
     'Expertise SEO et GEO pour les entreprises de Lille et la métropole européenne. Référencement Google et optimisation pour les moteurs IA. Bureaux à Paris, collaboration à distance efficace. Approche business centrix.',
 };
@@ -361,9 +361,9 @@ export const comparaisonData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'Technical SEO is the foundation upon which all of your SEO efforts are built. If you don\'t have a good technical foundation, you\'re building a castle on quicksand.',
+  author: 'Barry Adams',
+  role: 'Founder, Polemic Digital',
 };
 
 // ============================================

@@ -129,6 +129,8 @@ export default async function GeoSeoPage({ params }: PageProps) {
         description={heroData.description}
         ctaText={heroData.ctaText}
         ctaHref={heroData.ctaHref}
+        image={heroData.image}
+        imageAlt={heroData.imageAlt}
         showTrustIndicator={heroData.showTrustIndicator}
         accentColor={heroData.accentColor}
         locale={locale as Locale}

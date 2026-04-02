@@ -12,7 +12,7 @@ import type { BreadcrumbItem, TocItem } from '@/components/shared/services';
 // METADATA (SEO)
 // ============================================
 export const metadata = {
-  title: 'Agence SEO et GEO à Dubaï pour le marché MENA | Rankwell',
+  title: 'Agence SEO et GEO à Dubaï pour le marché MENA - Rankwell',
   description:
     'Agence SEO et GEO implantée à Dubaï. Optimisation pour Google et les moteurs IA sur le marché MENA. Bureaux à Dubai, approche business centrix.',
 };
@@ -139,17 +139,22 @@ export const geoEducationData = {
     {
       id: 1,
       title: 'Qu\'est-ce que le GEO ?',
-      desc: 'GEO (Generative Engine Optimization) est la discipline qui consiste à optimiser vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity, Claude ou les AI Overviews de Google. Contrairement au SEO qui vise le top des résultats, le GEO vise à faire de votre contenu LA source que l\'IA choisit de citer.',
+      desc: 'GEO (Generative Engine Optimization) est la discipline qui consiste à optimiser vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity, Claude ou les AI Overviews de Google. Contrairement au SEO classique qui vise le top 10 des résultats, le GEO vise à faire de votre contenu LA source que l\'IA choisit de citer et de reformuler dans ses réponses conversationnelles.',
     },
     {
       id: 2,
       title: 'Pourquoi le GEO compte plus au Moyen-Orient',
-      desc: 'Les Émirats ont un taux de pénétration internet de 99%. Le gouvernement et le secteur privé investissent massivement dans l\'IA. Les utilisateurs s\'attendent à des expériences propulsées par l\'IA. Les utilisateurs MENA qui vous trouvent via les moteurs IA sont des prospects à forte valeur.',
+      desc: 'Les Émirats affichent un taux de pénétration internet de 99 % et le gouvernement investit massivement dans l\'IA avec la stratégie nationale UAE AI 2031. Les utilisateurs de la région adoptent ChatGPT et les assistants IA plus vite que la moyenne mondiale. Ceux qui vous trouvent via ces moteurs sont des prospects à forte valeur ajoutée, habitués à prendre des décisions rapides.',
     },
     {
       id: 3,
       title: 'Un marché anglophone aligné avec l\'IA',
-      desc: 'Le business se fait en anglais dans le Golfe. Les moteurs IA sont les plus matures en anglais. Alignement parfait pour déployer des stratégies GEO efficaces. On maîtrise le SEO/GEO en anglais et en français, avec un réseau pour les marchés arabophones.',
+      desc: 'Le business se fait en anglais dans le Golfe, et les moteurs IA sont les plus matures dans cette langue. C\'est un alignement parfait pour déployer des stratégies GEO performantes dès maintenant. Notre équipe exécute le SEO et le GEO en anglais et en français, avec un réseau de spécialistes natifs pour les marchés arabophones.',
+    },
+    {
+      id: 4,
+      title: 'Free zones et écosystème digital',
+      desc: 'Dubaï compte plus de 30 free zones spécialisées, dont DMCC (26 000 entreprises) et DIFC, qui attirent chaque année des milliers de sociétés internationales. Chacune de ces entreprises a besoin de visibilité digitale sur un marché ultra-compétitif. Le GEO permet de se démarquer là où le SEO classique ne suffit plus face à cette densité concurrentielle.',
     },
   ],
 };
@@ -159,7 +164,7 @@ export const geoEducationData = {
 // ============================================
 export const calloutData = {
   label: 'Le marché MENA en chiffres',
-  text: 'Les Émirats Arabes Unis comptent plus de 9 millions d\'habitants avec un PIB par habitant parmi les plus élevés au monde. La visibilité digitale ici génère un ROI significatif. Mais la concurrence est féroce : des entreprises du monde entier ciblent ce marché.',
+  text: 'Le PIB de Dubaï a progressé de 4,4 % au premier semestre 2025, porté par un secteur non-pétrolier qui représente plus de 95 % de l\'économie. Le marché e-commerce des Émirats pèse 8,8 milliards de dollars et devrait atteindre 13,8 milliards d\'ici 2029. La concurrence est féroce — des entreprises du monde entier ciblent ce marché à fort pouvoir d\'achat.',
   icon: 'TrendingUp' as const,
 };
 
@@ -209,19 +214,19 @@ export const pourQuiData = {
   criteria: [
     {
       label: 'Vous vous développez dans le Golfe',
-      description: 'Entreprise européenne ou internationale qui s\'implante à Dubaï ou cible les marchés MENA. Vous avez besoin d\'un partenaire qui comprend les deux mondes.',
+      description: 'Entreprise européenne ou internationale qui s\'implante à Dubaï ou cible les marchés MENA. Vous avez besoin d\'un partenaire qui comprend les deux mondes — les codes du business local et les exigences du Search multilingue anglais-arabe-français.',
     },
     {
       label: 'Vous êtes basé aux Émirats',
-      description: 'Entreprise locale qui veut dominer le Search sur son marché. Collaboration en face-à-face avec une agence qui comprend les dynamiques locales.',
+      description: 'Entreprise locale qui veut dominer le Search sur son marché face à une concurrence internationale féroce. On se rencontre en personne, on travaille dans le même fuseau horaire et on comprend les dynamiques spécifiques de chaque free zone.',
     },
     {
-      label: 'Vous vous internationalisez depuis Dubaï',
-      description: 'Vous utilisez Dubaï comme hub pour vous développer mondialement. Stratégie SEO multi-marchés avec une méthodologie cohérente.',
+      label: 'Immobilier, finance, tourisme ou luxe à Dubaï',
+      description: 'Ces quatre secteurs représentent l\'essentiel du PIB de Dubaï et la concurrence SEO y est mondiale. Nous construisons des stratégies qui combinent autorité locale et visibilité internationale pour capter une clientèle à très fort pouvoir d\'achat.',
     },
     {
-      label: 'Vous voulez l\'avantage IA',
-      description: 'Entreprise visionnaire qui veut être citée par les moteurs IA, pas juste rankée sur Google. L\'expertise GEO est notre spécialité.',
+      label: 'Startup ou scale-up en free zone',
+      description: 'DMCC, DIFC, Dubai Silicon Oasis : chaque année, des milliers de nouvelles entreprises s\'installent dans les free zones. Vous devez gagner en visibilité rapidement face à des concurrents déjà établis. Le GEO vous donne un avantage compétitif immédiat.',
     },
   ],
   ctaTitle: 'Pas sûr que ce soit pour vous ?',
@@ -243,7 +248,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Analyse technique, sémantique et concurrentielle adaptée au marché MENA. On identifie vos freins à la visibilité et les leviers de croissance face aux acteurs internationaux.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -251,7 +256,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure de contenu, performance technique. Les fondations d\'une visibilité durable.',
+      description: 'Optimisation on-site, architecture de contenu multilingue et performance technique. Les fondations d\'un référencement durable sur un marché anglophone-arabophone.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -259,7 +264,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Stratégie de liens pensée pour renforcer votre autorité. Pas de spam, pas de réseaux douteux. De vrais liens qui comptent.',
+      description: 'Acquisition de liens de qualité auprès de médias régionaux et internationaux. Pas de spam ni de réseaux douteux — de vrais liens qui construisent votre autorité dans le Golfe.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie Netlinking',
@@ -267,7 +272,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Rédaction SEO et GEO-ready. Du contenu qui se positionne et qui convertit. Pas du remplissage.',
+      description: 'Rédaction SEO et GEO-ready en anglais et en français. Du contenu expert, citation-ready, pensé pour être repris par les moteurs IA et convertir une audience internationale.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -354,9 +359,9 @@ export const processData = {
 // QUOTE
 // ============================================
 export const quoteData = {
-  quote: 'In a world where AI curates information, being the source that AI trusts becomes the ultimate competitive advantage.',
-  author: 'Rand Fishkin',
-  role: 'Founder SparkToro',
+  quote: 'In a crowded marketplace, fitting in is a failure. In a busy marketplace, not standing out is the same as being invisible.',
+  author: 'Seth Godin',
+  role: 'Author, Purple Cow',
 };
 
 // ============================================
@@ -371,32 +376,42 @@ export const faqData = {
     {
       id: '1',
       question: 'Où se situe exactement votre bureau à Dubaï ?',
-      answer: 'Notre bureau de Dubaï est situé à Oud Metha. Nous recevons les clients sur rendez-vous du dimanche au jeudi, de 9h à 18h. Nous pouvons aussi nous déplacer dans vos locaux partout à Dubaï ou aux Émirats.',
+      answer: 'Notre bureau est situé à Oud Metha, à proximité de la station de métro du même nom. Nous recevons les clients sur rendez-vous du dimanche au jeudi, de 9h à 18h. Nous pouvons aussi nous déplacer dans vos locaux partout à Dubaï, Abu Dhabi ou dans les autres émirats selon les besoins du projet.',
     },
     {
       id: '2',
       question: 'Travaillez-vous avec des entreprises hors des Émirats ?',
-      answer: 'Oui. Nous travaillons avec des entreprises ciblant la région MENA depuis n\'importe où dans le monde, ainsi qu\'avec des entreprises basées aux Émirats qui ciblent les marchés internationaux. Notre bureau de Dubaï sert de hub pour le Moyen-Orient, l\'Afrique du Nord et les connexions vers les marchés européens via notre bureau parisien.',
+      answer: 'Oui, notre bureau de Dubaï fonctionne comme un hub régional. Nous accompagnons des entreprises ciblant la région MENA depuis l\'Europe ou l\'Asie, ainsi que des sociétés basées aux Émirats qui visent des marchés internationaux. La connexion avec notre bureau parisien permet de couvrir simultanément les marchés européens et moyen-orientaux avec une méthodologie cohérente.',
     },
     {
       id: '3',
       question: 'Quelles langues supportez-vous pour le SEO ?',
-      answer: 'Nous exécutons des stratégies SEO directement en anglais et en français. Pour les marchés arabophones, nous travaillons avec des spécialistes natifs dans notre réseau. Le SEO multilingue est l\'une de nos forces principales pour la région MENA.',
+      answer: 'Nous exécutons des stratégies SEO et GEO directement en anglais et en français — les deux langues de travail principales à Dubaï. Pour les marchés arabophones, nous collaborons avec des spécialistes natifs de notre réseau. Le SEO multilingue est essentiel dans une région où les requêtes de recherche mélangent trois langues selon l\'intention et le contexte.',
     },
     {
       id: '4',
-      question: 'Qu\'est-ce que le GEO et pourquoi c\'est important ?',
-      answer: 'GEO (Generative Engine Optimization) est l\'optimisation pour les moteurs IA comme ChatGPT, Perplexity et les fonctionnalités IA de Google. Alors que les utilisateurs obtiennent de plus en plus leurs réponses de l\'IA plutôt qu\'en cliquant sur les résultats de recherche, être la source que l\'IA cite devient crucial. Nous intégrons le GEO dans chaque stratégie SEO dès le départ.',
+      question: 'Qu\'est-ce que le GEO et pourquoi c\'est important à Dubaï ?',
+      answer: 'Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity et les AI Overviews de Google. À Dubaï, où le taux de pénétration internet atteint 99 % et l\'adoption de l\'IA est parmi les plus rapides au monde, être la source que l\'IA cite est un avantage concurrentiel décisif. Nous intégrons le GEO dans chaque stratégie dès le premier jour.',
     },
     {
       id: '5',
       question: 'En quoi votre approche diffère des autres agences SEO à Dubaï ?',
-      answer: 'Trois choses nous différencient : l\'intégration native du GEO (pas une réflexion après coup), une vraie présence locale (notre équipe est vraiment ici, pas un support distant), et la méthodologie business centrix (on mesure le succès en conversions et en revenus, pas juste en rankings).',
+      answer: 'Trois éléments nous différencient. L\'intégration native du GEO dans chaque stratégie SEO — ce n\'est pas un service optionnel mais notre ADN. Une vraie présence locale avec des consultants seniors basés à Dubaï, pas un support distant opéré depuis l\'étranger. Et notre méthodologie business centrix qui mesure le succès en leads générés et en revenus attribuables, pas uniquement en positions Google.',
     },
     {
       id: '6',
+      question: 'Quels secteurs accompagnez-vous à Dubaï ?',
+      answer: 'Nous travaillons avec des entreprises de secteurs variés : immobilier et promotion, finance et fintech (DIFC), tourisme et hôtellerie de luxe, e-commerce, SaaS et tech. Le dénominateur commun est la volonté de générer du business mesurable via le Search sur un marché où la concurrence est mondiale. Les free zones DMCC et DIFC comptent à elles seules plus de 30 000 entreprises inscrites.',
+    },
+    {
+      id: '7',
+      question: 'Combien de temps faut-il pour voir des résultats ?',
+      answer: 'Sur le marché MENA, les premiers résultats SEO significatifs apparaissent entre 3 et 6 mois selon la concurrence sectorielle et votre point de départ. Le GEO peut produire des résultats plus rapides car les moteurs IA valorisent la qualité du contenu plus que l\'ancienneté du domaine. Nous établissons des indicateurs de progression dès le premier mois et partageons tout via Rankwell One en temps réel.',
+    },
+    {
+      id: '8',
       question: 'Peut-on se rencontrer avant de s\'engager ?',
-      answer: 'Absolument. Nous proposons une consultation initiale gratuite pour comprendre votre situation et évaluer si on est le bon fit. Cette réunion peut avoir lieu à notre bureau de Dubaï, dans vos locaux ou en visio selon votre préférence. Sans engagement.',
+      answer: 'Absolument. Nous proposons un premier échange gratuit de 30 minutes pour comprendre votre situation et évaluer si nous sommes le bon partenaire. Ce rendez-vous peut avoir lieu à notre bureau d\'Oud Metha, dans vos locaux ou en visio selon votre préférence. Pas de pitch commercial, pas d\'engagement — juste une conversation honnête sur vos enjeux de visibilité.',
     },
   ],
 };

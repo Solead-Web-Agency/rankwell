@@ -27,6 +27,8 @@ export const heroData = {
   description: 'A poorly structured Google Ads campaign means wasted budget from the start. We create clean foundations to perform from launch.',
   ctaText: 'Create my Google Ads campaign',
   ctaHref: '/en/contact',
+  image: '/images/pages/agence-sea/setup/hero.webp',
+  imageAlt: 'Google Ads Campaign Creation Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -269,35 +271,35 @@ export const livrablesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/setup/livrable-compte-structure.webp',
+      image: '/images/pages/agence-sea/setup/livrable-compte-structure.webp',
       alt: 'Structured Google Ads account',
       title: 'Structured Google Ads account',
       desc: 'Ready to perform from launch',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/setup/livrable-tracking.webp',
+      image: '/images/pages/agence-sea/setup/livrable-tracking.webp',
       alt: 'Conversion tracking',
       title: 'Reliable tracking',
       desc: 'To measure conversions accurately',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/setup/livrable-documentation.webp',
+      image: '/images/pages/agence-sea/setup/livrable-documentation.webp',
       alt: 'Setup documentation',
       title: 'Complete documentation',
       desc: 'Of structure and strategic choices',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/setup/livrable-acces.webp',
+      image: '/images/pages/agence-sea/setup/livrable-acces.webp',
       alt: 'Google Ads account access',
       title: 'Full account access',
       desc: 'It\'s yours, not ours',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/setup/livrable-accompagnement.webp',
+      image: '/images/pages/agence-sea/setup/livrable-accompagnement.webp',
       alt: 'Post-launch support',
       title: 'Post-launch support',
       desc: 'Monitoring and adjustments in the first days',

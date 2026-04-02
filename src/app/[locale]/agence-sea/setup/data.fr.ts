@@ -32,6 +32,8 @@ export const heroData = {
   description: 'Une campagne Google Ads mal structurée, c\'est du budget gaspillé dès le départ. On crée des bases propres pour performer dès le lancement.',
   ctaText: 'Créer ma campagne Google Ads',
   ctaHref: '/contact',
+  image: '/images/pages/agence-sea/setup/hero.webp',
+  imageAlt: 'Création de campagne Google Ads Rankwell',
   accentColor: 'rw-cyan' as const,
 };
 
@@ -274,35 +276,35 @@ export const livrablesData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-sea/setup/livrable-compte-structure.webp',
+      image: '/images/pages/agence-sea/setup/livrable-compte-structure.webp',
       alt: 'Compte Google Ads structuré',
       title: 'Compte Google Ads structuré',
       desc: 'Prêt à performer dès le lancement',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-sea/setup/livrable-tracking.webp',
+      image: '/images/pages/agence-sea/setup/livrable-tracking.webp',
       alt: 'Tracking conversions',
       title: 'Tracking fiable',
       desc: 'Pour mesurer les conversions avec précision',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-sea/setup/livrable-documentation.webp',
+      image: '/images/pages/agence-sea/setup/livrable-documentation.webp',
       alt: 'Documentation set up',
       title: 'Documentation complète',
       desc: 'De la structure et des choix stratégiques',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-sea/setup/livrable-acces.webp',
+      image: '/images/pages/agence-sea/setup/livrable-acces.webp',
       alt: 'Accès compte Google Ads',
       title: 'Accès total à votre compte',
       desc: 'C\'est le vôtre, pas le nôtre',
     },
     {
       id: 5,
-      // image: '/images/pages/agence-sea/setup/livrable-accompagnement.webp',
+      image: '/images/pages/agence-sea/setup/livrable-accompagnement.webp',
       alt: 'Accompagnement post-lancement',
       title: 'Accompagnement post-lancement',
       desc: 'Surveillance et ajustements les premiers jours',

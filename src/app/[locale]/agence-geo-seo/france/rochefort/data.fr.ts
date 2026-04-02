@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Rochefort | Rankwell',
+  title: 'Agence GEO & SEO à Rochefort - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Rochefort. Optimisez votre visibilité sur Google et les moteurs IA pour conquérir le marché charentais.',
 };
@@ -108,25 +108,25 @@ export const geoEducationData = {
       icon: 'Search',
       title: 'Qu\'est-ce que le GEO ?',
       description:
-        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs alimentés par l\'IA. Quand un visiteur demande à ChatGPT "que visiter à Rochefort", le GEO assure que votre site ou activité soit recommandé.',
+        'Le GEO (Generative Engine Optimization) optimise votre présence pour les moteurs de recherche alimentés par l\'IA. Quand un touriste demande à ChatGPT « que visiter à Rochefort en Charente-Maritime ? », le GEO fait en sorte que votre site ou activité soit recommandé en priorité. L\'enjeu n\'est plus seulement d\'apparaître sur Google, mais de devenir la source que l\'IA cite spontanément.',
     },
     {
       icon: 'Eye',
       title: 'Pourquoi le GEO compte à Rochefort ?',
       description:
-        'Avec l\'Hermione et la Corderie Royale, Rochefort attire des visiteurs passionnés d\'histoire maritime. Ces visiteurs utilisent de plus en plus l\'IA pour organiser leur séjour et découvrir les activités locales.',
+        'L\'Hermione et la Corderie Royale attirent plus de 500 000 visiteurs par an, des passionnés d\'histoire maritime qui préparent leur séjour en ligne. Ces voyageurs utilisent de plus en plus les assistants IA pour organiser leurs visites, trouver un hébergement ou découvrir les activités locales. Être recommandé par ces IA, c\'est capter cette audience avant vos concurrents.',
     },
     {
       icon: 'BarChart3',
       title: 'Synergie SEO + GEO',
       description:
-        'Le SEO assure vos positions sur Google, le GEO vous fait citer par les IA. La combinaison de ces deux approches couvre l\'ensemble des comportements de recherche de vos prospects.',
+        'Le SEO positionne votre site dans les résultats classiques de Google, le GEO vous fait citer dans les réponses conversationnelles des IA. À Rochefort, où le tourisme patrimonial génère des requêtes très spécifiques, cette double couverture capte aussi bien le visiteur qui tape une recherche Google que celui qui interroge Perplexity ou ChatGPT.',
     },
     {
       icon: 'Lightbulb',
-      title: 'Contenu patrimonial et touristique',
+      title: 'Contenu patrimonial et culturel',
       description:
-        'Les moteurs génératifs privilégient le contenu expert et culturel. Nos équipes créent des contenus qui valorisent l\'héritage rochefortais et répondent aux critères des IA.',
+        'Les moteurs génératifs privilégient le contenu expert, documenté et culturellement riche. Nos équipes produisent des contenus qui valorisent le patrimoine naval de Rochefort, l\'histoire de l\'Arsenal et les savoir-faire locaux, tout en respectant les critères de citation des IA : données sourcées, structure claire, expertise vérifiable.',
     },
   ],
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'L\'Hermione et la Corderie Royale attirent ensemble plus de 500 000 visiteurs par an, faisant de Rochefort un pôle touristique majeur de Charente-Maritime.',
+  label: 'Le contexte économique rochefortais',
+  text: 'Rochefort est le deuxième pôle industriel de Charente-Maritime, porté par l\'aéronautique (Airbus Atlantic, plus de 2 000 emplois), le thermalisme — première station thermale du centre-ouest de la France — et un tourisme patrimonial dynamique avec plus de 500 000 visiteurs annuels pour l\'Hermione et la Corderie Royale. Un écosystème diversifié où la visibilité digitale devient un levier de croissance incontournable.',
   icon: 'TrendingUp' as const,
 };
 
@@ -155,25 +155,25 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché local',
       description:
-        'Étude de la concurrence, identification des requêtes patrimoniales et touristiques, détection des opportunités de positionnement sur les thématiques maritimes.',
+        'Étude approfondie de la concurrence rochefortaise, cartographie des requêtes patrimoniales, touristiques et industrielles, et détection des opportunités de positionnement sur les thématiques maritimes, thermales et aéronautiques propres au bassin.',
     },
     {
       icon: 'FileText',
       title: 'Contenu patrimonial authentique',
       description:
-        'Production de contenus valorisant l\'histoire navale de Rochefort, le patrimoine local et l\'expertise de votre entreprise.',
+        'Production de contenus qui valorisent l\'histoire navale de Rochefort, le patrimoine de l\'Arsenal et l\'expertise de votre entreprise. Des textes documentés, structurés pour le SEO et optimisés pour être cités par les IA quand un visiteur prépare son séjour en Charente-Maritime.',
     },
     {
       icon: 'Settings',
       title: 'Excellence technique',
       description:
-        'Performance mobile pour les touristes, données structurées Schema.org et vitesse de chargement optimale.',
+        'Performance mobile optimale pour les touristes en déplacement, balisage Schema.org adapté aux activités culturelles et commerciales, vitesse de chargement irréprochable. Un socle technique solide qui soutient toutes les actions de visibilité.',
     },
     {
       icon: 'Award',
       title: 'Autorité locale renforcée',
       description:
-        'Stratégie de netlinking ciblant les sites patrimoniaux et touristiques de la région.',
+        'Stratégie de netlinking ciblant les sites patrimoniaux, les offices de tourisme, les médias charentais et les publications culturelles de référence. Chaque lien acquis renforce votre signal de confiance auprès de Google et des algorithmes IA.',
     },
   ],
 };
@@ -184,39 +184,35 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Entreprises rochefortaises accompagnées',
+  title: 'Est-ce pertinent pour vous ?',
   subtitle:
-    'Nous aidons les acteurs économiques de Rochefort à conquérir leur visibilité digitale',
+    'Notre expertise s\'adresse aux entreprises qui veulent transformer leur visibilité digitale en résultats concrets. Voici les situations où on peut vraiment vous aider.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Tourisme & Patrimoine',
+      label: 'Vous voulez capter le flux touristique de Rochefort',
       description:
-        'Sites touristiques, musées, guides et prestataires culturels souhaitant augmenter leur fréquentation.',
+        'Plus de 500 000 visiteurs passent chaque année par l\'Hermione et la Corderie Royale. Votre site existe mais ne capte pas assez de ces recherches touristiques. Vous avez besoin d\'une stratégie SEO et GEO qui positionne votre activité là où ces visiteurs préparent leur séjour.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Artisanat',
+      label: 'Vous cherchez une visibilité IA pour votre entreprise',
       description:
-        'Boutiques du centre-ville, commerces de proximité et artisans locaux.',
+        'Les touristes interrogent ChatGPT et Perplexity pour organiser leurs visites en Charente-Maritime. Vous voulez une agence qui sait optimiser pour ces assistants IA, pas seulement pour les résultats classiques de Google.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Thermalisme & Bien-être',
+      label: 'Thermalisme et bien-être',
       description:
-        'Établissements thermaux, spas et prestataires de bien-être de la station thermale.',
+        'Rochefort abrite la première station thermale du centre-ouest de la France. Établissements thermaux, spas et prestataires bien-être : le référencement capte les curistes qui recherchent des soins spécifiques et comparent les destinations thermales en ligne avant de réserver.',
     },
     {
-      icon: 'Home',
-      title: 'Hôtellerie & Restauration',
+      label: 'Aéronautique et industrie',
       description:
-        'Hôtels, chambres d\'hôtes, restaurants et hébergements touristiques.',
+        'Avec Airbus Atlantic et plus de 2 000 emplois dans le secteur aéronautique, Rochefort est un pôle industriel majeur. Sous-traitants, bureaux d\'études, entreprises B2B : une présence Search performante attire des prospects qualifiés au-delà du bassin local.',
     },
   ],
-  ctaTitle: 'Votre secteur n\'est pas listé ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'adapte à tous les domaines d\'activité. Échangeons pour définir une stratégie GEO & SEO adaptée.',
+    'Une agence locale n\'est pas forcément mieux placée pour votre référencement. Ce qui compte, c\'est la maîtrise des techniques SEO et GEO, et les résultats démontrés.',
   ctaButtonText: 'Parler de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -234,7 +230,7 @@ export const expertisesData = {
     {
       id: 1,
       title: 'Audit SEO complet',
-      description: 'Analyse technique, sémantique et concurrentielle. Nous identifions ce qui freine votre visibilité et ce qui peut l\'accélérer.',
+      description: 'Diagnostic technique, sémantique et concurrentiel adapté aux enjeux rochefortais. On identifie les freins à votre visibilité et les actions prioritaires.',
       href: '/agence-geo-seo/audit',
       buttonText: 'En savoir plus',
       imageAlt: 'Audit SEO complet',
@@ -242,7 +238,7 @@ export const expertisesData = {
     {
       id: 2,
       title: 'SEO sémantique & technique',
-      description: 'Optimisation on-site, structure du site, balisage et performance. Les fondations d\'un référencement solide.',
+      description: 'Optimisation on-site, architecture de contenu, balisage Schema.org et performance mobile. Les fondations d\'un référencement solide pour le tourisme et l\'industrie.',
       href: '/agence-geo-seo/technique-semantique',
       buttonText: 'En savoir plus',
       imageAlt: 'SEO sémantique et technique',
@@ -250,7 +246,7 @@ export const expertisesData = {
     {
       id: 3,
       title: 'Netlinking',
-      description: 'Acquisition de liens de qualité pour renforcer votre autorité. Une stratégie sur-mesure adaptée à votre secteur.',
+      description: 'Acquisition de liens qualitatifs depuis les sites patrimoniaux, offices de tourisme et médias charentais. Pas de réseaux douteux, une stratégie ciblée.',
       href: '/agence-geo-seo/netlinking',
       buttonText: 'En savoir plus',
       imageAlt: 'Stratégie de netlinking',
@@ -258,7 +254,7 @@ export const expertisesData = {
     {
       id: 4,
       title: 'Création de contenu',
-      description: 'Contenus optimisés SEO et GEO qui positionnent votre expertise et attirent votre audience cible.',
+      description: 'Contenus optimisés SEO et GEO-ready qui valorisent votre expertise locale, se positionnent sur Google et sont cités par les assistants IA.',
       href: '/agence-geo-seo/creation-contenu',
       buttonText: 'En savoir plus',
       imageAlt: 'Création de contenu SEO',
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '25K', label: 'Habitants à Rochefort' },
-    { value: '500K', label: 'Visiteurs patrimoniaux par an' },
-    { value: '400', label: 'Ans d\'histoire navale' },
-    { value: '+65%', label: 'Recherches sur mobile' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Rochefort attire des passionnés d\'histoire qui préparent leur visite via l\'IA. Les entreprises qui maîtrisent le GEO captent ces visiteurs avant leurs concurrents.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'As search engine technology improves, the presentation of those answers will improve to the point where search engines may not even need to recommend any website links in response to a user\'s query.',
+  author: 'Eli Schwartz',
+  role: 'Author, Product-Led SEO',
 };
 
 // ============================================
@@ -358,34 +378,44 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Pourquoi le SEO est-il important à Rochefort ?',
+      question: 'Pourquoi le SEO est-il important pour une entreprise à Rochefort ?',
       answer:
-        'Rochefort accueille plus de 500 000 visiteurs patrimoniaux par an. Un bon référencement vous permet de capter ces recherches touristiques et de développer votre clientèle locale.',
+        'Rochefort accueille plus de 500 000 visiteurs patrimoniaux par an et constitue le deuxième pôle industriel de Charente-Maritime avec l\'aéronautique et le thermalisme. Ce dynamisme crée une concurrence digitale croissante. Un référencement performant capte les recherches des touristes préparant leur séjour, des curistes comparant les stations thermales et des entreprises industrielles cherchant des partenaires locaux.',
     },
     {
-      question: 'Comment le GEO peut-il aider mon entreprise ?',
+      question: 'Comment le GEO peut-il aider mon activité à Rochefort ?',
       answer:
-        'Le GEO vous permet d\'être recommandé par les assistants IA quand les utilisateurs posent des questions sur Rochefort et son patrimoine maritime.',
+        'Le GEO vous positionne comme la source recommandée par les assistants IA. Quand un voyageur demande à ChatGPT « que visiter à Rochefort en famille ? » ou « meilleur restaurant près de la Corderie Royale ? », le GEO travaille pour que votre activité soit citée en priorité. C\'est un canal d\'acquisition complémentaire à Google que la plupart de vos concurrents locaux ignorent encore.',
     },
     {
-      question: 'Combien de temps pour voir des résultats ?',
+      question: 'Combien de temps avant de voir des résultats concrets ?',
       answer:
-        'Le SEO produit généralement des résultats en 3 à 6 mois. Le GEO peut avoir un impact plus rapide sur certaines requêtes.',
+        'En SEO, les premiers résultats significatifs apparaissent entre 3 et 6 mois selon votre point de départ et la concurrence sur vos thématiques. Le GEO peut produire des effets plus rapides sur les requêtes conversationnelles liées au tourisme et au patrimoine. Nous fixons des indicateurs de progression dès le démarrage et vous donnons accès à notre plateforme Rankwell One pour un suivi transparent.',
     },
     {
-      question: 'Travaillez-vous avec le thermalisme ?',
+      question: 'Accompagnez-vous le secteur du thermalisme ?',
       answer:
-        'Oui, nous accompagnons les établissements thermaux et de bien-être de Rochefort pour développer leur visibilité en ligne.',
+        'Oui. Rochefort abrite la première station thermale du centre-ouest de la France. Nous accompagnons les établissements thermaux et les prestataires bien-être avec des stratégies SEO et GEO adaptées : ciblage des pathologies recherchées par les curistes, optimisation locale, contenu expert sur les soins proposés. L\'objectif est d\'augmenter les réservations directes sans dépendre uniquement des plateformes intermédiaires.',
     },
     {
-      question: 'Couvrez-vous les environs de Rochefort ?',
+      question: 'Travaillez-vous aussi avec le secteur aéronautique ?',
       answer:
-        'Absolument. Nous pouvons étendre votre référencement aux communes voisines et aux stations balnéaires de la côte.',
+        'Absolument. Avec Airbus Atlantic et son écosystème de sous-traitants, Rochefort est un pôle aéronautique important. Les entreprises B2B de ce secteur ont besoin d\'une visibilité Search qui dépasse le bassin local pour attirer des prospects nationaux et internationaux. Notre expertise SEO et GEO s\'adapte parfaitement aux enjeux de la filière industrielle.',
     },
     {
-      question: 'Comment mesurez-vous les performances ?',
+      question: 'Couvrez-vous les communes voisines de Rochefort ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos positions Google et vos citations dans les réponses des IA.',
+        'Oui. Nous pouvons étendre votre stratégie de référencement aux communes du bassin rochefortais et aux stations balnéaires voisines : Fouras, île d\'Aix, Châtelaillon-Plage, Tonnay-Charente. Le maillage géographique est un levier SEO local puissant pour capter les recherches des visiteurs qui explorent l\'ensemble de la côte charentaise.',
+    },
+    {
+      question: 'La collaboration à distance fonctionne-t-elle vraiment ?',
+      answer:
+        'Parfaitement. Nous accompagnons plus de 350 entreprises partout en France depuis 2017 avec cette méthode. Visioconférences régulières, accès partagé à Rankwell One pour le suivi en temps réel, consultant senior dédié joignable par email et téléphone. Ce qui détermine la qualité d\'un accompagnement SEO, c\'est l\'expertise et la méthodologie, pas la proximité géographique.',
+    },
+    {
+      question: 'Comment mesurez-vous les performances du GEO ?',
+      answer:
+        'Nous utilisons des outils spécialisés pour tracer vos citations dans les réponses de ChatGPT, Perplexity et les AI Overviews de Google. Nous analysons les requêtes où votre entreprise apparaît, mesurons la fréquence de citation face à vos concurrents et suivons l\'évolution de votre part de voix sur ces canaux. Ces données sont intégrées à votre tableau de bord Rankwell One pour une vision complète.',
     },
   ],
 };

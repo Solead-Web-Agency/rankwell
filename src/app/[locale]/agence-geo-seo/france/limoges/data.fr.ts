@@ -109,25 +109,25 @@ export const geoEducationData = {
       icon: 'Bot',
       title: 'Fonctionnement des moteurs IA',
       description:
-        'ChatGPT, Perplexity et Google SGE synthétisent des informations issues de multiples sources pour formuler des réponses complètes. Être identifié comme source fiable devient crucial.',
+        'ChatGPT, Perplexity et Google AI Overviews synthétisent des informations issues de multiples sources pour formuler des réponses contextualisées. Pour un porcelainier limougeaud ou une entreprise du technopôle ESTER, être identifié comme source fiable par ces systèmes conditionne directement la captation de nouveaux clients.',
     },
     {
       icon: 'FileText',
       title: 'Contenu structuré et autoritaire',
       description:
-        'Les systèmes IA valorisent les contenus bien organisés, factuels et faisant preuve d\'expertise. La structuration sémantique influence directement votre visibilité.',
+        'Les modèles de langage valorisent les contenus bien organisés, factuels et démontrant une expertise véritable. Des définitions claires, des données chiffrées avec leurs sources et une architecture sémantique rigoureuse augmentent considérablement vos chances d\'être cité dans les réponses IA.',
     },
     {
       icon: 'Award',
       title: 'Signaux de confiance',
       description:
-        'Citations, backlinks de qualité et mentions de marque renforcent la crédibilité perçue par les moteurs IA, augmentant vos chances d\'être recommandé.',
+        'Mentions dans la presse spécialisée, citations sur des sites institutionnels, backlinks depuis des annuaires professionnels reconnus : ces signaux convergents renforcent la crédibilité que les moteurs IA vous attribuent et déterminent si votre entreprise est recommandée ou ignorée.',
     },
     {
       icon: 'ChartLine',
       title: 'Performance quantifiable',
       description:
-        'Des outils spécialisés permettent de suivre votre présence dans les réponses IA et d\'ajuster la stratégie en fonction des résultats.',
+        'Nos outils spécialisés interrogent régulièrement les IA sur des requêtes liées à votre activité pour mesurer votre présence, suivre l\'évolution de votre part de voix et identifier les ajustements nécessaires. Chaque action est reliée à un indicateur mesurable.',
     },
   ],
 };
@@ -136,8 +136,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Le saviez-vous ?',
-  text: "Limoges abrite plus de 3 000 entreprises artisanales et industrielles, dont les célèbres manufactures de porcelaine qui exportent dans le monde entier. Une présence digitale optimisée est essentielle pour ces savoir-faire d'excellence.",
+  label: 'Le contexte économique limougeaud',
+  text: "Limoges Métropole concentre un tissu industriel de 600 entreprises et 9 200 salariés, soit 14,3 % de l'emploi salarié de la communauté urbaine. Le technopôle ESTER rassemble 186 structures et 2 600 emplois sur 210 hectares. Avec des fleurons comme Legrand (leader mondial de l'appareillage électrique), Bernardaud (porcelaine de luxe) et un secteur numérique qui génère 3 000 emplois locaux, la compétition digitale est réelle.",
   icon: 'TrendingUp' as const,
 };
 
@@ -156,7 +156,7 @@ export const approcheData = {
       icon: 'Search',
       title: 'Analyse du marché local',
       description:
-        'Étude approfondie de votre secteur à Limoges, identification des concurrents et des opportunités spécifiques au territoire limousin.',
+        'Étude approfondie de votre secteur à Limoges : cartographie de vos concurrents directs et indirects, analyse des requêtes spécifiques au territoire limousin et évaluation de votre visibilité actuelle sur Google comme dans les réponses des moteurs IA.',
       features: [
         'Audit de présence digitale',
         'Cartographie concurrentielle',
@@ -168,7 +168,7 @@ export const approcheData = {
       icon: 'FileText',
       title: 'Création de contenus experts',
       description:
-        'Élaboration de contenus qui positionnent votre entreprise comme référence, aussi bien pour Google que pour les moteurs IA.',
+        'Élaboration de contenus qui positionnent votre entreprise comme référence dans votre domaine. Chaque texte est conçu pour ranker sur Google et être cité par les IA : données chiffrées sourcées, structure sémantique avancée et vocabulaire métier maîtrisé, du luxe artisanal à l\'électronique de pointe.',
       features: [
         'Rédaction optimisée SEO et GEO',
         'Structuration sémantique avancée',
@@ -180,7 +180,7 @@ export const approcheData = {
       icon: 'Settings',
       title: 'Optimisation technique',
       description:
-        'Configuration de votre site pour satisfaire les exigences des moteurs traditionnels et IA en termes de performance et d\'accessibilité.',
+        'Configuration de votre site pour satisfaire les critères de performance des moteurs traditionnels et faciliter l\'extraction d\'informations par les IA : temps de chargement réduits, balisage Schema.org complet, architecture de contenu logique et expérience mobile sans friction.',
       features: [
         'Amélioration des temps de chargement',
         'Structure de données Schema.org',
@@ -192,7 +192,7 @@ export const approcheData = {
       icon: 'BarChart3',
       title: 'Pilotage et optimisation continue',
       description:
-        'Suivi régulier des performances avec tableaux de bord détaillés et ajustements stratégiques pour maximiser les résultats.',
+        'Suivi régulier via notre plateforme Rankwell One : positions Google, mentions dans les réponses IA, trafic qualifié et conversions. Chaque mois, vous recevez un rapport détaillé avec les résultats obtenus, les actions en cours et les priorités pour la période suivante.',
       features: [
         'Reporting mensuel personnalisé',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,32 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises limougeaudes que nous accompagnons',
+  title: 'Est-ce pertinent pour votre entreprise limougeaude ?',
   subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises du territoire limousin.',
+    'Notre expertise s\'adresse à des profils variés. Voici les situations où notre accompagnement SEO et GEO produit un impact mesurable.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et artisans locaux',
-      description:
-        'Porcelainiers, émailleurs, entreprises du cuir et artisans d\'art cherchant à rayonner au-delà de Limoges grâce au digital.',
+      label: 'Votre site ne génère pas assez de leads ou de ventes',
+      description: 'Vous avez investi dans un site web mais les résultats ne suivent pas. Vous cherchez un partenaire qui sait transformer la visibilité en chiffre d\'affaires, avec une approche structurée et des indicateurs de performance clairs et transparents.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands souhaitant capter une clientèle plus large via les moteurs de recherche.',
+      label: 'Vous voulez anticiper l\'impact des IA sur votre marché',
+      description: 'ChatGPT et Perplexity changent la manière dont vos clients trouvent des fournisseurs. Vous souhaitez une agence qui maîtrise le GEO pour que votre entreprise soit citée comme référence dans les réponses de ces nouveaux moteurs.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, experts-comptables et consultants désireux d\'améliorer leur visibilité auprès des habitants de la région.',
+      label: 'Porcelainiers, émailleurs et métiers d\'art du Limousin',
+      description: 'L\'Indication Géographique « Porcelaine de Limoges » est un atout mondial. Mais encore faut-il que les acheteurs internationaux vous trouvent en ligne. Le GEO vous positionne comme expert quand les IA répondent aux questions sur la porcelaine, l\'émail ou les arts du feu.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant attirer visiteurs et professionnels dans le Limousin.',
+      label: 'Entreprises tech et industrielles du technopôle ESTER',
+      description: 'ESTER rassemble 186 structures et 2 600 emplois dans l\'innovation, l\'électronique et les hyperfréquences. Dans cet écosystème compétitif, le référencement SEO et GEO vous différencie de vos concurrents et attire les décideurs B2B qui recherchent des partenaires technologiques.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Prenez contact avec notre équipe pour découvrir comment nous pouvons développer votre visibilité digitale à Limoges et bien au-delà.',
-  ctaButtonText: 'Échanger avec un expert',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est l\'expertise, la méthodologie et les résultats. Rankwell accompagne des entreprises partout en France depuis 2017.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -299,24 +291,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '130',
-      suffix: 'k',
-      label: "Habitants dans l'aire urbaine de Limoges",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -383,9 +383,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Les moteurs IA redéfinissent la manière dont les internautes accèdent à l\'information. Anticiper cette évolution, c\'est offrir à son entreprise un avantage compétitif décisif.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'Mobile-first indexing wasn\'t really about mobile. It was more about entities. Search engines are moving beyond simple keywords to grasping the relationships between concepts and entities.',
+  author: 'Cindy Krum',
+  role: 'CEO & Founder, MobileMoxie',
 };
 
 // ============================================
@@ -398,34 +398,39 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
+      question: 'Accompagnez-vous des entreprises à Limoges sans y être implanté ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs de recherche classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui génèrent des réponses synthétiques. Les deux disciplines sont complémentaires.',
+        'Oui, depuis 2017 nous travaillons avec des entreprises dans toute la France via une collaboration à distance parfaitement rodée. Visioconférences régulières, un consultant senior dédié qui connaît votre dossier dans le détail, et un accès permanent à notre plateforme Rankwell One pour suivre vos performances. Nos clients limougeauds bénéficient de la même qualité de service que ceux basés à Paris.',
     },
     {
-      question: 'Pourquoi une entreprise de Limoges doit-elle s\'intéresser au GEO ?',
+      question: 'Quelle est la différence entre SEO et GEO ?',
       answer:
-        'Les consommateurs et professionnels utilisent de plus en plus les assistants IA pour leurs recherches. Être visible dans ces réponses permet de toucher de nouveaux prospects et de renforcer votre image d\'expert.',
+        'Le SEO vise les résultats classiques de Google : les liens bleus et les rich snippets. Le GEO (Generative Engine Optimization) optimise vos contenus pour être cités par les moteurs IA comme ChatGPT, Perplexity ou les AI Overviews de Google. Les deux sont complémentaires et nous les intégrons systématiquement dans nos stratégies pour maximiser votre visibilité sur l\'ensemble des canaux de recherche.',
     },
     {
-      question: 'Quels résultats peut-on attendre et en combien de temps ?',
+      question: 'Le GEO est-il utile pour les métiers d\'art et la porcelaine de Limoges ?',
       answer:
-        'Les premiers effets SEO apparaissent généralement sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous établissons des objectifs réalistes dès le départ.',
+        'Tout à fait. La porcelaine de Limoges bénéficie d\'une Indication Géographique reconnue et d\'un rayonnement international. Quand un acheteur ou un collectionneur interroge une IA sur la porcelaine française, le GEO garantit que votre manufacture ou votre atelier est cité comme source de référence. C\'est un levier puissant pour le marché du luxe et de l\'artisanat d\'art.',
     },
     {
-      question: 'Comment mesurez-vous la visibilité sur les moteurs IA ?',
+      question: 'Quels secteurs accompagnez-vous à Limoges ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour détecter les mentions de votre marque et suivre leur évolution.',
+        'Nous accompagnons des entreprises de tous secteurs : porcelainiers et métiers d\'art, entreprises industrielles et technologiques du pôle ESTER, commerces et e-commerçants, professions libérales, acteurs du tourisme et de l\'hôtellerie. Notre critère de sélection est simple : des entreprises qui veulent générer du business mesurable via le Search, pas juste du trafic.',
     },
     {
-      question: 'Faut-il privilégier le SEO ou le GEO pour une PME limougeaude ?',
+      question: 'Combien de temps faut-il pour observer des résultats ?',
       answer:
-        'Nous recommandons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO prépare votre visibilité future sur les plateformes IA en pleine expansion.',
+        'Les premiers résultats SEO significatifs se manifestent entre 3 et 6 mois selon votre positionnement de départ et l\'intensité concurrentielle de votre secteur. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide, surtout quand le contenu est de haute qualité. Nous définissons des objectifs réalistes dès le départ et vous donnons une feuille de route transparente.',
     },
     {
-      question: 'Proposez-vous des formations sur le GEO ?',
+      question: 'Comment suivez-vous la visibilité dans les réponses IA ?',
       answer:
-        'Oui, nous dispensons des formations pour aider vos équipes à comprendre les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Nous utilisons des outils dédiés qui interrogent régulièrement les principaux moteurs IA (ChatGPT, Perplexity, Google AI Overviews) sur des requêtes pertinentes pour votre activité. Nous mesurons la fréquence de vos citations, votre part de voix par rapport aux concurrents et l\'évolution dans le temps. Ces données sont accessibles sur votre tableau de bord Rankwell One.',
+    },
+    {
+      question: 'Quels sont vos tarifs pour une entreprise limougeaude ?',
+      answer:
+        'Nos tarifs varient selon vos objectifs, votre secteur et le niveau de concurrence. Nous proposons des forfaits mensuels pour un accompagnement continu ou des interventions ponctuelles (audit, stratégie de contenu). Un premier échange de 30 minutes en visio nous permet de comprendre votre situation et de vous donner une estimation précise, sans engagement.',
     },
   ],
 };

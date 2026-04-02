@@ -106,28 +106,24 @@ export const geoEducationData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Bot',
-      title: 'Fonctionnement des moteurs IA',
-      description:
-        'ChatGPT, Perplexity et Google SGE agrègent des informations de multiples sources pour produire des réponses complètes. Être reconnu comme source fiable devient stratégique.',
+      id: 1,
+      title: 'Qu\'est-ce que le GEO ?',
+      desc: 'GEO (Generative Engine Optimization) regroupe les méthodes permettant à vos contenus d\'être sélectionnés comme sources par les moteurs IA — ChatGPT, Perplexity, AI Overviews de Google. Il ne s\'agit plus seulement d\'apparaître dans une liste de liens, mais d\'être la référence que l\'IA cite et recommande à ses utilisateurs.',
     },
     {
-      icon: 'FileText',
-      title: 'Contenus structurés et experts',
-      description:
-        'Les systèmes IA valorisent les contenus organisés, sourcés et démontrant une expertise réelle. La structuration sémantique influe directement sur votre visibilité.',
+      id: 2,
+      title: 'Contenus citation-ready',
+      desc: 'Les IA recherchent des passages faciles à extraire et à reformuler : définitions nettes, listes hiérarchisées, données chiffrées avec leurs sources. Nous adaptons la structure de vos contenus pour qu\'ils remplissent ces critères et augmentent significativement vos chances d\'apparaître dans les réponses générées.',
     },
     {
-      icon: 'Award',
-      title: 'Signaux de confiance',
-      description:
-        'Citations, backlinks pertinents et mentions de marque renforcent la crédibilité perçue par les moteurs IA, augmentant vos chances d\'être recommandé.',
+      id: 3,
+      title: 'Autorité thématique',
+      desc: 'Les grands modèles de langage jugent si vous êtes une source crédible sur votre domaine. Un seul article ne suffit pas : c\'est la cohérence globale de votre présence en ligne — publications, profils, backlinks — qui construit cette légitimité perçue par les algorithmes.',
     },
     {
-      icon: 'ChartLine',
-      title: 'Mesure de performance',
-      description:
-        'Des outils spécialisés permettent de suivre votre présence dans les réponses IA et d\'ajuster la stratégie selon les résultats obtenus.',
+      id: 4,
+      title: 'Réseau de mentions',
+      desc: 'Les moteurs IA recoupent votre crédibilité en scrutant les mentions sur des sites tiers : presse spécialisée, études de marché, forums professionnels, annuaires sectoriels. Le netlinking conserve son importance, mais les critères de qualité et de contextualisation priment désormais sur le volume brut de liens.',
     },
   ],
 };
@@ -153,10 +149,11 @@ export const approcheData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      icon: 'Search',
-      title: 'Diagnostic du marché local',
+      id: 1,
+      icon: 'Target',
+      title: 'On mesure ce qui compte',
       description:
-        'Analyse approfondie de votre secteur à Montpellier, cartographie concurrentielle et identification des opportunités spécifiques à la métropole.',
+        'Ranker sur un mot-clé sans valeur commerciale n\'a aucun intérêt. Notre indicateur principal, c\'est l\'impact concret sur votre business montpelliérain : leads qualifiés captés, chiffre d\'affaires attribuable au Search, coût d\'acquisition optimisé.',
       features: [
         'Audit de présence digitale',
         'Étude de la concurrence locale',
@@ -165,10 +162,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'FileText',
-      title: 'Production de contenus experts',
+      id: 2,
+      icon: 'MessageCircle',
+      title: 'On challenge vos objectifs',
       description:
-        'Création de contenus qui établissent votre expertise, optimisés pour le SEO comme pour les critères des moteurs IA.',
+        'Ce que vous croyez vouloir n\'est pas toujours ce dont vous avez besoin. Notre valeur ajoutée inclut la capacité à recadrer une stratégie mal orientée. Un prestataire complaisant ne délivre pas de résultats pérennes.',
       features: [
         'Rédaction SEO et GEO',
         'Architecture sémantique',
@@ -177,10 +175,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'Settings',
-      title: 'Optimisation technique',
+      id: 3,
+      icon: 'UserCheck',
+      title: 'Un consultant senior dédié',
       description:
-        'Configuration de votre site pour satisfaire les exigences de performance et d\'accessibilité des moteurs traditionnels et IA.',
+        'Celui qui élabore votre stratégie est le même qui la met en œuvre. Aucun intermédiaire, aucune délégation opaque. Vous bénéficiez d\'un référent unique qui connaît votre dossier en profondeur et le contexte concurrentiel local.',
       features: [
         'Amélioration de la vitesse',
         'Balisage Schema.org',
@@ -189,10 +188,11 @@ export const approcheData = {
       ],
     },
     {
-      icon: 'BarChart3',
-      title: 'Pilotage et amélioration continue',
+      id: 4,
+      icon: 'ChartLine',
+      title: 'Transparence via Rankwell One',
       description:
-        'Suivi régulier des performances avec tableaux de bord détaillés et ajustements stratégiques pour maximiser les résultats.',
+        'Notre plateforme relie vos métriques Search à vos données commerciales. Vous suivez l\'impact réel en temps réel au lieu de recevoir des vanity metrics dans un rapport statique. Chaque action est traçable et justifiable.',
       features: [
         'Reporting mensuel personnalisé',
         'Suivi des positions SEO et GEO',
@@ -209,40 +209,30 @@ export const approcheData = {
 export const pourQuiData = {
   sectionId: 'pour-qui',
   badge: 'Pour qui ?',
-  title: 'Les entreprises montpelliéraines que nous accompagnons',
-  subtitle:
-    'Notre expertise s\'adresse à différents profils d\'entreprises de la métropole montpelliéraine.',
+  title: 'Est-ce pertinent pour vous ?',
+  subtitle: 'Notre expertise s\'adresse à différents profils d\'entreprises. Voici les contextes où nous apportons une vraie valeur ajoutée.',
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'PME et startups tech',
-      description:
-        'Entreprises numériques, biotechs et healthtechs souhaitant accélérer leur croissance grâce à une visibilité digitale renforcée.',
+      label: 'Vous cherchez une expertise GEO',
+      description: 'Vous avez compris que ChatGPT et les moteurs IA transforment les parcours de recherche. Vous voulez une agence qui sait optimiser pour ces nouveaux canaux, pas seulement pour les résultats Google classiques.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerces et e-commerçants',
-      description:
-        'Boutiques, enseignes locales et sites marchands désireux d\'attirer une clientèle plus large via les moteurs de recherche.',
+      label: 'Vous voulez comprendre ce qui bloque votre SEO',
+      description: 'Votre référencement stagne malgré vos investissements. Vous avez besoin d\'un diagnostic objectif pour identifier les vrais blocages techniques ou éditoriaux et définir les priorités d\'action.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Professions libérales',
-      description:
-        'Avocats, médecins, consultants et experts-comptables cherchant à renforcer leur présence auprès des Montpelliérains.',
+      label: 'Santé et MedTech',
+      description: 'MedVallée, le BIC de Montpellier, AI Stroke, les pôles e-santé : la métropole est un hub majeur des sciences de la vie. Le GEO permet aux acteurs santé de se positionner comme sources de référence dans les réponses IA.',
     },
     {
-      icon: 'Globe',
-      title: 'Acteurs du tourisme',
-      description:
-        'Hôteliers, restaurateurs et prestataires touristiques voulant capter les visiteurs de la région languedocienne.',
+      label: 'Numérique et IA',
+      description: 'IA2M, French Tech Méditerranée, cybersécurité, agritech : Montpellier développe un écosystème tech diversifié et ambitieux. La visibilité sur les moteurs IA est un levier de croissance naturel pour ces entreprises.',
     },
   ],
-  ctaTitle: 'Votre activité correspond à ces profils ?',
-  ctaDescription:
-    'Échangez avec notre équipe pour découvrir comment nous pouvons développer votre visibilité digitale à Montpellier et au-delà.',
-  ctaButtonText: 'Contacter un expert',
+  ctaTitle: 'Point de vigilance',
+  ctaDescription: 'La proximité géographique ne garantit pas la compétence. Une agence locale peut appliquer des méthodes obsolètes. Ce qui fait la différence, c\'est l\'expertise, la rigueur méthodologique et les résultats démontrables.',
+  ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
 
@@ -299,24 +289,32 @@ export const chiffresData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
-      value: '40',
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
       suffix: '%',
-      label: 'Des recherches passent par des IA en 2025',
+      label: 'Clients satisfaits',
     },
     {
-      value: '3',
-      suffix: 'x',
-      label: 'Plus de trafic grâce à la synergie SEO + GEO',
-    },
-    {
-      value: '500',
-      suffix: 'k',
-      label: "D'habitants dans la métropole montpelliéraine",
-    },
-    {
-      value: '95',
+      id: 4,
+      icon: 'Target',
+      number: 100,
       suffix: '%',
-      label: 'De clients satisfaits de nos accompagnements',
+      label: 'Business centrix',
     },
   ],
 };
@@ -383,9 +381,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'Les moteurs IA redéfinissent les parcours de recherche des utilisateurs. Anticiper cette transformation, c\'est offrir à son entreprise un avantage compétitif décisif.',
-  author: 'Thomas Aubert',
-  role: 'Directeur SEO & GEO, Rankwell',
+    'The best SEO strategy is to build a brand people actually want to search for.',
+  author: 'Duane Forrester',
+  role: 'Ancien responsable SEO, Bing/Microsoft',
 };
 
 // ============================================
@@ -398,34 +396,46 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: '1',
       question: 'Quelle est la différence fondamentale entre SEO et GEO ?',
       answer:
-        'Le SEO vise à positionner votre site dans les résultats des moteurs classiques (Google, Bing). Le GEO cible les moteurs IA (ChatGPT, Perplexity) qui génèrent des réponses synthétiques. Les deux disciplines sont complémentaires.',
+        'Le SEO positionne votre site dans les résultats classiques de Google et Bing. Le GEO cible les moteurs IA (ChatGPT, Perplexity, AI Overviews) qui produisent des réponses synthétiques en citant leurs sources. Les deux disciplines fonctionnent en synergie : un bon socle SEO renforce votre légitimité aux yeux des algorithmes IA, et le GEO ouvre de nouveaux canaux d\'acquisition.',
     },
     {
+      id: '2',
       question: 'Pourquoi une entreprise montpelliéraine doit-elle s\'intéresser au GEO ?',
       answer:
-        'Les utilisateurs recourent de plus en plus aux assistants IA pour leurs recherches. Être présent dans ces réponses permet d\'atteindre de nouveaux prospects et de renforcer votre image d\'expert.',
+        'Montpellier connaît une croissance démographique et économique exceptionnelle, avec un afflux constant de talents et de créateurs d\'entreprises. Ces profils utilisent massivement les assistants IA pour sourcer prestataires et solutions. Ne pas apparaître dans ces réponses revient à ignorer un canal d\'acquisition en pleine expansion dans une métropole particulièrement réceptive à l\'innovation.',
     },
     {
+      id: '3',
       question: 'Quels résultats peut-on attendre et sous quel délai ?',
       answer:
-        'Les premiers effets SEO apparaissent généralement sous 3 à 6 mois. Pour le GEO, l\'intégration dans les réponses IA peut être plus rapide selon la qualité du contenu. Nous fixons des objectifs réalistes dès le départ.',
+        'Les premiers résultats SEO se manifestent généralement sous 3 à 6 mois, selon l\'intensité concurrentielle de votre secteur. Le GEO peut produire des effets plus rapides si vos contenus sont déjà structurés et sourcés correctement. Nous définissons des indicateurs précis dès le démarrage — leads, citations IA, trafic qualifié — et les mesurons chaque mois dans un reporting transparent.',
     },
     {
+      id: '4',
       question: 'Comment mesurez-vous la visibilité sur les moteurs IA ?',
       answer:
-        'Nous utilisons des outils spécialisés qui analysent les réponses générées par les différentes IA pour repérer les mentions de votre marque et suivre leur évolution.',
+        'Nous déployons des outils propriétaires et tiers qui interrogent périodiquement les principaux LLMs sur vos requêtes stratégiques. Cela nous permet de tracker les citations de votre marque, de mesurer leur fréquence et leur contexte, et d\'identifier les contenus concurrents qui captent les recommandations IA à votre place.',
     },
     {
+      id: '5',
       question: 'Faut-il privilégier le SEO ou le GEO pour une startup montpelliéraine ?',
       answer:
-        'Nous préconisons une approche combinée. Le SEO assure un socle solide sur les moteurs traditionnels, tandis que le GEO prépare votre visibilité sur les plateformes IA en pleine expansion.',
+        'Nous préconisons une approche combinée dès le départ. Le SEO construit un socle de trafic organique stable sur les moteurs traditionnels. Le GEO prépare votre présence sur les plateformes IA en forte croissance. Pour une startup, investir simultanément dans les deux canaux dès la phase de lancement permet de construire une autorité thématique cohérente et durable.',
     },
     {
+      id: '6',
+      question: 'Le GEO est-il pertinent pour le secteur santé et MedTech ?',
+      answer:
+        'Particulièrement. Les professionnels de santé, chercheurs et décideurs hospitaliers utilisent de plus en plus les IA pour s\'informer sur les innovations médicales, les dispositifs et les prestataires. Montpellier étant un pôle majeur avec MedVallée et le BIC, se positionner comme source de référence dans les réponses IA constitue un avantage concurrentiel stratégique pour les acteurs locaux de la santé.',
+    },
+    {
+      id: '7',
       question: 'Proposez-vous des formations sur le GEO ?',
       answer:
-        'Oui, nous dispensons des formations pour aider vos équipes à comprendre les enjeux du GEO et à produire des contenus optimisés pour les moteurs IA.',
+        'Oui, nous animons des sessions de formation concrètes et opérationnelles. Vos équipes apprennent à identifier les opportunités GEO propres à votre secteur, à structurer des contenus citation-ready et à évaluer leur présence dans les réponses IA. Chaque formation est personnalisée selon votre industrie et votre niveau de maturité digitale.',
     },
   ],
 };

@@ -7,7 +7,7 @@
 // METADATA
 // ============================================
 export const metadata = {
-  title: 'Agence GEO & SEO à Bordeaux | Rankwell',
+  title: 'Agence GEO & SEO à Bordeaux - Rankwell',
   description:
     'Agence spécialisée en GEO et SEO à Bordeaux. Boostez votre visibilité sur Google et les moteurs IA pour conquérir le marché bordelais et la Nouvelle-Aquitaine.',
 };
@@ -135,8 +135,8 @@ export const geoEducationData = {
 // CALLOUT DATA
 // ============================================
 export const calloutData = {
-  label: 'Chiffre clé',
-  text: 'Bordeaux Métropole compte plus de 800 000 habitants et génère 12% du PIB de Nouvelle-Aquitaine, avec un écosystème numérique en forte croissance.',
+  label: 'Le contexte économique bordelais',
+  text: 'Bordeaux Métropole regroupe 750 000 habitants sur 28 communes et 77 000 entreprises. 7e métropole de France, elle a attiré 91,2 M€ d\'investissements en 2024 (+122 %). Ses moteurs économiques — vin et œnotourisme, aéronautique, spatial et défense, numérique — génèrent 40 000 emplois industriels et 1,8 Md€ de valeur ajoutée.',
   icon: 'TrendingUp' as const,
 };
 
@@ -167,13 +167,13 @@ export const approcheData = {
       icon: 'Settings',
       title: 'Excellence technique',
       description:
-        'Optimisation des temps de chargement, architecture de site orientée SEO, données structurées Schema.org et expérience mobile irréprochable.',
+        'Optimisation des temps de chargement, architecture de site orientée SEO, données structurées Schema.org et expérience mobile irréprochable. Chaque détail technique est un levier de performance.',
     },
     {
       icon: 'Award',
       title: 'Autorité locale renforcée',
       description:
-        'Développement de liens depuis des sites bordelais reconnus, présence sur les annuaires locaux et partenariats avec des acteurs du territoire.',
+        'Développement de liens depuis des sites bordelais reconnus, présence sur les annuaires locaux et partenariats éditoriaux avec des acteurs du territoire girondin.',
     },
   ],
 };
@@ -190,33 +190,29 @@ export const pourQuiData = {
   accentColor: 'rw-blue' as const,
   criteria: [
     {
-      icon: 'Building2',
-      title: 'Vins & Œnotourisme',
+      label: 'Vous voulez développer votre acquisition digitale',
       description:
-        'Châteaux, négociants, caves et prestataires œnotouristiques souhaitant développer leurs ventes directes et visites.',
+        'Votre site existe mais ne génère pas assez de leads ou de ventes. Vous cherchez une stratégie SEO et GEO structurée pour transformer votre présence en ligne en véritable canal d\'acquisition sur le marché bordelais.',
     },
     {
-      icon: 'ShoppingBag',
-      title: 'Commerce & Retail',
+      label: 'Vous préparez une refonte ou un repositionnement',
       description:
-        'Boutiques bordelaises, commerces de quartier et enseignes cherchant à développer leur clientèle locale.',
+        'Migration de site, changement de marque ou pivot stratégique : vous avez besoin d\'un accompagnement pour préserver votre référencement acquis et saisir l\'opportunité de gagner en visibilité sur les moteurs IA.',
     },
     {
-      icon: 'Briefcase',
-      title: 'Services professionnels',
+      label: 'Vin et œnotourisme',
       description:
-        'Avocats, experts-comptables, consultants et prestataires B2B ciblant le marché des entreprises bordelaises.',
+        'Châteaux, négoce, caves et prestataires œnotouristiques du Bordelais. Le GEO est un levier décisif quand un voyageur demande à une IA « quel domaine visiter près de Saint-Émilion » et que votre nom doit apparaître.',
     },
     {
-      icon: 'Home',
-      title: 'Immobilier & Tech',
+      label: 'Services professionnels et B2B',
       description:
-        'Agences immobilières, promoteurs et startups de l\'écosystème French Tech Bordeaux.',
+        'Cabinets de conseil, ESN, professions réglementées et sous-traitants industriels de la métropole. Le SEO capte la demande existante, le GEO positionne votre expertise dans les réponses conversationnelles des décideurs.',
     },
   ],
-  ctaTitle: 'Votre secteur n\'est pas listé ?',
+  ctaTitle: 'Point de vigilance',
   ctaDescription:
-    'Notre expertise s\'applique à tous les domaines d\'activité. Échangeons sur vos enjeux pour définir une stratégie GEO & SEO adaptée à votre entreprise bordelaise.',
+    'La proximité géographique ne garantit pas la compétence. Ce qui compte, c\'est la méthodologie, la transparence des résultats et la capacité à comprendre votre marché. Nous travaillons avec des entreprises bordelaises depuis nos bureaux — et nos résultats parlent d\'eux-mêmes.',
   ctaButtonText: 'Discuter de votre projet',
   ctaButtonHref: '/contact',
 };
@@ -273,10 +269,34 @@ export const chiffresData = {
   sectionId: 'chiffres',
   accentColor: 'rw-blue' as const,
   items: [
-    { value: '260K', label: 'Habitants à Bordeaux' },
-    { value: '800K', label: 'Dans la métropole' },
-    { value: '6M', label: 'Touristes par an' },
-    { value: '+60%', label: 'Recherches locales sur mobile' },
+    {
+      id: 1,
+      icon: 'Users',
+      number: 350,
+      suffix: '+',
+      label: 'Clients accompagnés',
+    },
+    {
+      id: 2,
+      icon: 'Calendar',
+      number: 8,
+      suffix: ' ans',
+      label: "D'expertise Search",
+    },
+    {
+      id: 3,
+      icon: 'ThumbsUp',
+      number: 99,
+      suffix: '%',
+      label: 'Clients satisfaits',
+    },
+    {
+      id: 4,
+      icon: 'Target',
+      number: 100,
+      suffix: '%',
+      label: 'Business centrix',
+    },
   ],
 };
 
@@ -343,9 +363,9 @@ export const comparaisonData = {
 // ============================================
 export const quoteData = {
   quote:
-    'L\'IA transforme profondément les recherches locales à Bordeaux. Les entreprises qui s\'adaptent dès maintenant au GEO prendront une avance significative sur leurs concurrents girondins.',
-  author: 'Notre équipe',
-  role: 'Experts GEO & SEO',
+    'The objective is not to make your links appear natural; the objective is that your links are natural.',
+  author: 'Matt Cutts',
+  role: 'Ancien responsable Webspam, Google',
 };
 
 // ============================================
@@ -358,34 +378,46 @@ export const faqData = {
   accentColor: 'rw-blue' as const,
   items: [
     {
+      id: 'faq-1',
       question: 'Pourquoi le SEO est-il crucial pour une entreprise bordelaise ?',
       answer:
-        'Bordeaux est une métropole en forte croissance avec une concurrence digitale intense. Un bon référencement vous permet de capter les recherches des 800 000 habitants de la métropole et des 6 millions de touristes annuels.',
+        'Bordeaux Métropole concentre 750 000 habitants, 77 000 entreprises et accueille 6 millions de visiteurs par an. Cette densité économique crée une concurrence digitale féroce : sans référencement structuré, votre entreprise reste invisible face à des concurrents qui investissent déjà. Le SEO transforme cette pression concurrentielle en opportunité en vous positionnant exactement là où vos prospects cherchent.',
     },
     {
+      id: 'faq-2',
       question: 'Comment le GEO peut-il aider mon entreprise à Bordeaux ?',
       answer:
-        'Le GEO vous permet d\'être recommandé par les assistants IA quand les utilisateurs posent des questions sur Bordeaux. Par exemple, si quelqu\'un demande "meilleur restaurant à Bordeaux" à ChatGPT, votre établissement pourra être mentionné.',
+        'Le GEO optimise votre présence dans les réponses générées par ChatGPT, Perplexity et Google SGE. Concrètement, quand un utilisateur demande « meilleur prestataire [votre secteur] à Bordeaux », votre entreprise apparaît dans la recommandation. C\'est un canal d\'acquisition complémentaire au SEO qui capte une audience en forte croissance, notamment parmi les décideurs B2B et les jeunes professionnels bordelais.',
     },
     {
+      id: 'faq-3',
       question: 'Combien de temps pour voir des résultats à Bordeaux ?',
       answer:
-        'Le SEO produit généralement des résultats visibles en 3 à 6 mois. Le GEO peut avoir un impact plus rapide sur certaines requêtes. Nous mettons en place des indicateurs de progression dès le premier mois.',
+        'Le SEO produit des résultats mesurables entre 3 et 6 mois selon la compétitivité de votre secteur et l\'état initial de votre site. Le GEO peut générer des mentions IA plus rapidement, parfois sous 4 à 8 semaines, car les moteurs génératifs réévaluent leurs sources en continu. Nous installons un tableau de bord dès le premier mois pour suivre chaque indicateur de progression.',
     },
     {
+      id: 'faq-4',
       question: 'Travaillez-vous avec le secteur viticole ?',
       answer:
-        'Oui, nous accompagnons châteaux et domaines viticoles du Bordelais. Le SEO et le GEO sont particulièrement pertinents pour développer l\'œnotourisme et la vente directe.',
+        'Oui, le vin et l\'œnotourisme sont des secteurs clés de notre accompagnement bordelais. Nous aidons châteaux, négociants et caves à développer la vente directe, les réservations de visites et la notoriété internationale. Le GEO est particulièrement puissant ici : quand un touriste demande à une IA « quel domaine visiter près de Saint-Émilion », être recommandé change la donne.',
     },
     {
+      id: 'faq-5',
       question: 'Proposez-vous un accompagnement pour toute la métropole ?',
       answer:
-        'Absolument. Nous pouvons cibler Bordeaux centre mais aussi les communes de la métropole : Mérignac, Pessac, Talence, Bègles, etc. Le SEO local permet d\'optimiser votre visibilité sur des périmètres géographiques définis.',
+        'Absolument. Notre stratégie couvre Bordeaux centre comme les 28 communes de la métropole : Mérignac, Pessac, Talence, Bègles, Villenave-d\'Ornon, Gradignan, etc. Le SEO local permet de cibler des périmètres géographiques précis, tandis que le GEO capte les requêtes conversationnelles qui ne mentionnent pas toujours une commune mais décrivent un besoin dans la zone bordelaise.',
     },
     {
+      id: 'faq-6',
       question: 'Comment mesurez-vous les performances du GEO ?',
       answer:
-        'Nous utilisons des outils dédiés pour suivre vos mentions dans les réponses des IA (ChatGPT, Perplexity, Google SGE). Nous analysons les requêtes où vous êtes cité et mesurons l\'évolution de votre visibilité.',
+        'Nous utilisons des outils spécialisés qui interrogent régulièrement les IA (ChatGPT, Perplexity, Google SGE) sur les requêtes stratégiques de votre secteur. Nous analysons la fréquence de vos mentions, le contexte dans lequel vous êtes cité, et la part de voix face à vos concurrents. Ces données alimentent un reporting mensuel qui oriente les ajustements stratégiques.',
+    },
+    {
+      id: 'faq-7',
+      question: 'Comment le GEO s\'applique-t-il au secteur du tourisme et de l\'œnotourisme bordelais ?',
+      answer:
+        'Le tourisme bordelais — Cité du Vin, route des châteaux, gastronomie — génère des millions de requêtes conversationnelles sur les IA. Le GEO structure votre contenu pour que les moteurs génératifs vous recommandent comme référence locale. Nous travaillons les données structurées, les avis, les guides experts et les partenariats éditoriaux pour maximiser votre visibilité dans ces réponses IA à forte intention de conversion.',
     },
   ],
 };

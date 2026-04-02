@@ -30,6 +30,8 @@ export const heroData = {
   description: 'Tracking, Analytics, CRO. On mesure ce qui compte, on identifie ce qui bloque, on optimise ce qui convertit. Une approche data driven pour piloter votre croissance.',
   ctaText: 'Parler de vos besoins data',
   ctaHref: '/contact',
+  image: '/images/pages/agence-data/hero.webp',
+  imageAlt: 'Agence data marketing Rankwell',
   accentColor: 'rw-purple' as const,
 };
 
@@ -114,28 +116,28 @@ export const pourquoiData = {
   items: [
     {
       id: 1,
-      // image: '/images/pages/agence-data/pourquoi-roi.webp',
+      image: '/images/pages/agence-data/pourquoi-roi.webp',
       alt: 'Mesurer le ROI réel data marketing',
       title: 'Mesurer le ROI réel',
       desc: 'Vos campagnes SEO et SEA génèrent-elles vraiment du business ? Sans tracking propre, impossible de le savoir. Notre agence analytics vous donne les réponses.',
     },
     {
       id: 2,
-      // image: '/images/pages/agence-data/pourquoi-fuites.webp',
+      image: '/images/pages/agence-data/pourquoi-fuites.webp',
       alt: 'Identifier les fuites de conversion',
       title: 'Identifier les fuites',
       desc: 'Votre trafic augmente mais pas vos conversions ? Il y a une fuite quelque part. Une approche data driven permet de la trouver et de la colmater.',
     },
     {
       id: 3,
-      // image: '/images/pages/agence-data/pourquoi-prioriser.webp',
+      image: '/images/pages/agence-data/pourquoi-prioriser.webp',
       alt: 'Prioriser les actions marketing',
       title: 'Prioriser les actions',
       desc: 'Vous ne pouvez pas tout faire. Le data marketing vous dit où concentrer vos efforts pour un impact maximum.',
     },
     {
       id: 4,
-      // image: '/images/pages/agence-data/pourquoi-prouver.webp',
+      image: '/images/pages/agence-data/pourquoi-prouver.webp',
       alt: 'Prouver la valeur du marketing',
       title: 'Prouver la valeur',
       desc: 'Au board, à la direction, aux investisseurs. Des chiffres solides pour démontrer l\'impact de vos actions marketing.',
@@ -182,6 +184,8 @@ export const servicesData = {
   items: [
     {
       id: 'tracking',
+      image: '/images/pages/agence-data/service-tracking.webp',
+      alt: 'Tracking et plan de taggage GTM',
       title: 'Tracking & Plan de taggage',
       description: 'La base de tout. Sans tracking fiable, pas de données fiables. On configure Google Tag Manager, les événements, les conversions. Proprement.',
       href: '/agence-data/tracking',
@@ -190,6 +194,8 @@ export const servicesData = {
     },
     {
       id: 'analytics',
+      image: '/images/pages/agence-data/service-analytics.webp',
+      alt: 'Analytics GA4 et dashboards',
       title: 'Analytics',
       description: 'GA4, dashboards, rapports. On transforme vos données brutes en insights actionnables. Vous comprenez ce qui se passe sur votre site.',
       href: '/agence-data/analytics',
@@ -198,6 +204,8 @@ export const servicesData = {
     },
     {
       id: 'cro',
+      image: '/images/pages/agence-data/service-cro.webp',
+      alt: 'Audit CRO optimisation conversion',
       title: 'Audit CRO',
       description: 'Optimisation du taux de conversion. On analyse les parcours utilisateurs, identifie les frictions, propose des améliorations testables.',
       href: '/agence-data/cro',

@@ -4,14 +4,19 @@
  */
 
 import RevealAnimation from '@/components/animation/RevealAnimation';
+import Link from 'next/link';
 
 interface QuoteProps {
   quote: string;
   author: string;
   role: string;
+  /** Lien optionnel affiché sous la citation */
+  linkHref?: string;
+  /** Label du lien (affiché uniquement si linkHref est défini) */
+  linkLabel?: string;
 }
 
-const Quote = ({ quote, author, role }: QuoteProps) => {
+const Quote = ({ quote, author, role, linkHref, linkLabel }: QuoteProps) => {
   return (
     <section className="pb-14 md:pb-16 lg:pb-[88px] xl:pb-[100px] pt-14 md:pt-16 lg:pt-[88px] xl:pt-[100px] max-xl:px-5 overflow-hidden">
       <RevealAnimation delay={0.1}>
@@ -27,7 +32,7 @@ const Quote = ({ quote, author, role }: QuoteProps) => {
           />
 
           {/* Quote Content */}
-          <article className="text-center relative z-20">
+          <article className="text-center text-white relative z-20">
             <RevealAnimation delay={0.2}>
               <blockquote className="text-lg lg:text-heading-6 font-normal max-w-[700px] mx-auto text-white px-4 sm:px-0">
                 &ldquo;{quote}&rdquo;
@@ -35,10 +40,20 @@ const Quote = ({ quote, author, role }: QuoteProps) => {
             </RevealAnimation>
 
             <RevealAnimation delay={0.3}>
-              <cite className="block mt-8 not-italic">
-                <span className="text-tagline-1 text-white font-medium block">{author}</span>
-                <span className="text-tagline-3 text-white/60">{role}</span>
-              </cite>
+              <div>
+                <cite className="block mt-8 not-italic">
+                  <span className="text-tagline-1 text-white font-medium block">{author}</span>
+                  <span className="text-tagline-3 text-white/60">{role}</span>
+                </cite>
+                {linkHref && linkLabel && (
+                  <Link
+                    href={linkHref}
+                    className="inline-block mt-5 text-sm text-white/50 hover:text-white underline underline-offset-4 transition-colors duration-200"
+                  >
+                    {linkLabel} →
+                  </Link>
+                )}
+              </div>
             </RevealAnimation>
           </article>
         </div>
