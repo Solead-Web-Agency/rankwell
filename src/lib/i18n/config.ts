@@ -52,6 +52,7 @@ export const frenchOnlyPages: string[] = [
   '/maillage',    // Page secrète - pas de version EN
   '/composants',  // Page secrète - pas de version EN
   '/agence-sea2', // Landing page conversion SEA - FR uniquement
+  '/',            // Branche landing : la home est la landing (FR uniquement)
 ];
 
 /**
