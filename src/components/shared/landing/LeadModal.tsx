@@ -3,8 +3,8 @@
  *
  * - Formulaire court : nom, email, téléphone, site web, budget mensuel
  * - Honeypot anti-spam, consentement RGPD
- * - Envoi : POST JSON vers NEXT_PUBLIC_LEAD_FORM_ENDPOINT si défini,
- *   sinon simulation (même comportement que ContactSection)
+ * - Envoi : POST JSON vers /api/lead (route API du site) qui transmet
+ *   au webhook LEAD_WEBHOOK_URL (Make, Zapier, n8n...)
  * - Événement dataLayer `generate_lead` en cas de succès (suivi conversions Ads)
  * - Fermeture : bouton, clic sur le fond, touche Échap
  * - `data-lenis-prevent` : le smooth scroll Lenis ignore la modale
@@ -64,6 +64,9 @@ interface LeadModalProps {
 
 type Status = 'idle' | 'sending' | 'success' | 'error';
 
+/** Route API du site qui transmet le lead au webhook (voir src/app/api/lead/route.ts) */
+const LEAD_API_PATH = '/api/lead';
+
 const inputClass =
   'w-full px-[18px] py-3 h-[48px] rounded-full border border-stroke-3 bg-background-1 text-tagline-2 text-secondary placeholder:text-secondary/60 placeholder:font-normal font-normal focus:outline-none focus:border-secondary dark:bg-background-6 dark:border-stroke-7 dark:text-accent dark:placeholder:text-accent/60 dark:focus:border-stroke-4/20';
 
@@ -118,12 +121,6 @@ const LeadModal = ({
       const form = e.currentTarget;
       const data = new FormData(form);
 
-      // Honeypot : un bot a rempli le champ caché → on fait semblant d'accepter
-      if (data.get('company_website')) {
-        setStatus('success');
-        return;
-      }
-
       setStatus('sending');
 
       const payload = {
@@ -136,23 +133,18 @@ const LeadModal = ({
         phone: String(data.get('phone') || ''),
         website: String(data.get('website') || ''),
         budget: String(data.get('budget') || ''),
-        submittedAt: new Date().toISOString(),
+        consent: data.get('consent') === 'on',
+        // Honeypot : vérifié côté serveur
+        company_website: String(data.get('company_website') || ''),
       };
 
       try {
-        const endpoint = process.env.NEXT_PUBLIC_LEAD_FORM_ENDPOINT;
-
-        if (endpoint) {
-          const res = await fetch(endpoint, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify(payload),
-          });
-          if (!res.ok) throw new Error(`HTTP ${res.status}`);
-        } else {
-          // Aucun endpoint configuré : simulation (à brancher en prod)
-          await new Promise((resolve) => setTimeout(resolve, 900));
-        }
+        const res = await fetch(LEAD_API_PATH, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
 
         // Tracking conversion (GTM / GA4 / Google Ads)
         if (typeof window !== 'undefined') {

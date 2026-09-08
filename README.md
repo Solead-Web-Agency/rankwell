@@ -806,7 +806,9 @@ Composants des **landing pages conversion** (ex : `/agence-sea2`). Pages standal
 4. Ajouter le chemin dans `frenchOnlyPatterns` de `src/middleware.ts` (redirection `/en/...` → FR)
 5. Mettre `robots: { index: false }` dans les metadata de la page (doublon d'une page existante = noindex)
 
-**Envoi du formulaire :** `LeadModal` fait un `POST` JSON vers l'URL définie dans la variable d'environnement `NEXT_PUBLIC_LEAD_FORM_ENDPOINT` (webhook Make/Zapier/n8n, Formspree, route API...). Sans cette variable, l'envoi est **simulé** (comme le formulaire de la page contact). En cas de succès, un événement `generate_lead` est poussé dans `window.dataLayer` pour le suivi des conversions (GTM / Google Ads).
+**Envoi du formulaire :** `LeadModal` fait un `POST` JSON vers la route API du site `/api/lead` (`src/app/api/lead/route.ts`), qui valide les données (champs requis, email, consentement, honeypot) puis les transmet au webhook défini dans la variable d'environnement **`LEAD_WEBHOOK_URL`** (Make, Zapier, n8n...). Sans cette variable : en dev le lead est loggé en console et l'envoi est simulé, en production l'API répond 503 et le formulaire affiche son message d'erreur. En cas de succès, un événement `generate_lead` est poussé dans `window.dataLayer` pour le suivi des conversions (GTM / Google Ads).
+
+Payload transmis au webhook : `formId`, `source` (CTA cliqué), `page`, `locale`, `name`, `email`, `phone`, `website`, `budget`, `consent`, `submittedAt`, `userAgent`, `referer`.
 
 ### Composants Services (`shared/services/`)
 
