@@ -37,7 +37,8 @@ export interface LeadModalContent {
     budget: string;
     budgetPlaceholder: string;
     consent: string;
-    consentLink: string;
+    /** Libellé du lien vers la politique de confidentialité (absent = pas de lien) */
+    consentLink?: string;
     submit: string;
     sending: string;
     close: string;
@@ -333,10 +334,15 @@ const LeadModal = ({
                   className={`mt-0.5 size-4 shrink-0 rounded border-stroke-3 dark:border-stroke-7 accent-[#19c8dc] cursor-pointer`}
                 />
                 <label htmlFor="lead-consent" className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                  {content.labels.consent}{' '}
-                  <Link href="/confidentialite" target="_blank" className={`${colors.text} underline`}>
-                    {content.labels.consentLink}
-                  </Link>
+                  {content.labels.consent}
+                  {content.labels.consentLink && (
+                    <>
+                      {' '}
+                      <Link href="/confidentialite" target="_blank" className={`${colors.text} underline`}>
+                        {content.labels.consentLink}
+                      </Link>
+                    </>
+                  )}
                 </label>
               </div>
 

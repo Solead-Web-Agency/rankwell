@@ -257,8 +257,7 @@ export const modalData: LeadModalContent = {
     websitePlaceholder: 'www.entreprise.fr (optionnel)',
     budget: 'Budget Google Ads mensuel',
     budgetPlaceholder: 'Sélectionnez une fourchette (optionnel)',
-    consent: 'J\'accepte d\'être recontacté par Rankwell. Voir la',
-    consentLink: 'politique de confidentialité',
+    consent: 'J\'accepte d\'être recontacté par Rankwell au sujet de ma demande.',
     submit: 'Recevoir mon audit offert',
     sending: 'Envoi en cours...',
     close: 'Fermer',
@@ -292,7 +291,6 @@ export const stickyBarData: LandingStickyBarContent = {
 // 11. FOOTER
 // ============================================
 export const footerData = {
-  legalNotice: 'Mentions légales',
-  privacyPolicy: 'Politique de confidentialité',
+  // Pas de liens légaux : aucune sortie possible depuis la landing
   phoneRevealText: PHONE_REVEAL_TEXT,
 };

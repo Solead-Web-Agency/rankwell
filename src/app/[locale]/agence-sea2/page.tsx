@@ -196,11 +196,7 @@ export default async function AgenceSea2Page({ params }: PageProps) {
         />
       </main>
 
-      <LandingFooter
-        legalNotice={footerData.legalNotice}
-        privacyPolicy={footerData.privacyPolicy}
-        phoneRevealText={footerData.phoneRevealText}
-      />
+      <LandingFooter phoneRevealText={footerData.phoneRevealText} />
     </LandingShell>
   );
 }

@@ -1,8 +1,8 @@
 /**
  * LANDINGFOOTER - Pied de page minimal des landing pages
  *
- * Coordonnées, mentions légales et confidentialité uniquement.
- * Aucune navigation vers le reste du site.
+ * Coordonnées uniquement. Aucune navigation vers le reste du site.
+ * Les liens légaux ne sont rendus que si `legalNotice` et `privacyPolicy` sont fournis.
  */
 
 import Image from 'next/image';
@@ -12,8 +12,8 @@ import { ROUTES } from '@/lib/routes';
 import PhoneReveal from './PhoneReveal';
 
 export interface LandingFooterProps {
-  legalNotice: string;
-  privacyPolicy: string;
+  legalNotice?: string;
+  privacyPolicy?: string;
   /** Texte du bouton qui révèle le numéro */
   phoneRevealText?: string;
 }
@@ -56,14 +56,16 @@ const LandingFooter = ({ legalNotice, privacyPolicy, phoneRevealText }: LandingF
 
         <div className="mt-8 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-3 text-tagline-3 text-white/50">
           <span>© {year} {organizationData.name}. Tous droits réservés.</span>
-          <div className="flex gap-6">
-            <Link href={ROUTES.LEGAL.MENTIONS} className="hover:text-white transition-colors">
-              {legalNotice}
-            </Link>
-            <Link href={ROUTES.LEGAL.CONFIDENTIALITE} className="hover:text-white transition-colors">
-              {privacyPolicy}
-            </Link>
-          </div>
+          {legalNotice && privacyPolicy && (
+            <div className="flex gap-6">
+              <Link href={ROUTES.LEGAL.MENTIONS} className="hover:text-white transition-colors">
+                {legalNotice}
+              </Link>
+              <Link href={ROUTES.LEGAL.CONFIDENTIALITE} className="hover:text-white transition-colors">
+                {privacyPolicy}
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </footer>
