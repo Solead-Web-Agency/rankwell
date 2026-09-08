@@ -15,6 +15,13 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+/**
+ * Branche landing : true = seule la home (landing SEA) est accessible,
+ * toutes les autres URL du site redirigent vers /.
+ * Ne pas fusionner dans main avec cette valeur à true.
+ */
+const LANDING_ONLY_MODE = true;
+
 // Mapping des segments anglais → français
 const enToFrSegments: Record<string, string> = {
   // Services principaux
@@ -139,6 +146,18 @@ export function middleware(request: NextRequest) {
     pathname.includes('.') // Fichiers avec extension
   ) {
     return NextResponse.next();
+  }
+
+  // ============================================
+  // MODE LANDING (branche feat/landing-agence-sea2 uniquement)
+  // Le site se limite à la home = landing SEA. Toute autre URL redirige vers /.
+  // /api, /_next, images et fichiers statiques sont déjà passés au-dessus.
+  // ============================================
+  if (LANDING_ONLY_MODE && pathname !== '/') {
+    const url = request.nextUrl.clone();
+    url.pathname = '/';
+    url.search = '';
+    return NextResponse.redirect(url, { status: 307 });
   }
 
   // ============================================
