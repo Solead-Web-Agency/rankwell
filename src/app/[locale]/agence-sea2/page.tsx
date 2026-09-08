@@ -106,6 +106,7 @@ export default async function AgenceSea2Page({ params }: PageProps) {
         ctaText={headerData.ctaText}
         phoneLabel={headerData.phoneLabel}
         phoneHref={headerData.phoneHref}
+        phoneRevealText={headerData.phoneRevealText}
         accentColor={accentColor}
       />
 
@@ -124,6 +125,7 @@ export default async function AgenceSea2Page({ params }: PageProps) {
           ctaSubtext={heroData.ctaSubtext}
           phoneLabel={heroData.phoneLabel}
           phoneHref={heroData.phoneHref}
+          phoneRevealText={heroData.phoneRevealText}
           image={heroData.image}
           imageAlt={heroData.imageAlt}
           socialProof={heroData.socialProof}
@@ -194,7 +196,11 @@ export default async function AgenceSea2Page({ params }: PageProps) {
         />
       </main>
 
-      <LandingFooter legalNotice={footerData.legalNotice} privacyPolicy={footerData.privacyPolicy} />
+      <LandingFooter
+        legalNotice={footerData.legalNotice}
+        privacyPolicy={footerData.privacyPolicy}
+        phoneRevealText={footerData.phoneRevealText}
+      />
     </LandingShell>
   );
 }

@@ -18,6 +18,7 @@ import type { LeadModalContent, LandingStickyBarContent } from '@/components/sha
 const PHONE_HREF = 'tel:+33182283000';
 const PHONE_LABEL = '01 82 28 30 00';
 const CTA_TEXT = 'Demander mon audit offert';
+const PHONE_REVEAL_TEXT = 'Afficher le numéro';
 
 // ============================================
 // SETTINGS
@@ -45,6 +46,7 @@ export const headerData = {
   ctaText: CTA_TEXT,
   phoneLabel: PHONE_LABEL,
   phoneHref: PHONE_HREF,
+  phoneRevealText: PHONE_REVEAL_TEXT,
 };
 
 // ============================================
@@ -65,6 +67,7 @@ export const heroData = {
   ctaSubtext: 'Réponse sous 24h ouvrées · Sans engagement',
   phoneLabel: PHONE_LABEL,
   phoneHref: PHONE_HREF,
+  phoneRevealText: PHONE_REVEAL_TEXT,
   image: '/images/pages/agence-sea/hero.webp',
   imageAlt: 'Agence Google Ads Rankwell',
   socialProof: '350+ entreprises accompagnées',
@@ -291,4 +294,5 @@ export const stickyBarData: LandingStickyBarContent = {
 export const footerData = {
   legalNotice: 'Mentions légales',
   privacyPolicy: 'Politique de confidentialité',
+  phoneRevealText: PHONE_REVEAL_TEXT,
 };

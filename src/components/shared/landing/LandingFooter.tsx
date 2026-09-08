@@ -9,13 +9,16 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { organizationData } from '@/lib/schema';
 import { ROUTES } from '@/lib/routes';
+import PhoneReveal from './PhoneReveal';
 
 export interface LandingFooterProps {
   legalNotice: string;
   privacyPolicy: string;
+  /** Texte du bouton qui révèle le numéro */
+  phoneRevealText?: string;
 }
 
-const LandingFooter = ({ legalNotice, privacyPolicy }: LandingFooterProps) => {
+const LandingFooter = ({ legalNotice, privacyPolicy, phoneRevealText }: LandingFooterProps) => {
   const paris = organizationData.locations.paris;
   const year = new Date().getFullYear();
 
@@ -37,9 +40,14 @@ const LandingFooter = ({ legalNotice, privacyPolicy }: LandingFooterProps) => {
           </div>
 
           <div className="flex flex-col sm:flex-row gap-x-8 gap-y-2 text-tagline-2 text-white/80">
-            <a href={`tel:${paris.telephone}`} className="hover:text-white transition-colors">
-              {paris.telephoneDisplay}
-            </a>
+            <PhoneReveal
+              phoneHref={`tel:${paris.telephone}`}
+              phoneLabel={paris.telephoneDisplay}
+              revealText={phoneRevealText}
+              source="footer"
+              variant="text"
+              className="hover:text-white hover:opacity-100 transition-colors"
+            />
             <a href={`mailto:${paris.email}`} className="hover:text-white transition-colors">
               {paris.email}
             </a>

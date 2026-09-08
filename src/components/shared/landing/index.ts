@@ -17,6 +17,7 @@ export { default as LandingOffer, type LandingOfferProps } from './LandingOffer'
 export { default as LandingFinalCta, type LandingFinalCtaProps } from './LandingFinalCta';
 export { default as LandingFooter, type LandingFooterProps } from './LandingFooter';
 export { default as LandingCtaButton } from './LandingCtaButton';
+export { default as PhoneReveal, type PhoneRevealProps } from './PhoneReveal';
 export { default as LeadModal, type LeadModalContent } from './LeadModal';
 export { default as LandingStickyBar, type LandingStickyBarContent } from './LandingStickyBar';
 export { useLanding } from './LandingContext';

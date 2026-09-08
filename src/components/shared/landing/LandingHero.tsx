@@ -13,6 +13,7 @@ import Icon from '@/components/ui/Icon';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
 import { trustIndicator as defaultTrustIndicator } from '@/lib/constants';
 import LandingCtaButton from './LandingCtaButton';
+import PhoneReveal from './PhoneReveal';
 
 export interface LandingHeroProps {
   badge: string;
@@ -23,6 +24,8 @@ export interface LandingHeroProps {
   ctaSubtext?: string;
   phoneLabel: string;
   phoneHref: string;
+  /** Texte du bouton qui révèle le numéro */
+  phoneRevealText?: string;
   image?: string;
   imageAlt?: string;
   socialProof?: string;
@@ -56,6 +59,7 @@ const LandingHero = ({
   ctaSubtext,
   phoneLabel,
   phoneHref,
+  phoneRevealText,
   image,
   imageAlt,
   socialProof,
@@ -104,13 +108,14 @@ const LandingHero = ({
                   >
                     {ctaText}
                   </LandingCtaButton>
-                  <a
-                    href={phoneHref}
-                    className="inline-flex items-center gap-2 text-tagline-1 font-medium text-secondary dark:text-accent hover:opacity-70 transition-opacity"
-                  >
-                    <Icon name="Phone" className={`size-4 ${colors.text}`} />
-                    {phoneLabel}
-                  </a>
+                  <PhoneReveal
+                    phoneHref={phoneHref}
+                    phoneLabel={phoneLabel}
+                    revealText={phoneRevealText}
+                    source="hero"
+                    variant="inline"
+                    accentColor={accentColor}
+                  />
                 </div>
                 {ctaSubtext && (
                   <p className="text-tagline-3 text-secondary/60 dark:text-accent/60">{ctaSubtext}</p>

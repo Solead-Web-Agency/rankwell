@@ -6,14 +6,16 @@
  */
 
 import Image from 'next/image';
-import Icon from '@/components/ui/Icon';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
 import LandingCtaButton from './LandingCtaButton';
+import PhoneReveal from './PhoneReveal';
 
 export interface LandingHeaderProps {
   ctaText: string;
   phoneLabel: string;
   phoneHref: string;
+  /** Texte du bouton qui révèle le numéro */
+  phoneRevealText?: string;
   accentColor?: RwColor;
   /** Classe de colorisation du logo (logo-blue, logo-cyan, logo-purple) */
   logoClass?: string;
@@ -23,6 +25,7 @@ const LandingHeader = ({
   ctaText,
   phoneLabel,
   phoneHref,
+  phoneRevealText,
   accentColor = 'rw-cyan',
   logoClass = 'logo-cyan',
 }: LandingHeaderProps) => {
@@ -41,15 +44,15 @@ const LandingHeader = ({
         />
 
         <div className="flex items-center gap-3 md:gap-6">
-          <a
-            href={phoneHref}
-            className="hidden sm:flex items-center gap-2 text-tagline-2 md:text-tagline-1 font-medium text-secondary dark:text-accent hover:opacity-70 transition-opacity"
-          >
-            <span className={`size-8 rounded-full ${colors.bgLight} flex items-center justify-center`}>
-              <Icon name="Phone" className={`size-4 ${colors.text}`} />
-            </span>
-            {phoneLabel}
-          </a>
+          <PhoneReveal
+            phoneHref={phoneHref}
+            phoneLabel={phoneLabel}
+            revealText={phoneRevealText}
+            source="header"
+            variant="pill"
+            accentColor={accentColor}
+            className="hidden sm:inline-flex"
+          />
           <LandingCtaButton source="header" className={`${colors.bg} text-white hover:opacity-90`}>
             {ctaText}
           </LandingCtaButton>
