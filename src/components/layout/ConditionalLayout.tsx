@@ -11,7 +11,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 // Pages sans header/footer
-const standalonePages = ['/maillage', '/composants'];
+const standalonePages = ['/maillage', '/composants', '/agence-sea2'];
 
 interface ConditionalLayoutProps {
   children: ReactNode;

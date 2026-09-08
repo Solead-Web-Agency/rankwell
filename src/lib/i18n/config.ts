@@ -51,6 +51,7 @@ export const frenchOnlyPatterns: string[] = [
 export const frenchOnlyPages: string[] = [
   '/maillage',    // Page secrète - pas de version EN
   '/composants',  // Page secrète - pas de version EN
+  '/agence-sea2', // Landing page conversion SEA - FR uniquement
 ];
 
 /**
@@ -70,6 +71,7 @@ export const noIndexPages: string[] = [
   '/politique-confidentialite',
   '/maillage',     // Page secrète analyse maillage interne
   '/composants',   // Page secrète liste des composants
+  '/agence-sea2',  // Landing page conversion SEA (noindex, hors sitemap)
 ];
 
 /**

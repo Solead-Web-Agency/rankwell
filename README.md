@@ -782,6 +782,32 @@ colorVariants['rw-blue'] = {
 | `WhyUsHomepage` | Pourquoi nous choisir |
 | `FAQHomepage` | FAQ homepage |
 
+### Composants Landing (`shared/landing/`)
+
+Composants des **landing pages conversion** (ex : `/agence-sea2`). Pages standalone : pas de header/footer du site, tous les CTA ouvrent une modale formulaire.
+
+| Composant | Description |
+|-----------|-------------|
+| `LandingShell` | Enveloppe client : state de la modale, exit intent (desktop, 1x/session), rend `LeadModal` + `LandingStickyBar` |
+| `LandingHeader` | Logo + téléphone + CTA, sans menu |
+| `LandingHero` | Hero conversion : bénéfices, CTA modale, lien d'appel, note Google |
+| `LandingOffer` | Bloc offre : livrables de l'audit + « pour qui » + CTA |
+| `LandingFinalCta` | CTA de fin de page (modale) |
+| `LandingFooter` | Coordonnées + mentions légales uniquement |
+| `LandingCtaButton` | Bouton qui ouvre la modale (`source` pour le tracking) |
+| `LeadModal` | Formulaire court en modale (nom, email, téléphone, site, budget), honeypot, RGPD |
+| `LandingStickyBar` | Barre CTA fixe en bas d'écran sur mobile |
+
+**Créer une landing page :**
+
+1. Créer `src/app/[locale]/ma-landing/` avec `page.tsx` + `data.fr.ts` (FR uniquement)
+2. Ajouter le chemin dans `standalonePages` de `src/components/layout/ConditionalLayout.tsx` (pas de header/footer)
+3. Ajouter le chemin dans `frenchOnlyPages` **et** `noIndexPages` de `src/lib/i18n/config.ts` (hors sitemap)
+4. Ajouter le chemin dans `frenchOnlyPatterns` de `src/middleware.ts` (redirection `/en/...` → FR)
+5. Mettre `robots: { index: false }` dans les metadata de la page (doublon d'une page existante = noindex)
+
+**Envoi du formulaire :** `LeadModal` fait un `POST` JSON vers l'URL définie dans la variable d'environnement `NEXT_PUBLIC_LEAD_FORM_ENDPOINT` (webhook Make/Zapier/n8n, Formspree, route API...). Sans cette variable, l'envoi est **simulé** (comme le formulaire de la page contact). En cas de succès, un événement `generate_lead` est poussé dans `window.dataLayer` pour le suivi des conversions (GTM / Google Ads).
+
 ### Composants Services (`shared/services/`)
 
 | Composant | Description | Props clés |

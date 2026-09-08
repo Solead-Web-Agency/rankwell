@@ -68,6 +68,7 @@ const frenchOnlyPatterns: string[] = [
   '/agence-sea/france/*',
   '/agence-sea/france/**',
   '/maillage',  // Page secrète - FR uniquement
+  '/agence-sea2',  // Landing page conversion SEA - FR uniquement
 ];
 
 /**
