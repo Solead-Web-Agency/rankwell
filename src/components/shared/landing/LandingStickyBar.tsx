@@ -2,7 +2,7 @@
  * LANDINGSTICKYBAR - Barre CTA fixe en bas d'écran (mobile)
  *
  * Apparaît après un scroll de `showAfter` px, masquée quand la modale est ouverte.
- * Contient un lien d'appel + le bouton principal qui ouvre la modale.
+ * Contient un lien d'appel (conversion `clic-telephone`) + le bouton principal qui ouvre la modale.
  */
 
 'use client';
@@ -12,6 +12,7 @@ import { cn } from '@/utils/cn';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
 import Icon from '@/components/ui/Icon';
 import { useLanding } from './LandingContext';
+import { oaiqMeasureCustom, OAIQ_CUSTOM_EVENTS } from '@/components/tracking/oaiq';
 
 export interface LandingStickyBarContent {
   ctaText: string;
@@ -40,6 +41,13 @@ const LandingStickyBar = ({ content, accentColor = 'rw-cyan' }: LandingStickyBar
 
   const shown = isVisible && !isModalOpen;
 
+  const handlePhoneClick = () => {
+    const w = window as unknown as { dataLayer?: Record<string, unknown>[] };
+    w.dataLayer = w.dataLayer || [];
+    w.dataLayer.push({ event: 'phone_reveal', phone_source: 'sticky-bar' });
+    oaiqMeasureCustom(OAIQ_CUSTOM_EVENTS.PHONE_CLICK);
+  };
+
   return (
     <div
       className={cn(
@@ -54,6 +62,7 @@ const LandingStickyBar = ({ content, accentColor = 'rw-cyan' }: LandingStickyBar
         <a
           href={content.phoneHref}
           aria-label={content.phoneLabel}
+          onClick={handlePhoneClick}
           className="size-12 shrink-0 rounded-full border border-stroke-3 dark:border-stroke-7 flex items-center justify-center text-secondary dark:text-accent"
         >
           <Icon name="Phone" className="size-5" />

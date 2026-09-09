@@ -2,8 +2,9 @@
  * PHONEREVEAL - Numéro de téléphone masqué, affiché au clic
  *
  * Avant le clic : bouton « Afficher le numéro ».
- * Après le clic : lien tel: avec le numéro, et événement dataLayer `phone_reveal`
- * (permet de compter les demandes de numéro comme conversion dans GTM / Google Ads).
+ * Après le clic : lien tel: avec le numéro, événement dataLayer `phone_reveal`
+ * (GTM / Google Ads) et conversion pixel OpenAI `clic-telephone`.
+ * Le clic sur le lien tel: révélé n'est pas compté une seconde fois.
  *
  * Variantes :
  * - pill   : icône dans une pastille colorée + texte (header)
@@ -17,6 +18,7 @@ import { useState } from 'react';
 import { cn } from '@/utils/cn';
 import Icon from '@/components/ui/Icon';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
+import { oaiqMeasureCustom, OAIQ_CUSTOM_EVENTS } from '@/components/tracking/oaiq';
 
 export interface PhoneRevealProps {
   phoneHref: string;
@@ -48,6 +50,7 @@ const PhoneReveal = ({
       w.dataLayer = w.dataLayer || [];
       w.dataLayer.push({ event: 'phone_reveal', phone_source: source });
     }
+    oaiqMeasureCustom(OAIQ_CUSTOM_EVENTS.PHONE_CLICK);
   };
 
   const icon =
