@@ -5,7 +5,8 @@
  * - Honeypot anti-spam, consentement RGPD
  * - Envoi : POST JSON vers /api/lead (route API du site) qui transmet
  *   au webhook LEAD_WEBHOOK_URL (Make, Zapier, n8n...)
- * - Événement dataLayer `generate_lead` en cas de succès (suivi conversions Ads)
+ * - En cas de succès : événement dataLayer `generate_lead` (GTM / Google Ads)
+ *   + conversion pixel OpenAI `registration_completed`
  * - Fermeture : bouton, clic sur le fond, touche Échap
  * - `data-lenis-prevent` : le smooth scroll Lenis ignore la modale
  */
@@ -17,6 +18,7 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import { cn } from '@/utils/cn';
 import { colorVariants, type RwColor } from '@/lib/colorTheme';
 import Icon from '@/components/ui/Icon';
+import { oaiqMeasure, OAIQ_EVENTS } from '@/components/tracking/oaiq';
 
 // ============================================
 // TYPES
@@ -153,6 +155,8 @@ const LeadModal = ({
           w.dataLayer = w.dataLayer || [];
           w.dataLayer.push({ event: 'generate_lead', form_id: formId, lead_source: source });
         }
+        // Conversion pixel OpenAI Ads
+        oaiqMeasure(OAIQ_EVENTS.REGISTRATION_COMPLETED, { type: 'customer_action' });
 
         form.reset();
         setStatus('success');
